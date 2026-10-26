@@ -1,0 +1,208 @@
+rank,affiliation,country,city,ror,openalex_id,lat,lon,coord_source,papers,first_author_papers,corresponding_not_first_papers,other_papers,authors,first_year,last_year
+1,Karlsruhe Institute of Technology,Germany,Karlsruhe,https://ror.org/04t3en479,I102335020,49.00937,8.40444,openalex,83,49,8,26,78,2003,2026
+2,Forschungszentrum Jülich,Germany,Jülich,https://ror.org/02nv7yv05,I171892758,50.92149,6.36267,openalex,22,5,2,15,28,2002,2022
+3,Forschungszentrum Karlsruhe,Germany,Karlsruhe,,,,,,21,17,2,2,11,2003,2009
+4,Heidelberg University,Germany,Heidelberg,https://ror.org/038t36y30,I223822909,49.40768,8.69079,openalex,19,2,2,15,9,2002,2024
+5,FZI Research Center for Information Technology,Germany,Karlsruhe,https://ror.org/04kdh6x72,I143379178,49.00937,8.40444,openalex,15,7,0,8,19,1991,2009
+6,ETH Zurich,Switzerland,Zurich,https://ror.org/05a28rw58,I35440088,47.36667,8.55,openalex,14,6,2,6,19,2006,2024
+7,Pacific Northwest National Laboratory,United States,Richland,https://ror.org/05h992307,I142606810,46.28569,-119.28446,openalex,13,3,2,8,8,2008,2024
+8,Kerntechnische Entsorgung Karlsruhe (Germany),Germany,Eggenstein-Leopoldshafen,https://ror.org/02kd9ve64,I4210121389,49.09938,8.42946,openalex,12,5,3,4,21,2012,2025
+9,University of Manchester,United Kingdom,Manchester,https://ror.org/027m9bs27,I28407311,53.48095,-2.23743,openalex,12,2,0,10,13,2006,2024
+10,Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,Cologne,https://ror.org/04bwf3e34,I2898391981,50.93333,6.95,openalex,10,3,1,6,9,2002,2018
+11,Physikalisch-Technische Bundesanstalt,Germany,Braunschweig,https://ror.org/05r3f7h03,I1285933455,52.26594,10.52673,openalex,10,1,3,6,3,2012,2023
+12,Johannes Gutenberg University Mainz,Germany,Mainz,https://ror.org/023b0x485,I197323543,49.98185,8.28008,openalex,9,2,3,4,12,2009,2022
+13,Paul Scherrer Institute,Switzerland,Villigen,https://ror.org/03eh3y714,I2802229908,47.52682,8.21486,openalex,9,4,0,5,15,2003,2025
+14,Cooperative Institute for Research in Environmental Sciences,United States,Boulder,https://ror.org/00bdqav06,I161675122,40.01499,-105.27055,openalex,8,0,1,7,12,2005,2020
+15,Leibniz Institute for Tropospheric Research,Germany,Leipzig,https://ror.org/03a5xsc56,I4210117062,51.33962,12.37129,openalex,8,3,1,4,15,2003,2018
+16,Technische Universität Darmstadt,Germany,Darmstadt,https://ror.org/05n911h24,I31512782,49.87167,8.65027,openalex,8,1,1,6,5,2012,2026
+17,University of Leeds,United Kingdom,Leeds,https://ror.org/024mrxd33,I130828816,53.79648,-1.54785,openalex,8,2,3,3,14,2010,2021
+18,West Texas A&M University,United States,Canyon,https://ror.org/04gnp7x40,I188674872,34.98033,-101.9188,openalex,8,3,2,3,8,2018,2024
+19,Centre National de la Recherche Scientifique,France,Paris,https://ror.org/02feahw73,I1294671590,48.85341,2.3488,openalex,7,2,1,4,13,2013,2025
+20,Colorado State University,United States,Fort Collins,https://ror.org/03k1gpj17,I92446798,40.58526,-105.08442,openalex,7,2,1,4,9,2011,2024
+21,NSF National Center for Atmospheric Research,United States,Boulder,https://ror.org/05cvfcr44,I107766831,40.01499,-105.27055,openalex,7,1,0,6,3,2005,2016
+22,Institute of Atmospheric Sciences and Climate,Italy,Bologna,https://ror.org/00n8ttd98,I4210096500,44.52224,11.33835,openalex,6,2,2,2,7,2009,2026
+23,Purdue University West Lafayette,United States,West Lafayette,https://ror.org/02dqehb95,I219193219,40.42587,-86.90807,openalex,6,1,0,5,4,2019,2024
+24,Bielefeld University,Germany,Bielefeld,https://ror.org/02hpadn98,I20121455,52.03333,8.53333,openalex,5,0,2,3,5,2014,2018
+25,Carnegie Mellon University,United States,Pittsburgh,https://ror.org/05x2bcf33,I74973139,40.44062,-79.99589,openalex,5,0,2,3,3,2011,2019
+26,Goethe University Frankfurt,Germany,Frankfurt am Main,https://ror.org/04cvxnb49,I114090438,50.11552,8.68417,openalex,5,0,2,3,10,2012,2018
+27,Max Planck Institute for Chemistry,Germany,Mainz,https://ror.org/02f5b7n18,I4210113422,49.98185,8.28008,openalex,5,0,0,5,4,2008,2024
+28,Met Office,United Kingdom,Exeter,https://ror.org/01ch2yn61,I1293035123,50.7236,-3.52751,openalex,5,3,0,2,2,2006,2009
+29,National Centre for Atmospheric Science,United Kingdom,Leeds,https://ror.org/01wwwe276,I4210112368,53.79648,-1.54785,openalex,5,1,0,4,11,2011,2024
+30,National Oceanic and Atmospheric Administration,United States,Washington,https://ror.org/02z5nhe81,I1308126019,38.89511,-77.03637,openalex,5,1,1,3,10,2005,2024
+31,NOAA Earth System Research Laboratory,United States,Boulder,https://ror.org/033tt8e33,I80605987,40.01499,-105.27055,openalex,5,1,0,4,7,2009,2024
+32,Stockholm University,Sweden,Stockholm,https://ror.org/05f0yaq80,I161593684,59.32938,18.06871,openalex,5,1,4,0,5,2004,2022
+33,University of Chicago,United States,Chicago,https://ror.org/024mw5h28,I40347166,41.85003,-87.65005,openalex,5,3,1,1,5,2009,2023
+34,University of Colorado Boulder,United States,Boulder,https://ror.org/02ttsq026,I188538660,40.01499,-105.27055,openalex,5,0,0,5,10,2005,2015
+35,University of Hertfordshire,United Kingdom,Hatfield,https://ror.org/0267vjk41,I141584323,51.76338,-0.22419,openalex,5,0,0,5,3,2009,2016
+36,Deutscher Wetterdienst,Germany,Offenbach,https://ror.org/02nrqs528,I172825728,50.10061,8.76647,openalex,4,0,1,3,3,2012,2018
+37,Laboratoire de Météorologie Physique,France,Aubière,https://ror.org/03gz4y884,I4210133081,45.75082,3.11078,openalex,4,0,1,3,8,2009,2018
+38,Massachusetts Institute of Technology,United States,Cambridge,https://ror.org/042nb2s44,I63966007,42.3751,-71.10561,openalex,4,0,1,3,5,2016,2024
+39,University of Vienna,Austria,Vienna,https://ror.org/03prydq77,I129774422,48.20849,16.37208,openalex,4,0,0,4,3,2003,2012
+40,Max Planck Institute for Nuclear Physics,Germany,Heidelberg,https://ror.org/052d0h423,I4210156266,49.40768,8.69079,openalex,3,0,0,3,5,2002,2006
+41,Michigan Technological University,United States,Houghton,https://ror.org/0036rpn28,I11957088,47.12187,-88.56901,openalex,3,0,1,2,2,2014,2015
+42,National Institute of Meteorology,Tunisia,Tunis,https://ror.org/03m6sha91,I4210149247,36.81897,10.16579,openalex,3,1,0,2,6,2009,2014
+43,National Research Council,Italy,Rome,https://ror.org/04zaypm56,I4210155236,41.89193,12.51133,openalex,3,1,1,1,4,2021,2026
+44,North Carolina State University,United States,Raleigh,https://ror.org/04tj63d06,I137902535,35.7721,-78.63861,openalex,3,0,1,2,5,2015,2018
+45,University of Gothenburg,Sweden,Gothenburg,https://ror.org/01tm6cn81,I881427289,57.70716,11.96679,openalex,3,2,0,1,3,2007,2011
+46,Agricultural University of Athens,Greece,Athens,https://ror.org/03xawq568,I109954829,37.98376,23.72784,openalex,2,0,1,1,1,2008,2021
+47,Arizona State University,United States,Tempe,https://ror.org/03efmqc40,I55732556,33.41477,-111.90931,openalex,2,2,0,0,10,2020,2021
+48,FIZ Karlsruhe – Leibniz Institute for Information Infrastructure,Germany,Eggenstein-Leopoldshafen,https://ror.org/0387prb75,I158675288,49.09181,8.42826,openalex,2,0,0,2,2,2009,2021
+49,Hamburg University of Technology,Germany,Hamburg,https://ror.org/04bs1pb34,I884043246,53.55073,9.99302,openalex,2,0,0,2,1,2014,2015
+50,Harvard University,United States,Cambridge,https://ror.org/03vek6s52,I136199984,42.3751,-71.10561,openalex,2,1,0,1,6,2009,2014
+51,Harvard University Press,United States,Cambridge,https://ror.org/006v7bf86,I2801851002,42.3751,-71.10561,openalex,2,0,0,2,5,2005,2013
+52,Indiana University Bloomington,United States,Bloomington,https://ror.org/02k40bc56,I4210119109,39.16533,-86.52639,openalex,2,0,0,2,1,2025,2025
+53,Institut de Chimie de Clermont-Ferrand,France,Aubière,https://ror.org/045qszf23,I4210133183,45.75082,3.11078,openalex,2,1,0,1,4,2015,2015
+54,Institut de Recherche pour le Développement,France,Marseille,https://ror.org/05q3vnk25,I4210166444,43.29695,5.38107,openalex,2,0,0,2,2,2025,2025
+55,Institut des Géosciences de l'Environnement,France,Saint-Martin-d'Hères,https://ror.org/01wwcfa26,I4210121220,45.1787,5.76281,openalex,2,0,0,2,2,2025,2025
+56,"Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",France,Paris,https://ror.org/003vg9w96,I4210088668,48.85341,2.3488,openalex,2,0,0,2,2,2008,2015
+57,Jet Propulsion Laboratory,United States,Pasadena,https://ror.org/027k65916,I1334627681,34.14778,-118.14452,openalex,2,0,0,2,3,2005,2014
+58,Laboratoire de Glaciologie et Géophysique de l’Environnement,France,Saint-Martin-d'Hères,https://ror.org/03fgt5a62,I4210145841,45.1787,5.76281,openalex,2,0,0,2,3,2012,2012
+59,Leibniz Centre for Agricultural Landscape Research,Germany,Müncheberg,https://ror.org/01ygyzs83,I4210113030,52.50704,14.13716,openalex,2,0,0,2,4,2016,2020
+60,Max Planck Institute for Biogeochemistry,Germany,Jena,https://ror.org/051yxp643,I4210154168,50.92878,11.5899,openalex,2,0,0,2,1,2012,2012
+61,Max Planck Society,Germany,Munich,https://ror.org/01hhn8329,I149899117,48.13743,11.57549,openalex,2,0,0,2,3,2008,2015
+62,Meteorological Research Institute,Japan,Tsukuba,https://ror.org/031gqrq04,I4388446413,36.2,140.10001,openalex,2,1,0,1,5,2013,2015
+63,National Park Service,United States,Washington,https://ror.org/044zqqy65,I1304808963,38.89511,-77.03637,openalex,2,0,1,1,1,2015,2019
+64,NOAA Chemical Sciences Laboratory,United States,Boulder,https://ror.org/03f4jbs89,I4210132178,40.01499,-105.27055,openalex,2,0,0,2,3,2015,2025
+65,Planetary Science Institute,United States,Tucson,https://ror.org/05vvg9554,I1302918504,32.22174,-110.92648,openalex,2,0,0,2,2,2009,2016
+66,Roshydromet,Russia,Moscow,https://ror.org/02qsexb35,I4210118772,55.75658,37.61661,openalex,2,0,0,2,2,2014,2015
+67,"University of California, Los Angeles",United States,Los Angeles,https://ror.org/046rm7j60,I161318765,34.05223,-118.24368,openalex,2,0,1,1,3,2005,2008
+68,University of Eastern Finland,Finland,Joensuu,https://ror.org/00cyydd11,I175532246,62.60118,29.76316,openalex,2,0,0,2,2,2017,2018
+69,University of Szeged,Hungary,Szeged,https://ror.org/01pnej532,I227486990,46.253,20.14824,openalex,2,0,0,2,2,2014,2015
+70,University of Toronto,Canada,Toronto,https://ror.org/03dbr7087,I185261750,43.70643,-79.39864,openalex,2,2,0,0,6,2006,2011
+71,University of Wuppertal,Germany,Wuppertal,https://ror.org/00613ak93,I167360494,51.25627,7.14816,openalex,2,0,0,2,1,2025,2025
+72,Universität Hamburg,Germany,Hamburg,https://ror.org/00g30e956,I159176309,53.55073,9.99302,openalex,2,0,0,2,1,2014,2015
+73,Université Grenoble Alpes,France,Saint-Martin-d'Hères,https://ror.org/02rx3b187,I899635006,45.1787,5.76281,openalex,2,0,0,2,2,2025,2025
+74,World Meteorological Organization,Switzerland,Geneva,https://ror.org/011pjwf87,I1335690228,46.20222,6.14569,openalex,2,0,0,2,1,2025,2025
+75,"Wuppertal Institute for Climate, Environment and Energy",Germany,Wuppertal,https://ror.org/01spy4t79,I20696738,51.25627,7.14816,openalex,2,0,0,2,1,2025,2025
+76,Aarhus University,Denmark,Aarhus,https://ror.org/01aj84f44,I204337017,56.15674,10.21076,openalex,1,0,0,1,1,2024,2024
+77,Aix-Marseille Université,France,Marseille,https://ror.org/035xkbk20,I21491767,43.29695,5.38107,openalex,1,0,0,1,2,2013,2013
+78,Ames Research Center,United States,Mountain View,https://ror.org/02acart68,I1280536761,37.38605,-122.08385,openalex,1,1,0,0,3,2005,2005
+79,Applied Materials (United Kingdom),United Kingdom,Lincoln,https://ror.org/006471y50,I4210087370,53.20286,-0.61073,openalex,1,0,0,1,1,2019,2019
+80,Augenklinik Heidelberg,Germany,Heidelberg,https://ror.org/005j0cx32,I4210087474,49.41781,8.66606,openalex,1,1,0,0,1,2002,2002
+81,B2 (Slovenia),Slovenia,Ljubljana,https://ror.org/05vwgdc91,I4210151643,46.04494,14.48613,openalex,1,0,0,1,2,2013,2013
+82,Barcelona Supercomp Ctr BSC,Spain,Barcelona,,,,,,1,0,0,1,1,2026,2026
+83,Barcelona Supercomputing Center,Spain,Barcelona,https://ror.org/05sd8tv96,I2799803557,41.38879,2.15899,openalex,1,0,0,1,1,2026,2026
+84,Battelle,United States,Columbus,https://ror.org/01h5tnr73,I1325736334,39.96118,-82.99879,openalex,1,1,0,0,1,2009,2009
+85,Beijing Forestry University,China,Beijing,https://ror.org/04xv2pc41,I31683504,39.9075,116.39723,openalex,1,1,0,0,3,2012,2012
+86,BGI Group (China),China,Shenzhen,https://ror.org/045pn2j94,I100135526,22.54554,114.0683,openalex,1,0,0,1,1,2019,2019
+87,Bilfinger (Germany),Germany,Mannheim,https://ror.org/0396vya75,I4210129403,49.47004,8.48476,openalex,1,0,0,1,3,2021,2021
+88,Board of the Swiss Federal Institutes of Technology,Switzerland,Zurich,https://ror.org/01rvn4p91,I2799323385,47.36667,8.55,openalex,1,0,0,1,2,2024,2024
+89,Bolin Centre for Climate Research,Sweden,Stockholm,https://ror.org/058zxsr17,I4210161097,59.32938,18.06871,openalex,1,0,1,0,2,2021,2021
+90,Brookhaven National Laboratory,United States,Upton,https://ror.org/02ex6cf31,I200870766,40.86954,-72.88677,openalex,1,0,0,1,1,2024,2024
+91,California Institute of Technology,United States,Pasadena,https://ror.org/05dxps055,I122411786,34.14778,-118.14452,openalex,1,0,0,1,1,2009,2009
+92,Catalan Inst Res & Adv Studies ICREA,Spain,Barcelona,,,,,,1,0,0,1,1,2026,2026
+93,CEA Paris-Saclay,France,Gif-sur-Yvette,https://ror.org/03n15ch10,I4210128565,48.68333,2.13333,openalex,1,0,0,1,1,2023,2023
+94,Centrale Méditerranée,France,Marseille,https://ror.org/040baw385,I4210142724,43.29695,5.38107,openalex,1,0,0,1,2,2013,2013
+95,Centre de Génétique Moléculaire,France,Gif-sur-Yvette,https://ror.org/052ahj806,I4210159560,48.70462,2.13247,openalex,1,0,0,1,3,2025,2025
+96,Centre National pour la Recherche Scientifique et Technique (CNRST),Morocco,Rabat,https://ror.org/00675rp98,I4210089144,34.01325,-6.83255,openalex,1,0,1,0,1,2025,2025
+97,Chalmers University of Technology,Sweden,Gothenburg,https://ror.org/040wg7k59,I66862912,57.70716,11.96679,openalex,1,0,1,0,1,2021,2021
+98,China Meteorological Administration,China,Beijing,https://ror.org/00bx3rb98,I141301092,39.9075,116.39723,openalex,1,0,0,1,1,2026,2026
+99,Chinese Academy of Engineering,China,Beijing,https://ror.org/00z3yke57,I40246663,39.9075,116.39723,openalex,1,1,0,0,6,2019,2019
+100,Chinese Academy of Sciences,China,Beijing,https://ror.org/034t30j35,I19820366,39.9075,116.39723,openalex,1,1,0,0,6,2019,2019
+101,Clermont-Ferrand’s Superior National School of Chemistry,France,Clermont-Ferrand,https://ror.org/04cxrqq60,I4210155675,45.77969,3.08682,openalex,1,0,0,1,1,2015,2015
+102,Columbia University,United States,New York,https://ror.org/00hj8s172,I78577930,40.71427,-74.00597,openalex,1,1,0,0,1,2023,2023
+103,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,France,Paris,https://ror.org/00jjx8s55,I2738703131,48.85341,2.3488,openalex,1,0,0,1,1,2023,2023
+104,Consejo Superior de Investigaciones Científicas,Spain,Madrid,https://ror.org/02gfc7t72,I134820265,40.4165,-3.70256,openalex,1,0,0,1,2,2026,2026
+105,Division Technique de I'INSU,France,Meudon,https://ror.org/01s48fc08,I4210107545,48.81381,2.235,openalex,1,0,0,1,1,2014,2014
+106,Droplet Measurement Technologies (United States),United States,Boulder,https://ror.org/0293t9757,I4210114685,40.02445,-105.2189,openalex,1,0,0,1,1,2015,2015
+107,Earth and Space Research,United States,Seattle,https://ror.org/055mfda29,I4210156930,47.61408,-122.34238,openalex,1,1,0,0,1,2009,2009
+108,Engineering Associates (United States),United States,Alpharetta,https://ror.org/00ryqe969,I4210097287,34.10376,-84.20648,openalex,1,0,0,1,1,2013,2013
+109,Environment Agency,United Kingdom,Rotherham,https://ror.org/01zewfb16,I184903800,53.43012,-1.35678,openalex,1,0,0,1,1,2024,2024
+110,ETH Zentrum,Switzerland,Zurich,,,,,,1,1,0,0,1,1998,1998
+111,Facility for Airborne Atmospheric Measurements,United Kingdom,Cranfield,https://ror.org/02xw5dc73,I2801861862,52.06869,-0.60884,openalex,1,0,1,0,1,2018,2018
+112,Fermi National Accelerator Laboratory,United States,Batavia,https://ror.org/020hgte69,I1314696892,41.85003,-88.31257,openalex,1,0,0,1,1,2021,2021
+113,FIND,Switzerland,Geneva,https://ror.org/05tcsqz68,I1281389954,46.20222,6.14569,openalex,1,0,0,1,1,2019,2019
+114,Finnish Meteorological Institute,Finland,Helsinki,https://ror.org/05hppb561,I1285790362,60.16952,24.93545,openalex,1,0,1,0,1,2018,2018
+115,Foothill College,United States,Los Altos Hills,https://ror.org/00dhmq281,I26730717,37.3611,-122.12833,openalex,1,0,1,0,2,2020,2020
+116,Ford (Germany),Germany,Cologne,https://ror.org/017vgxg86,I40753682,51.00729,6.95941,openalex,1,1,0,0,2,2003,2003
+117,Frankfurt Institute for Advanced Studies,Germany,Frankfurt am Main,https://ror.org/05vmv8m79,I2801628138,50.11552,8.68417,openalex,1,0,1,0,1,2018,2018
+118,Freie Universität Berlin,Germany,Berlin,https://ror.org/046ak2485,I75951250,52.52437,13.41053,openalex,1,0,0,1,5,2013,2013
+119,Georgia Institute of Technology,United States,Atlanta,https://ror.org/01zkghx44,I130701444,33.749,-84.38798,openalex,1,1,0,0,2,2008,2008
+120,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,Pakistan,Topi,https://ror.org/01sb6ek09,I5400463,34.07034,72.62147,openalex,1,1,0,0,4,2021,2021
+121,Goddard Space Flight Center,United States,Greenbelt,https://ror.org/0171mag52,I1306266525,39.00455,-76.87553,openalex,1,0,0,1,1,2009,2009
+122,Graduate Theological Union,United States,Berkeley,https://ror.org/00xs48965,I19620478,37.87159,-122.27275,openalex,1,1,0,0,1,2013,2013
+123,Groupe de Spectrométrie Moléculaire et Atmosphérique,France,Reims,https://ror.org/03vyzg221,I4210130789,49.26526,4.02853,openalex,1,0,0,1,1,2014,2014
+124,Hochschule Campus Wien,Austria,Vienna,https://ror.org/003f4pg83,I4210088715,48.20849,16.37208,openalex,1,0,0,1,1,2012,2012
+125,Hokkaido University,Japan,Sapporo,https://ror.org/02e16g702,I205349734,43.07818,141.33997,openalex,1,0,0,1,1,2025,2025
+126,Imre Consulting,United States,Richland,,,,,,1,0,0,1,1,2018,2018
+127,Inst Atmospher Phys,Germany,Wessling,,,,,,1,1,0,0,1,2005,2005
+128,Institut de Recherches sur la Catalyse et l'Environnement de Lyon,France,Villeurbanne,https://ror.org/04fy20a51,I4210150028,45.76601,4.8795,openalex,1,1,0,0,1,2016,2016
+129,Institut des Sciences Analytiques et de Physico-Chimie pour l'Environnement et les Matériaux,France,Pau,https://ror.org/00222yk13,I4210092492,43.31117,-0.35583,openalex,1,0,0,1,1,2015,2015
+130,Institut für Energie- und Umwelttechnik,Germany,Duisburg,https://ror.org/04hbw4m86,I4210154243,51.38999,6.72671,openalex,1,1,0,0,1,2015,2015
+131,Institut Pierre-Simon Laplace,France,Paris,https://ror.org/02haar591,I4210114102,48.85341,2.3488,openalex,1,0,0,1,1,2014,2014
+132,Institute for Biomedical Engineering,Switzerland,Zurich,https://ror.org/00baskk38,I4210090941,47.37746,8.55286,openalex,1,0,0,1,1,2024,2024
+133,Institute of Environmental Assessment and Water Research,Spain,Barcelona,https://ror.org/056yktd04,I4210143256,41.38879,2.15899,openalex,1,0,0,1,2,2026,2026
+134,Interaction Sol Plante Atmosphère,France,Villenave-d'Ornon,https://ror.org/02aswf736,I4210116558,44.77935,-0.56707,openalex,1,0,0,1,1,2015,2015
+135,IVL Swedish Environmental Research Institute,Sweden,Stockholm,https://ror.org/020r6p262,I4210114607,59.32938,18.06871,openalex,1,0,0,1,1,2011,2011
+136,Japan Meteorological Agency,Japan,Tokyo,https://ror.org/02772kk97,I2801997990,35.6895,139.69171,openalex,1,0,0,1,1,2013,2013
+137,Jiangsu Provincial Meteorological Bureau,China,Nanjing,https://ror.org/00t1yh273,I4210097298,32.06012,118.79049,openalex,1,1,0,0,5,2026,2026
+138,Joint Research Centre,Italy,Ispra,https://ror.org/02qezmz13,I4210118689,45.8148,8.61294,openalex,1,0,0,1,3,2013,2013
+139,Jolly Aero (Slovenia),Slovenia,Celje,https://ror.org/057n9mf41,I4210141512,46.23964,15.26093,openalex,1,0,0,1,3,2013,2013
+140,Karlsruhe University of Education,Germany,Karlsruhe,https://ror.org/01t1kq612,I4210119349,49.00937,8.40444,openalex,1,0,0,1,1,2021,2021
+141,Key Laboratory of Guangdong Province,China,Guangzhou,https://ror.org/00swtqp09,I4210098034,23.13257,113.25972,openalex,1,0,0,1,1,2019,2019
+142,Laboratoire de Météorologie Dynamique,France,Palaiseau,https://ror.org/000ehr937,I4210087306,48.71828,2.2498,openalex,1,0,0,1,5,2025,2025
+143,Laboratoire des Sciences du Climat et de l'Environnement,France,Gif-sur-Yvette,https://ror.org/03dsd0g48,I4210124937,48.68333,2.13333,openalex,1,0,0,1,1,2023,2023
+144,"Laboratoire Image, Ville, Environnement",France,Strasbourg,https://ror.org/03x8fem72,I4210147109,48.58392,7.74553,openalex,1,1,0,0,3,2023,2023
+145,Laboratoire Interdisciplinaire de Physique,France,Saint-Martin-d'Hères,https://ror.org/023n9q531,I4210113150,45.1787,5.76281,openalex,1,0,0,1,2,2013,2013
+146,Landesanstalt für Umwelt Baden-Württemberg,Germany,Karlsruhe,https://ror.org/01qymej67,I4210118403,49.00937,8.40444,openalex,1,0,0,1,1,2021,2021
+147,Langley Research Center,United States,Hampton,https://ror.org/0399mhs52,I1319063186,37.02987,-76.34522,openalex,1,0,0,1,1,2025,2025
+148,Leibniz Association,Germany,Berlin,https://ror.org/01n6r0e97,I315704651,52.52437,13.41053,openalex,1,1,0,0,5,2015,2015
+149,Ludwig-Maximilians-Universität München,Germany,Munich,https://ror.org/05591te55,I8204097,48.13743,11.57549,openalex,1,0,0,1,2,2021,2021
+150,Lund University,Sweden,Lund,https://ror.org/012a77v79,I187531555,55.70584,13.19321,openalex,1,0,1,0,1,2018,2018
+151,Lyon 1 Université,France,Villeurbanne,https://ror.org/029brtt94,I100532134,45.76601,4.8795,openalex,1,1,0,0,1,2016,2016
+152,MTA-SZTE Research Group on Artificial Intelligence,Hungary,Szeged,https://ror.org/0507fk326,I4210152167,46.24664,20.14487,openalex,1,0,0,1,2,2015,2015
+153,National Institute of Polar Research,Japan,Tokyo,https://ror.org/05k6m5t95,I36080156,35.6895,139.69171,openalex,1,0,0,1,1,2015,2015
+154,NHS Digital,United Kingdom,Leeds,https://ror.org/03am1eg44,I4210129883,53.79648,-1.54785,openalex,1,0,1,0,1,2018,2018
+155,Observatoire de Physique du Globe de Clermont-Ferrand,France,Aubière,https://ror.org/01bch8q67,I4210111874,45.75082,3.11078,openalex,1,0,0,1,1,2015,2015
+156,Octopus Lab,France,La Madeleine,,,,,,1,0,0,1,2,2023,2023
+157,Owlstone Medical (United Kingdom),United Kingdom,Cambridge,https://ror.org/04n3aca14,I4210158429,52.23474,0.14755,openalex,1,0,1,0,1,2018,2018
+158,Parthenope University of Naples,Italy,Naples,https://ror.org/05pcv4v03,I183638586,40.85216,14.26811,openalex,1,1,0,0,3,2020,2020
+159,Pathologie végétale,France,Montfavet,https://ror.org/02prm7t27,I4405263555,43.93335,4.87342,openalex,1,0,0,1,1,2008,2008
+160,Pennsylvania State University,United States,State College,https://ror.org/04p491231,I130769515,40.79339,-77.86,openalex,1,0,1,0,1,2023,2023
+161,Royal Meteorological Institute of Belgium,Belgium,Brussels,https://ror.org/058qm9p63,I108839631,50.85045,4.34878,openalex,1,0,0,1,1,2006,2006
+162,Sandia National Laboratories California,United States,Livermore,https://ror.org/058m7ey48,I192454743,37.68187,-121.76801,openalex,1,1,0,0,1,2024,2024
+163,Shenzhen Institutes of Advanced Technology,China,Shenzhen,https://ror.org/04gh4er46,I4210145761,22.54554,114.0683,openalex,1,1,0,0,6,2019,2019
+164,Sorbonne Université,France,Paris,https://ror.org/02en5vm52,I39804081,48.85341,2.3488,openalex,1,0,0,1,5,2025,2025
+165,Stadtwerke Jülich (Germany),Germany,Jülich,https://ror.org/03kmaet43,I4210133936,50.91972,6.35377,openalex,1,0,0,1,1,2011,2011
+166,Stony Brook University,United States,Stony Brook,https://ror.org/05qghxh33,I59553526,40.92565,-73.14094,openalex,1,1,0,0,2,2016,2016
+167,Swiss Federal Laboratories for Materials Science and Technology,Switzerland,Dübendorf,https://ror.org/02x681a42,I71824836,47.39724,8.61872,openalex,1,1,0,0,3,2025,2025
+168,SystemsX.ch,Switzerland,Zurich,https://ror.org/02s09gf16,I4210123994,47.36667,8.55,openalex,1,0,0,1,1,2024,2024
+169,Takeda (Japan),Japan,Osaka,https://ror.org/04hjbmv12,I44892455,34.69379,135.50107,openalex,1,1,0,0,1,2008,2008
+170,Tech Univ Darmstadt,Germany,Darmstadt,,,,,,1,0,0,1,3,2015,2015
+171,Technical University of Munich,Germany,Munich,https://ror.org/02kkvpp62,I62916508,48.13743,11.57549,openalex,1,0,0,1,4,2003,2003
+172,Texas A&M AgriLife Res,United States,Amarillo,,,,,,1,0,0,1,2,2021,2021
+173,Texas A&M University,United States,College Station,https://ror.org/01f5ytq51,I91045830,30.62798,-96.33441,openalex,1,0,1,0,3,2018,2018
+174,Texas Tech University,United States,Lubbock,https://ror.org/0405mnx93,I12315562,33.57786,-101.85517,openalex,1,0,0,1,1,2021,2021
+175,The University of Tokyo,Japan,Tokyo,https://ror.org/057zh3y96,I74801974,35.6895,139.69171,openalex,1,0,0,1,1,2008,2008
+176,TU Wien,Austria,Vienna,https://ror.org/04d836q62,I145847075,48.20849,16.37208,openalex,1,0,1,0,3,2018,2018
+177,U.S. National Science Foundation,United States,Alexandria,https://ror.org/021nxhr62,I1311060795,38.80484,-77.04692,openalex,1,0,0,1,1,2014,2014
+178,UCLA Jonsson Comprehensive Cancer Center,United States,Los Angeles,https://ror.org/0599cs764,I4390039293,34.05223,-118.24368,openalex,1,0,1,0,2,2008,2008
+179,UK Health Security Agency,United Kingdom,London,https://ror.org/018h10037,I4387153084,51.50853,-0.12574,openalex,1,0,0,1,1,2024,2024
+180,Universidad Nacional de La Pampa,Argentina,Santa Rosa,https://ror.org/02c21vy68,I197025333,-36.61667,-64.28333,openalex,1,0,0,1,1,2016,2016
+181,Universitat Politècnica de Catalunya,Spain,Barcelona,https://ror.org/03mb6wj31,I9617848,41.38879,2.15899,openalex,1,0,0,1,1,2026,2026
+182,University Medical Center Freiburg,Germany,Freiburg im Breisgau,https://ror.org/03vzbgh69,I2801240073,47.9959,7.85222,openalex,1,1,0,0,1,2006,2006
+183,University of Applied Sciences Technikum Wien,Austria,Vienna,https://ror.org/04jsx0x49,I121760703,48.20849,16.37208,openalex,1,0,0,1,1,2012,2012
+184,University of British Columbia,Canada,Vancouver,https://ror.org/03rmrcq20,I141945490,49.24966,-123.11934,openalex,1,0,1,0,1,2021,2021
+185,University of Cambridge,United Kingdom,Cambridge,https://ror.org/013meh722,I241749,52.2,0.11667,openalex,1,0,0,1,1,2021,2021
+186,University of Chinese Academy of Sciences,China,Beijing,https://ror.org/05qbk4x57,I4210165038,39.9075,116.39723,openalex,1,1,0,0,6,2019,2019
+187,University of Denver,United States,Denver,https://ror.org/04w7skc03,I131651094,39.73915,-104.9847,openalex,1,0,0,1,1,2005,2005
+188,University of Engineering and Technology Peshawar,Pakistan,Peshawar,https://ror.org/00p034093,I90610274,34.008,71.57849,openalex,1,0,0,1,1,2021,2021
+189,University of Freiburg,Germany,Freiburg im Breisgau,https://ror.org/0245cg223,I161046081,47.9959,7.85222,openalex,1,1,0,0,3,2006,2006
+190,University of Geneva,Switzerland,Geneva,https://ror.org/01swzsf04,I114457229,46.20222,6.14569,openalex,1,0,1,0,6,2013,2013
+191,University of Groningen,The Netherlands,Groningen,https://ror.org/012p63287,I169381384,53.21917,6.56667,openalex,1,1,0,0,3,2025,2025
+192,University of Helsinki,Finland,Helsinki,https://ror.org/040af2s02,I133731052,60.16952,24.93545,openalex,1,0,1,0,1,2022,2022
+193,University of North Carolina at Chapel Hill,United States,Chapel Hill,https://ror.org/0130frc33,I114027177,35.9132,-79.05584,openalex,1,0,1,0,1,2018,2018
+194,University of North Carolina Wilmington,United States,Wilmington,https://ror.org/02t0qr014,I153901656,34.23556,-77.94604,openalex,1,0,0,1,1,2025,2025
+195,University of Washington,United States,Seattle,https://ror.org/00cvxb145,I201448701,47.60621,-122.33207,openalex,1,1,0,0,1,2009,2009
+196,University of Wyoming,United States,Laramie,https://ror.org/01485tq96,I12834331,41.31137,-105.5911,openalex,1,0,0,1,2,2015,2015
+197,Universität Innsbruck,Austria,Innsbruck,https://ror.org/054pv6659,I190249584,47.26266,11.39454,openalex,1,0,1,0,1,2021,2021
+198,Université Clermont Auvergne,France,Clermont-Ferrand,https://ror.org/01a8ajp46,I198244214,45.77969,3.08682,openalex,1,1,0,0,4,2015,2015
+199,Université de Pau et des Pays de l'Adour,France,Pau,https://ror.org/01frn9647,I144889574,43.31117,-0.35583,openalex,1,0,0,1,1,2015,2015
+200,Université de Reims Champagne-Ardenne,France,Reims,https://ror.org/03hypw319,I96226040,49.26526,4.02853,openalex,1,0,0,1,1,2014,2014
+201,Urology San Antonio,United States,San Antonio,https://ror.org/00fff9d21,I4210092984,29.40938,-98.51719,openalex,1,1,0,0,5,2008,2008
+202,Utrecht University,The Netherlands,Utrecht,https://ror.org/04pp8hn57,I193662353,52.09083,5.12222,openalex,1,0,1,0,2,2025,2025
+203,Virginia Tech,United States,Blacksburg,https://ror.org/02smfhw86,I859038795,37.22957,-80.41394,openalex,1,1,0,0,3,2012,2012
+204,Wageningen University & Research,The Netherlands,Wageningen,https://ror.org/04qw24q55,I913481162,51.97,5.66667,openalex,1,0,1,0,1,2025,2025
+205,Weizmann Institute of Science,Israel,Rehovot,https://ror.org/0316ej306,I53964585,31.89421,34.81199,openalex,1,0,1,0,2,2018,2018
+206,Yale University,United States,New Haven,https://ror.org/03v76x132,I32971472,41.30815,-72.92816,openalex,1,0,0,1,1,2008,2008
+207,École Polytechnique,France,Palaiseau,https://ror.org/05hy3tk52,I142476485,48.71828,2.2498,openalex,1,0,0,1,5,2025,2025

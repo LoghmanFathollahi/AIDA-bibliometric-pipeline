@@ -1,0 +1,189 @@
+﻿campaign,campaign_family,campaign_run,n_tables,n_instruments,instruments
+aci01,aci,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+aci02,aci,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+aci03,aci,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+aci04,aci,04,7,7,apet; apict; cpc; mbw; min; sec; spapict
+actris01,actris,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+aero01,aero,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+aero02,aero,02,6,6,apet; cpc; mbw; min; sec; spapict
+aic02,aic,02,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+aidam01,aidam,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+aqua02,aqua,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+aqua03,aqua,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+aquavit04,aquavit,04,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+arctex,arctex,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+arctex02,arctex,02,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+arctex03,arctex,03,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+ascona01,ascona,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+asiandust01,asiandust,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+awicit01,awicit,01,4,4,apet; mbw; min; sec
+awicit02,awicit,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+awicit03,awicit,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+awicit04,awicit,04,7,7,apet; apict; cpc; mbw; min; sec; spapict
+awicit05,awicit,05,7,7,apet; apict; cpc; mbw; min; sec; spapict
+awicit06,awicit,06,7,7,apet; apict; cpc; mbw; min; sec; spapict
+awicit01b,awicit01b,,7,7,apet; apict; cpc; mbw; min; sec; spapict
+bio01,bio,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+bio02,bio,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+bio03,bio,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+bio04,bio,04,7,7,apet; apict; cpc; mbw; min; sec; spapict
+bio05,bio,05,7,7,apet; apict; cpc; mbw; min; sec; spapict
+bio06,bio,06,7,7,apet; apict; cpc; mbw; min; sec; spapict
+bravo01,bravo,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+bravo02,bravo,02,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+caina01,caina,01,9,9,apet; apict; cpc; mbw; min; sec; simone; spapict; ufcpc_09
+caina02,caina,02,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+cainic01,cainic,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+cainic02,cainic,02,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+cal01,cal,01,9,9,apet; apict; cpc; cpc2; mbw; min; sec; simone; spapict
+cal02,cal,02,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+cal03,cal,03,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+cal04,cal,04,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+caro01,caro,01,6,6,apet; apict; mbw; min; sec; spapict
+caro0101,caro,0101,1,1,cpc
+cast01,cast,01,6,6,apet; cpc; mbw; min; sec; spapict
+cell1,cell,1,2,2,min; sec
+cirrus01,cirrus,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+cis01,cis,01,9,9,apet; apict; cpc; mbw; min; sec; simone; spapict; ufcpc_07
+contact01,contact,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+contact02,contact,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+contact03,contact,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+demo01,demo,01,2,2,min; sec
+dust19,dust,19,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+extra18,extra,18,7,7,apet; apict; cpc; mbw; min; sec; spapict
+fin01,fin,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+fin02,fin,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+fin01_test,fin01_test,,2,2,min; sec
+halo01,halo,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+halo02,halo,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+halo03,halo,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+halo04,halo,04,7,7,apet; apict; cpc; mbw; min; sec; spapict
+halo05,halo,05,7,7,apet; apict; cpc; mbw; min; sec; spapict
+halo06,halo,06,7,7,apet; apict; cpc; mbw; min; sec; spapict
+halo07,halo,07,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+hldust01,hldust,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+ice01,ice,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+ice02,ice,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+icis07,icis,07,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in03,in,03,3,3,apict; cpc; mbw
+in04,in,04,5,5,apet; apict; cpc; mbw; spapict
+in05,in,05,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in06,in,06,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in07,in,07,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in08,in,08,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in09,in,09,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in10,in,10,6,6,apet; cpc; mbw; min; sec; spapict
+in11,in,11,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in12,in,12,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in13,in,13,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in14,in,14,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in15,in,15,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in16,in,16,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in17,in,17,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in18,in,18,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in19,in,19,7,7,apet; apict; cpc; mbw; min; sec; spapict
+in10a,in10a,,6,6,apet; cpc; mbw; min; sec; spapict
+in10b,in10b,,7,7,apet; apict; cpc; mbw; min; sec; spapict
+inad01,inad,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+inad02,inad,02,9,9,apet; apict; cpc; mbw; min; sec; simone; spapict; ufcpc_07
+inama01,inama,01,9,9,apet; apict; cpc; mbw; min; sec; simone; spapict; ufcpc_09
+incas01,incas,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+inuit01,inuit,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+inuit02,inuit,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+inuit03,inuit,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+inuit04,inuit,04,7,7,apet; apict; cpc; mbw; min; sec; spapict
+inuit05,inuit,05,7,7,apet; apict; cpc; mbw; min; sec; spapict
+inuit06,inuit,06,7,7,apet; apict; cpc; mbw; min; sec; spapict
+inuit07,inuit,07,7,7,apet; apict; cpc; mbw; min; sec; spapict
+inuit08,inuit,08,7,7,apet; apict; cpc; mbw; min; sec; spapict
+inuit09,inuit,09,7,7,apet; apict; cpc; mbw; min; sec; spapict
+iso01,iso,01,6,6,apet; cpc; mbw; min; sec; spapict
+iso02,iso,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+iso03,iso,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+iso04,iso,04,7,7,apet; apict; cpc; mbw; min; sec; spapict
+iso05,iso,05,7,7,apet; apict; cpc; mbw; min; sec; spapict
+itaca01,itaca,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+itaca02,itaca,02,10,10,apet; apict; cpc; mbw; min; sec; simone; spapict; ufcpc_04; ufcpc_09
+kalib01,kalib,01,2,2,min; sec
+master01,master,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+master02,master,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+master04,master,04,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+master05,master,05,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+master06,master,06,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+master07,master,07,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+master08,master,08,10,10,apet; apict; cpc; mbw; min; sec; simone; spapict; ufcpc_01; ufcpc_07
+master09,master,09,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+meteor01,meteor,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+micos01,micos,01,9,9,apet; apict; cpc; mbw; min; sec; simone; spapict; ufcpc_07
+miniaida01,miniaida,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+moni01,moni,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+ocean01,ocean,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+ocean02,ocean,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+ocean03,ocean,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+ocean04,ocean,04,7,7,apet; apict; cpc; mbw; min; sec; spapict
+pcvi01,pcvi,01,2,2,min; sec
+pine01,pine,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+pine02,pine,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+pineair01,pineair,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+plants02,plants,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+plants01b,plants01b,,7,7,apet; apict; cpc; mbw; min; sec; spapict
+poly01,poly,01,3,3,apet; min; sec
+psc5,psc,5,1,1,minuten
+psc8,psc,8,5,5,apet; apict; cpc; mbw; spapict
+psc9,psc,9,6,6,apet; cpc; mbw; min; sec; spapict
+rh01,rh,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+rice01,rice,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+rice02,rice,02,6,6,apet; apict; cpc; mbw; min; spapict
+rice03,rice,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+rice04,rice,04,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+saints01,saints,01,9,9,apet; apict; cpc; mbw; min; sec; simone; spapict; ufcpc_09
+sat01,sat,01,3,3,cpc; min; sec
+sia23,sia,23,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+snails01,snails,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+snails02,snails,02,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soa05,soa,05,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soa06,soa,06,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soa08,soa,08,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soa09,soa,09,2,2,min; sec
+soa11,soa,11,2,2,min; sec
+soa15,soa,15,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soa16,soa,16,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soa17,soa,17,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soa18,soa,18,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soa24,soa,24,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soa16b,soa16b,,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soa16c,soa16c,,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soa19a,soa19a,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soa19b,soa19b,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soa20b,soa20b,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soa21a,soa21a,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soa21b,soa21b,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soa22a,soa22a,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soa22b,soa22b,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soa23a,soa23a,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+soil01,soil,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soil02,soil,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soot10,soot,10,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soot11,soot,11,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soot12,soot,12,7,7,apet; apict; cpc; mbw; min; sec; spapict
+soot18,soot,18,7,7,apet; apict; cpc; mbw; min; sec; spapict
+spa01,spa,01,9,9,apet; apict; cpc; mbw; min; sec; simone; spapict; ufcpc_09
+st03,st,03,1,1,minuten
+synpartice01,synpartice,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+test,test,,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+tropic01,tropic,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+tropic02,tropic,02,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+tropic03,tropic,03,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+tropic04,tropic,04,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+tropic05,tropic,05,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+tropic06,tropic,06,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+val01,val,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+valpine01,valpine,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+valpine06,valpine,06,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+wspa01,wspa,01,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+wspa02,wspa,02,8,8,apet; apict; cpc; mbw; min; sec; simone; spapict
+yeti01,yeti,01,7,7,apet; apict; cpc; mbw; min; sec; spapict
+yeti02,yeti,02,7,7,apet; apict; cpc; mbw; min; sec; spapict
+yeti03,yeti,03,7,7,apet; apict; cpc; mbw; min; sec; spapict
+yeti04,yeti,04,7,7,apet; apict; cpc; mbw; min; sec; spapict
+yeti05,yeti,05,7,7,apet; apict; cpc; mbw; min; sec; spapict

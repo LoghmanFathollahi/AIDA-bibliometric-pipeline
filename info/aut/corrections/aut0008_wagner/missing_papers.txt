@@ -1,0 +1,24 @@
+# Missing AIDA papers of Wagner, Robert
+# Sent by e-mail on 2026-09-28, entered by Loghman on 2026-09-29.
+#
+# All sixteen DOIs were checked against the publisher record.
+# Two of them use the smaller APC chamber, which belongs to the AIDA facility.
+#
+# ---------------------------------------------------------------------
+
+10.1029/2024JD041576   How Porosity Influences the Heterogeneous Ice Nucleation Ability of Secondary Organic Aerosol Particles, Wagner 2024, JGR Atmos
+10.1029/2023JD040078   Influence of the Neutralization Degree on the Ice Nucleation Ability of Ammoniated Sulfate Particles, Bertozzi 2024, JGR Atmos, joint first authors Bertozzi and Wagner
+10.5194/acp-23-6789-2023   Particle shapes and infrared extinction spectra of nitric acid dihydrate (NAD) crystals, optical constants of the beta-NAD modification, Wagner 2023, ACP
+10.5194/acp-21-10779-2021   Ice nucleation ability of ammonium sulfate aerosol particles internally mixed with secondary organics, Bertozzi 2021, ACP
+10.5194/amt-14-1977-2021   High-resolution optical constants of crystalline ammonium nitrate for infrared remote sensing of the Asian Tropopause Aerosol Layer, Wagner 2021, AMT
+10.1029/2020JD032808   Influence of Arctic Microlayers and Algal Cultures on Sea Spray Hygroscopicity, Christiansen 2020, JGR Atmos, uses the APC chamber
+10.5194/acp-20-11089-2020   The ice-nucleating activity of Arctic sea surface microlayer samples and marine algal cultures, Ickes 2020, ACP
+10.1029/2019JD032248   Solid Ammonium Nitrate Aerosols as Efficient Ice Nucleating Particles at Cirrus Temperatures, Wagner 2020, JGR Atmos
+10.1038/s41561-019-0385-8   Ammonium nitrate particles formed in upper troposphere from ground ammonia sources during Asian monsoons, Hoepfner 2019, Nature Geoscience, replaces the MIPAS and GLORIA dataset row
+10.5194/acp-16-2025-2016   Pre-activation of ice-nucleating particles by the pore condensation and freezing mechanism, Wagner 2016, ACP
+10.5194/amt-9-159-2016   In situ characterization of mixed phase clouds using the Small Ice Detector and the Particle Phase Discriminator, Vochezer 2016, AMT
+10.1002/2015GL063075   Crystallization and immersion freezing ability of oxalic and succinic acid in multicomponent aqueous organic aerosol particles, Wagner 2015, GRL
+10.1002/2014JD021741   Enhanced high-temperature ice nucleation ability of crystallized aerosol particles after preactivation at low temperature, Wagner 2014, JGR Atmos
+10.5194/acp-12-2491-2012   Complex refractive indices of Saharan dust samples at visible and near UV wavelengths, Wagner 2012, ACP, uses the APC chamber
+10.1038/ngeo817   Heterogeneous nucleation of ice particles on glassy aerosols under cirrus conditions, Murray 2010, Nature Geoscience
+10.1029/2005JD006046   Absorption amplification of black carbon internally mixed with secondary organic aerosol, Schnaiter 2005, JGR Atmos

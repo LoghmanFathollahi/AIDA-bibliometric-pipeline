@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIDA publications of Robert Wagner</title>
+<style>
+  :root {
+    --paper: #FBFCFC;
+    --ink: #1F2B30;
+    --muted: #5B696E;
+    --rule: #D3DDDF;
+    --green: #009682;
+    --green-deep: #00705F;
+    --ice: #E3F0F2;
+    --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    --sans: "Source Sans 3", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.45;
+  }
+  .page { max-width: 1320px; margin: 0 auto; padding: 40px 28px 64px; }
+
+  /* header */
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 1.15;
+    margin: 0 0 6px;
+  }
+  .summary { color: var(--muted); margin: 0 0 28px; font-size: 1rem; }
+
+  /* year histogram, also the year filter */
+  .years { margin-bottom: 26px; }
+  .years-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 110px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .year-bar {
+    flex: 1 1 0;
+    min-width: 6px;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+  }
+  .year-bar span {
+    display: block;
+    width: 100%;
+    background: var(--green);
+    min-height: 2px;
+  }
+  .year-bar.empty span { background: var(--rule); }
+  .year-bar:hover span { background: var(--green-deep); }
+  .years.has-selection .year-bar span { background: var(--ice); }
+  .years.has-selection .year-bar[aria-pressed="true"] span { background: var(--green-deep); }
+  .year-bar:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .years-axis { display: flex; gap: 3px; margin-top: 4px; }
+  .years-axis span {
+    flex: 1 1 0;
+    min-width: 6px;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    overflow: visible;
+  }
+  .years-hint { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
+
+  /* controls */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 16px;
+    margin-bottom: 14px;
+  }
+  .controls input[type="search"] {
+    flex: 1 1 320px;
+    font: inherit;
+    padding: 9px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--ink);
+  }
+  .controls select, .controls button {
+    font: inherit;
+    padding: 8px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--ink);
+  }
+  .controls button { cursor: pointer; }
+  .controls button:hover { border-color: var(--green); }
+  .controls :focus-visible, .sort-button:focus-visible, a:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 2px;
+  }
+  .count { color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
+
+  /* table */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 960px; }
+  thead th {
+    position: sticky;
+    top: 0;
+    background: var(--paper);
+    border-bottom: 2px solid var(--ink);
+    text-align: left;
+    padding: 0;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .sort-button {
+    font: inherit;
+    font-weight: 600;
+    color: var(--ink);
+    background: none;
+    border: 0;
+    padding: 10px 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+  }
+  .sort-button::after { content: ""; display: inline-block; width: 1em; margin-left: 4px; color: var(--green-deep); }
+  th[aria-sort="ascending"] .sort-button::after { content: "\25B2"; font-size: 0.7em; }
+  th[aria-sort="descending"] .sort-button::after { content: "\25BC"; font-size: 0.7em; }
+  tbody td {
+    border-bottom: 1px solid var(--rule);
+    padding: 11px 10px;
+    vertical-align: top;
+  }
+  tbody tr:hover td { background: var(--ice); }
+  .col-num { width: 3.5em; }
+  td.col-num { color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; }
+  .col-year { width: 5em; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .col-authors { width: 22%; }
+  td.col-authors { color: var(--muted); font-size: 0.92rem; }
+  td.col-title { font-family: var(--serif); font-size: 1.02rem; line-height: 1.5; }
+  .col-venue { width: 17%; }
+  .col-venue small { display: block; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .col-type { width: 8em; }
+  td.col-type { color: var(--muted); font-size: 0.9rem; }
+  .col-doi { width: 15em; }
+  td.col-doi { font-size: 0.88rem; word-break: break-all; }
+  .col-doi a { color: var(--green-deep); text-decoration: underline; text-underline-offset: 2px; }
+  .col-doi a:visited { color: #4F5F8A; }
+  .missing { color: var(--rule); }
+  .confirmed { display: block; margin-top: 4px; font-family: var(--sans); font-size: 0.82rem; color: var(--green-deep); }
+  .confirmed::before { content: "\2713  "; }
+  .pages { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 10px; font-size: 0.92rem; }
+  .pages a { color: var(--green-deep); text-underline-offset: 2px; }
+  .index-list { columns: 3 260px; padding: 0; list-style: none; }
+  .index-list li { break-inside: avoid; padding: 5px 0; border-bottom: 1px solid var(--rule); }
+  .index-list a { color: var(--ink); }
+  .index-list small { color: var(--muted); margin-left: 6px; font-variant-numeric: tabular-nums; }
+  sub, sup { font-size: 0.72em; line-height: 0; }
+
+  .empty-state { padding: 40px 10px; color: var(--muted); }
+  .empty-state button { margin-top: 10px; }
+  footer { margin-top: 36px; color: var(--muted); font-size: 0.85rem; }
+
+  @media (max-width: 720px) {
+    .page { padding: 24px 14px 48px; }
+    h1 { font-size: 1.6rem; }
+    .count { margin-left: 0; width: 100%; }
+  }
+  @media print {
+    .years, .controls { display: none; }
+    thead th { position: static; }
+    table { min-width: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <nav class="pages"><a href="../AIDA_Publication_List.html">All AIDA publications</a><a href="../AIDA_Authors_Index.html">All researchers</a></nav>
+    <h1>AIDA publications of Robert Wagner</h1>
+    <p class="summary">63 publications from 2003 to 2026.</p>
+  </header>
+
+  <section class="years" id="years" aria-label="Publications per year">
+    <div class="years-bars" id="years_bars"></div>
+    <div class="years-axis" id="years_axis" aria-hidden="true"></div>
+    <div class="years-hint" id="years_hint">Select a year bar to show only that year.</div>
+  </section>
+
+  <div class="controls">
+    <input type="search" id="search_box" placeholder="Search authors, titles, journals, DOIs" aria-label="Search publications">
+    <select id="type_select" aria-label="Filter by publication type">
+      <option value="">All types</option>
+    </select>
+    <select id="confirmed_select" aria-label="Filter by author confirmation">
+      <option value="">All papers</option>
+      <option value="yes">Confirmed by an author</option>
+      <option value="no">Not confirmed</option>
+    </select>
+    <button type="button" id="reset_button">Clear filters</button>
+    <span class="count" id="count_text" aria-live="polite"></span>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-num" scope="col"><span class="sort-button" style="cursor:default">#</span></th>
+          <th class="col-year" scope="col" data-key="year"><button class="sort-button" type="button">Year</button></th>
+          <th class="col-authors" scope="col" data-key="authors"><button class="sort-button" type="button">Authors</button></th>
+          <th class="col-title" scope="col" data-key="title"><button class="sort-button" type="button">Title</button></th>
+          <th class="col-venue" scope="col" data-key="venue"><button class="sort-button" type="button">Journal</button></th>
+          <th class="col-type" scope="col" data-key="type"><button class="sort-button" type="button">Type</button></th>
+          <th class="col-doi" scope="col" data-key="doi"><button class="sort-button" type="button">DOI</button></th>
+        </tr>
+      </thead>
+      <tbody id="table_body"></tbody>
+    </table>
+    <div class="empty-state" id="empty_state" hidden>
+      No publications match these filters.<br>
+      <button type="button" id="empty_reset_button">Clear filters</button>
+    </div>
+  </div>
+
+  <footer>Generated from Robert_Wagner.bib on 2026-10-14.</footer>
+</div>
+
+<script>
+const records = [{"key": "2026_fuchs_amt", "year": 2026, "authors_short": "Fuchs, H.; Illmann, N.; Munoz, A.; Rodenas, M.; Picquet-Varrault, B.; Alfarra, M. R.; Arsene, C.; Bejan, I. G.; Bell, D. M.; Bilde, M. et al.", "authors_full": "Fuchs, H.; Illmann, N.; Munoz, A.; Rodenas, M.; Picquet-Varrault, B.; Alfarra, M. R.; Arsene, C.; Bejan, I. G.; Bell, D. M.; Bilde, M.; Bohmlander, A.; Campos-Pineda, M.; Cazaunau, M.; Coll, P.; Daele, V.; Di Biagio, C.; Flynn, M.; Formenti, P.; Herrmann, H.; Hohler, K.; Hohaus, T.; Johnson, M. S.; Juurola, E.; Kivekas, N.; Kaiser, J.; Kaltsonoudis, C.; Laj, P.; Massabo, D.; Mazzei, F.; McFiggans, G.; McGillen, M. R.; Mellouki, A.; Mettke, P.; Mohler, O.; Mothes, F.; Niedermeier, D.; Novelli, A.; Olariu, R. I.; Pandis, S. N.; Patroescu-Klotz, I.; Petracca Altieri, R. M.; Prati, P.; Roman, C.; Ruth, A. A.; Saathoff, H.; Schmalfuss, S.; Stratmann, F.; Vernocchi, V.; Voliotis, A.; Voigtlander, J.; Virtanen, A.; Wahner, A.; Wagner, R.; Wenger, J.; Zorn, S.; Wiesen, P.; Doussin, J.-F.", "first_author": "Fuchs, H.", "title_plain": "Atmospheric Simulation Chambers in the ACTRIS Research Infrastructure", "title_html": "Atmospheric Simulation Chambers in the ACTRIS Research Infrastructure", "venue": "ATMOSPHERIC MEASUREMENT TECHNIQUES", "venue_detail": "19(12), 4165-4199", "doi": "10.5194/amt-19-4165-2026", "doi_url": "https://doi.org/10.5194/amt-19-4165-2026", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2025_zanatta_ar", "year": 2025, "authors_short": "Zanatta, M.; Bogert, P.; Ginot, P.; Gong, Y.; Hoshyaripour, G. A.; Hu, Y.; Jiang, F.; Laj, P.; Li, Y.; Linke, C. et al.", "authors_full": "Zanatta, M.; Bogert, P.; Ginot, P.; Gong, Y.; Hoshyaripour, G. A.; Hu, Y.; Jiang, F.; Laj, P.; Li, Y.; Linke, C.; Möhler, O.; Saathoff, H.; Schnaiter, M.; Umo, N. S.; Vogel, F.; Wagner, R.", "first_author": "Zanatta, M.", "title_plain": "AIDA Arctic transport experiment - Part 1: Simulation of northward transport and aging effect on fundamental black carbon properties", "title_html": "AIDA Arctic transport experiment - Part 1: Simulation of northward transport and aging effect on fundamental black carbon properties", "venue": "Aerosol Research", "venue_detail": "3(2), 477-502", "doi": "10.5194/ar-3-477-2025", "doi_url": "https://doi.org/10.5194/ar-3-477-2025", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2024_bertozzi_jgra", "year": 2024, "authors_short": "Bertozzi, B.; Wagner, R.; Hoehler, K.; Saathoff, H.; Moehler, O.; Leisner, T.", "authors_full": "Bertozzi, B.; Wagner, R.; Hoehler, K.; Saathoff, H.; Moehler, O.; Leisner, T.", "first_author": "Bertozzi, B.", "title_plain": "Influence of the Neutralization Degree on the Ice Nucleation Ability of Ammoniated Sulfate Particles", "title_html": "Influence of the Neutralization Degree on the Ice Nucleation Ability of Ammoniated Sulfate Particles", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "129(2)", "doi": "10.1029/2023JD040078", "doi_url": "https://doi.org/10.1029/2023JD040078", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2024_wagner_jgra", "year": 2024, "authors_short": "Wagner, R.; Hu, Y.; Bogert, P.; Hoehler, K.; Kiselev, A.; Moehler, O.; Saathoff, H.; Umo, N.; Zanatta, M.", "authors_full": "Wagner, R.; Hu, Y.; Bogert, P.; Hoehler, K.; Kiselev, A.; Moehler, O.; Saathoff, H.; Umo, N.; Zanatta, M.", "first_author": "Wagner, R.", "title_plain": "How Porosity Influences the Heterogeneous Ice Nucleation Ability of Secondary Organic Aerosol Particles", "title_html": "How Porosity Influences the Heterogeneous Ice Nucleation Ability of Secondary Organic Aerosol Particles", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "129(20)", "doi": "10.1029/2024JD041576", "doi_url": "https://doi.org/10.1029/2024JD041576", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2023_wagner_acp", "year": 2023, "authors_short": "Wagner, R.; James, A. D.; Frankland, V. L.; Moehler, O.; Murray, B. J.; Plane, J. M. C.; Saathoff, H.; Weigel, R.; Schnaiter, M.", "authors_full": "Wagner, R.; James, A. D.; Frankland, V. L.; Moehler, O.; Murray, B. J.; Plane, J. M. C.; Saathoff, H.; Weigel, R.; Schnaiter, M.", "first_author": "Wagner, R.", "title_plain": "Particle shapes and infrared extinction spectra of nitric acid dihydrate (NAD)crystals: optical constants of the β-NAD modification", "title_html": "Particle shapes and infrared extinction spectra of nitric acid dihydrate (NAD)crystals: optical constants of the β-NAD modification", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "23(12), 6789-6811", "doi": "10.5194/acp-23-6789-2023", "doi_url": "https://doi.org/10.5194/acp-23-6789-2023", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2021_bertozzi_acp", "year": 2021, "authors_short": "Bertozzi, B.; Wagner, R.; Song, J.; Hoehler, K.; Pfeifer, J.; Saathoff, H.; Leisner, T.; Moehler, O.", "authors_full": "Bertozzi, B.; Wagner, R.; Song, J.; Hoehler, K.; Pfeifer, J.; Saathoff, H.; Leisner, T.; Moehler, O.", "first_author": "Bertozzi, B.", "title_plain": "Ice nucleation ability of ammonium sulfate aerosol particles internally mixed with secondary organics", "title_html": "Ice nucleation ability of ammonium sulfate aerosol particles internally mixed with secondary organics", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "21(13), 10779-10798", "doi": "10.5194/acp-21-10779-2021", "doi_url": "https://doi.org/10.5194/acp-21-10779-2021", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2021_schneider_acp", "year": 2021, "authors_short": "Schneider, J.; Hohler, K.; Wagner, R.; Saathoff, H.; Schnaiter, M.; Schorr, T.; Steinke, I.; Benz, S.; Baumgartner, M.; Rolf, C. et al.", "authors_full": "Schneider, J.; Hohler, K.; Wagner, R.; Saathoff, H.; Schnaiter, M.; Schorr, T.; Steinke, I.; Benz, S.; Baumgartner, M.; Rolf, C.; Kramer, M.; Leisner, T.; Mohler, O.", "first_author": "Schneider, J.", "title_plain": "High homogeneous freezing onsets of sulfuric acid aerosol at cirrus temperatures", "title_html": "High homogeneous freezing onsets of sulfuric acid aerosol at cirrus temperatures", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "21(18), 14403-14425", "doi": "10.5194/acp-21-14403-2021", "doi_url": "https://doi.org/10.5194/acp-21-14403-2021", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2021_umo_jgra", "year": 2021, "authors_short": "Umo, N. S.; Ullrich, R.; Maters, E. C.; Steinke, I.; Benker, N.; Hoehler, K.; Wagner, R.; Weidler, P. G.; Hoshyaripour, G. A.; Kiselev, A. et al.", "authors_full": "Umo, N. S.; Ullrich, R.; Maters, E. C.; Steinke, I.; Benker, N.; Hoehler, K.; Wagner, R.; Weidler, P. G.; Hoshyaripour, G. A.; Kiselev, A.; Kueppers, U.; Kandler, K.; Dingwell, D. B.; Leisner, T.; Moehler, O.", "first_author": "Umo, N. S.", "title_plain": "The Influence of Chemical and Mineral Compositions on the Parameterization of Immersion Freezing by Volcanic Ash Particles", "title_html": "The Influence of Chemical and Mineral Compositions on the Parameterization of Immersion Freezing by Volcanic Ash Particles", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "126(17)", "doi": "10.1029/2020JD033356", "doi_url": "https://doi.org/10.1029/2020JD033356", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2021_wagner_acp", "year": 2021, "authors_short": "Wagner, R.; Ickes, L.; Bertram, A. K.; Els, N.; Gorokhova, E.; Mohler, O.; Murray, B. J.; Umo, N. S.; Salter, M. E.", "authors_full": "Wagner, R.; Ickes, L.; Bertram, A. K.; Els, N.; Gorokhova, E.; Mohler, O.; Murray, B. J.; Umo, N. S.; Salter, M. E.", "first_author": "Wagner, R.", "title_plain": "Heterogeneous ice nucleation ability of aerosol particles generated from Arctic sea surface microlayer and surface seawater samples at cirrus temperatures", "title_html": "Heterogeneous ice nucleation ability of aerosol particles generated from Arctic sea surface microlayer and surface seawater samples at cirrus temperatures", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "21(18), 13903-13930", "doi": "10.5194/acp-21-13903-2021", "doi_url": "https://doi.org/10.5194/acp-21-13903-2021", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2021_wagner_amt", "year": 2021, "authors_short": "Wagner, R.; Testa, B.; Hoepfner, M.; Kiselev, A.; Mohler, O.; Saathoff, H.; Ungermann, J.; Leisner, T.", "authors_full": "Wagner, R.; Testa, B.; Hoepfner, M.; Kiselev, A.; Mohler, O.; Saathoff, H.; Ungermann, J.; Leisner, T.", "first_author": "Wagner, R.", "title_plain": "High-resolution optical constants of crystalline ammonium nitrate for infrared remote sensing of the Asian Tropopause Aerosol Layer", "title_html": "High-resolution optical constants of crystalline ammonium nitrate for infrared remote sensing of the Asian Tropopause Aerosol Layer", "venue": "ATMOSPHERIC MEASUREMENT TECHNIQUES", "venue_detail": "14(3), 1977-1991", "doi": "10.5194/amt-14-1977-2021", "doi_url": "https://doi.org/10.5194/amt-14-1977-2021", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2020_christiansen_jgra", "year": 2020, "authors_short": "Christiansen, S.; Ickes, L.; Bulatovic, I.; Leck, C.; Murray, B. J.; Bertram, A. K.; Wagner, R.; Gorokhova, E.; Salter, M.; Ekman, A. M. L. et al.", "authors_full": "Christiansen, S.; Ickes, L.; Bulatovic, I.; Leck, C.; Murray, B. J.; Bertram, A. K.; Wagner, R.; Gorokhova, E.; Salter, M.; Ekman, A. M. L.; Bilde, M.", "first_author": "Christiansen, S.", "title_plain": "Influence of Arctic Microlayers and Algal Cultures on Sea Spray Hygroscopicity and the Possible Implications for Mixed‐Phase Clouds", "title_html": "Influence of Arctic Microlayers and Algal Cultures on Sea Spray Hygroscopicity and the Possible Implications for Mixed‐Phase Clouds", "venue": "Journal of Geophysical Research Atmospheres", "venue_detail": "125(19)", "doi": "10.1029/2020jd032808", "doi_url": "https://doi.org/10.1029/2020jd032808", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2020_ickes_acp", "year": 2020, "authors_short": "Ickes, L.; Porter, G. C. E.; Wagner, R.; Adams, M. P.; Bierbauer, S.; Bertram, A. K.; Bilde, M.; Christiansen, S.; Ekman, A. M. L.; Gorokhova, E. et al.", "authors_full": "Ickes, L.; Porter, G. C. E.; Wagner, R.; Adams, M. P.; Bierbauer, S.; Bertram, A. K.; Bilde, M.; Christiansen, S.; Ekman, A. M. L.; Gorokhova, E.; Hoehler, K.; Kiselev, A. A.; Leck, C.; Moehler, O.; Murray, B. J.; Schiebel, T.; Ullrich, R.; Salter, M. E.", "first_author": "Ickes, L.", "title_plain": "The ice-nucleating activity of Arctic sea surface microlayer samples and marine algal cultures", "title_html": "The ice-nucleating activity of Arctic sea surface microlayer samples and marine algal cultures", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "20(18), 11089-11117", "doi": "10.5194/acp-20-11089-2020", "doi_url": "https://doi.org/10.5194/acp-20-11089-2020", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2020_wagner_jgra", "year": 2020, "authors_short": "Wagner, R.; Bertozzi, B.; Hoepfner, M.; Hoehler, K.; Moehler, O.; Saathoff, H.; Leisner, T.", "authors_full": "Wagner, R.; Bertozzi, B.; Hoepfner, M.; Hoehler, K.; Moehler, O.; Saathoff, H.; Leisner, T.", "first_author": "Wagner, R.", "title_plain": "Solid Ammonium Nitrate Aerosols as Efficient Ice Nucleating Particles at Cirrus Temperatures", "title_html": "Solid Ammonium Nitrate Aerosols as Efficient Ice Nucleating Particles at Cirrus Temperatures", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "125(8)", "doi": "10.1029/2019JD032248", "doi_url": "https://doi.org/10.1029/2019JD032248", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2019_hoepfner_ng", "year": 2019, "authors_short": "Hoepfner, M.; Ungermann, J.; Borrmann, S.; Wagner, R.; Spang, R.; Riese, M.; Stiller, G.; Appel, O.; Batenburg, A. M.; Bucci, S. et al.", "authors_full": "Hoepfner, M.; Ungermann, J.; Borrmann, S.; Wagner, R.; Spang, R.; Riese, M.; Stiller, G.; Appel, O.; Batenburg, A. M.; Bucci, S.; Cairo, F.; Dragoneas, A.; Friedl-Vallon, F.; Huenig, A.; Johansson, S.; Krasauskas, L.; Legras, B.; Leisner, T.; Mahnke, C.; Moehler, O.; Molleker, S.; Mueller, R.; Neubert, T.; Orphal, J.; Preusse, P.; Rex, M.; Saathoff, H.; Stroh, F.; Weigel, R.; Wohltmann, I.", "first_author": "Hoepfner, M.", "title_plain": "Ammonium nitrate particles formed in upper troposphere from ground ammonia sources during Asian monsoons", "title_html": "Ammonium nitrate particles formed in upper troposphere from ground ammonia sources during Asian monsoons", "venue": "NATURE GEOSCIENCE", "venue_detail": "12(8), 608+", "doi": "10.1038/s41561-019-0385-8", "doi_url": "https://doi.org/10.1038/s41561-019-0385-8", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2019_umo_acp", "year": 2019, "authors_short": "Umo, N. S.; Wagner, R.; Ullrich, R.; Kiselev, A.; Saathoff, H.; Weidler, P. G.; Cziczo, D. J.; Leisner, T.; Moehler, O.", "authors_full": "Umo, N. S.; Wagner, R.; Ullrich, R.; Kiselev, A.; Saathoff, H.; Weidler, P. G.; Cziczo, D. J.; Leisner, T.; Moehler, O.", "first_author": "Umo, N. S.", "title_plain": "Enhanced ice nucleation activity of coal fly ash aerosol particles initiated by ice-filled pores", "title_html": "Enhanced ice nucleation activity of coal fly ash aerosol particles initiated by ice-filled pores", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "19(13), 8783-8800", "doi": "10.5194/acp-19-8783-2019", "doi_url": "https://doi.org/10.5194/acp-19-8783-2019", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2018_demott_amt", "year": 2018, "authors_short": "DeMott, P. J.; Moehler, O.; Cziczo, D. J.; Hiranuma, N.; Petters, M. D.; Petters, S. S.; Belosi, F.; Bingemer, H. G.; Brooks, S. D.; Budke, C. et al.", "authors_full": "DeMott, P. J.; Moehler, O.; Cziczo, D. J.; Hiranuma, N.; Petters, M. D.; Petters, S. S.; Belosi, F.; Bingemer, H. G.; Brooks, S. D.; Budke, C.; Burkert-Kohn, M.; Collier, K. N.; Danielczok, A.; Eppers, O.; Felgitsch, L.; Garimella, S.; Grothe, H.; Herenz, P.; Hill, T. C. J.; Hoehler, K.; Kanji, Z. A.; Kiselev, A.; Koop, T.; Kristensen, T. B.; Krueger, K.; Kulkarni, G.; Levin, E. J. T.; Murray, B. J.; Nicosia, A.; O'Sullivan, D.; Peckhaus, A.; Polen, M. J.; Price, H. C.; Reicher, N.; Rothenberg, D. A.; Rudich, Y.; Santachiara, G.; Schiebel, T.; Schrod, J.; Seifried, T. M.; Stratmann, F.; Sullivan, R. C.; Suski, K. J.; Szakall, M.; Taylor, H. P.; Ullrich, R.; Vergara-Temprado, J.; Wagner, R.; Whale, T. F.; Weber, D.; Welti, A.; Wilson, T. W.; Wolf, M. J.; Zenker, J.", "first_author": "DeMott, P. J.", "title_plain": "The Fifth International Workshop on Ice Nucleation phase 2 (FIN-02): laboratory intercomparison of ice nucleation measurements", "title_html": "The Fifth International Workshop on Ice Nucleation phase 2 (FIN-02): laboratory intercomparison of ice nucleation measurements", "venue": "ATMOSPHERIC MEASUREMENT TECHNIQUES", "venue_detail": "11(11), 6231-6257", "doi": "10.5194/amt-11-6231-2018", "doi_url": "https://doi.org/10.5194/amt-11-6231-2018", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2018_huang_acp", "year": 2018, "authors_short": "Huang, W.; Saathoff, H.; Pajunoja, A.; Shen, X.; Naumann, K.-H.; Wagner, R.; Virtanen, A.; Leisner, T.; Mohr, C.", "authors_full": "Huang, W.; Saathoff, H.; Pajunoja, A.; Shen, X.; Naumann, K.-H.; Wagner, R.; Virtanen, A.; Leisner, T.; Mohr, C.", "first_author": "Huang, W.", "title_plain": "α-Pinene secondary organic aerosol at low temperature: chemical composition and implications for particle viscosity", "title_html": "α-Pinene secondary organic aerosol at low temperature: chemical composition and implications for particle viscosity", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "18(4), 2883-2898", "doi": "10.5194/acp-18-2883-2018", "doi_url": "https://doi.org/10.5194/acp-18-2883-2018", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2018_wagner_jgra", "year": 2018, "authors_short": "Wagner, R.; Kaufmann, J.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Ullrich, R.; Leisner, T.", "authors_full": "Wagner, R.; Kaufmann, J.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Ullrich, R.; Leisner, T.", "first_author": "Wagner, R.", "title_plain": "Heterogeneous Ice Nucleation Ability of NaCl and Sea Salt Aerosol Particles at Cirrus Temperatures", "title_html": "Heterogeneous Ice Nucleation Ability of NaCl and Sea Salt Aerosol Particles at Cirrus Temperatures", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "123(5), 2841-2860", "doi": "10.1002/2017JD027864", "doi_url": "https://doi.org/10.1002/2017JD027864", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2017_ullrich_jas", "year": 2017, "authors_short": "Ullrich, R.; Hoose, C.; Moehler, O.; Niemand, M.; Wagner, R.; Hoehler, K.; Hiranuma, N.; Saathoff, H.; Leisner, T.", "authors_full": "Ullrich, R.; Hoose, C.; Moehler, O.; Niemand, M.; Wagner, R.; Hoehler, K.; Hiranuma, N.; Saathoff, H.; Leisner, T.", "first_author": "Ullrich, R.", "title_plain": "A New Ice Nucleation Active Site Parameterization for Desert Dust and Soot", "title_html": "A New Ice Nucleation Active Site Parameterization for Desert Dust and Soot", "venue": "JOURNAL OF THE ATMOSPHERIC SCIENCES", "venue_detail": "74(3), 699-717", "doi": "10.1175/JAS-D-16-0074.1", "doi_url": "https://doi.org/10.1175/JAS-D-16-0074.1", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2017_wagner_jgra", "year": 2017, "authors_short": "Wagner, R.; Hoehler, K.; Huang, W.; Kiselev, A.; Moehler, O.; Mohr, C.; Pajunoja, A.; Saathoff, H.; Schiebel, T.; Shen, X. et al.", "authors_full": "Wagner, R.; Hoehler, K.; Huang, W.; Kiselev, A.; Moehler, O.; Mohr, C.; Pajunoja, A.; Saathoff, H.; Schiebel, T.; Shen, X.; Virtanen, A.", "first_author": "Wagner, R.", "title_plain": "Heterogeneous ice nucleation of -pinene SOA particles before and after ice cloud processing", "title_html": "Heterogeneous ice nucleation of -pinene SOA particles before and after ice cloud processing", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "122(9), 4924-4943", "doi": "10.1002/2016JD026401", "doi_url": "https://doi.org/10.1002/2016JD026401", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2016_hiranuma_amt", "year": 2016, "authors_short": "Hiranuma, N.; Moehler, O.; Kulkarni, G.; Schnaiter, M.; Vogt, S.; Vochezer, P.; Jaervinen, E.; Wagner, R.; Bell, D. M.; Wilson, J. et al.", "authors_full": "Hiranuma, N.; Moehler, O.; Kulkarni, G.; Schnaiter, M.; Vogt, S.; Vochezer, P.; Jaervinen, E.; Wagner, R.; Bell, D. M.; Wilson, J.; Zelenyuk, A.; Cziczo, D. J.", "first_author": "Hiranuma, N.", "title_plain": "Development and characterization of an ice-selecting pumped counterflow virtual impactor (IS-PCVI) to study ice crystal residuals", "title_html": "Development and characterization of an ice-selecting pumped counterflow virtual impactor (IS-PCVI) to study ice crystal residuals", "venue": "ATMOSPHERIC MEASUREMENT TECHNIQUES", "venue_detail": "9(8), 3817-3836", "doi": "10.5194/amt-9-3817-2016", "doi_url": "https://doi.org/10.5194/amt-9-3817-2016", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2016_ignatius_acp", "year": 2016, "authors_short": "Ignatius, K.; Kristensen, T. B.; Jaervinen, E.; Nichman, L.; Fuchs, C.; Gordon, H.; Herenz, P.; Hoyle, C. R.; Duplissy, J.; Garimella, S. et al.", "authors_full": "Ignatius, K.; Kristensen, T. B.; Jaervinen, E.; Nichman, L.; Fuchs, C.; Gordon, H.; Herenz, P.; Hoyle, C. R.; Duplissy, J.; Garimella, S.; Dias, A.; Frege, C.; Hoeppel, N.; Troestl, J.; Wagner, R.; Yan, C.; Amorim, A.; Baltensperger, U.; Curtius, J.; Donahue, N. M.; Gallagher, M. W.; Kirkby, J.; Kulmala, M.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Tome, A.; Virtanen, A.; Worsnop, D.; Stratmann, F.", "first_author": "Ignatius, K.", "title_plain": "Heterogeneous ice nucleation of viscous secondary organic aerosol produced from ozonolysis of α-pinene", "title_html": "Heterogeneous ice nucleation of viscous secondary organic aerosol produced from ozonolysis of α-pinene", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "16(10), 6495-6509", "doi": "10.5194/acp-16-6495-2016", "doi_url": "https://doi.org/10.5194/acp-16-6495-2016", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2016_jaervinen_acp", "year": 2016, "authors_short": "Jaervinen, E.; Ignatius, K.; Nichman, L.; Kristensen, T. B.; Fuchs, C.; Hoyle, C. R.; Hoeppel, N.; Corbin, J. C.; Craven, J.; Duplissy, J. et al.", "authors_full": "Jaervinen, E.; Ignatius, K.; Nichman, L.; Kristensen, T. B.; Fuchs, C.; Hoyle, C. R.; Hoeppel, N.; Corbin, J. C.; Craven, J.; Duplissy, J.; Ehrhart, S.; El Haddad, I.; Frege, C.; Gordon, H.; Jokinen, T.; Kallinger, P.; Kirkby, J.; Kiselev, A.; Naumann, K.-H.; Petaja, T.; Pinterich, T.; Prevot, A. S. H.; Saathoff, H.; Schiebel, T.; Sengupta, K.; Simon, M.; Slowik, J. G.; Troestl, J.; Virtanen, A.; Vochezer, P.; Vogt, S.; Wagner, A. C.; Wagner, R.; Williamson, C.; Winkler, P. M.; Yan, C.; Baltensperger, U.; Donahue, N. M.; Flagan, R. C.; Gallagher, M.; Hansel, A.; Kulmala, M.; Stratmann, F.; Worsnop, D. R.; Moehler, O.; Leisner, T.; Schnaiter, M.", "first_author": "Jaervinen, E.", "title_plain": "Observation of viscosity transition in α-pinene secondary organic aerosol", "title_html": "Observation of viscosity transition in α-pinene secondary organic aerosol", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "16(7), 4423-4438", "doi": "10.5194/acp-16-4423-2016", "doi_url": "https://doi.org/10.5194/acp-16-4423-2016", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2016_nichman_acp", "year": 2016, "authors_short": "Nichman, L.; Fuchs, C.; Jaervinen, E.; Ignatius, K.; Hoeppel, N. F.; Dias, A.; Heinritzi, M.; Simon, M.; Trostl, J.; Wagner, A. C. et al.", "authors_full": "Nichman, L.; Fuchs, C.; Jaervinen, E.; Ignatius, K.; Hoeppel, N. F.; Dias, A.; Heinritzi, M.; Simon, M.; Trostl, J.; Wagner, A. C.; Wagner, R.; Williamson, C.; Yan, C.; Connolly, P. J.; Dorsey, J. R.; Duplissy, J.; Ehrhart, S.; Frege, C.; Gordon, H.; Hoyle, C. R.; Kristensen, T. B.; Steiner, G.; Donahue, N. M.; Flagan, R.; Gallagher, M. W.; Kirkby, J.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Stratmann, F.; Tome, A.", "first_author": "Nichman, L.", "title_plain": "Phase transition observations and discrimination of small cloud particles by light polarization in expansion chamber experiments", "title_html": "Phase transition observations and discrimination of small cloud particles by light polarization in expansion chamber experiments", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "16(5), 3651-3664", "doi": "10.5194/acp-16-3651-2016", "doi_url": "https://doi.org/10.5194/acp-16-3651-2016", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2016_schnaiter_acp", "year": 2016, "authors_short": "Schnaiter, M.; Jaervinen, E.; Vochezer, P.; Abdelmonem, A.; Wagner, R.; Jourdan, O.; Mioche, G.; Shcherbakov, V. N.; Schmitt, C. G.; Tricoli, U. et al.", "authors_full": "Schnaiter, M.; Jaervinen, E.; Vochezer, P.; Abdelmonem, A.; Wagner, R.; Jourdan, O.; Mioche, G.; Shcherbakov, V. N.; Schmitt, C. G.; Tricoli, U.; Ulanowski, Z.; Heymsfield, A. J.", "first_author": "Schnaiter, M.", "title_plain": "Cloud chamber experiments on the origin of ice crystal complexity in cirrus clouds", "title_html": "Cloud chamber experiments on the origin of ice crystal complexity in cirrus clouds", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "16(8), 5091-5110", "doi": "10.5194/acp-16-5091-2016", "doi_url": "https://doi.org/10.5194/acp-16-5091-2016", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2016_troestl_nature", "year": 2016, "authors_short": "Troestl, J.; Chuang, W. K.; Gordon, H.; Heinritzi, M.; Yan, C.; Molteni, U.; Ahlm, L.; Frege, C.; Bianchi, F.; Wagner, R. et al.", "authors_full": "Troestl, J.; Chuang, W. K.; Gordon, H.; Heinritzi, M.; Yan, C.; Molteni, U.; Ahlm, L.; Frege, C.; Bianchi, F.; Wagner, R.; Simon, M.; Lehtipalo, K.; Williamson, C.; Craven, J. S.; Duplissy, J.; Adamov, A.; Almeida, J.; Bernhammer, A.-K.; Breitenlechner, M.; Brilke, S.; Dias, A.; Ehrhart, S.; Flagan, R. C.; Franchin, A.; Fuchs, C.; Guida, R.; Gysel, M.; Hansel, A.; Hoyle, C. R.; Jokinen, T.; Junninen, H.; Kangasluoma, J.; Keskinen, H.; Kim, J.; Krapf, M.; Kuerten, A.; Laaksonen, A.; Lawler, M.; Leiminger, M.; Mathot, S.; Moehler, O.; Nieminen, T.; Onnela, A.; Petaejae, T.; Piel, F. M.; Miettinen, P.; Rissanen, M. P.; Rondo, L.; Sarnela, N.; Schobesberger, S.; Sengupta, K.; Sipila, M.; Smith, J. N.; Steiner, G.; Tome, A.; Virtanen, A.; Wagner, A. C.; Weingartner, E.; Wimmer, D.; Winkler, P. M.; Ye, P.; Carslaw, K. S.; Curtius, J.; Dommen, J.; Kirkby, J.; Kulmala, M.; Riipinen, I.; Worsnop, D. R.; Donahue, N. M.; Baltensperger, U.", "first_author": "Troestl, J.", "title_plain": "The role of low-volatility organic compounds in initial particle growth in the atmosphere", "title_html": "The role of low-volatility organic compounds in initial particle growth in the atmosphere", "venue": "NATURE", "venue_detail": "533(7604), 527+", "doi": "10.1038/nature18271", "doi_url": "https://doi.org/10.1038/nature18271", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2016_vochezer_amt", "year": 2016, "authors_short": "Vochezer, P.; Jaervinen, E.; Wagner, R.; Kupiszewski, P.; Leisner, T.; Schnaiter, M.", "authors_full": "Vochezer, P.; Jaervinen, E.; Wagner, R.; Kupiszewski, P.; Leisner, T.; Schnaiter, M.", "first_author": "Vochezer, P.", "title_plain": "In situ characterization of mixed phase clouds using the Small Ice Detector and the Particle Phase Discriminator", "title_html": "In situ characterization of mixed phase clouds using the Small Ice Detector and the Particle Phase Discriminator", "venue": "ATMOSPHERIC MEASUREMENT TECHNIQUES", "venue_detail": "9(1), 159-177", "doi": "10.5194/amt-9-159-2016", "doi_url": "https://doi.org/10.5194/amt-9-159-2016", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2016_wagner_acp", "year": 2016, "authors_short": "Wagner, R.; Kiselev, A.; Moehler, O.; Saathoff, H.; Steinke, I.", "authors_full": "Wagner, R.; Kiselev, A.; Moehler, O.; Saathoff, H.; Steinke, I.", "first_author": "Wagner, R.", "title_plain": "Pre-activation of ice-nucleating particles by the pore condensation and freezing mechanism", "title_html": "Pre-activation of ice-nucleating particles by the pore condensation and freezing mechanism", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "16(4), 2025-2042", "doi": "10.5194/acp-16-2025-2016", "doi_url": "https://doi.org/10.5194/acp-16-2025-2016", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2015_wagner_grl", "year": 2015, "authors_short": "Wagner, R.; Hoehler, K.; Moehler, O.; Saathoff, H.; Schnaiter, M.", "authors_full": "Wagner, R.; Hoehler, K.; Moehler, O.; Saathoff, H.; Schnaiter, M.", "first_author": "Wagner, R.", "title_plain": "Crystallization and immersion freezing ability of oxalic and succinic acid in multicomponent aqueous organic aerosol particles", "title_html": "Crystallization and immersion freezing ability of oxalic and succinic acid in multicomponent aqueous organic aerosol particles", "venue": "GEOPHYSICAL RESEARCH LETTERS", "venue_detail": "42(7), 2464-2472", "doi": "10.1002/2015GL063075", "doi_url": "https://doi.org/10.1002/2015GL063075", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2014_wagner_jgra", "year": 2014, "authors_short": "Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.", "authors_full": "Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.", "first_author": "Wagner, R.", "title_plain": "Enhanced high-temperature ice nucleation ability of crystallized aerosol particles after preactivation at low temperature", "title_html": "Enhanced high-temperature ice nucleation ability of crystallized aerosol particles after preactivation at low temperature", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "119(13), 8212-8230", "doi": "10.1002/2014JD021741", "doi_url": "https://doi.org/10.1002/2014JD021741", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2013_mohler_acp", "year": 2013, "authors_short": "Möhler, O.; Hiranuma, N.; Höhler, K.; Hoose, C.; Hummel, M.; Niemand, M.; Oehm, C.; Schmitt, T.; Steinke, I.; Wagner, R.", "authors_full": "Möhler, O.; Hiranuma, N.; Höhler, K.; Hoose, C.; Hummel, M.; Niemand, M.; Oehm, C.; Schmitt, T.; Steinke, I.; Wagner, R.", "first_author": "Möhler, O.", "title_plain": "Parameterizations of ice formation derived from AIDA cloud simulation experiments", "title_html": "Parameterizations of ice formation derived from AIDA cloud simulation experiments", "venue": "AIP conference proceedings", "venue_detail": "851-858", "doi": "10.1063/1.4803405", "doi_url": "https://doi.org/10.1063/1.4803405", "url": "", "type_label": "Other", "confirmed_by": "Robert Wagner"}, {"key": "2013_mohler_article", "year": 2013, "authors_short": "Möhler, O.; Hiranuma, N.; Höhler, K.; Hoose, C.; Hummel, M.; Niemand, M.; Oehm, C.; Schmitt, T.; Steinke, I.; Wagner, R.", "authors_full": "Möhler, O.; Hiranuma, N.; Höhler, K.; Hoose, C.; Hummel, M.; Niemand, M.; Oehm, C.; Schmitt, T.; Steinke, I.; Wagner, R.", "first_author": "Möhler, O.", "title_plain": "Surface site density versus nucleation rate approaches of formulating ice formation in clouds - a comprehensive analysis based on AIDA cloud simulation experiments", "title_html": "Surface site density versus nucleation rate approaches of formulating ice formation in clouds - a comprehensive analysis based on AIDA cloud simulation experiments", "venue": "", "venue_detail": "", "doi": "", "doi_url": "", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2013_skrotzki_acp", "year": 2013, "authors_short": "Skrotzki, J.; Connolly, P.; Schnaiter, M.; Saathoff, H.; Moehler, O.; Wagner, R.; Niemand, M.; Ebert, V.; Leisner, T.", "authors_full": "Skrotzki, J.; Connolly, P.; Schnaiter, M.; Saathoff, H.; Moehler, O.; Wagner, R.; Niemand, M.; Ebert, V.; Leisner, T.", "first_author": "Skrotzki, J.", "title_plain": "The accommodation coefficient of water molecules on ice - cirrus cloud studies at the AIDA simulation chamber", "title_html": "The accommodation coefficient of water molecules on ice - cirrus cloud studies at the AIDA simulation chamber", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "13(8), 4451-4466", "doi": "10.5194/acp-13-4451-2013", "doi_url": "https://doi.org/10.5194/acp-13-4451-2013", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2013_wagner_jgra", "year": 2013, "authors_short": "Wagner, R.; Moehler, O.", "authors_full": "Wagner, R.; Moehler, O.", "first_author": "Wagner, R.", "title_plain": "Heterogeneous ice nucleation ability of crystalline sodium chloride dihydrate particles", "title_html": "Heterogeneous ice nucleation ability of crystalline sodium chloride dihydrate particles", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "118(10), 4610-4622", "doi": "10.1002/jgrd.50325", "doi_url": "https://doi.org/10.1002/jgrd.50325", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2012_schnaiter_acp", "year": 2012, "authors_short": "Schnaiter, M.; Buettner, S.; Moehler, O.; Skrotzki, J.; Vragel, M.; Wagner, R.", "authors_full": "Schnaiter, M.; Buettner, S.; Moehler, O.; Skrotzki, J.; Vragel, M.; Wagner, R.", "first_author": "Schnaiter, M.", "title_plain": "Influence of particle size and shape on the backscattering linear depolarisation ratio of small ice crystals - cloud chamber measurements in the context of contrail and cirrus microphysics", "title_html": "Influence of particle size and shape on the backscattering linear depolarisation ratio of small ice crystals - cloud chamber measurements in the context of contrail and cirrus microphysics", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "12(21), 10465-10484", "doi": "10.5194/acp-12-10465-2012", "doi_url": "https://doi.org/10.5194/acp-12-10465-2012", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2012_wagner_acp_b", "year": 2012, "authors_short": "Wagner, R.; Ajtai, T.; Kandler, K.; Lieke, K.; Linke, C.; Mueller, T.; Schnaiter, M.; Vragel, M.", "authors_full": "Wagner, R.; Ajtai, T.; Kandler, K.; Lieke, K.; Linke, C.; Mueller, T.; Schnaiter, M.; Vragel, M.", "first_author": "Wagner, R.", "title_plain": "Complex refractive indices of Saharan dust samples at visible and near UV wavelengths: a laboratory study", "title_html": "Complex refractive indices of Saharan dust samples at visible and near UV wavelengths: a laboratory study", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "12(5), 2491-2512", "doi": "10.5194/acp-12-2491-2012", "doi_url": "https://doi.org/10.5194/acp-12-2491-2012", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2012_wagner_acp", "year": 2012, "authors_short": "Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Skrotzki, J.; Leisner, T.; Wilson, T. W.; Malkin, T. L.; Murray, B. J.", "authors_full": "Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Skrotzki, J.; Leisner, T.; Wilson, T. W.; Malkin, T. L.; Murray, B. J.", "first_author": "Wagner, R.", "title_plain": "Ice cloud processing of ultra-viscous/glassy aerosol particles leads to enhanced ice nucleation ability", "title_html": "Ice cloud processing of ultra-viscous/glassy aerosol particles leads to enhanced ice nucleation ability", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "12(18), 8589-8610", "doi": "10.5194/acp-12-8589-2012", "doi_url": "https://doi.org/10.5194/acp-12-8589-2012", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2012_wagner_jpca", "year": 2012, "authors_short": "Wagner, R.; Moehler, O.; Schnaiter, M.", "authors_full": "Wagner, R.; Moehler, O.; Schnaiter, M.", "first_author": "Wagner, R.", "title_plain": "Infrared Optical Constants of Crystalline Sodium Chloride Dihydrate: Application To Study the Crystallization of Aqueous Sodium Chloride Solution Droplets at Low Temperatures", "title_html": "Infrared Optical Constants of Crystalline Sodium Chloride Dihydrate: Application To Study the Crystallization of Aqueous Sodium Chloride Solution Droplets at Low Temperatures", "venue": "JOURNAL OF PHYSICAL CHEMISTRY A", "venue_detail": "116(33), 8557-8571", "doi": "10.1021/jp306240s", "doi_url": "https://doi.org/10.1021/jp306240s", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2012_wilson_acp", "year": 2012, "authors_short": "Wilson, T. W.; Murray, B. J.; Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Skrotzki, J.; Price, H. C.; Malkin, T. L.; Dobbie, S. et al.", "authors_full": "Wilson, T. W.; Murray, B. J.; Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Skrotzki, J.; Price, H. C.; Malkin, T. L.; Dobbie, S.; Al-Jumur, S. M. R. K.", "first_author": "Wilson, T. W.", "title_plain": "Glassy aerosols with a range of compositions nucleate ice heterogeneously at cirrus temperatures", "title_html": "Glassy aerosols with a range of compositions nucleate ice heterogeneously at cirrus temperatures", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "12(18), 8611-8632", "doi": "10.5194/acp-12-8611-2012", "doi_url": "https://doi.org/10.5194/acp-12-8611-2012", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2011_schoen_jaot", "year": 2011, "authors_short": "Schoen, R.; Schnaiter, M.; Ulanowski, Z.; Schmitt, C.; Benz, S.; Moehler, O.; Vogt, S.; Wagner, R.; Schurath, U.", "authors_full": "Schoen, R.; Schnaiter, M.; Ulanowski, Z.; Schmitt, C.; Benz, S.; Moehler, O.; Vogt, S.; Wagner, R.; Schurath, U.", "first_author": "Schoen, R.", "title_plain": "Particle Habit Imaging Using Incoherent Light: A First Step toward a Novel Instrument for Cloud Microphysics", "title_html": "Particle Habit Imaging Using Incoherent Light: A First Step toward a Novel Instrument for Cloud Microphysics", "venue": "JOURNAL OF ATMOSPHERIC AND OCEANIC TECHNOLOGY", "venue_detail": "28(4), 493-512", "doi": "10.1175/2011JTECHA1445.1", "doi_url": "https://doi.org/10.1175/2011JTECHA1445.1", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2011_wagner_acp", "year": 2011, "authors_short": "Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Leisner, T.", "authors_full": "Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Leisner, T.", "first_author": "Wagner, R.", "title_plain": "New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the immersion mode", "title_html": "New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the immersion mode", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "11(5), 2083-2110", "doi": "10.5194/acp-11-2083-2011", "doi_url": "https://doi.org/10.5194/acp-11-2083-2011", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2010_mohler_eguga", "year": 2010, "authors_short": "Möhler, O.; Benz, S.; Leisner, T.; Niemand, M.; Oehm, C.; Saathoff, H.; Schnaiter, M.; Wagner, R.", "authors_full": "Möhler, O.; Benz, S.; Leisner, T.; Niemand, M.; Oehm, C.; Saathoff, H.; Schnaiter, M.; Wagner, R.", "first_author": "Möhler, O.", "title_plain": "AIDA experiments on heterogeneous ice nucleation in warm mixed-phase clouds", "title_html": "AIDA experiments on heterogeneous ice nucleation in warm mixed-phase clouds", "venue": "EGUGA", "venue_detail": "7099", "doi": "", "doi_url": "", "url": "", "type_label": "Other", "confirmed_by": "Robert Wagner"}, {"key": "2010_saunders_acp", "year": 2010, "authors_short": "Saunders, R. W.; Moehler, O.; Schnaiter, M.; Benz, S.; Wagner, R.; Saathoff, H.; Connolly, P. J.; Burgess, R.; Murray, B. J.; Gallagher, M. et al.", "authors_full": "Saunders, R. W.; Moehler, O.; Schnaiter, M.; Benz, S.; Wagner, R.; Saathoff, H.; Connolly, P. J.; Burgess, R.; Murray, B. J.; Gallagher, M.; Wills, R.; Plane, J. M. C.", "first_author": "Saunders, R. W.", "title_plain": "An aerosol chamber investigation of the heterogeneous ice nucleating potential of refractory nanoparticles", "title_html": "An aerosol chamber investigation of the heterogeneous ice nucleating potential of refractory nanoparticles", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "10(3), 1227-1247", "doi": "10.5194/acp-10-1227-2010", "doi_url": "https://doi.org/10.5194/acp-10-1227-2010", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2010_wagner_acp", "year": 2010, "authors_short": "Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Leisner, T.", "authors_full": "Wagner, R.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Leisner, T.", "first_author": "Wagner, R.", "title_plain": "High variability of the heterogeneous ice nucleation potential of oxalic acid dihydrate and sodium oxalate", "title_html": "High variability of the heterogeneous ice nucleation potential of oxalic acid dihydrate and sodium oxalate", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "10(16), 7617-7641", "doi": "10.5194/acp-10-7617-2010", "doi_url": "https://doi.org/10.5194/acp-10-7617-2010", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2009_wagner_jqsrt", "year": 2009, "authors_short": "Wagner, R.; Linke, C.; Naumann, K.-H.; Schnaiter, M.; Vragel, M.; Gangl, M.; Horvath, H.", "authors_full": "Wagner, R.; Linke, C.; Naumann, K.-H.; Schnaiter, M.; Vragel, M.; Gangl, M.; Horvath, H.", "first_author": "Wagner, R.", "title_plain": "A review of optical measurements at the aerosol and cloud chamber AIDA", "title_html": "A review of optical measurements at the aerosol and cloud chamber AIDA", "venue": "JOURNAL OF QUANTITATIVE SPECTROSCOPY & RADIATIVE TRANSFER", "venue_detail": "110(11), 930-949", "doi": "10.1016/j.jqsrt.2009.01.026", "doi_url": "https://doi.org/10.1016/j.jqsrt.2009.01.026", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2008_moehler_biogeoscienc", "year": 2008, "authors_short": "Moehler, O.; Georgakopoulos, D. G.; Morris, C. E.; Benz, S.; Ebert, V.; Hunsmann, S.; Saathoff, H.; Schnaiter, M.; Wagner, R.", "authors_full": "Moehler, O.; Georgakopoulos, D. G.; Morris, C. E.; Benz, S.; Ebert, V.; Hunsmann, S.; Saathoff, H.; Schnaiter, M.; Wagner, R.", "first_author": "Moehler, O.", "title_plain": "Heterogeneous ice nucleation activity of bacteria: new laboratory experiments at simulated cloud conditions", "title_html": "Heterogeneous ice nucleation activity of bacteria: new laboratory experiments at simulated cloud conditions", "venue": "BIOGEOSCIENCES", "venue_detail": "5(5), 1425-1435", "doi": "10.5194/bg-5-1425-2008", "doi_url": "https://doi.org/10.5194/bg-5-1425-2008", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2008_moehler_erl", "year": 2008, "authors_short": "Moehler, O.; Benz, S.; Saathoff, H.; Schnaiter, M.; Wagner, R.; Schneider, J.; Walter, S.; Ebert, V.; Wagner, S.", "authors_full": "Moehler, O.; Benz, S.; Saathoff, H.; Schnaiter, M.; Wagner, R.; Schneider, J.; Walter, S.; Ebert, V.; Wagner, S.", "first_author": "Moehler, O.", "title_plain": "The effect of organic coating on the heterogeneous ice nucleation efficiency of mineral dust aerosols", "title_html": "The effect of organic coating on the heterogeneous ice nucleation efficiency of mineral dust aerosols", "venue": "ENVIRONMENTAL RESEARCH LETTERS", "venue_detail": "3(2), 025007-025007", "doi": "10.1088/1748-9326/3/2/025007", "doi_url": "https://doi.org/10.1088/1748-9326/3/2/025007", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2008_wagner_jpca", "year": 2008, "authors_short": "Wagner, R.; Benz, S.; Bunz, H.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Leisner, T.; Ebert, V.", "authors_full": "Wagner, R.; Benz, S.; Bunz, H.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Leisner, T.; Ebert, V.", "first_author": "Wagner, R.", "title_plain": "Infrared Optical Constants of Highly Diluted Sulfuric Acid Solution Droplets at Cirrus Temperatures", "title_html": "Infrared Optical Constants of Highly Diluted Sulfuric Acid Solution Droplets at Cirrus Temperatures", "venue": "JOURNAL OF PHYSICAL CHEMISTRY A", "venue_detail": "112(46), 11661-11676", "doi": "10.1021/jp8066102", "doi_url": "https://doi.org/10.1021/jp8066102", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2007_wagner_jpca", "year": 2007, "authors_short": "Wagner, R.; Benz, S.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Leisner, T.", "authors_full": "Wagner, R.; Benz, S.; Moehler, O.; Saathoff, H.; Schnaiter, M.; Leisner, T.", "first_author": "Wagner, R.", "title_plain": "Influence of particle aspect ratio on the midinfrared extinction spectra of wavelength-sized ice crystals", "title_html": "Influence of particle aspect ratio on the midinfrared extinction spectra of wavelength-sized ice crystals", "venue": "JOURNAL OF PHYSICAL CHEMISTRY A", "venue_detail": "111(50), 13003-13022", "doi": "10.1021/jp0741713", "doi_url": "https://doi.org/10.1021/jp0741713", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2006_moehler_acp", "year": 2006, "authors_short": "Moehler, O.; Field, P. R.; Connolly, P.; Benz, S.; Saathoff, H.; Schnaiter, M.; Wagner, R.; Cotton, R.; Kraemer, M.; Mangold, A. et al.", "authors_full": "Moehler, O.; Field, P. R.; Connolly, P.; Benz, S.; Saathoff, H.; Schnaiter, M.; Wagner, R.; Cotton, R.; Kraemer, M.; Mangold, A.; Heymsfield, A. J.", "first_author": "Moehler, O.", "title_plain": "Efficiency of the deposition mode ice nucleation on mineral dust particles", "title_html": "Efficiency of the deposition mode ice nucleation on mineral dust particles", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "6(10), 3007-3021", "doi": "10.5194/acp-6-3007-2006", "doi_url": "https://doi.org/10.5194/acp-6-3007-2006", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2006_stetzer_acp", "year": 2006, "authors_short": "Stetzer, O.; Moehler, O.; Wagner, R.; Benz, S.; Saathoff, H.; Bunz, H.; Indris, O.", "authors_full": "Stetzer, O.; Moehler, O.; Wagner, R.; Benz, S.; Saathoff, H.; Bunz, H.; Indris, O.", "first_author": "Stetzer, O.", "title_plain": "Homogeneous nucleation rates of nitric acid dihydrate (NAD) at simulated stratospheric conditions -: Part I:: Experimental results", "title_html": "Homogeneous nucleation rates of nitric acid dihydrate (NAD) at simulated stratospheric conditions -: Part I:: Experimental results", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "6(10), 3023-3033", "doi": "10.5194/acp-6-3023-2006", "doi_url": "https://doi.org/10.5194/acp-6-3023-2006", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2006_wagner_kape", "year": 2006, "authors_short": "Wagner, R.; Bunz, H.; Linke, C.; Möhler, O.; Naumann, K. H.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "authors_full": "Wagner, R.; Bunz, H.; Linke, C.; Möhler, O.; Naumann, K. H.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Chamber Simulations of Cloud Chemistry: The AIDA Chamber", "title_html": "Chamber Simulations of Cloud Chemistry: The AIDA Chamber", "venue": "Kluwer Academic Publishers eBooks", "venue_detail": "67-82", "doi": "10.1007/1-4020-4232-9_5", "doi_url": "https://doi.org/10.1007/1-4020-4232-9_5", "url": "", "type_label": "Book chapter", "confirmed_by": "Robert Wagner"}, {"key": "2006_wagner_acp", "year": 2006, "authors_short": "Wagner, R.; Benz, S.; Moehler, O.; Saathoff, H.; Schurath, U.", "authors_full": "Wagner, R.; Benz, S.; Moehler, O.; Saathoff, H.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Probing ice clouds by broadband mid-infrared extinction spectroscopy:: case studies from ice nucleation experiments in the AIDA aerosol and cloud chamber", "title_html": "Probing ice clouds by broadband mid-infrared extinction spectroscopy:: case studies from ice nucleation experiments in the AIDA aerosol and cloud chamber", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "6(12), 4775-4800", "doi": "10.5194/acp-6-4775-2006", "doi_url": "https://doi.org/10.5194/acp-6-4775-2006", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_benz_jppac", "year": 2005, "authors_short": "Benz, S.; Megahed, K.; Möhler, O.; Saathoff, H.; Wagner, R.; Schurath, U.", "authors_full": "Benz, S.; Megahed, K.; Möhler, O.; Saathoff, H.; Wagner, R.; Schurath, U.", "first_author": "Benz, S.", "title_plain": "T-dependent rate measurements of homogeneous ice nucleation in cloud droplets using a large atmospheric simulation chamber", "title_html": "T-dependent rate measurements of homogeneous ice nucleation in cloud droplets using a large atmospheric simulation chamber", "venue": "JOURNAL OF PHOTOCHEMISTRY AND PHOTOBIOLOGY A-CHEMISTRY", "venue_detail": "176(1-3), 208-217", "doi": "10.1016/j.jphotochem.2005.08.026", "doi_url": "https://doi.org/10.1016/j.jphotochem.2005.08.026", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_mangold_mz", "year": 2005, "authors_short": "Mangold, A.; Wagner, R.; Saathoff, H.; Schurath, U.; Giesemann, C.; Ebert, V.; Krämer, M.; Möhler, O.", "authors_full": "Mangold, A.; Wagner, R.; Saathoff, H.; Schurath, U.; Giesemann, C.; Ebert, V.; Krämer, M.; Möhler, O.", "first_author": "Mangold, A.", "title_plain": "Experimental investigation of ice nucleation by different types of aerosols in the aerosol chamber AIDA:: implications to microphysics of cirrus clouds", "title_html": "Experimental investigation of ice nucleation by different types of aerosols in the aerosol chamber AIDA:: implications to microphysics of cirrus clouds", "venue": "METEOROLOGISCHE ZEITSCHRIFT", "venue_detail": "14(4), 485-497", "doi": "10.1127/0941-2948/2005/0053", "doi_url": "https://doi.org/10.1127/0941-2948/2005/0053", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_mohler_jgra", "year": 2005, "authors_short": "Möhler, O.; Büttner, S.; Linke, C.; Schnaiter, M.; Saathoff, H.; Stetzer, O.; Wagner, R.; Krämer, M.; Mangold, A.; Ebert, V. et al.", "authors_full": "Möhler, O.; Büttner, S.; Linke, C.; Schnaiter, M.; Saathoff, H.; Stetzer, O.; Wagner, R.; Krämer, M.; Mangold, A.; Ebert, V.; Schurath, U.", "first_author": "Möhler, O.", "title_plain": "Effect of sulfuric acid coating on heterogeneous ice nucleation by soot aerosol particles - art. no. D11210", "title_html": "Effect of sulfuric acid coating on heterogeneous ice nucleation by soot aerosol particles - art. no. D11210", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "110(D11)", "doi": "10.1029/2004JD005169", "doi_url": "https://doi.org/10.1029/2004JD005169", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2005_mohler_mz", "year": 2005, "authors_short": "Möhler, O.; Linke, C.; Saathoff, H.; Schnaiter, M.; Wagner, R.; Mangold, A.; Krämer, M.; Schurath, U.", "authors_full": "Möhler, O.; Linke, C.; Saathoff, H.; Schnaiter, M.; Wagner, R.; Mangold, A.; Krämer, M.; Schurath, U.", "first_author": "Möhler, O.", "title_plain": "Ice nucleation on flame soot aerosol of different organic carbon content", "title_html": "Ice nucleation on flame soot aerosol of different organic carbon content", "venue": "METEOROLOGISCHE ZEITSCHRIFT", "venue_detail": "14(4), 477-484", "doi": "10.1127/0941-2948/2005/0055", "doi_url": "https://doi.org/10.1127/0941-2948/2005/0055", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_schnaiter_jgra", "year": 2005, "authors_short": "Schnaiter, M.; Linke, C.; Möhler, O.; Naumann, K.; Saathoff, H.; Wagner, R.; Schurath, U.; Wehner, B.", "authors_full": "Schnaiter, M.; Linke, C.; Möhler, O.; Naumann, K.; Saathoff, H.; Wagner, R.; Schurath, U.; Wehner, B.", "first_author": "Schnaiter, M.", "title_plain": "Absorption amplification of black carbon internally mixed with secondary organic aerosol -: art. no. D19204", "title_html": "Absorption amplification of black carbon internally mixed with secondary organic aerosol -: art. no. D19204", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "110(D19)", "doi": "10.1029/2005JD006046", "doi_url": "https://doi.org/10.1029/2005JD006046", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2005_wagner_jpca_c", "year": 2005, "authors_short": "Wagner, R.; Naumann, K.; Mangold, A.; Möhler, O.; Saathoff, H.; Schurath, U.", "authors_full": "Wagner, R.; Naumann, K.; Mangold, A.; Möhler, O.; Saathoff, H.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Aerosol chamber study of optical constants and N2O5 uptake on supercooled H2SO4/H2O/HNO3 solution droplets at polar stratospheric cloud temperatures", "title_html": "Aerosol chamber study of optical constants and N2O5 uptake on supercooled H2SO4/H2O/HNO3 solution droplets at polar stratospheric cloud temperatures", "venue": "JOURNAL OF PHYSICAL CHEMISTRY A", "venue_detail": "109(36), 8140-8148", "doi": "10.1021/jp0513364", "doi_url": "https://doi.org/10.1021/jp0513364", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_wagner_jpca", "year": 2005, "authors_short": "Wagner, R.; Möhler, O.; Saathoff, H.; Stetzer, O.; Schurath, U.", "authors_full": "Wagner, R.; Möhler, O.; Saathoff, H.; Stetzer, O.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Infrared spectrum of nitric acid dihydrate: Influence of particle shape", "title_html": "Infrared spectrum of nitric acid dihydrate: Influence of particle shape", "venue": "JOURNAL OF PHYSICAL CHEMISTRY A", "venue_detail": "109(11), 2572-2581", "doi": "10.1021/jp044997u", "doi_url": "https://doi.org/10.1021/jp044997u", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_wagner_jpca_b", "year": 2005, "authors_short": "Wagner, R.; Benz, S.; Möhler, O.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "authors_full": "Wagner, R.; Benz, S.; Möhler, O.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Mid-infrared extinction spectra and optical constants of supercooled water droplets", "title_html": "Mid-infrared extinction spectra and optical constants of supercooled water droplets", "venue": "JOURNAL OF PHYSICAL CHEMISTRY A", "venue_detail": "109(32), 7099-7112", "doi": "10.1021/jp051942z", "doi_url": "https://doi.org/10.1021/jp051942z", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2003_mohler_eaeja", "year": 2003, "authors_short": "Möhler, O.; Büttner, S.; Schurath, U.; Wagner, R.; Mangold, A.; Krämer, M.; Field, P. R.; Connolly, P.; Gallagher, M. W.", "authors_full": "Möhler, O.; Büttner, S.; Schurath, U.; Wagner, R.; Mangold, A.; Krämer, M.; Field, P. R.; Connolly, P.; Gallagher, M. W.", "first_author": "Möhler, O.", "title_plain": "Heterogeneous ice nucleation in the AIDA chamber: freezing onset and ice particle characterisation", "title_html": "Heterogeneous ice nucleation in the AIDA chamber: freezing onset and ice particle characterisation", "venue": "EAEJA", "venue_detail": "8342", "doi": "", "doi_url": "", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2003_wagner_acp", "year": 2003, "authors_short": "Wagner, R.; Mangold, A.; Möhler, O.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "authors_full": "Wagner, R.; Mangold, A.; Möhler, O.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "A quantitative test of infrared optical constants for supercooled sulphuric and nitric acid droplet aerosols", "title_html": "A quantitative test of infrared optical constants for supercooled sulphuric and nitric acid droplet aerosols", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "3(4), 1147-1164", "doi": "10.5194/acp-3-1147-2003", "doi_url": "https://doi.org/10.5194/acp-3-1147-2003", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}];
+
+// ---------- state
+const state = { sort_key: "year", sort_dir: "desc", query: "", year: null, type: "", confirmed: "" };
+
+// ---------- precomputed search text
+records.forEach(function (r) {
+  r.search_text = [r.year, r.authors_full, r.title_plain, r.venue, r.venue_detail, r.doi, r.type_label, r.key, r.confirmed_by]
+    .join(" ").toLowerCase();
+});
+
+const years_known = records.map(r => r.year).filter(y => y !== null);
+const year_min = years_known.length ? Math.min.apply(null, years_known) : null;
+const year_max = years_known.length ? Math.max.apply(null, years_known) : null;
+
+// ---------- type dropdown
+const type_select = document.getElementById("type_select");
+Array.from(new Set(records.map(r => r.type_label))).sort().forEach(function (label) {
+  const option = document.createElement("option");
+  option.value = label;
+  option.textContent = label;
+  type_select.appendChild(option);
+});
+
+// ---------- filtering
+function matches_text_and_type(r) {
+  if (state.type && r.type_label !== state.type) return false;
+  if (state.confirmed === "yes" && !r.confirmed_by) return false;
+  if (state.confirmed === "no" && r.confirmed_by) return false;
+  if (!state.query) return true;
+  return state.query.split(/\s+/).every(term => r.search_text.includes(term));
+}
+
+// ---------- sorting
+function sort_value(r, key) {
+  switch (key) {
+    case "year": return r.year;
+    case "authors": return r.first_author;
+    case "title": return r.title_plain;
+    case "venue": return r.venue;
+    case "type": return r.type_label;
+    case "doi": return r.doi;
+  }
+  return "";
+}
+
+function compare_records(a, b) {
+  const va = sort_value(a, state.sort_key);
+  const vb = sort_value(b, state.sort_key);
+  const a_missing = va === null || va === "";
+  const b_missing = vb === null || vb === "";
+  // missing values always go to the bottom
+  if (a_missing !== b_missing) return a_missing ? 1 : -1;
+  let result = 0;
+  if (!a_missing) {
+    result = state.sort_key === "year"
+      ? va - vb
+      : String(va).localeCompare(String(vb), undefined, { sensitivity: "base", numeric: true });
+    if (state.sort_dir === "desc") result = -result;
+  }
+  // ties: newest first, then first author, then title
+  if (result === 0) result = (b.year || 0) - (a.year || 0);
+  if (result === 0) result = a.first_author.localeCompare(b.first_author, undefined, { sensitivity: "base" });
+  if (result === 0) result = a.title_plain.localeCompare(b.title_plain, undefined, { sensitivity: "base" });
+  return result;
+}
+
+// ---------- year histogram
+function render_years(pool) {
+  const bars = document.getElementById("years_bars");
+  const axis = document.getElementById("years_axis");
+  const section = document.getElementById("years");
+  bars.innerHTML = "";
+  axis.innerHTML = "";
+  if (year_min === null) { section.hidden = true; return; }
+
+  const counts = {};
+  pool.forEach(r => { if (r.year !== null) counts[r.year] = (counts[r.year] || 0) + 1; });
+  const peak = Math.max(1, ...Object.values(counts));
+  const span = year_max - year_min;
+  const label_step = span > 30 ? 10 : 5;
+
+  for (let y = year_min; y <= year_max; y++) {
+    const n = counts[y] || 0;
+    const bar = document.createElement("button");
+    bar.type = "button";
+    bar.className = "year-bar" + (n === 0 ? " empty" : "");
+    bar.setAttribute("aria-pressed", state.year === y ? "true" : "false");
+    bar.setAttribute("aria-label", y + ": " + n + (n === 1 ? " publication" : " publications"));
+    bar.title = y + ": " + n;
+    const fill = document.createElement("span");
+    fill.style.height = (n === 0 ? 0 : Math.max(4, 100 * n / peak)) + "%";
+    bar.appendChild(fill);
+    bar.addEventListener("click", function () {
+      state.year = state.year === y ? null : y;
+      render();
+    });
+    bars.appendChild(bar);
+
+    const tick = document.createElement("span");
+    if (y === year_min || y === year_max || (y % label_step === 0 && y - year_min > 2 && year_max - y > 2)) {
+      tick.textContent = y;
+    }
+    axis.appendChild(tick);
+  }
+  section.classList.toggle("has-selection", state.year !== null);
+  document.getElementById("years_hint").textContent = state.year === null
+    ? "Select a year bar to show only that year."
+    : "Showing " + state.year + " only. Select the bar again to show all years.";
+}
+
+// ---------- table
+function make_cell(class_name) {
+  const td = document.createElement("td");
+  td.className = class_name;
+  return td;
+}
+
+function render_table(rows) {
+  const body = document.getElementById("table_body");
+  const fragment = document.createDocumentFragment();
+  rows.forEach(function (r, index) {
+    const tr = document.createElement("tr");
+
+    const td_num = make_cell("col-num");
+    td_num.textContent = index + 1;
+
+    const td_year = make_cell("col-year");
+    td_year.textContent = r.year === null ? "" : r.year;
+
+    const td_authors = make_cell("col-authors");
+    td_authors.textContent = r.authors_short;
+    if (r.authors_short !== r.authors_full) td_authors.title = r.authors_full;
+
+    const td_title = make_cell("col-title");
+    // title_html is escaped in Python, only <sub> and <sup> tags are added
+    td_title.innerHTML = r.title_html;
+    if (r.confirmed_by) {
+      const mark = document.createElement("small");
+      mark.className = "confirmed";
+      mark.textContent = "confirmed by " + r.confirmed_by;
+      td_title.appendChild(mark);
+    }
+
+    const td_venue = make_cell("col-venue");
+    td_venue.textContent = r.venue;
+    if (r.venue_detail) {
+      const small = document.createElement("small");
+      small.textContent = r.venue_detail;
+      td_venue.appendChild(small);
+    }
+
+    const td_type = make_cell("col-type");
+    td_type.textContent = r.type_label;
+
+    const td_doi = make_cell("col-doi");
+    const link_href = r.doi_url || r.url;
+    if (link_href) {
+      const a = document.createElement("a");
+      a.href = link_href;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = r.doi || "Link";
+      td_doi.appendChild(a);
+    } else {
+      const none = document.createElement("span");
+      none.className = "missing";
+      none.textContent = "none";
+      td_doi.appendChild(none);
+    }
+
+    [td_num, td_year, td_authors, td_title, td_venue, td_type, td_doi].forEach(td => tr.appendChild(td));
+    fragment.appendChild(tr);
+  });
+  body.replaceChildren(fragment);
+  document.getElementById("empty_state").hidden = rows.length > 0;
+}
+
+function render_sort_headers() {
+  document.querySelectorAll("th[data-key]").forEach(function (th) {
+    if (th.dataset.key === state.sort_key) {
+      th.setAttribute("aria-sort", state.sort_dir === "asc" ? "ascending" : "descending");
+    } else {
+      th.removeAttribute("aria-sort");
+    }
+  });
+}
+
+// ---------- main render
+function render() {
+  const pool = records.filter(matches_text_and_type);
+  const rows = pool.filter(r => state.year === null || r.year === state.year).sort(compare_records);
+  render_years(pool);
+  render_table(rows);
+  render_sort_headers();
+  document.getElementById("count_text").textContent =
+    "Showing " + rows.length + " of " + records.length + (records.length === 1 ? " publication" : " publications");
+}
+
+// ---------- events
+document.querySelectorAll("th[data-key] .sort-button").forEach(function (button) {
+  button.addEventListener("click", function () {
+    const key = button.parentElement.dataset.key;
+    if (state.sort_key === key) {
+      state.sort_dir = state.sort_dir === "asc" ? "desc" : "asc";
+    } else {
+      state.sort_key = key;
+      state.sort_dir = key === "year" ? "desc" : "asc";
+    }
+    render();
+  });
+});
+
+let search_timer = null;
+document.getElementById("search_box").addEventListener("input", function (event) {
+  clearTimeout(search_timer);
+  search_timer = setTimeout(function () {
+    state.query = event.target.value.trim().toLowerCase();
+    render();
+  }, 120);
+});
+
+type_select.addEventListener("change", function () {
+  state.type = type_select.value;
+  render();
+});
+
+const confirmed_select = document.getElementById("confirmed_select");
+// the filter is only offered when at least one paper is confirmed
+if (!records.some(r => r.confirmed_by)) confirmed_select.hidden = true;
+confirmed_select.addEventListener("change", function () {
+  state.confirmed = confirmed_select.value;
+  render();
+});
+
+function reset_filters() {
+  state.query = "";
+  state.year = null;
+  state.type = "";
+  state.confirmed = "";
+  document.getElementById("search_box").value = "";
+  type_select.value = "";
+  confirmed_select.value = "";
+  render();
+}
+document.getElementById("reset_button").addEventListener("click", reset_filters);
+document.getElementById("empty_reset_button").addEventListener("click", reset_filters);
+
+render();
+</script>
+</body>
+</html>

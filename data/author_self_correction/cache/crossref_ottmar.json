@@ -1,0 +1,1537 @@
+{
+"107": [
+{
+"DOI": "10.5194/gmd-10-2303-2017",
+"title": [
+"Constraining a hybrid volatility basis-set model for aging of wood-burning emissions using smog chamber experiments: a box-model study based on the VBS scheme of the CAMx model (v5.40)"
+],
+"author": [
+{
+"given": "Giancarlo",
+"family": "Ciarelli",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-2461-7238",
+"authenticated-orcid": false,
+"given": "Imad",
+"family": "El Haddad",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Emily",
+"family": "Bruns",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-5356-5633",
+"authenticated-orcid": false,
+"given": "Sebnem",
+"family": "Aksoyoglu",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-7551-9814",
+"authenticated-orcid": false,
+"given": "Ottmar",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0003-0079-8713",
+"authenticated-orcid": false,
+"given": "Urs",
+"family": "Baltensperger",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "André S. H.",
+"family": "Prévôt",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2017,
+6,
+23
+]
+]
+},
+"published-online": {
+"date-parts": [
+[
+2017,
+6,
+23
+]
+]
+},
+"container-title": [
+"Geoscientific Model Development"
+],
+"type": "journal-article"
+},
+{
+"DOI": "10.5194/gmd-2016-163",
+"title": [
+"Constraining a hybrid volatility basis set model for aging of\nwood burning emissions using smog chamber experiments"
+],
+"author": [
+{
+"given": "Giancarlo",
+"family": "Ciarelli",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-2461-7238",
+"authenticated-orcid": false,
+"given": "Imad",
+"family": "El Haddad",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Emily",
+"family": "Bruns",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-5356-5633",
+"authenticated-orcid": false,
+"given": "Sebnem",
+"family": "Aksoyoglu",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-7551-9814",
+"authenticated-orcid": false,
+"given": "Ottmar",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0003-0079-8713",
+"authenticated-orcid": false,
+"given": "Urs",
+"family": "Baltensperger",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "André S. H.",
+"family": "Prévôt",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2016,
+8,
+11
+]
+]
+},
+"type": "posted-content"
+},
+{
+"DOI": "10.5194/gmd-2016-163-supplement",
+"title": [
+"Supplementary material to \"Constraining a hybrid volatility basis set model for aging of\nwood burning emissions using smog chamber experiments\""
+],
+"author": [
+{
+"given": "Giancarlo",
+"family": "Ciarelli",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-2461-7238",
+"authenticated-orcid": false,
+"given": "Imad",
+"family": "El Haddad",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Emily",
+"family": "Bruns",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-5356-5633",
+"authenticated-orcid": false,
+"given": "Sebnem",
+"family": "Aksoyoglu",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-7551-9814",
+"authenticated-orcid": false,
+"given": "Ottmar",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0003-0079-8713",
+"authenticated-orcid": false,
+"given": "Urs",
+"family": "Baltensperger",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "André S. H.",
+"family": "Prévôt",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2016,
+8,
+11
+]
+]
+},
+"type": "posted-content"
+},
+{
+"DOI": "10.5194/gmd-2016-163-sc1",
+"title": [
+"Executive Editor Comment on \"Constraining a hybrid volatility basis set model for aging of wood burning emissions using smog chamber experiments\""
+],
+"issued": {
+"date-parts": [
+[
+2016,
+8,
+22
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2016,
+8,
+22
+]
+]
+},
+"type": "peer-review"
+},
+{
+"DOI": "10.5194/acp-17-7653-2017",
+"title": [
+"Modelling winter organic aerosol at the European scale with CAMx: evaluation and source apportionment with a VBS parameterization based on novel wood burning smog chamber experiments"
+],
+"author": [
+{
+"given": "Giancarlo",
+"family": "Ciarelli",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-5356-5633",
+"authenticated-orcid": false,
+"given": "Sebnem",
+"family": "Aksoyoglu",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-2461-7238",
+"authenticated-orcid": false,
+"given": "Imad",
+"family": "El Haddad",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Emily A.",
+"family": "Bruns",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Monica",
+"family": "Crippa",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-9128-7881",
+"authenticated-orcid": false,
+"given": "Laurent",
+"family": "Poulain",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Mikko",
+"family": "Äijälä",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Samara",
+"family": "Carbone",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-9363-9115",
+"authenticated-orcid": false,
+"given": "Evelyn",
+"family": "Freney",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Colin",
+"family": "O'Dowd",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0003-0079-8713",
+"authenticated-orcid": false,
+"given": "Urs",
+"family": "Baltensperger",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "André S. H.",
+"family": "Prévôt",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2017,
+6,
+23
+]
+]
+},
+"published-online": {
+"date-parts": [
+[
+2017,
+6,
+23
+]
+]
+},
+"container-title": [
+"Atmospheric Chemistry and Physics"
+],
+"type": "journal-article"
+}
+],
+"47": [
+{
+"DOI": "10.1016/j.atmosenv.2009.06.030",
+"title": [
+"Corrigendum to “Effect of land-use change on CH4 and N2O emissions from freshwater marsh in Northeast China” [Atmos. Environ. 43 (21) (2009) 3305–3309]"
+],
+"author": [
+{
+"given": "Changsheng",
+"family": "Jiang",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Yuesi",
+"family": "Wang",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Qingju",
+"family": "Hao",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Changchun",
+"family": "Song",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2009,
+8
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2009,
+8
+]
+]
+},
+"container-title": [
+"Atmospheric Environment"
+],
+"type": "journal-article"
+},
+{
+"DOI": "10.1016/j.atmosenv.2009.09.035",
+"title": [
+"Erratum to “New Directions: Nanodust – A source of metals in the atmospheric environment?” [Atmos. Environ. 43 (2009) 4666–4667]"
+],
+"author": [
+{
+"given": "Vicki H.",
+"family": "Grassian",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2009,
+12
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2009,
+12
+]
+]
+},
+"container-title": [
+"Atmospheric Environment"
+],
+"type": "journal-article"
+},
+{
+"DOI": "10.1016/j.atmosenv.2009.08.020",
+"title": [
+"Measuring atmospheric composition change"
+],
+"author": [
+{
+"given": "P.",
+"family": "Laj",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "J.",
+"family": "Klausen",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Bilde",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "C.",
+"family": "Plaß-Duelmer",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "G.",
+"family": "Pappalardo",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "C.",
+"family": "Clerbaux",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "U.",
+"family": "Baltensperger",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "J.",
+"family": "Hjorth",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "D.",
+"family": "Simpson",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "S.",
+"family": "Reimann",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "P.-F.",
+"family": "Coheur",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "A.",
+"family": "Richter",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "De Mazière",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Y.",
+"family": "Rudich",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "G.",
+"family": "McFiggans",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "K.",
+"family": "Torseth",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "A.",
+"family": "Wiedensohler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "S.",
+"family": "Morin",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Schulz",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "J.D.",
+"family": "Allan",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "J.-L.",
+"family": "Attié",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "I.",
+"family": "Barnes",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "W.",
+"family": "Birmili",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "J.P.",
+"family": "Cammas",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "J.",
+"family": "Dommen",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "H.-P.",
+"family": "Dorn",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "D.",
+"family": "Fowler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "S.",
+"family": "Fuzzi",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Glasius",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "C.",
+"family": "Granier",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Hermann",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "I.S.A.",
+"family": "Isaksen",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "S.",
+"family": "Kinne",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "I.",
+"family": "Koren",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "F.",
+"family": "Madonna",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Maione",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "A.",
+"family": "Massling",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "O.",
+"family": "Moehler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "L.",
+"family": "Mona",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "P.S.",
+"family": "Monks",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "D.",
+"family": "Müller",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "T.",
+"family": "Müller",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "J.",
+"family": "Orphal",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "V.-H.",
+"family": "Peuch",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "F.",
+"family": "Stratmann",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "D.",
+"family": "Tanré",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "G.",
+"family": "Tyndall",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "A.",
+"family": "Abo Riziq",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Van Roozendael",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "P.",
+"family": "Villani",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "B.",
+"family": "Wehner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "H.",
+"family": "Wex",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "A.A.",
+"family": "Zardini",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2009,
+10
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2009,
+10
+]
+]
+},
+"container-title": [
+"Atmospheric Environment"
+],
+"type": "journal-article"
+},
+{
+"DOI": "10.1016/j.atmosenv.2009.11.001",
+"title": [
+"Erratum to “Estimating the contribution of industrial facilities to annual PM10 concentrations at industrially influenced sites” [Atmos. Environ. 43 (2009) 4655–4665]"
+],
+"author": [
+{
+"given": "Dieter",
+"family": "Gladtke",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Wolfgang",
+"family": "Volkhausen",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Bastian",
+"family": "Bach",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2009,
+12
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2009,
+12
+]
+]
+},
+"container-title": [
+"Atmospheric Environment"
+],
+"type": "journal-article"
+},
+{
+"DOI": "10.1016/j.atmosenv.2009.06.016",
+"title": [
+"Atmospheric composition change research: Time to go post-normal?"
+],
+"author": [
+{
+"given": "Ângela",
+"family": "Guimarães Pereira",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Frank",
+"family": "Raes",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Tiago",
+"family": "De Sousa Pedrosa",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Paulo",
+"family": "Rosa",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Søsser",
+"family": "Brodersen",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Michael Søgaard",
+"family": "Jørgensen",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Francisco",
+"family": "Ferreira",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Xavier",
+"family": "Querol",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "John",
+"family": "Rea",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2009,
+10
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2009,
+10
+]
+]
+},
+"container-title": [
+"Atmospheric Environment"
+],
+"type": "journal-article"
+}
+]
+}

@@ -1,0 +1,211 @@
+AIDA master bibliography: combined filter summary
+created 2026-09-21 10:10 by aida_master_bib.py
+input : /home/lf/AIDA/data/master/AIDA_Master_bib_NoDuplicate.bib
+output: /home/lf/AIDA/data/master/AIDA_Master_bib.bib
+
+EXCLUDED BY noAIDA.txt (before filtering)
+   list file       : /home/lf/AIDA/data/noAIDA.txt
+   items in list   : 8
+   entries removed : 0
+   item 1: DOI 10.1016/0887-2333(90)90021-k
+       no entry matched
+   item 2: citation (title match): 1999	Defaye, P.; Mouton, E.; AIDA	A new diagnostic concept in cardiac pacing for evaluating the inci
+       no entry matched
+   item 3: DOI 10.1007/pl00002004
+       no entry matched
+   item 4: DOI 10.1029/93jd02259
+       no entry matched
+   item 5: DOI 10.1128/jb.186.23.8058-8065.2004
+       no entry matched
+   item 6: DOI 10.1016/j.nima.2018.10.118
+       no entry matched
+   item 7: DOI 10.1016/j.ajo.2025.11.009
+       no entry matched
+   item 8: DOI 10.1109/jphotov.2025.3622321
+       no entry matched
+
+SELECTED FILTERS
+   filter     rule                                                                 kept
+   --------   ------------------------------------------------------------   ----------
+   Filter 1   AIDA term in title/abstract/keywords, no affiliation check     150 (6.8%)
+   Filter 4   AIDA term in title/abstract/keywords AND KIT affiliation       105 (4.8%)
+   Filter 5   campaign name in title/abstract/keywords AND KIT affiliation    24 (1.1%)
+
+KEPT BY WHICH FILTERS
+   filters                          entries
+   ------------------------------   -------
+   Filter 1 + Filter 4                   92
+   Filter 1                              45
+   Filter 1 + Filter 4 + Filter 5        13
+   Filter 5                              11
+
+RESULT
+   entries in                      : 2194
+   entries kept by all filters     : 13
+   entries in the combined file    : 161 (7.3%)
+   entries removed by every filter : 2033
+
+COMBINED ENTRIES
+   key                            kept by   title                                                                           
+   ----------------------------   -------   --------------------------------------------------------------------------------
+   2003_schnaiter_jas             1, 4      UV-VIS-NIR spectral optical properties of soot and soot-containing aerosols     
+   2005_schnaiter_jgra            1, 4      Absorption amplification of black carbon internally mixed with secondary organic
+   2006_moehler_acp               1, 4, 5   Efficiency of the deposition mode ice nucleation on mineral dust particles      
+   2017_ullrich_jas               1, 4      A New Ice Nucleation Active Site Parameterization for Desert Dust and Soot      
+   2009_connolly_acp              1, 4, 5   Studies of heterogeneous freezing by three different desert dust samples        
+   2008_moehler_erl               1, 4, 5   The effect of organic coating on the heterogeneous ice nucleation efficiency of 
+   2009_saathoff_acp              1, 4      Temperature dependence of yields of secondary organic aerosols from the ozonolys
+   2005_mohler_jgra               1, 4      Effect of sulfuric acid coating on heterogeneous ice nucleation by soot aerosol 
+   2012_mueller_acp               1, 4      Formation of 3-methyl-1,2,3-butanetricarboxylic acid via gas phase oxidation of 
+   2003_mohler_acp                1, 4      Experimental investigation of homogeneous freezing of sulphuric acid particles i
+   2012_laborde_amt               1, 4      Single Particle Soot Photometer intercomparison at the AIDA chamber             
+   2009_cziczo_erl                1, 4, 5   Deactivation of ice nuclei due to atmospherically relevant surface coatings     
+   2014_fahey_amt                 1, 4      The AquaVIT-1 intercomparison of atmospheric water vapor measurement techniques 
+   2008_moehler_biogeoscienc      1, 4      Heterogeneous ice nucleation activity of bacteria: new laboratory experiments at
+   2018_huang_acp                 1, 4      α-Pinene secondary organic aerosol at low temperature: chemical composition and 
+   2012_wilson_acp                5         Glassy aerosols with a range of compositions nucleate ice heterogeneously at cir
+   2015_meyer_acp                 1, 4      Two decades of water vapor measurements with the FISH fluorescence hygrometer: a
+   2019_kanji_acp                 1, 4      Heterogeneous ice nucleation properties of natural desert dust particles coated 
+   2011_salo_acp                  1, 4      Volatility of secondary organic aerosol during OH radical induced ageing        
+   2011_crawford_acp              1, 4, 5   Studies of propane flame soot acting as heterogeneous ice nuclei in conjunction 
+   2011_steinke_acp               1, 4      Ice nucleation properties of fine ash particles from the Eyjafjallajokull erupti
+   2006_wagner_kape               1         Chamber Simulations of Cloud Chemistry: The AIDA Chamber                        
+   2019_umo_acp                   1, 4      Enhanced ice nucleation activity of coal fly ash aerosol particles initiated by 
+   2021_schneider_acp             1, 4      High homogeneous freezing onsets of sulfuric acid aerosol at cirrus temperatures
+   2017_wagner_jgra               1, 4      Heterogeneous ice nucleation of -pinene SOA particles before and after ice cloud
+   2011_wagner_acp                1, 4      New cloud chamber experiments on the heterogeneous ice nucleation ability of oxa
+   2006_field_acp                 1, 4, 5   Some ice nucleation characteristics of Asian and Saharan desert dust            
+   2005_benz_jppac                1, 4      T-dependent rate measurements of homogeneous ice nucleation in cloud droplets us
+   2005_mohler_mz                 1, 4, 5   Ice nucleation on flame soot aerosol of different organic carbon content        
+   2007_jonsson_jas               1, 4      Volatility of secondary organic aerosols from the ozone initiated oxidation of α
+   2003_saathoff_jas_b            1, 4      The AIDA soot aerosol characterisation campaign 1999                            
+   2012_henning_acp               1, 4      Hygroscopic growth and droplet activation of soot particles: uncoated, succinic 
+   2013_skrotzki_acp              1, 4      The accommodation coefficient of water molecules on ice - cirrus cloud studies a
+   2012_wagner_acp                1, 4      Ice cloud processing of ultra-viscous/glassy aerosol particles leads to enhanced
+   2018_wagner_jgra               1, 4      Heterogeneous Ice Nucleation Ability of NaCl and Sea Salt Aerosol Particles at C
+   2005_wagner_jpca               1, 4      Infrared spectrum of nitric acid dihydrate: Influence of particle shape         
+   2006_wagner_acp                1, 4      Probing ice clouds by broadband mid-infrared extinction spectroscopy:: case stud
+   2010_saunders_acp              1, 4      An aerosol chamber investigation of the heterogeneous ice nucleating potential o
+   2020_sarkozy_rsi               1, 4      The Chicago Water Isotope Spectrometer (ChiWIS-lab): A tunable diode laser spect
+   2022_gao_acp                   1, 4      Kinetics, SOA yields, and chemical composition of seconaary organic aerosol from
+   2008_wagner_jpca               1, 4      Infrared Optical Constants of Highly Diluted Sulfuric Acid Solution Droplets at 
+   2010_wagner_acp                1, 4      High variability of the heterogeneous ice nucleation potential of oxalic acid di
+   2018_ramisetty_amt             5         Exploring femtosecond laser ablation in single-particle aerosol mass spectrometr
+   2007_wagner_jpca               1, 4      Influence of particle aspect ratio on the midinfrared extinction spectra of wave
+   2021_hiranuma_acp              1, 4, 5   Laboratory and field studies of ice-nucleating particles from open-lot livestock
+   2024_jiang_acp                 5         Molecular analysis of secondary organic aerosol and brown carbon from the oxidat
+   2022_vallon_amt                1, 4      LED-based solar simulator to study photochemistry over a wide temperature range 
+   2022_vogel_rsi                 1, 4      Development and validation of a new cloud simulation experiment for lab-based ae
+   2025_brunamonti_amt            1, 4      The AquaVIT-4 intercomparison of atmospheric hygrometers                        
+   2005_mangold_mz                1, 4      Experimental investigation of ice nucleation by different types of aerosols in t
+   2005_wagner_jpca_b             1, 4      Mid-infrared extinction spectra and optical constants of supercooled water dropl
+   2005_ebert_tm                  1, 4      Fibre-coupled in-situ laser absorption spectrometer for the selective detection 
+   2006_stetzer_acp               1, 4      Homogeneous nucleation rates of nitric acid dihydrate (NAD) at simulated stratos
+   2014_hiranuma_acp              1, 4      A comprehensive parameterization of heterogeneous ice nucleation of dust surroga
+   2013_saathoff_acp              1, 4      Laser filament-induced aerosol formation                                        
+   2015_wolf_jms                  1, 4      Characterization of ice-nucleating bacteria using on-line electron impact ioniza
+   2024_shen_acp                  1, 4      Measurement report: The Fifth International Workshop on Ice Nucleation phase 1 (
+   2023_lamb_acp                  1, 4      Re-evaluating cloud chamber constraints on depositional ice growth in cirrus clo
+   2025_zanatta_ar                1, 4      AIDA Arctic transport experiment – Part 1: Simulation of northward transport and
+   2003_saathoff_jas_c            1, 4      Carbon mass determinations during the AIDA soot aerosol campaign 1999           
+   2015_kuehnreich_apblo          1, 4      Time-multiplexed open-path TDLAS spectrometer for dynamic, sampling-free, inters
+   2011_gensch_jgra               1, 4      Temperature dependence of the kinetic isotope effect in β-pinene ozonolysis     
+   2005_wagner_jpca_c             1, 4, 5   Aerosol chamber study of optical constants and N2O5 uptake on supercooled H2SO4/
+   2009_tillmann_pccp             1, 4      Temperature dependence of the rate coefficient for the α-pinene reaction with oz
+   2003_wagner_acp                1, 4, 5   A quantitative test of infrared optical constants for supercooled sulphuric and 
+   2020_clouser_acp               1, 4      No anomalous supersaturation in ultracold cirrus laboratory experiments         
+   2012_laborde_misc              1, 4      Single Particle Soot Photometer intercomparison at the AIDA chamber             
+   2006_wagner_misc               1         Probing ice clouds by broadband mid-infrared extinction spectroscopy: case studi
+   2012_skrotzki_misc             1, 4      The accommodation coefficient of water molecules on ice-cirrus cloud studies at 
+   2023_jiang_misc                5         Molecular Analysis of Secondary Organic Aerosol and Brown Carbon from the Oxidat
+   2010_skrotzki_afma             1         The Accommodation Coefficient of Water Molecules on Ice: Results from Cirrus Clo
+   2021_vallon_misc               1, 4      LED based solar simulator to study photochemistry over a wide temperature range 
+   2025_zanatta_misc              1, 4      AIDA Arctic transport experiment (part 1): simulation of northward transport and
+   2010_mohler_eguga              1, 4      AIDA experiments on heterogeneous ice nucleation in warm mixed-phase clouds     
+   2013_lamb_hal                  1         Investigations into Anomalous Supersaturation in Cold Cirrus at the AIDA Cloud C
+   2014_lamb_eguga                1         Implications of the ISOCLOUD Campaigns at the AIDA Cloud Chamber for Ice Growth 
+   2003_wehner_eaeja              1         Estimation of Thickness of the Coating using a Volatility Tandem DMA for coated 
+   2003_schnaiter_eaeja           1         Optical properties of internally mixed black carbon - Results of the AIDA SOOT 2
+   2003_mangold_juser_b           1         Ice Water Content of low Temperature Cirrus Clouds measured at the AIDA Aerosol 
+   2021_vallon_misc_d             1, 4      Supplementary material to "LED based solar simulator to study photochemistry ove
+   2023_jiang_misc_b              5         Supplementary material to "Molecular Analysis of Secondary Organic Aerosol and B
+   2025_dusek_misc                1, 4      Aerosol Cloud Interactions in a Nitrogen-dominated Atmosphere (CAINA) – first hi
+   2025_zanatta_misc_b            1         Supplementary material to "AIDA Arctic transport experiment (part 1): simulation
+   2009_wagner_jqsrt              1, 4      A review of optical measurements at the aerosol and cloud chamber AIDA          
+   1991_bunz_jas                  1         PHYSICAL AND CHEMICAL BEHAVIOR OF POLYDISPERSE DROPLET SYSTEMS                  
+   2016_steinke_jgra              1, 4      Ice nucleation activity of agricultural soil dust aerosols from Mongolia, Argent
+   2016_schnaiter_acp             1, 4      Cloud chamber experiments on the origin of ice crystal complexity in cirrus clou
+   2012_schnaiter_acp             1, 4      Influence of particle size and shape on the backscattering linear depolarisation
+   2016_abdelmonem_amt            1, 4      PHIPS-HALO: the airborne Particle Habit Imaging and Polar Scattering probe - Par
+   2011_schoen_jaot               1, 4      Particle Habit Imaging Using Incoherent Light: A First Step toward a Novel Instr
+   2011_abdelmonem_amt            1, 4      First correlated measurements of the shape and light scattering properties of cl
+   2016_hiranuma_amt              1, 4, 5   Development and characterization of an ice-selecting pumped counterflow virtual 
+   2004_seifert_jas               1, 4      Operation and performance of a differential mobility particle sizer and a TSI 30
+   2009_amsler_ao                 1, 4      Ice crystal habits from cloud chamber studies obtained by in-line holographic mi
+   2007_cotton_acp                1, 4, 5   Technical note:: A numerical test-bed for detailed ice nucleation studies in the
+   2012_wagner_jpca               1, 4      Infrared Optical Constants of Crystalline Sodium Chloride Dihydrate: Application
+   2014_jaervinen_ao              1, 4      Laboratory study of microphysical and scattering properties of corona-producing 
+   2009_kramer_juser              1         HALO ice crystal spectrometer intercomparison at the AIDA - chamber: first resul
+   2002_mohler_misc               1         Experimental investigation of homogeneous freezing of sulphuric acid particles i
+   2010_meyer_juser               1         Water to Ice Transition experiments at the AIDA-chamber: results from the novel 
+   2009_linke_hal                 1         Microphysical and optical properties of Mineral Dust Aerosols-Investigations dur
+   2012_meyer_juser               1         Small cloud particle detection at the AIDA chamber and over the UK              
+   2015_demott_acp                1, 4      Integrating laboratory and field data to quantify the immersion freezing ice nuc
+   2012_niemand_jas               1, 4      A Particle-Surface-Area-Based Parameterization of Immersion Freezing on Desert D
+   2006_abbatt_science            1, 4      Solid ammonium sulfate aerosols as ice nuclei:: A pathway for cirrus cloud forma
+   2015_hiranuma_acp              5         A comprehensive laboratory study on the immersion freezing behavior of illite NX
+   2013_platt_acp                 5         Secondary organic aerosol formation from gasoline vehicle emissions in a new mob
+   2015_wex_acp                   5         Intercomparing different devices for the investigation of ice nucleating particl
+   2018_demott_amt                1, 4      The Fifth International Workshop on Ice Nucleation phase 2 (FIN-02): laboratory 
+   2015_amato_acp                 1, 4      Survival and ice nucleation activity of bacteria as aerosols in a cloud simulati
+   2021_moehler_amt               1, 4      The Portable Ice Nucleation Experiment (PINE): a new online instrument for labor
+   2021_wagner_acp                1, 4      Heterogeneous ice nucleation ability of aerosol particles generated from Arctic 
+   2014_hiranuma_acp_b            1, 4      Influence of surface morphology on the immersion mode ice nucleation efficiency 
+   2011_kanji_acp                 1, 4      Results from the University of Toronto continuous flow diffusion chamber at ICIS
+   2015_steinke_acp               1, 4      A new temperature- and humidity-dependent surface site density approach for depo
+   2013_wagner_jgra               1, 4      Heterogeneous ice nucleation ability of crystalline sodium chloride dihydrate pa
+   2020_steinke_acp               1, 4      Complex plant-derived organic aerosol as ice-nucleating particles - more than th
+   2022_baumgartner_acp           1, 4      New investigations on homogeneous ice nucleation: the effects of water activity 
+   2003_haag_acp                  1, 4      Numerical simulations of homogeneous freezing processes in the aerosol chamber A
+   2006_moehler_acp_b             1, 4      Homogeneous nucleation rates of nitric acid dihydrate (NAD) at simulated stratos
+   2018_suski_acp                 1, 4      Activation of intact bacteria and bacterial fragments mixed with agar as cloud d
+   2021_umo_jgra                  1, 4      The Influence of Chemical and Mineral Compositions on the Parameterization of Im
+   2024_wilbourn_acp              5         Measurement report: A comparison of ground-level ice-nucleating-particle abundan
+   2002_haag_misc                 1         Numerical simulations of homogeneous freezing processes in the aerosol chamber A
+   2006_cotton_misc               1         Technical note: A numerical test-bed for detailed ice nucleation studies in the 
+   2014_wex_misc                  5         Intercomparing different devices for the investigation of ice nucleating particl
+   2013_mohler_acp                1, 4      Parameterizations of ice formation derived from AIDA cloud simulation experiment
+   2015_ullrich_article           1         Dust in AIDA cloud chamber immersion freezing experiments                       
+   2013_mohler_article            1         Surface site density versus nucleation rate approaches of formulating ice format
+   2003_mohler_eaeja              1         Heterogeneous ice nucleation in the AIDA chamber: freezing onset and ice particl
+   2017_salter_agufm              1         Sea spray as a source of ice nucleating particles - results from the AIDA Ocean0
+   2020_hiranuma_misc_d           5         The Portable Ice Nucleation Experiment chamber (PINE): laboratory characterizati
+   2001_bunz_jas                  1         GROWTH OF SULPHURIC ACID PARTICLES DURING ADIABATIC EXPANSION EXPERIMENTS IN THE
+   2026_vergarapalacio_acp        1, 4      Ice nucleation activity of mineral dust from Morocco and Iceland in immersion fr
+   2019_hopfner_article           1         Datasets from MIPAS and GLORIA infrared limb-sounding instruments, from AIDA clo
+   2020_leisner_article_d         1         Einfluss von Aerosol auf die Eisbildung - Experiment mit der Wolkensimulationska
+   2003_cotton_eaeja              1         Heterogeneous ice nucleation in the AIDA chamber: a microphysical modelling stud
+   2008_gallavardin_ast           1, 4, 5   Single Particle Laser Mass Spectrometry Applied to Differential Ice Nucleation E
+   2009_weinstock_jgra            1         Validation of the Harvard Lyman-α in situ water vapor instrument: Implications f
+   2020_atkinson_jnr              1         Aerosol impaction-driven assembly produces evenly dispersed nanoparticle coating
+   2014_skrotzki_apblo            1, 4      Integrative fitting of absorption line profiles with high accuracy, robustness, 
+   2021_alam_tsf                  1         Fabrication of superhydrophillic and graded index antireflective double layer co
+   2003_kirchner_jas              1, 4      Single particle MS, SNMS, SIMS, XPS, and FTIR spectroscopic analysis of soot par
+   2008_bunz_erl                  1, 4      MAID:: a model to simulate UT/LS aerosols and ice clouds                        
+   1998_yadigaroglu_kerntechnik   1         Passive advanced light water reactor designs and the ALPHA program at the Paul S
+   2008_barahona_jgra             1         Parameterization of cirrus cloud formation in large-scale models: Homogeneous nu
+   2026_xu_ra                     1         Exploring autoxidation pathways in α-pinene oxidation through particulate measur
+   2005_karcher_acp               1         The role of organic aerosols in homogeneous ice formation                       
+   2009_swanson_jas               1         How Well Does Water Activity Determine Homogeneous Ice Nucleation Temperature in
+   2013_tajiri_jmsj               1         A Novel Adiabatic-Expansion-Type Cloud Simulation Chamber                       
+   2023_berger_jas                1         Indoor air aerosol modeling and evaluation based on simulation chamber experimen
+   2010_soelch_qjrms              1         A large-eddy model for cirrus clouds with explicit aerosol and ice microphysics 
+   2005_jensen_acp                1         Ice supersaturations exceeding 100% at the cold tropical tropopause: implication
+   2016_alpert_acp                1         Analysis of isothermal and cooling-rate-dependent immersion freezing by a unifyi
+   2002_walker_bt                 1         Theoretical and physical aspects of Excimer laser trabeculotomy (ELT) ab interno
+   2019_chang_asb                 1         Microfluidic Synchronizer Using a Synthetic Nanoparticle-Capped Bacterium       
+   2012_li_jashs                  1         Enhanced Drought Tolerance of Tobacco Overexpressing OjERF Gene Is Associated wi
+   2008_hara_cr                   1         Androgen receptor and invasion in prostate cancer                               
+   2020_fiorentino_ejim           1         The early growth of start-ups: innovation matters. Evidence from Italy          
+   2006_wilmsmeyer_gaceo          1         Excimer laser trabeculotomy: a new, minimally invasive procedure for patients wi
+   2017_kaercher_qjrms            1         Homogeneous ice formation in convective cloud outflow regions                   

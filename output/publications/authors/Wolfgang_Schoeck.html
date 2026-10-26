@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIDA publications of Wolfgang Schöck</title>
+<style>
+  :root {
+    --paper: #FBFCFC;
+    --ink: #1F2B30;
+    --muted: #5B696E;
+    --rule: #D3DDDF;
+    --green: #009682;
+    --green-deep: #00705F;
+    --ice: #E3F0F2;
+    --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    --sans: "Source Sans 3", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.45;
+  }
+  .page { max-width: 1320px; margin: 0 auto; padding: 40px 28px 64px; }
+
+  /* header */
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 1.15;
+    margin: 0 0 6px;
+  }
+  .summary { color: var(--muted); margin: 0 0 28px; font-size: 1rem; }
+
+  /* year histogram, also the year filter */
+  .years { margin-bottom: 26px; }
+  .years-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 110px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .year-bar {
+    flex: 1 1 0;
+    min-width: 6px;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+  }
+  .year-bar span {
+    display: block;
+    width: 100%;
+    background: var(--green);
+    min-height: 2px;
+  }
+  .year-bar.empty span { background: var(--rule); }
+  .year-bar:hover span { background: var(--green-deep); }
+  .years.has-selection .year-bar span { background: var(--ice); }
+  .years.has-selection .year-bar[aria-pressed="true"] span { background: var(--green-deep); }
+  .year-bar:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .years-axis { display: flex; gap: 3px; margin-top: 4px; }
+  .years-axis span {
+    flex: 1 1 0;
+    min-width: 6px;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    overflow: visible;
+  }
+  .years-hint { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
+
+  /* controls */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 16px;
+    margin-bottom: 14px;
+  }
+  .controls input[type="search"] {
+    flex: 1 1 320px;
+    font: inherit;
+    padding: 9px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--ink);
+  }
+  .controls select, .controls button {
+    font: inherit;
+    padding: 8px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--ink);
+  }
+  .controls button { cursor: pointer; }
+  .controls button:hover { border-color: var(--green); }
+  .controls :focus-visible, .sort-button:focus-visible, a:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 2px;
+  }
+  .count { color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
+
+  /* table */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 960px; }
+  thead th {
+    position: sticky;
+    top: 0;
+    background: var(--paper);
+    border-bottom: 2px solid var(--ink);
+    text-align: left;
+    padding: 0;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .sort-button {
+    font: inherit;
+    font-weight: 600;
+    color: var(--ink);
+    background: none;
+    border: 0;
+    padding: 10px 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+  }
+  .sort-button::after { content: ""; display: inline-block; width: 1em; margin-left: 4px; color: var(--green-deep); }
+  th[aria-sort="ascending"] .sort-button::after { content: "\25B2"; font-size: 0.7em; }
+  th[aria-sort="descending"] .sort-button::after { content: "\25BC"; font-size: 0.7em; }
+  tbody td {
+    border-bottom: 1px solid var(--rule);
+    padding: 11px 10px;
+    vertical-align: top;
+  }
+  tbody tr:hover td { background: var(--ice); }
+  .col-num { width: 3.5em; }
+  td.col-num { color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; }
+  .col-year { width: 5em; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .col-authors { width: 22%; }
+  td.col-authors { color: var(--muted); font-size: 0.92rem; }
+  td.col-title { font-family: var(--serif); font-size: 1.02rem; line-height: 1.5; }
+  .col-venue { width: 17%; }
+  .col-venue small { display: block; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .col-type { width: 8em; }
+  td.col-type { color: var(--muted); font-size: 0.9rem; }
+  .col-doi { width: 15em; }
+  td.col-doi { font-size: 0.88rem; word-break: break-all; }
+  .col-doi a { color: var(--green-deep); text-decoration: underline; text-underline-offset: 2px; }
+  .col-doi a:visited { color: #4F5F8A; }
+  .missing { color: var(--rule); }
+  .confirmed { display: block; margin-top: 4px; font-family: var(--sans); font-size: 0.82rem; color: var(--green-deep); }
+  .confirmed::before { content: "\2713  "; }
+  .pages { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 10px; font-size: 0.92rem; }
+  .pages a { color: var(--green-deep); text-underline-offset: 2px; }
+  .index-list { columns: 3 260px; padding: 0; list-style: none; }
+  .index-list li { break-inside: avoid; padding: 5px 0; border-bottom: 1px solid var(--rule); }
+  .index-list a { color: var(--ink); }
+  .index-list small { color: var(--muted); margin-left: 6px; font-variant-numeric: tabular-nums; }
+  sub, sup { font-size: 0.72em; line-height: 0; }
+
+  .empty-state { padding: 40px 10px; color: var(--muted); }
+  .empty-state button { margin-top: 10px; }
+  footer { margin-top: 36px; color: var(--muted); font-size: 0.85rem; }
+
+  @media (max-width: 720px) {
+    .page { padding: 24px 14px 48px; }
+    h1 { font-size: 1.6rem; }
+    .count { margin-left: 0; width: 100%; }
+  }
+  @media print {
+    .years, .controls { display: none; }
+    thead th { position: static; }
+    table { min-width: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <nav class="pages"><a href="../AIDA_Publication_List.html">All AIDA publications</a><a href="../AIDA_Authors_Index.html">All researchers</a></nav>
+    <h1>AIDA publications of Wolfgang Schöck</h1>
+    <p class="summary">2 publications from 2003.</p>
+  </header>
+
+  <section class="years" id="years" aria-label="Publications per year">
+    <div class="years-bars" id="years_bars"></div>
+    <div class="years-axis" id="years_axis" aria-hidden="true"></div>
+    <div class="years-hint" id="years_hint">Select a year bar to show only that year.</div>
+  </section>
+
+  <div class="controls">
+    <input type="search" id="search_box" placeholder="Search authors, titles, journals, DOIs" aria-label="Search publications">
+    <select id="type_select" aria-label="Filter by publication type">
+      <option value="">All types</option>
+    </select>
+    <select id="confirmed_select" aria-label="Filter by author confirmation">
+      <option value="">All papers</option>
+      <option value="yes">Confirmed by an author</option>
+      <option value="no">Not confirmed</option>
+    </select>
+    <button type="button" id="reset_button">Clear filters</button>
+    <span class="count" id="count_text" aria-live="polite"></span>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-num" scope="col"><span class="sort-button" style="cursor:default">#</span></th>
+          <th class="col-year" scope="col" data-key="year"><button class="sort-button" type="button">Year</button></th>
+          <th class="col-authors" scope="col" data-key="authors"><button class="sort-button" type="button">Authors</button></th>
+          <th class="col-title" scope="col" data-key="title"><button class="sort-button" type="button">Title</button></th>
+          <th class="col-venue" scope="col" data-key="venue"><button class="sort-button" type="button">Journal</button></th>
+          <th class="col-type" scope="col" data-key="type"><button class="sort-button" type="button">Type</button></th>
+          <th class="col-doi" scope="col" data-key="doi"><button class="sort-button" type="button">DOI</button></th>
+        </tr>
+      </thead>
+      <tbody id="table_body"></tbody>
+    </table>
+    <div class="empty-state" id="empty_state" hidden>
+      No publications match these filters.<br>
+      <button type="button" id="empty_reset_button">Clear filters</button>
+    </div>
+  </div>
+
+  <footer>Generated from Wolfgang_Schoeck.bib on 2026-10-14.</footer>
+</div>
+
+<script>
+const records = [{"key": "2003_saathoff_jas_c", "year": 2003, "authors_short": "Saathoff, H.; Naumann, K.; Schnaiter, M.; Schöck, W.; Weingartner, E.; Baltensperger, U.; Krämer, L.; Bozoki, Z.; Pöschl, U.; Niessner, R. et al.", "authors_full": "Saathoff, H.; Naumann, K.; Schnaiter, M.; Schöck, W.; Weingartner, E.; Baltensperger, U.; Krämer, L.; Bozoki, Z.; Pöschl, U.; Niessner, R.; Schurath, U.", "first_author": "Saathoff, H.", "title_plain": "Carbon mass determinations during the AIDA soot aerosol campaign 1999", "title_html": "Carbon mass determinations during the AIDA soot aerosol campaign 1999", "venue": "JOURNAL OF AEROSOL SCIENCE", "venue_detail": "34(10), 1399-1420", "doi": "10.1016/S0021-8502(03)00365-3", "doi_url": "https://doi.org/10.1016/S0021-8502(03)00365-3", "url": "", "type_label": "Article", "confirmed_by": ""}, {"key": "2003_saathoff_jas", "year": 2003, "authors_short": "Saathoff, H.; Naumann, K.; Schnaiter, M.; Schöck, W.; Möhler, O.; Schurath, U.; Weingartner, E.; Gysel, M.; Baltensperger, U.", "authors_full": "Saathoff, H.; Naumann, K.; Schnaiter, M.; Schöck, W.; Möhler, O.; Schurath, U.; Weingartner, E.; Gysel, M.; Baltensperger, U.", "first_author": "Saathoff, H.", "title_plain": "Coating of soot and (NH4)2SO4 particles by ozonolysis products of α-pinene", "title_html": "Coating of soot and (NH4)2SO4 particles by ozonolysis products of α-pinene", "venue": "JOURNAL OF AEROSOL SCIENCE", "venue_detail": "34(10), 1297-1321", "doi": "10.1016/S0021-8502(03)00364-1", "doi_url": "https://doi.org/10.1016/S0021-8502(03)00364-1", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}];
+
+// ---------- state
+const state = { sort_key: "year", sort_dir: "desc", query: "", year: null, type: "", confirmed: "" };
+
+// ---------- precomputed search text
+records.forEach(function (r) {
+  r.search_text = [r.year, r.authors_full, r.title_plain, r.venue, r.venue_detail, r.doi, r.type_label, r.key, r.confirmed_by]
+    .join(" ").toLowerCase();
+});
+
+const years_known = records.map(r => r.year).filter(y => y !== null);
+const year_min = years_known.length ? Math.min.apply(null, years_known) : null;
+const year_max = years_known.length ? Math.max.apply(null, years_known) : null;
+
+// ---------- type dropdown
+const type_select = document.getElementById("type_select");
+Array.from(new Set(records.map(r => r.type_label))).sort().forEach(function (label) {
+  const option = document.createElement("option");
+  option.value = label;
+  option.textContent = label;
+  type_select.appendChild(option);
+});
+
+// ---------- filtering
+function matches_text_and_type(r) {
+  if (state.type && r.type_label !== state.type) return false;
+  if (state.confirmed === "yes" && !r.confirmed_by) return false;
+  if (state.confirmed === "no" && r.confirmed_by) return false;
+  if (!state.query) return true;
+  return state.query.split(/\s+/).every(term => r.search_text.includes(term));
+}
+
+// ---------- sorting
+function sort_value(r, key) {
+  switch (key) {
+    case "year": return r.year;
+    case "authors": return r.first_author;
+    case "title": return r.title_plain;
+    case "venue": return r.venue;
+    case "type": return r.type_label;
+    case "doi": return r.doi;
+  }
+  return "";
+}
+
+function compare_records(a, b) {
+  const va = sort_value(a, state.sort_key);
+  const vb = sort_value(b, state.sort_key);
+  const a_missing = va === null || va === "";
+  const b_missing = vb === null || vb === "";
+  // missing values always go to the bottom
+  if (a_missing !== b_missing) return a_missing ? 1 : -1;
+  let result = 0;
+  if (!a_missing) {
+    result = state.sort_key === "year"
+      ? va - vb
+      : String(va).localeCompare(String(vb), undefined, { sensitivity: "base", numeric: true });
+    if (state.sort_dir === "desc") result = -result;
+  }
+  // ties: newest first, then first author, then title
+  if (result === 0) result = (b.year || 0) - (a.year || 0);
+  if (result === 0) result = a.first_author.localeCompare(b.first_author, undefined, { sensitivity: "base" });
+  if (result === 0) result = a.title_plain.localeCompare(b.title_plain, undefined, { sensitivity: "base" });
+  return result;
+}
+
+// ---------- year histogram
+function render_years(pool) {
+  const bars = document.getElementById("years_bars");
+  const axis = document.getElementById("years_axis");
+  const section = document.getElementById("years");
+  bars.innerHTML = "";
+  axis.innerHTML = "";
+  if (year_min === null) { section.hidden = true; return; }
+
+  const counts = {};
+  pool.forEach(r => { if (r.year !== null) counts[r.year] = (counts[r.year] || 0) + 1; });
+  const peak = Math.max(1, ...Object.values(counts));
+  const span = year_max - year_min;
+  const label_step = span > 30 ? 10 : 5;
+
+  for (let y = year_min; y <= year_max; y++) {
+    const n = counts[y] || 0;
+    const bar = document.createElement("button");
+    bar.type = "button";
+    bar.className = "year-bar" + (n === 0 ? " empty" : "");
+    bar.setAttribute("aria-pressed", state.year === y ? "true" : "false");
+    bar.setAttribute("aria-label", y + ": " + n + (n === 1 ? " publication" : " publications"));
+    bar.title = y + ": " + n;
+    const fill = document.createElement("span");
+    fill.style.height = (n === 0 ? 0 : Math.max(4, 100 * n / peak)) + "%";
+    bar.appendChild(fill);
+    bar.addEventListener("click", function () {
+      state.year = state.year === y ? null : y;
+      render();
+    });
+    bars.appendChild(bar);
+
+    const tick = document.createElement("span");
+    if (y === year_min || y === year_max || (y % label_step === 0 && y - year_min > 2 && year_max - y > 2)) {
+      tick.textContent = y;
+    }
+    axis.appendChild(tick);
+  }
+  section.classList.toggle("has-selection", state.year !== null);
+  document.getElementById("years_hint").textContent = state.year === null
+    ? "Select a year bar to show only that year."
+    : "Showing " + state.year + " only. Select the bar again to show all years.";
+}
+
+// ---------- table
+function make_cell(class_name) {
+  const td = document.createElement("td");
+  td.className = class_name;
+  return td;
+}
+
+function render_table(rows) {
+  const body = document.getElementById("table_body");
+  const fragment = document.createDocumentFragment();
+  rows.forEach(function (r, index) {
+    const tr = document.createElement("tr");
+
+    const td_num = make_cell("col-num");
+    td_num.textContent = index + 1;
+
+    const td_year = make_cell("col-year");
+    td_year.textContent = r.year === null ? "" : r.year;
+
+    const td_authors = make_cell("col-authors");
+    td_authors.textContent = r.authors_short;
+    if (r.authors_short !== r.authors_full) td_authors.title = r.authors_full;
+
+    const td_title = make_cell("col-title");
+    // title_html is escaped in Python, only <sub> and <sup> tags are added
+    td_title.innerHTML = r.title_html;
+    if (r.confirmed_by) {
+      const mark = document.createElement("small");
+      mark.className = "confirmed";
+      mark.textContent = "confirmed by " + r.confirmed_by;
+      td_title.appendChild(mark);
+    }
+
+    const td_venue = make_cell("col-venue");
+    td_venue.textContent = r.venue;
+    if (r.venue_detail) {
+      const small = document.createElement("small");
+      small.textContent = r.venue_detail;
+      td_venue.appendChild(small);
+    }
+
+    const td_type = make_cell("col-type");
+    td_type.textContent = r.type_label;
+
+    const td_doi = make_cell("col-doi");
+    const link_href = r.doi_url || r.url;
+    if (link_href) {
+      const a = document.createElement("a");
+      a.href = link_href;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = r.doi || "Link";
+      td_doi.appendChild(a);
+    } else {
+      const none = document.createElement("span");
+      none.className = "missing";
+      none.textContent = "none";
+      td_doi.appendChild(none);
+    }
+
+    [td_num, td_year, td_authors, td_title, td_venue, td_type, td_doi].forEach(td => tr.appendChild(td));
+    fragment.appendChild(tr);
+  });
+  body.replaceChildren(fragment);
+  document.getElementById("empty_state").hidden = rows.length > 0;
+}
+
+function render_sort_headers() {
+  document.querySelectorAll("th[data-key]").forEach(function (th) {
+    if (th.dataset.key === state.sort_key) {
+      th.setAttribute("aria-sort", state.sort_dir === "asc" ? "ascending" : "descending");
+    } else {
+      th.removeAttribute("aria-sort");
+    }
+  });
+}
+
+// ---------- main render
+function render() {
+  const pool = records.filter(matches_text_and_type);
+  const rows = pool.filter(r => state.year === null || r.year === state.year).sort(compare_records);
+  render_years(pool);
+  render_table(rows);
+  render_sort_headers();
+  document.getElementById("count_text").textContent =
+    "Showing " + rows.length + " of " + records.length + (records.length === 1 ? " publication" : " publications");
+}
+
+// ---------- events
+document.querySelectorAll("th[data-key] .sort-button").forEach(function (button) {
+  button.addEventListener("click", function () {
+    const key = button.parentElement.dataset.key;
+    if (state.sort_key === key) {
+      state.sort_dir = state.sort_dir === "asc" ? "desc" : "asc";
+    } else {
+      state.sort_key = key;
+      state.sort_dir = key === "year" ? "desc" : "asc";
+    }
+    render();
+  });
+});
+
+let search_timer = null;
+document.getElementById("search_box").addEventListener("input", function (event) {
+  clearTimeout(search_timer);
+  search_timer = setTimeout(function () {
+    state.query = event.target.value.trim().toLowerCase();
+    render();
+  }, 120);
+});
+
+type_select.addEventListener("change", function () {
+  state.type = type_select.value;
+  render();
+});
+
+const confirmed_select = document.getElementById("confirmed_select");
+// the filter is only offered when at least one paper is confirmed
+if (!records.some(r => r.confirmed_by)) confirmed_select.hidden = true;
+confirmed_select.addEventListener("change", function () {
+  state.confirmed = confirmed_select.value;
+  render();
+});
+
+function reset_filters() {
+  state.query = "";
+  state.year = null;
+  state.type = "";
+  state.confirmed = "";
+  document.getElementById("search_box").value = "";
+  type_select.value = "";
+  confirmed_select.value = "";
+  render();
+}
+document.getElementById("reset_button").addEventListener("click", reset_filters);
+document.getElementById("empty_reset_button").addEventListener("click", reset_filters);
+
+render();
+</script>
+</body>
+</html>

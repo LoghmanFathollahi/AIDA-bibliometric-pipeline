@@ -1,0 +1,781 @@
+author,affiliation,country,papers,first_author_all,first_and_corresponding,first_only,corresponding_not_first,co_author,first_year,last_year
+"Möhler, Ottmar",Karlsruhe Institute of Technology,Germany,65,3,1,2,8,54,2003,2026
+"Saathoff, Harald",Karlsruhe Institute of Technology,Germany,47,1,0,1,10,36,2006,2025
+"Leisner, Thomas",Karlsruhe Institute of Technology,Germany,29,0,0,0,0,29,2010,2024
+"Schnaiter, Martin",Karlsruhe Institute of Technology,Germany,26,2,2,0,4,20,2010,2025
+"Wagner, Robert",Karlsruhe Institute of Technology,Germany,26,8,8,0,2,16,2006,2025
+"Hiranuma, Naruki",Karlsruhe Institute of Technology,Germany,11,4,4,0,2,5,2013,2024
+"Kiselev, Alexei",Karlsruhe Institute of Technology,Germany,11,0,0,0,2,9,2011,2026
+"Möhler, Ottmar",FZI Research Center for Information Technology,Germany,11,4,4,0,0,7,2003,2009
+"Ebert, Volker",Physikalisch-Technische Bundesanstalt,Germany,10,0,0,0,4,6,2012,2023
+"Krämer, Martina",Forschungszentrum Jülich,Germany,10,0,0,0,1,9,2002,2021
+"Steinke, Isabelle",Karlsruhe Institute of Technology,Germany,10,4,4,0,0,6,2011,2021
+"Wagner, Robert",Forschungszentrum Karlsruhe,Germany,10,8,8,0,0,2,2003,2009
+"Connolly, Paul",University of Manchester,United Kingdom,9,1,1,0,0,8,2006,2015
+"Höhler, Kristina",Karlsruhe Institute of Technology,Germany,9,0,0,0,1,8,2013,2024
+"Jiang, Feng",Karlsruhe Institute of Technology,Germany,9,3,2,1,0,6,2021,2025
+"Möhler, Ottmar",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,9,0,0,0,3,6,2013,2025
+"Ebert, Volker",Heidelberg University,Germany,8,1,1,0,2,5,2005,2023
+"Hiranuma, Naruki",West Texas A&M University,United States,8,2,2,0,3,3,2018,2024
+"Hoose, Corinna",Karlsruhe Institute of Technology,Germany,8,0,0,0,0,8,2011,2026
+"Linke, Claudia",Karlsruhe Institute of Technology,Germany,8,0,0,0,0,8,2011,2025
+"Niemand, Monika",Karlsruhe Institute of Technology,Germany,8,1,1,0,1,6,2011,2019
+"Saathoff, Harald",Forschungszentrum Karlsruhe,Germany,8,3,3,0,1,4,2003,2009
+"Skrotzki, Julian",Karlsruhe Institute of Technology,Germany,8,3,1,2,0,5,2011,2014
+"Ullrich, Romy",Karlsruhe Institute of Technology,Germany,8,1,1,0,3,4,2016,2021
+"DeMott, Paul J.",Colorado State University,United States,7,2,2,0,1,4,2011,2024
+"Kanji, Zamin A.",ETH Zurich,Switzerland,7,2,2,0,2,3,2006,2019
+"Leisner, Thomas",Heidelberg University,Germany,7,0,0,0,0,7,2011,2024
+"Murray, Benjamin J.",University of Leeds,United Kingdom,7,0,0,0,4,3,2010,2021
+"Nadolny, Jens",Karlsruhe Institute of Technology,Germany,7,0,0,0,0,7,2020,2024
+"Schnaiter, Martin",Forschungszentrum Karlsruhe,Germany,7,2,2,0,0,5,2003,2009
+"Umo, Nsikanabasi Silas",Karlsruhe Institute of Technology,Germany,7,2,2,0,0,5,2019,2025
+"Ebert, Volker",Technische Universität Darmstadt,Germany,6,0,0,0,2,4,2012,2015
+"Mangold, Alexander",Forschungszentrum Jülich,Germany,6,1,1,0,0,5,2002,2006
+"Möhler, Ottmar",Forschungszentrum Karlsruhe,Germany,6,3,3,0,0,3,2005,2008
+"Saathoff, Harald",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,6,0,0,0,1,5,2012,2025
+"Vogel, Franziska",Karlsruhe Institute of Technology,Germany,6,1,0,1,0,5,2021,2026
+"Benz, Stefan",Forschungszentrum Karlsruhe,Germany,5,0,0,0,0,5,2007,2008
+"Benz, Stefan",Karlsruhe Institute of Technology,Germany,5,0,0,0,0,5,2006,2011
+"Field, Paul R.",Met Office,United Kingdom,5,1,1,0,0,4,2006,2009
+"Gong, Yiwei",Karlsruhe Institute of Technology,Germany,5,0,0,0,0,5,2023,2025
+"Kaercher, Bernd",Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,5,1,1,0,0,4,2002,2017
+"Koop, Thomas",Bielefeld University,Germany,5,0,0,0,2,3,2014,2018
+"Kulkarni, Gourihar",Pacific Northwest National Laboratory,United States,5,0,0,0,1,4,2014,2018
+"Lacher, Larissa",Karlsruhe Institute of Technology,Germany,5,0,0,0,3,2,2020,2024
+"Li, Yanxia",Karlsruhe Institute of Technology,Germany,5,0,0,0,0,5,2023,2025
+"Mentel, Thomas F.",Forschungszentrum Jülich,Germany,5,0,0,0,1,4,2009,2012
+"Naumann, Karl-Heinz",Karlsruhe Institute of Technology,Germany,5,0,0,0,0,5,2011,2018
+"Abdelmonem, Ahmed",Karlsruhe Institute of Technology,Germany,4,2,2,0,0,2,2011,2018
+"Budke, Carsten",Bielefeld University,Germany,4,0,0,0,1,3,2014,2018
+"Coe, Hugh",University of Manchester,United Kingdom,4,0,0,0,0,4,2011,2024
+"Cotton, Richard",Met Office,United Kingdom,4,2,1,1,0,2,2006,2007
+"Cziczo, Daniel J.",Massachusetts Institute of Technology,United States,4,0,0,0,1,3,2016,2024
+"Field, Paul R.",NSF National Center for Atmospheric Research,United States,4,1,1,0,0,3,2006,2007
+"Gao, Linyu",Karlsruhe Institute of Technology,Germany,4,1,1,0,2,1,2021,2022
+"Heymsfield, Andrew J.",NSF National Center for Atmospheric Research,United States,4,0,0,0,0,4,2005,2016
+"Jaervinen, Emma",Karlsruhe Institute of Technology,Germany,4,1,1,0,0,3,2014,2016
+"Leisner, Thomas",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,4,0,0,0,0,4,2018,2024
+"Meyer, Jessica",Forschungszentrum Jülich,Germany,4,2,1,1,0,2,2010,2015
+"Mohr, Claudia",Karlsruhe Institute of Technology,Germany,4,0,0,0,2,2,2017,2024
+"Moyer, Elisabeth J.",University of Chicago,United States,4,0,0,0,3,1,2009,2023
+"Shen, Xiaoli",Karlsruhe Institute of Technology,Germany,4,0,0,0,0,4,2017,2021
+"Song, Junwei",Karlsruhe Institute of Technology,Germany,4,0,0,0,3,1,2021,2022
+"Steinke, Isabelle",Pacific Northwest National Laboratory,United States,4,1,1,0,0,3,2020,2021
+"Stetzer, Olaf",FZI Research Center for Information Technology,Germany,4,1,1,0,0,3,2002,2006
+"Stratmann, Frank",Leibniz Institute for Tropospheric Research,Germany,4,0,0,0,1,3,2012,2018
+"Vallon, Magdalena",Karlsruhe Institute of Technology,Germany,4,3,0,3,0,1,2021,2022
+"Vepuri, Hemanth S. K.",West Texas A&M University,United States,4,0,0,0,3,1,2020,2024
+"Augustin‐Bauditz, Stefanie",Leibniz Institute for Tropospheric Research,Germany,3,0,0,0,0,3,2014,2015
+"Baltensperger, U.",Paul Scherrer Institute,Switzerland,3,0,0,0,0,3,2003,2015
+"Bell, David M.",Pacific Northwest National Laboratory,United States,3,0,0,0,0,3,2016,2024
+"Benz, Stefan",FZI Research Center for Information Technology,Germany,3,0,0,0,0,3,2006,2006
+"Bingemer, Heinz G.",Goethe University Frankfurt,Germany,3,0,0,0,1,2,2012,2018
+"Boose, Yvonne",ETH Zurich,Switzerland,3,0,0,0,1,2,2014,2015
+"Bunz, Helmut",FZI Research Center for Information Technology,Germany,3,1,1,0,0,2,1991,2006
+"Clouser, Benjamin W.",University of Chicago,United States,3,1,1,0,1,1,2020,2023
+"Curtius, Joachim",Goethe University Frankfurt,Germany,3,0,0,0,1,2,2014,2015
+"Diehl, K.",Johannes Gutenberg University Mainz,Germany,3,0,0,0,0,3,2014,2015
+"Dreyer, Axel",Bielefeld University,Germany,3,0,0,0,0,3,2014,2015
+"Flynn, Michael",University of Manchester,United Kingdom,3,0,0,0,0,3,2011,2012
+"Frank, F.",Goethe University Frankfurt,Germany,3,0,0,0,1,2,2014,2015
+"Gallagher, M. W.",University of Manchester,United Kingdom,3,0,0,0,0,3,2009,2011
+"Haag, W.",Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,3,1,1,0,0,2,2002,2003
+"Habig, Jan",Karlsruhe Institute of Technology,Germany,3,0,0,0,1,2,2014,2020
+"Hallquist, Mattias",University of Gothenburg,Sweden,3,0,0,0,0,3,2007,2011
+"Hoshyaripour, Gholam Ali",Karlsruhe Institute of Technology,Germany,3,0,0,0,0,3,2021,2025
+"Jonsson, Asa M.",University of Gothenburg,Sweden,3,1,1,0,0,2,2007,2011
+"Kiendler-Scharr, Astrid",Forschungszentrum Jülich,Germany,3,0,0,0,0,3,2009,2011
+"Krumm, Bianca",Karlsruhe Institute of Technology,Germany,3,0,0,0,0,3,2021,2022
+"Lamb, Kara D.",University of Chicago,United States,3,1,1,0,1,1,2014,2020
+"Laskin, Alexander",Purdue University West Lafayette,United States,3,0,0,0,0,3,2023,2024
+"Linke, Claudia",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,3,0,0,0,0,3,2012,2024
+"Liu, D.",University of Manchester,United Kingdom,3,0,0,0,0,3,2011,2012
+"Mohr, Claudia",Stockholm University,Sweden,3,0,0,0,3,0,2018,2022
+"Murphy, Daniel M.",National Oceanic and Atmospheric Administration,United States,3,0,0,0,1,2,2008,2024
+"Möhler, Ottmar",National Institute of Meteorology,Tunisia,3,0,0,0,0,3,2009,2014
+"Niedermeier, D.",Leibniz Institute for Tropospheric Research,Germany,3,0,0,0,1,2,2014,2015
+"Nillius, B.",Goethe University Frankfurt,Germany,3,0,0,0,0,3,2014,2015
+"Petters, Markus D.",North Carolina State University,United States,3,0,0,0,1,2,2015,2018
+"Rolf, Christian",Forschungszentrum Jülich,Germany,3,0,0,0,3,0,2015,2022
+"Rose, Dominik",Goethe University Frankfurt,Germany,3,0,0,0,0,3,2014,2015
+"Saathoff, Harald",FZI Research Center for Information Technology,Germany,3,0,0,0,0,3,2002,2009
+"Sarkozy, Laszlo",University of Chicago,United States,3,1,0,1,2,0,2020,2023
+"Schiller, C.",Forschungszentrum Jülich,Germany,3,0,0,0,0,3,2003,2015
+"Schmitt, Carl",NSF National Center for Atmospheric Research,United States,3,0,0,0,0,3,2005,2016
+"Siemens, Kyla",Purdue University West Lafayette,United States,3,0,0,0,0,3,2023,2024
+"Sullivan, Ryan C.",Carnegie Mellon University,United States,3,0,0,0,2,1,2015,2019
+"Tillmann, Ralf",Forschungszentrum Jülich,Germany,3,1,0,1,0,2,2009,2011
+"Vochezer, Paul",Karlsruhe Institute of Technology,Germany,3,0,0,0,0,3,2014,2016
+"Vogel, Franziska",Institute of Atmospheric Sciences and Climate,Italy,3,0,0,0,0,3,2025,2026
+"Vogt, Steffen",Karlsruhe Institute of Technology,Germany,3,0,0,0,0,3,2011,2016
+"Wagner, Robert",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,3,2,2,0,0,1,2013,2021
+"Weidler, Peter G.",Karlsruhe Institute of Technology,Germany,3,0,0,0,0,3,2019,2021
+"Wex, Heike",Leibniz Institute for Tropospheric Research,Germany,3,2,2,0,0,1,2014,2015
+"Wilson, Theodore W.",University of Leeds,United Kingdom,3,1,0,1,1,1,2012,2018
+"Zelenyuk, Alla",Pacific Northwest National Laboratory,United States,3,0,0,0,1,2,2016,2024
+"Abbatt, J. P. D.",University of Toronto,Canada,2,1,1,0,0,1,2006,2011
+"Allan, J. D.",University of Manchester,United Kingdom,2,0,0,0,0,2,2012,2012
+"Allan, J. D.",National Centre for Atmospheric Science,United Kingdom,2,0,0,0,0,2,2012,2012
+"Amato, P.",Institut de Chimie de Clermont-Ferrand,France,2,1,1,0,0,1,2015,2015
+"Baumgartner, Manuel",Johannes Gutenberg University Mainz,Germany,2,1,1,0,1,0,2021,2022
+"Bell, David M.",Paul Scherrer Institute,Switzerland,2,0,0,0,0,2,2018,2024
+"Belosi, Franco",Institute of Atmospheric Sciences and Climate,Italy,2,0,0,0,2,0,2018,2021
+"Berlenz, S.",Karlsruhe Institute of Technology,Germany,2,0,0,0,0,2,2012,2012
+"Bogert, Pia",Karlsruhe Institute of Technology,Germany,2,0,0,0,0,2,2025,2025
+"Bozoki, Z.",University of Szeged,Hungary,2,0,0,0,0,2,2014,2015
+"Budz, P.",Max Planck Institute for Nuclear Physics,Germany,2,0,0,0,0,2,2002,2003
+"Bunz, Helmut",Forschungszentrum Karlsruhe,Germany,2,1,1,0,0,1,2008,2008
+"Burgess, R.",University of Manchester,United Kingdom,2,0,0,0,0,2,2009,2010
+"Coe, Hugh",National Centre for Atmospheric Science,United Kingdom,2,0,0,0,0,2,2011,2024
+"Cozic, J.",Laboratoire de Glaciologie et Géophysique de l’Environnement,France,2,0,0,0,0,2,2012,2012
+"Cziczo, Daniel J.",Pacific Northwest National Laboratory,United States,2,1,1,0,1,0,2008,2009
+"Cziczo, Daniel J.",ETH Zurich,Switzerland,2,1,1,0,0,1,2006,2009
+"Cziczo, Daniel J.",Purdue University West Lafayette,United States,2,0,0,0,0,2,2019,2024
+"Dahlkötter, F.",Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,2,0,0,0,0,2,2012,2012
+"Danielczok, Anja",Goethe University Frankfurt,Germany,2,0,0,0,1,1,2015,2018
+"Donahue, N. M.",Carnegie Mellon University,United States,2,0,0,0,0,2,2011,2012
+"Dreyer, Axel",Universität Hamburg,Germany,2,0,0,0,0,2,2014,2015
+"Dreyer, Axel",Hamburg University of Technology,Germany,2,0,0,0,0,2,2014,2015
+"Froyd, Karl D.",National Oceanic and Atmospheric Administration,United States,2,0,0,0,0,2,2008,2009
+"Froyd, Karl D.",Cooperative Institute for Research in Environmental Sciences,United States,2,0,0,0,0,2,2008,2009
+"Funk, Roger",Leibniz Centre for Agricultural Landscape Research,Germany,2,0,0,0,0,2,2016,2020
+"Gallavardin, Stephane J.",ETH Zurich,Switzerland,2,1,0,1,0,1,2008,2009
+"Gensch, Iulia",Forschungszentrum Jülich,Germany,2,1,1,0,0,1,2008,2011
+"Georgakopoulos, Dimitrios G.",Agricultural University of Athens,Greece,2,0,0,0,1,1,2008,2021
+"Ginot, Patrick",Centre National de la Recherche Scientifique,France,2,0,0,0,0,2,2025,2025
+"Ginot, Patrick",Institut des Géosciences de l'Environnement,France,2,0,0,0,0,2,2025,2025
+"Ginot, Patrick",Institut de Recherche pour le Développement,France,2,0,0,0,0,2,2025,2025
+"Ginot, Patrick",Université Grenoble Alpes,France,2,0,0,0,0,2,2025,2025
+"Gong, Yiwei",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,2,0,0,0,0,2,2023,2024
+"Gong, Yiwei",Paul Scherrer Institute,Switzerland,2,0,0,0,0,2,2025,2025
+"Gysel, M.",Paul Scherrer Institute,Switzerland,2,0,0,0,1,1,2012,2012
+"Hartmann, Susan M.",Leibniz Institute for Tropospheric Research,Germany,2,0,0,0,1,1,2014,2015
+"Heimerl, Katharina",Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,2,0,0,0,0,2,2012,2012
+"Herman, R. L.",Jet Propulsion Laboratory,United States,2,0,0,0,0,2,2005,2014
+"Hesse, Evelyn",University of Hertfordshire,United Kingdom,2,0,0,0,0,2,2009,2011
+"Hill, Thomas C. J.",Colorado State University,United States,2,0,0,0,1,1,2015,2018
+"Hitzenberger, R.",University of Vienna,Austria,2,0,0,0,0,2,2012,2012
+"Hoffmann, N.",Karlsruhe Institute of Technology,Germany,2,0,0,0,0,2,2014,2015
+"Hoffmann, T.",Johannes Gutenberg University Mainz,Germany,2,0,0,0,1,1,2011,2012
+"Horvath, Helmuth",University of Vienna,Austria,2,0,0,0,0,2,2003,2009
+"Hu, Yaqiong",Karlsruhe Institute of Technology,Germany,2,0,0,0,0,2,2025,2025
+"Huang, Wei",Karlsruhe Institute of Technology,Germany,2,1,0,1,0,1,2017,2018
+"Hunsmann, S.",Heidelberg University,Germany,2,0,0,0,0,2,2008,2014
+"Höhler, Kristina",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,2,0,0,0,1,1,2018,2021
+"Jantsch, Evelyn",Johannes Gutenberg University Mainz,Germany,2,0,0,0,1,1,2014,2015
+"Jantsch, Evelyn",Bielefeld University,Germany,2,0,0,0,1,1,2014,2015
+"Jiang, Feng",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,2,2,1,1,0,0,2023,2024
+"Jiang, Feng",Indiana University Bloomington,United States,2,0,0,0,0,2,2025,2025
+"Kandler, Konrad",Technische Universität Darmstadt,Germany,2,0,0,0,0,2,2021,2026
+"Kanji, Zamin A.",University of Toronto,Canada,2,1,1,0,0,1,2006,2011
+"Kühnreich, Benjamin",Physikalisch-Technische Bundesanstalt,Germany,2,1,0,1,0,1,2015,2015
+"Kühnreich, Benjamin",Technische Universität Darmstadt,Germany,2,1,0,1,0,1,2015,2015
+"Laborde, M.",Paul Scherrer Institute,Switzerland,2,2,0,2,0,0,2012,2012
+"Laj, Paolo",Laboratoire de Glaciologie et Géophysique de l’Environnement,France,2,0,0,0,0,2,2012,2012
+"Laj, Paolo",Centre National de la Recherche Scientifique,France,2,0,0,0,0,2,2025,2025
+"Laj, Paolo",World Meteorological Organization,Switzerland,2,0,0,0,0,2,2025,2025
+"Laj, Paolo",Institut des Géosciences de l'Environnement,France,2,0,0,0,0,2,2025,2025
+"Laj, Paolo",Institut de Recherche pour le Développement,France,2,0,0,0,0,2,2025,2025
+"Laj, Paolo",Université Grenoble Alpes,France,2,0,0,0,0,2,2025,2025
+"Leisner, Thomas",Forschungszentrum Karlsruhe,Germany,2,0,0,0,0,2,2007,2008
+"Levin, Ezra J. T.",Colorado State University,United States,2,0,0,0,1,1,2015,2018
+"Li, Yanxia",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,2,0,0,0,0,2,2023,2024
+"Lohmann, Ulrike",ETH Zurich,Switzerland,2,0,0,0,0,2,2006,2008
+"Malkin, T. L.",University of Leeds,United Kingdom,2,0,0,0,0,2,2012,2012
+"Mauersberger, K.",Max Planck Institute for Nuclear Physics,Germany,2,0,0,0,0,2,2002,2003
+"Morris, C. E.","Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",France,2,0,0,0,0,2,2008,2015
+"Mueller, L.",Johannes Gutenberg University Mainz,Germany,2,1,0,1,0,1,2011,2012
+"Murakami, Masataka",Meteorological Research Institute,Japan,2,0,0,0,1,1,2013,2015
+"Niedermeier, D.",Michigan Technological University,United States,2,0,0,0,1,1,2015,2015
+"O'Sullivan, Daniel",University of Leeds,United Kingdom,2,0,0,0,1,1,2015,2018
+"Pajunoja, Aki",University of Eastern Finland,Finland,2,0,0,0,0,2,2017,2018
+"Peckhaus, Andreas",Karlsruhe Institute of Technology,Germany,2,0,0,0,1,1,2015,2018
+"Prenni, Anthony J.",National Park Service,United States,2,0,0,0,1,1,2015,2019
+"Prenni, Anthony J.",Colorado State University,United States,2,0,0,0,1,1,2015,2019
+"Prevot, A. S. H.",Paul Scherrer Institute,Switzerland,2,0,0,0,2,0,2013,2015
+"Price, Hannah C.",University of Leeds,United Kingdom,2,0,0,0,1,1,2012,2018
+"Reinnig, M. C.",Johannes Gutenberg University Mainz,Germany,2,0,0,0,0,2,2011,2012
+"Rosenlof, Karen",NOAA Chemical Sciences Laboratory,United States,2,0,0,0,0,2,2015,2025
+"Rösch, Michael",Leibniz Institute for Tropospheric Research,Germany,2,0,0,0,0,2,2014,2015
+"Saito, Atsushi",Meteorological Research Institute,Japan,2,0,0,0,0,2,2013,2015
+"Santachiara, Gianni",Institute of Atmospheric Sciences and Climate,Italy,2,0,0,0,1,1,2018,2021
+"Schaefers, S.",FZI Research Center for Information Technology,Germany,2,0,0,0,0,2,2002,2003
+"Schaupp, C.",Karlsruhe Institute of Technology,Germany,2,0,0,0,0,2,2015,2015
+"Schiebel, Thea",Karlsruhe Institute of Technology,Germany,2,0,0,0,1,1,2017,2018
+"Schmidt, Christina",Heidelberg University,Germany,2,0,0,0,0,2,2014,2015
+"Schnaiter, Martin",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,2,0,0,0,0,2,2012,2018
+"Schnaiter, Martin",University of Wuppertal,Germany,2,0,0,0,0,2,2025,2025
+"Schnaiter, Martin","Wuppertal Institute for Climate, Environment and Energy",Germany,2,0,0,0,0,2,2025,2025
+"Schnaiter, Martin",FZI Research Center for Information Technology,Germany,2,0,0,0,0,2,2002,2006
+"Schneider, Julia",Max Planck Institute for Chemistry,Germany,2,0,0,0,0,2,2008,2024
+"Schneider, Julia",Karlsruhe Institute of Technology,Germany,2,1,0,1,0,1,2021,2022
+"Schorr, Tobias",Karlsruhe Institute of Technology,Germany,2,0,0,0,0,2,2021,2022
+"Schreiner, J.",Max Planck Institute for Nuclear Physics,Germany,2,0,0,0,0,2,2002,2003
+"Schurath, Ulrich",Forschungszentrum Karlsruhe,Germany,2,0,0,0,1,1,2005,2009
+"Schurath, Ulrich",FZI Research Center for Information Technology,Germany,2,0,0,0,0,2,2002,2003
+"Schwarz, Joshua P.",NOAA Earth System Research Laboratory,United States,2,0,0,0,0,2,2012,2012
+"Shen, Xiaoli",Purdue University West Lafayette,United States,2,1,1,0,0,1,2021,2024
+"Slowik, J. G.",Paul Scherrer Institute,Switzerland,2,0,0,0,0,2,2013,2015
+"Smith, J. B.",Harvard University,United States,2,0,0,0,0,2,2009,2014
+"Spelten, N.",Forschungszentrum Jülich,Germany,2,0,0,0,0,2,2014,2015
+"Spindler, C.",Forschungszentrum Jülich,Germany,2,0,0,0,0,2,2011,2012
+"Suski, Kaitlyn J.",Pacific Northwest National Laboratory,United States,2,1,0,1,1,0,2018,2018
+"Tajiri, Takuya",Meteorological Research Institute,Japan,2,1,0,1,0,1,2013,2015
+"Taylor, Jonathan",University of Manchester,United Kingdom,2,0,0,0,0,2,2012,2012
+"Ulanowski, Zbigniew",University of Hertfordshire,United Kingdom,2,0,0,0,0,2,2011,2016
+"Ullrich, Romy",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,2,0,0,0,0,2,2018,2021
+"Virtanen, Annele",University of Eastern Finland,Finland,2,0,0,0,0,2,2017,2018
+"Wagner, Steven",Heidelberg University,Germany,2,0,0,0,0,2,2008,2014
+"Wagner, Steven",Technische Universität Darmstadt,Germany,2,0,0,0,0,2,2014,2015
+"Wagner, Uwe",Karlsruhe Institute of Technology,Germany,2,0,0,0,0,2,2012,2012
+"Weinzierl, Bernadett",Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,2,0,0,0,0,2,2012,2012
+"Whale, Thomas F.",University of Leeds,United Kingdom,2,0,0,0,1,1,2015,2018
+"Wilson, Jacqueline",Pacific Northwest National Laboratory,United States,2,0,0,0,0,2,2016,2024
+"Wolf, R.",Paul Scherrer Institute,Switzerland,2,1,0,1,0,1,2013,2015
+"Wollny, A. G.",Deutscher Wetterdienst,Germany,2,0,0,0,0,2,2012,2012
+"Wollny, A. G.",Max Planck Institute for Chemistry,Germany,2,0,0,0,0,2,2012,2012
+"Wollny, A. G.",Max Planck Institute for Biogeochemistry,Germany,2,0,0,0,0,2,2012,2012
+"Yamashita, Katsuya",Meteorological Research Institute,Japan,2,0,0,0,0,2,2013,2015
+"Zanatta, Marco",Laboratoire de Glaciologie et Géophysique de l’Environnement,France,2,0,0,0,0,2,2012,2012
+"Zanatta, Marco",Karlsruhe Institute of Technology,Germany,2,2,2,0,0,0,2025,2025
+"Zanatta, Marco",Institute of Atmospheric Sciences and Climate,Italy,2,2,2,0,0,0,2025,2025
+"Zhang, K.",Pacific Northwest National Laboratory,United States,2,0,0,0,0,2,2014,2014
+"Zink, P.",Max Planck Institute for Nuclear Physics,Germany,2,0,0,0,0,2,2002,2003
+"Abbatt, J. P. D.",Karlsruhe Institute of Technology,Germany,1,1,1,0,0,0,2006,2006
+"Abbatt, J. P. D.",FZI Research Center for Information Technology,Germany,1,1,1,0,0,0,2006,2006
+"Abbatt, J. P. D.",ETH Zurich,Switzerland,1,1,1,0,0,0,2006,2006
+"Adams, Michael P.",University of Leeds,United Kingdom,1,0,0,0,0,1,2021,2021
+"Afchine, Armin",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2015,2015
+"Al-Jumur, S. M. R. K.",University of Leeds,United Kingdom,1,0,0,0,0,1,2012,2012
+"Alam, Kamran",Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,Pakistan,1,1,0,1,0,0,2021,2021
+"Alam, Kamran",Arizona State University,United States,1,1,0,1,0,0,2021,2021
+"Ali, Asad",Arizona State University,United States,1,0,0,0,0,1,2021,2021
+"Ali, Saddam",Arizona State University,United States,1,0,0,0,0,1,2021,2021
+"Alpert, Peter A.",Lyon 1 Université,France,1,1,1,0,0,0,2016,2016
+"Alpert, Peter A.",Centre National de la Recherche Scientifique,France,1,1,1,0,0,0,2016,2016
+"Alpert, Peter A.",Institut de Recherches sur la Catalyse et l'Environnement de Lyon,France,1,1,1,0,0,0,2016,2016
+"Alpert, Peter A.",Stony Brook University,United States,1,1,1,0,0,0,2016,2016
+"Alrehaili, Omar",Arizona State University,United States,1,0,0,0,0,1,2020,2020
+"Amarouche, Nadir",Centre National de la Recherche Scientifique,France,1,0,0,0,0,1,2014,2014
+"Amarouche, Nadir",Division Technique de I'INSU,France,1,0,0,0,0,1,2014,2014
+"Amarouche, Nadir",Centre de Génétique Moléculaire,France,1,0,0,0,0,1,2025,2025
+"Amato, P.",Clermont-Ferrand’s Superior National School of Chemistry,France,1,0,0,0,0,1,2015,2015
+"Amato, P.",Centre National de la Recherche Scientifique,France,1,1,1,0,0,0,2015,2015
+"Amato, P.",Université Clermont Auvergne,France,1,1,1,0,0,0,2015,2015
+"Amsler, Peter",ETH Zurich,Switzerland,1,0,0,0,0,1,2011,2011
+"Amsler, Peter",Karlsruhe Institute of Technology,Germany,1,1,1,0,0,0,2009,2009
+"Anderson, J. G.",Harvard University,United States,1,0,0,0,0,1,2009,2009
+"Astorga, C.",Joint Research Centre,Italy,1,0,0,0,0,1,2013,2013
+"Atkinson, Ariel J.",Arizona State University,United States,1,1,1,0,0,0,2020,2020
+"Attard, E.",Centre National de la Recherche Scientifique,France,1,0,0,0,0,1,2015,2015
+"Attard, E.",Université de Pau et des Pays de l'Adour,France,1,0,0,0,0,1,2015,2015
+"Attard, E.",Université Clermont Auvergne,France,1,0,0,0,0,1,2015,2015
+"Attard, E.",Institut des Sciences Analytiques et de Physico-Chimie pour l'Environnement et les Matériaux,France,1,0,0,0,0,1,2015,2015
+"Attard, E.",Institut de Chimie de Clermont-Ferrand,France,1,0,0,0,0,1,2015,2015
+"Augustin‐Bauditz, Stefanie",Leibniz Association,Germany,1,0,0,0,0,1,2015,2015
+"Auvermann, Brent W.",Texas A&M AgriLife Res,United States,1,0,0,0,0,1,2021,2021
+"Avallone, L. M.",U.S. National Science Foundation,United States,1,0,0,0,0,1,2014,2014
+"Avallone, L. M.",University of Colorado Boulder,United States,1,0,0,0,0,1,2014,2014
+"Barahona, Donifan",Georgia Institute of Technology,United States,1,1,1,0,0,0,2008,2008
+"Barmet, P.",Paul Scherrer Institute,Switzerland,1,0,0,0,0,1,2013,2013
+"Bauer, R.",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2014,2014
+"Belosi, Franco",National Research Council,Italy,1,0,0,0,1,0,2021,2021
+"Benker, N.",Technische Universität Darmstadt,Germany,1,0,0,0,0,1,2021,2021
+"Benz, Stefan",Landesanstalt für Umwelt Baden-Württemberg,Germany,1,0,0,0,0,1,2021,2021
+"Benz, Stefan",National Institute of Meteorology,Tunisia,1,0,0,0,0,1,2009,2009
+"Benz, Stefan",University of Toronto,Canada,1,0,0,0,0,1,2006,2006
+"Benz, Stefan",ETH Zurich,Switzerland,1,0,0,0,0,1,2006,2006
+"Berger, Corentin","Laboratoire Image, Ville, Environnement",France,1,1,1,0,0,0,2023,2023
+"Bertram, Allan K.",University of British Columbia,Canada,1,0,0,0,1,0,2021,2021
+"Bi, Yugiang",Arizona State University,United States,1,0,0,0,0,1,2020,2020
+"Bianchi, F.",Paul Scherrer Institute,Switzerland,1,0,0,0,0,1,2013,2013
+"Blond, Nadege","Laboratoire Image, Ville, Environnement",France,1,0,0,0,0,1,2023,2023
+"Boffo, Cristian",Fermi National Accelerator Laboratory,United States,1,0,0,0,0,1,2021,2021
+"Boffo, Cristian",Bilfinger (Germany),Germany,1,0,0,0,0,1,2021,2021
+"Bohn, B.",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2011,2011
+"Bower, K. N.",University of Manchester,United Kingdom,1,0,0,0,0,1,2011,2011
+"Bower, K. N.",National Centre for Atmospheric Science,United Kingdom,1,0,0,0,0,1,2011,2011
+"Bozoki, Z.",MTA-SZTE Research Group on Artificial Intelligence,Hungary,1,0,0,0,0,1,2015,2015
+"Bozoki, Z.",Technical University of Munich,Germany,1,0,0,0,0,1,2003,2003
+"Brauers, Theo",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2009,2009
+"Brooks, Sarah D.",Texas A&M University,United States,1,0,0,0,1,0,2018,2018
+"Brunamonti, Simone",Swiss Federal Laboratories for Materials Science and Technology,Switzerland,1,1,0,1,0,0,2025,2025
+"Brunet, Y.","Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",France,1,0,0,0,0,1,2015,2015
+"Brunet, Y.",Interaction Sol Plante Atmosphère,France,1,0,0,0,0,1,2015,2015
+"Buchholz, A.",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2012,2012
+"Bunz, Helmut",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2006,2006
+"Burkert-Kohn, Monika",ETH Zurich,Switzerland,1,0,0,0,1,0,2018,2018
+"Bush, Jack",Texas A&M AgriLife Res,United States,1,0,0,0,0,1,2021,2021
+"Busse, J.",Leibniz Centre for Agricultural Landscape Research,Germany,1,0,0,0,0,1,2016,2016
+"Büttner, S.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2012,2012
+"Cenac, Claire",École Polytechnique,France,1,0,0,0,0,1,2025,2025
+"Cenac, Claire",Sorbonne Université,France,1,0,0,0,0,1,2025,2025
+"Cenac, Claire",Laboratoire de Météorologie Dynamique,France,1,0,0,0,0,1,2025,2025
+"Chang, Zhiguang",Chinese Academy of Sciences,China,1,1,0,1,0,0,2019,2019
+"Chang, Zhiguang",Chinese Academy of Engineering,China,1,1,0,1,0,0,2019,2019
+"Chang, Zhiguang",Shenzhen Institutes of Advanced Technology,China,1,1,0,1,0,0,2019,2019
+"Chang, Zhiguang",University of Chinese Academy of Sciences,China,1,1,0,1,0,0,2019,2019
+"Chou, Cedric",ETH Zurich,Switzerland,1,0,0,0,1,0,2019,2019
+"Choularton, T.",University of Manchester,United Kingdom,1,0,0,0,0,1,2009,2009
+"Christensen, L. E.",Jet Propulsion Laboratory,United States,1,0,0,0,0,1,2014,2014
+"Clairotte, M.",Joint Research Centre,Italy,1,0,0,0,0,1,2013,2013
+"Collier, Kristen N.",Texas A&M University,United States,1,0,0,0,1,0,2018,2018
+"Connolly, Paul",National Centre for Atmospheric Science,United Kingdom,1,0,0,0,0,1,2011,2011
+"Cory, Kimberly M.",Texas Tech University,United States,1,0,0,0,0,1,2021,2021
+"Cory, Kimberly M.",West Texas A&M University,United States,1,0,0,0,0,1,2021,2021
+"Crawford, I.",University of Manchester,United Kingdom,1,1,1,0,0,0,2011,2011
+"Crawford, I.",National Centre for Atmospheric Science,United Kingdom,1,1,1,0,0,0,2011,2011
+"Cziczo, Daniel J.",Battelle,United States,1,1,1,0,0,0,2009,2009
+"Cziczo, Daniel J.",Planetary Science Institute,United States,1,0,0,0,0,1,2016,2016
+"Cziczo, Daniel J.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2006,2006
+"Cziczo, Daniel J.",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,2006,2006
+"Cziczo, Daniel J.",University of Toronto,Canada,1,0,0,0,0,1,2006,2006
+"Cziczo, Daniel J.",National Oceanic and Atmospheric Administration,United States,1,0,0,0,0,1,2005,2005
+"Cziczo, Daniel J.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2005,2005
+"Cziczo, Daniel J.",University of Colorado Boulder,United States,1,0,0,0,0,1,2005,2005
+"Danielczok, Anja",Deutscher Wetterdienst,Germany,1,0,0,0,1,0,2018,2018
+"Davis, S. M.",National Oceanic and Atmospheric Administration,United States,1,0,0,0,0,1,2014,2014
+"Davis, S. M.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2014,2014
+"Davis, S. M.",University of Colorado Boulder,United States,1,0,0,0,0,1,2014,2014
+"Davis, S. M.",NOAA Earth System Research Laboratory,United States,1,0,0,0,0,1,2014,2014
+"Delagrange, R.",University of Geneva,Switzerland,1,0,0,0,0,1,2013,2013
+"Delort, A. -M.",Centre National de la Recherche Scientifique,France,1,0,0,0,0,1,2015,2015
+"Delort, A. -M.",Université Clermont Auvergne,France,1,0,0,0,0,1,2015,2015
+"Delort, A. -M.",Institut de Chimie de Clermont-Ferrand,France,1,0,0,0,0,1,2015,2015
+"Dingwell, D. B.",Ludwig-Maximilians-Universität München,Germany,1,0,0,0,0,1,2021,2021
+"Dippel, B.",Leibniz Institute for Tropospheric Research,Germany,1,0,0,0,0,1,2003,2003
+"Diskin, Glenn",Langley Research Center,United States,1,0,0,0,0,1,2025,2025
+"Dobbie, S.",University of Leeds,United Kingdom,1,0,0,0,0,1,2012,2012
+"Dreischmeier, K.",Bielefeld University,Germany,1,0,0,0,0,1,2015,2015
+"Dreyer, Axel",Michigan Technological University,United States,1,0,0,0,0,1,2014,2014
+"Drinovec, L.",Jolly Aero (Slovenia),Slovenia,1,0,0,0,0,1,2013,2013
+"Duft, Denis",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2016,2016
+"Durry, Georges",Centre National de la Recherche Scientifique,France,1,0,0,0,0,1,2014,2014
+"Durry, Georges",Groupe de Spectrométrie Moléculaire et Atmosphérique,France,1,0,0,0,0,1,2014,2014
+"Durry, Georges",Université de Reims Champagne-Ardenne,France,1,0,0,0,0,1,2014,2014
+"Durry, Georges",École Polytechnique,France,1,0,0,0,0,1,2025,2025
+"Durry, Georges",Sorbonne Université,France,1,0,0,0,0,1,2025,2025
+"Durry, Georges",Laboratoire de Météorologie Dynamique,France,1,0,0,0,0,1,2025,2025
+"Dusek, Ulrike",University of Groningen,The Netherlands,1,1,0,1,0,0,2025,2025
+"Dyroff, C.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2014,2014
+"Ebert, M.",Tech Univ Darmstadt,Germany,1,0,0,0,0,1,2015,2015
+"El Haddad, I.",Paul Scherrer Institute,Switzerland,1,0,0,0,0,1,2013,2013
+"Els, Nora",Universität Innsbruck,Austria,1,0,0,0,1,0,2021,2021
+"Emmenegger, Lukas",Swiss Federal Laboratories for Materials Science and Technology,Switzerland,1,0,0,0,0,1,2025,2025
+"Eppers, Oliver",Johannes Gutenberg University Mainz,Germany,1,0,0,0,1,0,2018,2018
+"Fahey, D. W.",National Oceanic and Atmospheric Administration,United States,1,1,1,0,0,0,2014,2014
+"Fahey, D. W.",NOAA Earth System Research Laboratory,United States,1,1,1,0,0,0,2014,2014
+"Felgitsch, Laura",TU Wien,Austria,1,0,0,0,1,0,2018,2018
+"Fiorentino, Raffaele",Parthenope University of Naples,Italy,1,1,0,1,0,0,2020,2020
+"Firth, Peter",Foothill College,United States,1,0,0,0,0,1,2020,2020
+"Firth, Peter",Arizona State University,United States,1,0,0,0,0,1,2020,2020
+"Flynn, Michael",National Centre for Atmospheric Science,United Kingdom,1,0,0,0,0,1,2011,2011
+"Fosig, Romy",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2026,2026
+"Frerot, Fabien",Centre de Génétique Moléculaire,France,1,0,0,0,0,1,2025,2025
+"Fridlind, A. M.",Ames Research Center,United States,1,0,0,0,0,1,2005,2005
+"Froyd, Karl D.",University of Colorado Boulder,United States,1,0,0,0,0,1,2008,2008
+"Fry, Juliane L.",Wageningen University & Research,The Netherlands,1,0,0,0,1,0,2025,2025
+"Fu, Jiajie",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2025,2025
+"Fu, Jiajie",University of Groningen,The Netherlands,1,0,0,0,0,1,2025,2025
+"Fuchs, H.",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2011,2011
+"Fujiwara, Masatomo",Hokkaido University,Japan,1,0,0,0,0,1,2025,2025
+"Funk, Jens",University of Freiburg,Germany,1,0,0,0,0,1,2006,2006
+"Gallagher, M. W.",National Centre for Atmospheric Science,United Kingdom,1,0,0,0,0,1,2011,2011
+"Gallavardin, Stephane J.",Johannes Gutenberg University Mainz,Germany,1,0,0,0,0,1,2009,2009
+"Gangl, Martin",University of Vienna,Austria,1,0,0,0,0,1,2009,2009
+"Gao, R. -S.",National Oceanic and Atmospheric Administration,United States,1,0,0,0,0,1,2014,2014
+"Gao, R. -S.",NOAA Earth System Research Laboratory,United States,1,0,0,0,0,1,2014,2014
+"Garcia-Pando, Carlos Perez",Barcelona Supercomp Ctr BSC,Spain,1,0,0,0,0,1,2026,2026
+"Garcia-Pando, Carlos Perez",Catalan Inst Res & Adv Studies ICREA,Spain,1,0,0,0,0,1,2026,2026
+"Garimella, Sarvesh",Massachusetts Institute of Technology,United States,1,0,0,0,1,0,2018,2018
+"Ghysels, Melanie",Centre National pour la Recherche Scientifique et Technique (CNRST),Morocco,1,0,0,0,1,0,2025,2025
+"Gonzalez-Romero, Adolfo",Consejo Superior de Investigaciones Científicas,Spain,1,0,0,0,0,1,2026,2026
+"Gonzalez-Romero, Adolfo",Barcelona Supercomputing Center,Spain,1,0,0,0,0,1,2026,2026
+"Gonzalez-Romero, Adolfo",Institute of Environmental Assessment and Water Research,Spain,1,0,0,0,0,1,2026,2026
+"Gonzalez-Romero, Adolfo",Universitat Politècnica de Catalunya,Spain,1,0,0,0,0,1,2026,2026
+"Gorokhova, Elena",Stockholm University,Sweden,1,0,0,0,0,1,2021,2021
+"Gorokhova, Elena",Bolin Centre for Climate Research,Sweden,1,0,0,0,0,1,2021,2021
+"Goschnick, J.",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,2003,2003
+"Grooss, Jens-Uwe",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2022,2022
+"Grothe, Hinrich",TU Wien,Austria,1,0,0,0,1,0,2018,2018
+"Guerrero, Carlos",West Texas A&M University,United States,1,0,0,0,0,1,2024,2024
+"Hader, J. D.",North Carolina State University,United States,1,0,0,0,0,1,2015,2015
+"Han, Lie-Bao",Beijing Forestry University,China,1,0,0,0,1,0,2012,2012
+"Han, Lie-Bao",Virginia Tech,United States,1,0,0,0,1,0,2012,2012
+"Hanisco, T. F.",Goddard Space Flight Center,United States,1,0,0,0,0,1,2009,2009
+"Hao, Z.",Freie Universität Berlin,Germany,1,0,0,0,0,1,2013,2013
+"Hara, Takahito",Urology San Antonio,United States,1,1,0,1,0,0,2008,2008
+"Hara, Takahito",Takeda (Japan),Japan,1,1,0,1,0,0,2008,2008
+"Harrington, Jerry Y.",Pennsylvania State University,United States,1,0,0,0,1,0,2023,2023
+"Hartmann, Susan M.",Leibniz Association,Germany,1,0,0,0,1,0,2015,2015
+"Hauglustaine, Didier",Commissariat à l'Énergie Atomique et aux Énergies Alternatives,France,1,0,0,0,0,1,2023,2023
+"Hauglustaine, Didier",Laboratoire des Sciences du Climat et de l'Environnement,France,1,0,0,0,0,1,2023,2023
+"Hauglustaine, Didier",CEA Paris-Saclay,France,1,0,0,0,0,1,2023,2023
+"Henin, S.",University of Geneva,Switzerland,1,0,0,0,0,1,2013,2013
+"Henning, S.",Leibniz Institute for Tropospheric Research,Germany,1,1,1,0,0,0,2012,2012
+"Herenz, Paul",Leibniz Institute for Tropospheric Research,Germany,1,0,0,0,1,0,2018,2018
+"Hertzog, Albert",École Polytechnique,France,1,0,0,0,0,1,2025,2025
+"Hertzog, Albert",Sorbonne Université,France,1,0,0,0,0,1,2025,2025
+"Hertzog, Albert",Laboratoire de Météorologie Dynamique,France,1,0,0,0,0,1,2025,2025
+"Hintsa, E. J.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2009,2009
+"Hiranuma, Naruki",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,0,0,0,0,1,2024,2024
+"Hiranuma, Naruki",National Institute of Meteorology,Tunisia,1,1,1,0,0,0,2014,2014
+"Hirst, Edwin",University of Hertfordshire,United Kingdom,1,0,0,0,0,1,2016,2016
+"Hitzenberger, R.",University of Applied Sciences Technikum Wien,Austria,1,0,0,0,0,1,2012,2012
+"Hitzenberger, R.",Hochschule Campus Wien,Austria,1,0,0,0,0,1,2012,2012
+"Hobl, Achim",Bilfinger (Germany),Germany,1,0,0,0,0,1,2021,2021
+"Hoffmann, N.",National Institute of Meteorology,Tunisia,1,0,0,0,0,1,2014,2014
+"Hohaus, Thorsten",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2011,2011
+"Holman, Zachary C.",Foothill College,United States,1,0,0,0,1,0,2020,2020
+"Holman, Zachary C.",Arizona State University,United States,1,0,0,0,1,0,2020,2020
+"Holzinger, Rupert",Utrecht University,The Netherlands,1,0,0,0,1,0,2025,2025
+"Hoshyaripour, Gholam Ali",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,0,0,0,0,1,2021,2021
+"Hou, Yidi",West Texas A&M University,United States,1,0,0,0,0,1,2021,2021
+"Huang, Shuqiang",Chinese Academy of Sciences,China,1,0,0,0,0,1,2019,2019
+"Huang, Shuqiang",Chinese Academy of Engineering,China,1,0,0,0,0,1,2019,2019
+"Huang, Shuqiang",Shenzhen Institutes of Advanced Technology,China,1,0,0,0,0,1,2019,2019
+"Huang, Shuqiang",University of Chinese Academy of Sciences,China,1,0,0,0,0,1,2019,2019
+"Huang, Wei",University of Helsinki,Finland,1,0,0,0,1,0,2022,2022
+"Hudson, P. K.",National Oceanic and Atmospheric Administration,United States,1,0,0,0,0,1,2005,2005
+"Hudson, P. K.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2005,2005
+"Hudson, P. K.",University of Colorado Boulder,United States,1,0,0,0,0,1,2005,2005
+"Hummel, Matthias",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2013,2013
+"Hussain, Sajjad",Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,Pakistan,1,0,0,0,0,1,2021,2021
+"Ickes, Luisa",Chalmers University of Technology,Sweden,1,0,0,0,1,0,2021,2021
+"Imre, Dan",Imre Consulting,United States,1,0,0,0,0,1,2018,2018
+"Indris, O.",Max Planck Institute for Nuclear Physics,Germany,1,0,0,0,0,1,2006,2006
+"Iturri, A.",Universidad Nacional de La Pampa,Argentina,1,0,0,0,0,1,2016,2016
+"Jensen, E. J.",Ames Research Center,United States,1,1,1,0,0,0,2005,2005
+"Jezek, I.",Jolly Aero (Slovenia),Slovenia,1,0,0,0,0,1,2013,2013
+"Jezek, I.",B2 (Slovenia),Slovenia,1,0,0,0,0,1,2013,2013
+"Joly, M.",Centre National de la Recherche Scientifique,France,1,0,0,0,0,1,2015,2015
+"Joly, M.",Université Clermont Auvergne,France,1,0,0,0,0,1,2015,2015
+"Joly, M.",Observatoire de Physique du Globe de Clermont-Ferrand,France,1,0,0,0,0,1,2015,2015
+"Joly, M.",Institut de Chimie de Clermont-Ferrand,France,1,0,0,0,0,1,2015,2015
+"Jonsson, Asa M.",IVL Swedish Environmental Research Institute,Sweden,1,0,0,0,0,1,2011,2011
+"Jourdan, Olivier",Laboratoire de Météorologie Physique,France,1,0,0,0,0,1,2016,2016
+"Kaercher, Bernd",Inst Atmospher Phys,Germany,1,1,1,0,0,0,2005,2005
+"Kammer, Beatrix",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2011,2011
+"Kandler, Konrad",Tech Univ Darmstadt,Germany,1,0,0,0,0,1,2015,2015
+"Kanji, Zamin A.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2006,2006
+"Kanji, Zamin A.",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,2006,2006
+"Kasparian, J.",University of Geneva,Switzerland,1,0,0,0,1,0,2013,2013
+"Kaufmann, Julia",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2018,2018
+"Kaufmann, Julia",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,0,0,0,0,1,2018,2018
+"Kerstel, Erik",Laboratoire Interdisciplinaire de Physique,France,1,0,0,0,0,1,2013,2013
+"Khan, Khurram Imran",Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,Pakistan,1,0,0,0,1,0,2021,2021
+"Khaykin, S. M.",Centre National de la Recherche Scientifique,France,1,0,0,0,0,1,2014,2014
+"Khaykin, S. M.",Institut Pierre-Simon Laplace,France,1,0,0,0,0,1,2014,2014
+"Khaykin, S. M.",Roshydromet,Russia,1,0,0,0,0,1,2014,2014
+"Kirchen, S.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2016,2016
+"Kirchner, U.",Ford (Germany),Germany,1,1,1,0,0,0,2003,2003
+"Kiselev, Alexei",Leibniz Institute for Tropospheric Research,Germany,1,0,0,0,0,1,2012,2012
+"Kiselev, Alexei",National Institute of Meteorology,Tunisia,1,0,0,0,0,1,2014,2014
+"Kiselev, Alexei",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,0,0,0,0,1,2021,2021
+"Klein, Holger",Goethe University Frankfurt,Germany,1,0,0,0,0,1,2012,2012
+"Klose, Martina",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2026,2026
+"Knopf, Daniel A.",Stony Brook University,United States,1,0,0,0,1,0,2016,2016
+"KOYRO, M.",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,1991,1991
+"Kreidenweis, S. M.",Colorado State University,United States,1,0,0,0,0,1,2015,2015
+"Kremer, Martina",Forschungszentrum Jülich,Germany,1,0,0,0,1,0,2022,2022
+"Kremer, Martina",Johannes Gutenberg University Mainz,Germany,1,0,0,0,1,0,2022,2022
+"Kristensen, Thomas B.",Lund University,Sweden,1,0,0,0,1,0,2018,2018
+"Kristensen, Thomas B.",Leibniz Institute for Tropospheric Research,Germany,1,0,0,0,1,0,2018,2018
+"Kroese, Willem",Utrecht University,The Netherlands,1,0,0,0,1,0,2025,2025
+"Krueger, Konstantin",Karlsruhe Institute of Technology,Germany,1,0,0,0,1,0,2018,2018
+"Krueger, Konstantin",Goethe University Frankfurt,Germany,1,0,0,0,1,0,2018,2018
+"Krueger, Konstantin",Frankfurt Institute for Advanced Studies,Germany,1,0,0,0,1,0,2018,2018
+"Krueger, Konstantin",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,0,0,0,1,0,2018,2018
+"Krämer, L.",Technical University of Munich,Germany,1,0,0,0,0,1,2003,2003
+"Krämer, Martina",Johannes Gutenberg University Mainz,Germany,1,0,0,0,1,0,2021,2021
+"Kueppers, U.",Ludwig-Maximilians-Universität München,Germany,1,0,0,0,0,1,2021,2021
+"Kusunoki, Kenichi",Meteorological Research Institute,Japan,1,0,0,0,0,1,2013,2013
+"Lamb, Kara D.",Columbia University,United States,1,1,1,0,0,0,2023,2023
+"Lamb, Kara D.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,1,0,2020,2020
+"Landsberg, Janek",Laboratoire Interdisciplinaire de Physique,France,1,0,0,0,0,1,2013,2013
+"Lang, Qi",Chinese Academy of Sciences,China,1,0,0,0,0,1,2019,2019
+"Lang, Qi",Chinese Academy of Engineering,China,1,0,0,0,0,1,2019,2019
+"Lang, Qi",Shenzhen Institutes of Advanced Technology,China,1,0,0,0,0,1,2019,2019
+"Lang, Qi",University of Chinese Academy of Sciences,China,1,0,0,0,0,1,2019,2019
+"Lang, Yue",BGI Group (China),China,1,0,0,0,0,1,2019,2019
+"Lang, Yue",FIND,Switzerland,1,0,0,0,0,1,2019,2019
+"Lang, Yue",Key Laboratory of Guangdong Province,China,1,0,0,0,0,1,2019,2019
+"Laskin, Alexander",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2023,2023
+"Laumer, Werner",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2011,2011
+"Lee, Aram",Yale University,United States,1,0,0,0,0,1,2008,2008
+"Lee, Aram",Urology San Antonio,United States,1,0,0,0,0,1,2008,2008
+"Leue, M.",Leibniz Centre for Agricultural Landscape Research,Germany,1,0,0,0,0,1,2016,2016
+"Li, Cong",Beijing Forestry University,China,1,1,0,1,0,0,2012,2012
+"Li, Cong",Virginia Tech,United States,1,1,0,1,0,0,2012,2012
+"Li, Zhengjin",Jiangsu Provincial Meteorological Bureau,China,1,0,0,0,0,1,2026,2026
+"Lilie, Lyle",Engineering Associates (United States),United States,1,0,0,0,0,1,2013,2013
+"Linke, Claudia",Forschungszentrum Karlsruhe,Germany,1,0,0,0,0,1,2009,2009
+"Linke, Claudia",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,2002,2002
+"Liu, Chenli",Chinese Academy of Sciences,China,1,0,0,0,1,0,2019,2019
+"Liu, Chenli",Chinese Academy of Engineering,China,1,0,0,0,1,0,2019,2019
+"Liu, Chenli",Shenzhen Institutes of Advanced Technology,China,1,0,0,0,1,0,2019,2019
+"Liu, Chenli",University of Chinese Academy of Sciences,China,1,0,0,0,1,0,2019,2019
+"Liu, D.",National Centre for Atmospheric Science,United Kingdom,1,0,0,0,0,1,2011,2011
+"Liu, Jiao",Jiangsu Provincial Meteorological Bureau,China,1,0,0,0,0,1,2026,2026
+"Lohmann, Ulrike",Institute of Atmospheric Sciences and Climate,Italy,1,0,0,0,0,1,2009,2009
+"Lohmann, Ulrike",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2006,2006
+"Lohmann, Ulrike",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,2006,2006
+"Lohmann, Ulrike",University of Toronto,Canada,1,0,0,0,0,1,2006,2006
+"Longobardi, Sergio",Parthenope University of Naples,Italy,1,0,0,0,1,0,2020,2020
+"Lopez, Julio",École Polytechnique,France,1,0,0,0,0,1,2025,2025
+"Lopez, Julio",Sorbonne Université,France,1,0,0,0,0,1,2025,2025
+"Lopez, Julio",Laboratoire de Météorologie Dynamique,France,1,0,0,0,0,1,2025,2025
+"Lueder, J.",Freie Universität Berlin,Germany,1,0,0,0,0,1,2013,2013
+"Mackrodt, P.",Heidelberg University,Germany,1,0,0,0,0,1,2014,2014
+"Mackrodt, P.",Physikalisch-Technische Bundesanstalt,Germany,1,0,0,0,0,1,2015,2015
+"Mahrt, Fabian",Aarhus University,Denmark,1,0,0,0,0,1,2024,2024
+"Mahrt, Fabian",Board of the Swiss Federal Institutes of Technology,Switzerland,1,0,0,0,0,1,2024,2024
+"Mahrt, Fabian",ETH Zurich,Switzerland,1,0,0,0,0,1,2024,2024
+"Mahrt, Fabian",Institute for Biomedical Engineering,Switzerland,1,0,0,0,0,1,2024,2024
+"Mangold, Alexander",Royal Meteorological Institute of Belgium,Belgium,1,0,0,0,0,1,2006,2006
+"Marchand, N.",Centre National de la Recherche Scientifique,France,1,0,0,0,0,1,2013,2013
+"Marchand, N.",Aix-Marseille Université,France,1,0,0,0,0,1,2013,2013
+"Marchand, N.",Centrale Méditerranée,France,1,0,0,0,0,1,2013,2013
+"Marsden, Nicholas A.",University of Manchester,United Kingdom,1,0,0,0,0,1,2024,2024
+"Marsden, Nicholas A.",National Centre for Atmospheric Science,United Kingdom,1,0,0,0,0,1,2024,2024
+"Maters, E. C.",University of Leeds,United Kingdom,1,0,0,0,0,1,2021,2021
+"Maters, E. C.",University of Cambridge,United Kingdom,1,0,0,0,0,1,2021,2021
+"Maters, E. C.",National Centre for Atmospheric Science,United Kingdom,1,0,0,0,0,1,2021,2021
+"McCluskey, C. S.",Colorado State University,United States,1,0,0,0,0,1,2015,2015
+"McMeeking, G. R.",University of Manchester,United Kingdom,1,0,0,0,0,1,2011,2011
+"McMeeking, G. R.",National Centre for Atmospheric Science,United Kingdom,1,0,0,0,0,1,2011,2011
+"McMeeking, G. R.",Droplet Measurement Technologies (United States),United States,1,0,0,0,0,1,2015,2015
+"Mendez, Maxence",Octopus Lab,France,1,0,0,0,0,1,2023,2023
+"Meyer, Jessica",Institut für Energie- und Umwelttechnik,Germany,1,1,0,1,0,0,2015,2015
+"Meyer, Jessica",Stadtwerke Jülich (Germany),Germany,1,0,0,0,0,1,2011,2011
+"Michaud, V.",Laboratoire de Météorologie Physique,France,1,0,0,0,0,1,2012,2012
+"Micolier, Alice",Octopus Lab,France,1,0,0,0,0,1,2023,2023
+"Mihelcic, D.",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2003,2003
+"Mioche, Guillaume",Laboratoire de Météorologie Physique,France,1,0,0,0,0,1,2016,2016
+"Miyazaki, Hideyo",Urology San Antonio,United States,1,0,0,0,0,1,2008,2008
+"Miyazaki, Hideyo",The University of Tokyo,Japan,1,0,0,0,0,1,2008,2008
+"Mocnik, G.",Jolly Aero (Slovenia),Slovenia,1,0,0,0,0,1,2013,2013
+"Mocnik, G.",B2 (Slovenia),Slovenia,1,0,0,0,0,1,2013,2013
+"Mohr, Claudia",Board of the Swiss Federal Institutes of Technology,Switzerland,1,0,0,0,0,1,2024,2024
+"Mohr, Claudia",Paul Scherrer Institute,Switzerland,1,0,0,0,0,1,2024,2024
+"Mohr, Claudia",ETH Zurich,Switzerland,1,0,0,0,0,1,2024,2024
+"Mohr, Claudia",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,0,0,0,0,1,2024,2024
+"Mohr, Claudia",SystemsX.ch,Switzerland,1,0,0,0,0,1,2024,2024
+"Monier, M.",Laboratoire de Météorologie Physique,France,1,0,0,0,0,1,2012,2012
+"Monnier, Paul",École Polytechnique,France,1,0,0,0,0,1,2025,2025
+"Monnier, Paul",Sorbonne Université,France,1,0,0,0,0,1,2025,2025
+"Monnier, Paul",Laboratoire de Météorologie Dynamique,France,1,0,0,0,0,1,2025,2025
+"Morris, C. E.",Pathologie végétale,France,1,0,0,0,0,1,2008,2008
+"Moyer, Elisabeth J.",Harvard University Press,United States,1,0,0,0,0,1,2013,2013
+"Murphy, Daniel M.",NOAA Earth System Research Laboratory,United States,1,0,0,0,0,1,2024,2024
+"Möhler, Ottmar",FIZ Karlsruhe – Leibniz Institute for Information Infrastructure,Germany,1,0,0,0,0,1,2009,2009
+"Möhler, Ottmar",Applied Materials (United Kingdom),United Kingdom,1,0,0,0,0,1,2019,2019
+"Möhler, Ottmar",University of Toronto,Canada,1,0,0,0,0,1,2006,2006
+"Möhler, Ottmar",ETH Zurich,Switzerland,1,0,0,0,0,1,2006,2006
+"Möhler, Ottmar",West Texas A&M University,United States,1,0,0,0,0,1,2018,2018
+"Müller, Thomas",Leibniz Institute for Tropospheric Research,Germany,1,0,0,0,0,1,2009,2009
+"Natzeck, C.",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,2003,2003
+"Naumann, Karl-Heinz",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,0,0,0,0,1,2012,2012
+"Naumann, Karl-Heinz",Forschungszentrum Karlsruhe,Germany,1,0,0,0,0,1,2009,2009
+"Naumann, Karl-Heinz",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,1991,1991
+"Nenes, Athanasios",Georgia Institute of Technology,United States,1,0,0,0,0,1,2008,2008
+"Nicosia, Alessia",Centre National de la Recherche Scientifique,France,1,0,0,0,1,0,2018,2018
+"Nicosia, Alessia",Institute of Atmospheric Sciences and Climate,Italy,1,0,0,0,1,0,2018,2018
+"Nicosia, Alessia",Laboratoire de Météorologie Physique,France,1,0,0,0,1,0,2018,2018
+"Niessner, R.",Technical University of Munich,Germany,1,0,0,0,0,1,2003,2003
+"Nillius, B.",Max Planck Institute for Chemistry,Germany,1,0,0,0,0,1,2015,2015
+"Nillius, B.",Max Planck Society,Germany,1,0,0,0,0,1,2015,2015
+"O'Sullivan, Daniel",NHS Digital,United Kingdom,1,0,0,0,1,0,2018,2018
+"Oehm, C.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2013,2013
+"Orikasa, Narihiro",Japan Meteorological Agency,Japan,1,0,0,0,0,1,2013,2013
+"Ou, Hengjia",University of Groningen,The Netherlands,1,0,0,0,0,1,2025,2025
+"Pantoya, Aidan D.",West Texas A&M University,United States,1,0,0,0,0,1,2024,2024
+"Paukert, M.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2014,2014
+"Peckhaus, Andreas",Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,1,0,0,0,1,0,2018,2018
+"Peter, T.",ETH Zurich,Switzerland,1,0,0,0,0,1,2014,2014
+"Petit, Y.",University of Geneva,Switzerland,1,0,0,0,0,1,2013,2013
+"Petrarca, M.",University of Geneva,Switzerland,1,0,0,0,0,1,2013,2013
+"Petters, Sarah S.",University of North Carolina at Chapel Hill,United States,1,0,0,0,1,0,2018,2018
+"Petters, Sarah S.",North Carolina State University,United States,1,0,0,0,1,0,2018,2018
+"Petzold, Andreas",Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,1,0,0,0,0,1,2009,2009
+"Pfeuffer, Tatjana",Bilfinger (Germany),Germany,1,0,0,0,0,1,2021,2021
+"Pfister, L.",Ames Research Center,United States,1,0,0,0,0,1,2005,2005
+"Philippin, Heiko",University of Freiburg,Germany,1,0,0,0,0,1,2006,2006
+"Pittman, J. V.",Planetary Science Institute,United States,1,0,0,0,0,1,2009,2009
+"Pittman, J. V.",Harvard University,United States,1,0,0,0,0,1,2009,2009
+"Pittman, J. V.",Harvard University Press,United States,1,0,0,0,0,1,2005,2005
+"Plane, J. M. C.",University of Leeds,United Kingdom,1,0,0,0,1,0,2010,2010
+"Platt, S. M.",Paul Scherrer Institute,Switzerland,1,1,0,1,0,0,2013,2013
+"Polen, Michael J.",Carnegie Mellon University,United States,1,0,0,0,1,0,2018,2018
+"Ponche, Jean-Luc","Laboratoire Image, Ville, Environnement",France,1,0,0,0,0,1,2023,2023
+"Price, Hannah C.",Facility for Airborne Atmospheric Measurements,United Kingdom,1,0,0,0,1,0,2018,2018
+"Pöschl, U.",Technical University of Munich,Germany,1,0,0,0,0,1,2003,2003
+"Querol, Xavier",Consejo Superior de Investigaciones Científicas,Spain,1,0,0,0,0,1,2026,2026
+"Querol, Xavier",Institute of Environmental Assessment and Water Research,Spain,1,0,0,0,0,1,2026,2026
+"Ramisetty, Ramakrishna",Karlsruhe Institute of Technology,Germany,1,1,0,1,0,0,2018,2018
+"Reicher, Naama",Weizmann Institute of Science,Israel,1,0,0,0,1,0,2018,2018
+"Reiter, Robert E.","University of California, Los Angeles",United States,1,0,0,0,1,0,2008,2008
+"Reiter, Robert E.",Urology San Antonio,United States,1,0,0,0,1,0,2008,2008
+"Reiter, Robert E.",UCLA Jonsson Comprehensive Cancer Center,United States,1,0,0,0,1,0,2008,2008
+"Richter, R.",Paul Scherrer Institute,Switzerland,1,0,0,0,0,1,2013,2013
+"Rohs, S.",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2015,2015
+"Rohwetter, P.",Freie Universität Berlin,Germany,1,0,0,0,0,1,2013,2013
+"Rollins, A. W.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2015,2015
+"Rollins, A. W.",University of Colorado Boulder,United States,1,0,0,0,0,1,2015,2015
+"Rollins, A. W.",NOAA Chemical Sciences Laboratory,United States,1,0,0,0,0,1,2015,2015
+"Rosenlof, Karen",National Oceanic and Atmospheric Administration,United States,1,0,0,0,0,1,2005,2005
+"Rothenberg, Daniel A.",Massachusetts Institute of Technology,United States,1,0,0,0,1,0,2018,2018
+"Rubach, F.",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2011,2011
+"Rudich, Yinon",Weizmann Institute of Science,Israel,1,0,0,0,1,0,2018,2018
+"Rösch, Michael",Leibniz Association,Germany,1,0,0,0,0,1,2015,2015
+"Salo, K.",University of Gothenburg,Sweden,1,1,1,0,0,0,2011,2011
+"Salter, Matthew E.",Stockholm University,Sweden,1,0,0,0,1,0,2021,2021
+"Salter, Matthew E.",Bolin Centre for Climate Research,Sweden,1,0,0,0,1,0,2021,2021
+"Samake, Jean-Christophe",Centre de Génétique Moléculaire,France,1,0,0,0,0,1,2025,2025
+"Santachiara, Gianni",National Research Council,Italy,1,0,0,0,0,1,2021,2021
+"Sargent, M. R.",Harvard University,United States,1,0,0,0,0,1,2009,2009
+"Saunders, R. W.",University of Leeds,United Kingdom,1,1,0,1,0,0,2010,2010
+"Sayres, D. S.",Harvard University,United States,1,0,0,0,0,1,2009,2009
+"Sayres, D. S.",Harvard University Press,United States,1,0,0,0,0,1,2005,2005
+"Scaletti, Alessandro",Parthenope University of Naples,Italy,1,0,0,0,0,1,2020,2020
+"Schill, G. P.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2015,2015
+"Schill, G. P.",University of Colorado Boulder,United States,1,0,0,0,0,1,2015,2015
+"Schmitt, T.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2013,2013
+"Schnaiter, Martin",National Institute of Meteorology,Tunisia,1,0,0,0,0,1,2009,2009
+"Schneider, Julia",Max Planck Society,Germany,1,0,0,0,0,1,2008,2008
+"Schoen, Roland",Karlsruhe Institute of Technology,Germany,1,1,0,1,0,0,2011,2011
+"Schrod, Jann",Goethe University Frankfurt,Germany,1,0,0,0,1,0,2018,2018
+"Schurath, Ulrich",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2011,2011
+"Schwartz, T.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2016,2016
+"Seifert, M.",Stockholm University,Sweden,1,1,1,0,0,0,2004,2004
+"Seifried, Teresa M.",TU Wien,Austria,1,0,0,0,1,0,2018,2018
+"Sellegri, K.",Laboratoire de Météorologie Physique,France,1,0,0,0,0,1,2012,2012
+"Shcherbakov, Valery N.",Laboratoire de Météorologie Physique,France,1,0,0,0,0,1,2016,2016
+"Shen, Xiaoli",China Meteorological Administration,China,1,0,0,0,0,1,2026,2026
+"Sierau, B.",ETH Zurich,Switzerland,1,0,0,0,0,1,2016,2016
+"Sitnikov, N.",Roshydromet,Russia,1,0,0,0,0,1,2015,2015
+"Skrotzki, Julian",Graduate Theological Union,United States,1,1,1,0,0,0,2013,2013
+"Skrotzki, Julian",Heidelberg University,Germany,1,1,0,1,0,0,2014,2014
+"Smith, J. B.",Harvard University Press,United States,1,0,0,0,0,1,2005,2005
+"Snider, J. R.",University of Wyoming,United States,1,0,0,0,0,1,2015,2015
+"Soelch, Ingo",Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,1,1,1,0,0,0,2010,2010
+"Spackman, J. R.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2009,2009
+"Spackman, J. R.",NOAA Earth System Research Laboratory,United States,1,0,0,0,0,1,2009,2009
+"Specht, H.",Heidelberg University,Germany,1,0,0,0,1,0,2002,2002
+"Spichtinger, Peter",Johannes Gutenberg University Mainz,Germany,1,0,0,0,1,0,2022,2022
+"St Clair, J. M.",California Institute of Technology,United States,1,0,0,0,0,1,2009,2009
+"Stein, Olaf",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2011,2011
+"Steinke, Isabelle",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,0,0,0,0,1,2021,2021
+"Stelmaszczyk, K.",Freie Universität Berlin,Germany,1,0,0,0,0,1,2013,2013
+"Stetzer, Olaf",ETH Zurich,Switzerland,1,1,1,0,0,0,2006,2006
+"Stetzer, Olaf",Institute of Atmospheric Sciences and Climate,Italy,1,0,0,0,0,1,2009,2009
+"Stratmann, Frank",Leibniz Association,Germany,1,0,0,0,0,1,2015,2015
+"Ström, J.",Stockholm University,Sweden,1,0,0,0,0,1,2004,2004
+"Stutz, Eric J.",University of Chicago,United States,1,0,0,0,0,1,2020,2020
+"Sullivan, Ryan C.",Colorado State University,United States,1,0,0,0,1,0,2019,2019
+"Suski, Kaitlyn J.",Colorado State University,United States,1,0,0,0,1,0,2018,2018
+"Swanson, Brian D.",University of Washington,United States,1,1,1,0,0,0,2009,2009
+"Swanson, Brian D.",Earth and Space Research,United States,1,1,1,0,0,0,2009,2009
+"Szakall, Miklos",Johannes Gutenberg University Mainz,Germany,1,0,0,0,1,0,2018,2018
+"Tatrai, D.",University of Szeged,Hungary,1,0,0,0,0,1,2015,2015
+"Tatrai, D.",MTA-SZTE Research Group on Artificial Intelligence,Hungary,1,0,0,0,0,1,2015,2015
+"Taylor, Hans P.",North Carolina State University,United States,1,0,0,0,1,0,2018,2018
+"Temime-Roussel, B.",Centre National de la Recherche Scientifique,France,1,0,0,0,0,1,2013,2013
+"Temime-Roussel, B.",Aix-Marseille Université,France,1,0,0,0,0,1,2013,2013
+"Temime-Roussel, B.",Centrale Méditerranée,France,1,0,0,0,0,1,2013,2013
+"Thompson, T. L.",National Oceanic and Atmospheric Administration,United States,1,0,0,0,0,1,2005,2005
+"Thornberry, T. D.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2015,2015
+"Thornberry, T. D.",University of Colorado Boulder,United States,1,0,0,0,0,1,2015,2015
+"Thornberry, T. D.",NOAA Chemical Sciences Laboratory,United States,1,0,0,0,0,1,2015,2015
+"Tiede, Ralph",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,2002,2002
+"Tobo, Y.",National Institute of Polar Research,Japan,1,0,0,0,0,1,2015,2015
+"Tobo, Y.",Colorado State University,United States,1,0,0,0,0,1,2015,2015
+"Tokuyasu, Taku A.",Chinese Academy of Sciences,China,1,0,0,0,0,1,2019,2019
+"Tokuyasu, Taku A.",Chinese Academy of Engineering,China,1,0,0,0,0,1,2019,2019
+"Tokuyasu, Taku A.",Shenzhen Institutes of Advanced Technology,China,1,0,0,0,0,1,2019,2019
+"Tokuyasu, Taku A.",University of Chinese Academy of Sciences,China,1,0,0,0,0,1,2019,2019
+"Tolbert, M. A.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2015,2015
+"Tolbert, M. A.",University of Colorado Boulder,United States,1,0,0,0,0,1,2015,2015
+"Toprak, E.",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2016,2016
+"Tran, Chan P.","University of California, Los Angeles",United States,1,0,0,0,0,1,2008,2008
+"Tran, Chan P.",Urology San Antonio,United States,1,0,0,0,0,1,2008,2008
+"Tran, Chan P.",UCLA Jonsson Comprehensive Cancer Center,United States,1,0,0,0,0,1,2008,2008
+"Tricoli, Ugo",Heidelberg University,Germany,1,0,0,0,0,1,2016,2016
+"Troy, R. F.",Jet Propulsion Laboratory,United States,1,0,0,0,0,1,2014,2014
+"Troy, R. F.","University of California, Los Angeles",United States,1,0,0,0,0,1,2005,2005
+"Tuellmann, Nadine",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2020,2020
+"Tuzson, Bela",Swiss Federal Laboratories for Materials Science and Technology,Switzerland,1,0,0,0,0,1,2025,2025
+"Ullah, Asmat",Arizona State University,United States,1,0,0,0,0,1,2021,2021
+"Ullah, Asmat",University of Engineering and Technology Peshawar,Pakistan,1,0,0,0,0,1,2021,2021
+"Ullah, Saad",Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,Pakistan,1,0,0,0,0,1,2021,2021
+"Ulrich, A.",Leibniz Centre for Agricultural Landscape Research,Germany,1,0,0,0,0,1,2016,2016
+"Umo, Nsikanabasi Silas",University of North Carolina Wilmington,United States,1,0,0,0,0,1,2025,2025
+"Umo, Nsikanabasi Silas",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,1,1,0,0,0,2021,2021
+"Vergara-Palacio, Sebastian",Karlsruhe Institute of Technology,Germany,1,1,1,0,0,0,2026,2026
+"Vergara-Temprado, Jesus",University of Leeds,United Kingdom,1,0,0,0,1,0,2018,2018
+"Vergara-Temprado, Jesus",ETH Zurich,Switzerland,1,0,0,0,1,0,2018,2018
+"Verhaege, Christophe",Laboratoire de Météorologie Physique,France,1,0,0,0,0,1,2009,2009
+"Voemel, H.",National Oceanic and Atmospheric Administration,United States,1,0,0,0,0,1,2014,2014
+"Voemel, H.",Cooperative Institute for Research in Environmental Sciences,United States,1,0,0,0,0,1,2014,2014
+"Voemel, H.",University of Colorado Boulder,United States,1,0,0,0,0,1,2014,2014
+"Voemel, H.",NOAA Earth System Research Laboratory,United States,1,0,0,0,0,1,2014,2014
+"Vogel, Bernhard",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2012,2012
+"Vogel, Franziska",National Research Council,Italy,1,0,0,0,0,1,2026,2026
+"Vogel, Heike",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2012,2012
+"Vogt, R.",Ford (Germany),Germany,1,0,0,0,0,1,2003,2003
+"Vragel, Marlen",Forschungszentrum Karlsruhe,Germany,1,0,0,0,0,1,2009,2009
+"Vragel, Marlen",Karlsruhe Institute of Technology,Germany,1,0,0,0,0,1,2012,2012
+"Wagner, Robert",FZI Research Center for Information Technology,Germany,1,0,0,0,0,1,2006,2006
+"Wahner, Andreas",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2011,2011
+"Walker, R.",Augenklinik Heidelberg,Germany,1,1,0,1,0,0,2002,2002
+"Walter, S.",Max Planck Society,Germany,1,0,0,0,0,1,2008,2008
+"Walter, S.",Max Planck Institute for Chemistry,Germany,1,0,0,0,0,1,2008,2008
+"Wang, Song",Jiangsu Provincial Meteorological Bureau,China,1,0,0,0,0,1,2026,2026
+"Wang, Z.",University of Wyoming,United States,1,0,0,0,0,1,2015,2015
+"Weber, Daniel",Goethe University Frankfurt,Germany,1,0,0,0,1,0,2018,2018
+"Wegener, Robert",Forschungszentrum Jülich,Germany,1,0,0,0,0,1,2011,2011
+"Wehner, Birgit",Leibniz Institute for Tropospheric Research,Germany,1,0,0,0,0,1,2005,2005
+"Weidler, Peter G.",FIZ Karlsruhe – Leibniz Institute for Information Infrastructure,Germany,1,0,0,0,0,1,2021,2021
+"Weidler, Peter G.",Kerntechnische Entsorgung Karlsruhe (Germany),Germany,1,0,0,0,0,1,2021,2021
+"Weinbruch, S.",Tech Univ Darmstadt,Germany,1,0,0,0,0,1,2015,2015
+"Weingartner, E.",Paul Scherrer Institute,Switzerland,1,0,0,0,0,1,2003,2003
+"Weinstock, E. M.",Harvard University,United States,1,1,1,0,0,0,2009,2009
+"Weinstock, E. M.",Harvard University Press,United States,1,0,0,0,0,1,2005,2005
+"Weiss, Maximilian",Karlsruhe University of Education,Germany,1,0,0,0,0,1,2021,2021
+"Welti, Andre",ETH Zurich,Switzerland,1,0,0,0,0,1,2015,2015
+"Welti, Andre",Finnish Meteorological Institute,Finland,1,0,0,0,1,0,2018,2018
+"Welti, Andre",Leibniz Institute for Tropospheric Research,Germany,1,0,0,0,1,0,2018,2018
+"Westerhoff, Paul",Arizona State University,United States,1,0,0,0,0,1,2020,2020
+"Wex, Heike",Leibniz Association,Germany,1,1,1,0,0,0,2015,2015
+"Wienhold, F. G.",ETH Zurich,Switzerland,1,0,0,0,0,1,2014,2014
+"Wilbourn, Elise K.",West Texas A&M University,United States,1,1,0,1,0,0,2024,2024
+"Wilbourn, Elise K.",Sandia National Laboratories California,United States,1,1,0,1,0,0,2024,2024
+"Wills, R.",University of Leeds,United Kingdom,1,0,0,0,0,1,2010,2010
+"Wilmsmeyer, Sonja",University of Freiburg,Germany,1,1,1,0,0,0,2006,2006
+"Wilmsmeyer, Sonja",University Medical Center Freiburg,Germany,1,1,1,0,0,0,2006,2006
+"Wilson, Jacqueline",Environment Agency,United Kingdom,1,0,0,0,0,1,2024,2024
+"Wilson, Jacqueline",UK Health Security Agency,United Kingdom,1,0,0,0,0,1,2024,2024
+"Wilson, Jacqueline",University of Denver,United States,1,0,0,0,0,1,2005,2005
+"Wilson, Theodore W.",Owlstone Medical (United Kingdom),United Kingdom,1,0,0,0,1,0,2018,2018
+"Woeste, L.",Freie Universität Berlin,Germany,1,0,0,0,0,1,2013,2013
+"Wolf, J. -P.",University of Geneva,Switzerland,1,0,0,0,0,1,2013,2013
+"Wolf, Martin J.",Massachusetts Institute of Technology,United States,1,0,0,0,1,0,2018,2018
+"Wright, T. P.",North Carolina State University,United States,1,0,0,0,0,1,2015,2015
+"Xu, Shuxuan",Jiangsu Provincial Meteorological Bureau,China,1,1,1,0,0,0,2026,2026
+"Yadigaroglu, G.",ETH Zentrum,Switzerland,1,1,1,0,0,0,1998,1998
+"Zanatta, Marco",National Research Council,Italy,1,1,1,0,0,0,2025,2025
+"Zardini, A. A.",Joint Research Centre,Italy,1,0,0,0,0,1,2013,2013
+"Zawadowicz, Maria A.",Brookhaven National Laboratory,United States,1,0,0,0,0,1,2024,2024
+"Zawadowicz, Maria A.",Massachusetts Institute of Technology,United States,1,0,0,0,0,1,2024,2024
+"Zenker, Jake",Texas A&M University,United States,1,0,0,0,1,0,2018,2018
+"Zhang, Xunzhong",Beijing Forestry University,China,1,0,0,0,0,1,2012,2012
+"Zhang, Xunzhong",Virginia Tech,United States,1,0,0,0,0,1,2012,2012
+"Zheng, Hai",Chinese Academy of Sciences,China,1,0,0,0,0,1,2019,2019
+"Zheng, Hai",Chinese Academy of Engineering,China,1,0,0,0,0,1,2019,2019
+"Zheng, Hai",Shenzhen Institutes of Advanced Technology,China,1,0,0,0,0,1,2019,2019
+"Zheng, Hai",University of Chinese Academy of Sciences,China,1,0,0,0,0,1,2019,2019
+"Ziese, M.",Deutscher Wetterdienst,Germany,1,0,0,0,0,1,2012,2012
+"Ziese, M.",Leibniz Institute for Tropospheric Research,Germany,1,0,0,0,0,1,2012,2012
+"Zoeger, M.",Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),Germany,1,0,0,0,0,1,2015,2015
+"Zong, Pengcheng",Jiangsu Provincial Meteorological Bureau,China,1,0,0,0,0,1,2026,2026

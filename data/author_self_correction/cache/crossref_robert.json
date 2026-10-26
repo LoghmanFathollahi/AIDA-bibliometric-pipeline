@@ -1,0 +1,1776 @@
+{
+"mohlerohiranumanhohlerkhoosechummelmniemandmoehmcschmitttsteinkeiwagnerr2013surfacesitedensityversusnucleationrateapproa": [
+{
+"DOI": "10.1063/1.4803405",
+"title": [
+"Parameterizations of ice formation derived from AIDA cloud simulation experiments"
+],
+"author": [
+{
+"given": "Ottmar",
+"family": "Möhler",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Naruki",
+"family": "Hiranuma",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Kristina",
+"family": "Höhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Corinna",
+"family": "Hoose",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Matthias",
+"family": "Hummel",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Monika",
+"family": "Niemand",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Caroline",
+"family": "Oehm",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Thea",
+"family": "Schmitt",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Isabelle",
+"family": "Steinke",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "Robert",
+"family": "Wagner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2013
+]
+]
+},
+"container-title": [
+"AIP Conference Proceedings"
+],
+"type": "proceedings-article"
+},
+{
+"DOI": "10.1175/jas-d-16-0074.1",
+"title": [
+"A New Ice Nucleation Active Site Parameterization for Desert Dust and Soot"
+],
+"author": [
+{
+"given": "Romy",
+"family": "Ullrich",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute of Meteorology and Climate Research, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Corinna",
+"family": "Hoose",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute of Meteorology and Climate Research, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Ottmar",
+"family": "Möhler",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute of Meteorology and Climate Research, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Monika",
+"family": "Niemand",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute of Meteorology and Climate Research, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Robert",
+"family": "Wagner",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute of Meteorology and Climate Research, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Kristina",
+"family": "Höhler",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute of Meteorology and Climate Research, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Naruki",
+"family": "Hiranuma",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute of Meteorology and Climate Research, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Harald",
+"family": "Saathoff",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute of Meteorology and Climate Research, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Thomas",
+"family": "Leisner",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute of Meteorology and Climate Research, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2017,
+2,
+14
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2017,
+3,
+1
+]
+]
+},
+"published-online": {
+"date-parts": [
+[
+2017,
+2,
+14
+]
+]
+},
+"container-title": [
+"Journal of the Atmospheric Sciences"
+],
+"type": "journal-article"
+},
+{
+"DOI": "10.5194/acpd-14-18499-2014",
+"title": [
+"A new temperature and humidity dependent surface site density approach for deposition ice nucleation"
+],
+"author": [
+{
+"given": "I.",
+"family": "Steinke",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0003-2827-5789",
+"authenticated-orcid": false,
+"given": "C.",
+"family": "Hoose",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"ORCID": "https://orcid.org/0000-0002-7551-9814",
+"authenticated-orcid": false,
+"given": "O.",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "P.",
+"family": "Connolly",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "T.",
+"family": "Leisner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2014,
+7,
+14
+]
+]
+},
+"type": "posted-content"
+},
+{
+"DOI": "10.1063/1.4803416",
+"title": [
+"The contribution of biological aerosols to atmospheric ice nucleation"
+],
+"author": [
+{
+"given": "M.",
+"family": "Hummel",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "C.",
+"family": "Hoose",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "C.",
+"family": "Oehm",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "I.",
+"family": "Steinke",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "H.",
+"family": "Vogel",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2013
+]
+]
+},
+"container-title": [
+"AIP Conference Proceedings"
+],
+"type": "proceedings-article"
+},
+{
+"DOI": "10.5194/acpd-6-5711-2006",
+"title": [
+"Probing ice clouds by broadband mid-infrared extinction spectroscopy: case studies from ice nucleation experiments in the AIDA aerosol and cloud chamber"
+],
+"author": [
+{
+"given": "R.",
+"family": "Wagner",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "S.",
+"family": "Benz",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "H.",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "U.",
+"family": "Schurath",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2006,
+7,
+3
+]
+]
+},
+"type": "posted-content"
+}
+],
+"mohlerobenzsleisnertniemandmoehmcsaathoffhschnaitermwagnerr2010aidaexperimentsonheterogeneousicenucleationinwarmmixedpha": [
+{
+"DOI": "10.5194/acpd-10-29449-2010",
+"title": [
+"New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the immersion mode"
+],
+"author": [
+{
+"given": "R.",
+"family": "Wagner",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "H.",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "M.",
+"family": "Schnaiter",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "T.",
+"family": "Leisner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2010,
+12,
+2
+]
+]
+},
+"type": "posted-content"
+},
+{
+"DOI": "10.5194/acpd-10-11513-2010",
+"title": [
+"High variability of the heterogeneous ice nucleation potential of oxalic acid dihydrate and sodium oxalate"
+],
+"author": [
+{
+"given": "R.",
+"family": "Wagner",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "H.",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "M.",
+"family": "Schnaiter",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "T.",
+"family": "Leisner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2010,
+4,
+28
+]
+]
+},
+"type": "posted-content"
+},
+{
+"DOI": "10.5194/acpd-6-5711-2006",
+"title": [
+"Probing ice clouds by broadband mid-infrared extinction spectroscopy: case studies from ice nucleation experiments in the AIDA aerosol and cloud chamber"
+],
+"author": [
+{
+"given": "R.",
+"family": "Wagner",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "S.",
+"family": "Benz",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "H.",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "U.",
+"family": "Schurath",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2006,
+7,
+3
+]
+]
+},
+"type": "posted-content"
+},
+{
+"DOI": "10.5194/bgd-5-1445-2008",
+"title": [
+"Heterogeneous ice nucleation activity of bacteria: new laboratory experiments at simulated cloud conditions"
+],
+"author": [
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "D. G.",
+"family": "Georgakopoulos",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "C. E.",
+"family": "Morris",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "S.",
+"family": "Benz",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "V.",
+"family": "Ebert",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "S.",
+"family": "Hunsmann",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "H.",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "M.",
+"family": "Schnaiter",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "R.",
+"family": "Wagner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2008,
+4,
+7
+]
+]
+},
+"type": "posted-content"
+},
+{
+"DOI": "10.5194/acpd-12-24351-2012",
+"title": [
+"The accommodation coefficient of water molecules on ice-cirrus cloud studies at the AIDA simulation chamber"
+],
+"author": [
+{
+"given": "J.",
+"family": "Skrotzki",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "P.",
+"family": "Connolly",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Schnaiter",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "H.",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "R.",
+"family": "Wagner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Niemand",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "V.",
+"family": "Ebert",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "T.",
+"family": "Leisner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2012,
+9,
+18
+]
+]
+},
+"type": "posted-content"
+}
+],
+"mohlerobuttnersschurathuwagnerrmangoldakramermfieldprconnollypgallaghermw2003heterogeneousicenucleationintheaidachamberf": [
+{
+"DOI": "10.1127/0941-2948/2005/0053",
+"title": [
+"Experimental investigation of ice nucleation by different types of aerosols in the aerosol chamber AIDA: implications to microphysics of cirrus clouds"
+],
+"author": [
+{
+"given": "Alexander",
+"family": "Mangold",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Robert",
+"family": "Wagner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Harald",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Ulrich",
+"family": "Schurath",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Carsten",
+"family": "Giesemann",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Volker",
+"family": "Ebert",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Martina",
+"family": "Krämer",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Ottmar",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2005,
+9,
+15
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2005,
+9,
+15
+]
+]
+},
+"container-title": [
+"Meteorologische Zeitschrift"
+],
+"type": "journal-article"
+},
+{
+"DOI": "10.5194/acpd-6-5711-2006",
+"title": [
+"Probing ice clouds by broadband mid-infrared extinction spectroscopy: case studies from ice nucleation experiments in the AIDA aerosol and cloud chamber"
+],
+"author": [
+{
+"given": "R.",
+"family": "Wagner",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "S.",
+"family": "Benz",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "H.",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+},
+{
+"given": "U.",
+"family": "Schurath",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"role": "author",
+"vocabulary": "crossref"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2006,
+7,
+3
+]
+]
+},
+"type": "posted-content"
+},
+{
+"DOI": "10.1029/2004jd005169",
+"title": [
+"Effect of sulfuric acid coating on heterogeneous ice nucleation by soot aerosol particles"
+],
+"author": [
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "first",
+"affiliation": [
+{
+"name": "Institute for Meteorology and Climate Research Forschungszentrum Karlsruhe  Karlsruhe Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "S.",
+"family": "Büttner",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Institute for Meteorology and Climate Research Forschungszentrum Karlsruhe  Karlsruhe Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "C.",
+"family": "Linke",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Institute for Meteorology and Climate Research Forschungszentrum Karlsruhe  Karlsruhe Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Schnaiter",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Institute for Meteorology and Climate Research Forschungszentrum Karlsruhe  Karlsruhe Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "H.",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Institute for Meteorology and Climate Research Forschungszentrum Karlsruhe  Karlsruhe Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "O.",
+"family": "Stetzer",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Institute for Meteorology and Climate Research Forschungszentrum Karlsruhe  Karlsruhe Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "R.",
+"family": "Wagner",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Institute for Meteorology and Climate Research Forschungszentrum Karlsruhe  Karlsruhe Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Krämer",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Institut für Chemie und Dynamik der Geosphäre I Forschungszentrum Jülich  Jülich Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "A.",
+"family": "Mangold",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Institut für Chemie und Dynamik der Geosphäre I Forschungszentrum Jülich  Jülich Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "V.",
+"family": "Ebert",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Physikalisch‐Chemisches Institut Universität Heidelberg  Heidelberg Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "U.",
+"family": "Schurath",
+"sequence": "additional",
+"affiliation": [
+{
+"name": "Institute for Meteorology and Climate Research Forschungszentrum Karlsruhe  Karlsruhe Germany"
+}
+],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2005,
+6,
+14
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2005,
+6,
+16
+]
+]
+},
+"published-online": {
+"date-parts": [
+[
+2005,
+6,
+14
+]
+]
+},
+"container-title": [
+"Journal of Geophysical Research: Atmospheres"
+],
+"type": "journal-article"
+},
+{
+"DOI": "10.5194/acpd-6-1539-2006",
+"title": [
+"Efficiency of the deposition mode ice nucleation on mineral dust particles"
+],
+"author": [
+{
+"given": "O.",
+"family": "Möhler",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "P. R.",
+"family": "Field",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "P.",
+"family": "Connolly",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "S.",
+"family": "Benz",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "H.",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Schnaiter",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "R.",
+"family": "Wagner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "R.",
+"family": "Cotton",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "M.",
+"family": "Krämer",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "A.",
+"family": "Mangold",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "A. J.",
+"family": "Heymsfield",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2006,
+2,
+23
+]
+]
+},
+"type": "posted-content"
+},
+{
+"DOI": "10.1127/0941-2948/2005/0055",
+"title": [
+"Ice nucleation on flame soot aerosol of different organic carbon content"
+],
+"author": [
+{
+"given": "Ottmar",
+"family": "Möhler",
+"sequence": "first",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Claudia",
+"family": "Linke",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Harald",
+"family": "Saathoff",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Martin",
+"family": "Schnaiter",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Robert",
+"family": "Wagner",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Alexander",
+"family": "Mangold",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Martina",
+"family": "Krämer",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+},
+{
+"given": "Ulrich",
+"family": "Schurath",
+"sequence": "additional",
+"affiliation": [],
+"role": [
+{
+"vocabulary": "crossref",
+"role": "author"
+}
+]
+}
+],
+"issued": {
+"date-parts": [
+[
+2005,
+9,
+15
+]
+]
+},
+"published-print": {
+"date-parts": [
+[
+2005,
+9,
+15
+]
+]
+},
+"container-title": [
+"Meteorologische Zeitschrift"
+],
+"type": "journal-article"
+}
+]
+}

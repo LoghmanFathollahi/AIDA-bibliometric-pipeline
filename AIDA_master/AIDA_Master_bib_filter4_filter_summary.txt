@@ -1,0 +1,97 @@
+AIDA master bibliography: filter summary
+created 2026-10-13 09:55 by aida_master_bib.py
+input : G:\AIDA\AIDA_master\AIDA_Master_bib_NoDuplicate.bib
+output: G:\AIDA\AIDA_master\AIDA_Master_bib_filter4.bib
+
+EXCLUDED BY noAIDA.txt (before filtering)
+   list file       : G:\AIDA\data\noAIDA.txt
+   items in list   : 8
+   entries removed : 0
+   item 1: DOI 10.1016/0887-2333(90)90021-k
+       no entry matched
+   item 2: citation (title match): 1999	Defaye, P.; Mouton, E.; AIDA	A new diagnostic concept in cardiac pacing for evaluating the inci
+       no entry matched
+   item 3: DOI 10.1007/pl00002004
+       no entry matched
+   item 4: DOI 10.1029/93jd02259
+       no entry matched
+   item 5: DOI 10.1128/jb.186.23.8058-8065.2004
+       no entry matched
+   item 6: DOI 10.1016/j.nima.2018.10.118
+       no entry matched
+   item 7: DOI 10.1016/j.ajo.2025.11.009
+       no entry matched
+   item 8: DOI 10.1109/jphotov.2025.3622321
+       no entry matched
+
+FILTER SETTINGS
+   filter                      : Filter 4
+   rule                        : AIDA term in title/abstract/keywords AND KIT affiliation
+   AIDA terms (exact case)     : AIDA
+   AIDA terms (any case)       : Aerosol Interaction and Dynamics in the Atmosphere
+   KIT affiliation check       : on
+   KIT terms (any case)        : Karlsruhe Institute of Technology, Karlsruhe Inst Technol, Karlsruher Institut fur Technologie, Forschungszentrum Karlsruhe, Research Center Karlsruhe, Research Centre Karlsruhe, Res Ctr Karlsruhe, University of Karlsruhe, Univ Karlsruhe, Universitat Karlsruhe
+   KIT terms (exact case)      : KIT, FZK
+   keep if affiliation missing : False
+   title fields                : title
+   abstract fields             : abstract
+   keyword fields              : keywords, author-keywords, keywords-plus
+   affiliation fields          : affiliation, affiliations
+
+FIELD AVAILABILITY (all entries)
+   field         entries with field
+   -----------   ------------------
+   title              2202 (100.0%)
+   abstract             719 (32.6%)
+   keywords            1881 (85.4%)
+   affiliation         1663 (75.5%)
+
+WHERE THE TERMS WERE FOUND
+   found in                      AIDA terms, all entries   AIDA terms, kept entries
+   ---------------------------   -----------------------   ------------------------
+   title only                                  37 (1.7%)                 12 (11.4%)
+   abstract only                               88 (4.0%)                 75 (71.4%)
+   keywords only                                8 (0.4%)                   1 (1.0%)
+   title + abstract                             9 (0.4%)                   9 (8.6%)
+   title + keywords                             0 (0.0%)                   0 (0.0%)
+   abstract + keywords                          7 (0.3%)                   7 (6.7%)
+   title + abstract + keywords                  1 (0.0%)                   1 (1.0%)
+   none                                     2053 (93.2%)                   0 (0.0%)
+                                                                                   
+   in one field                               133 (6.0%)                 88 (83.8%)
+   in two fields                               16 (0.7%)                 16 (15.2%)
+   in all three fields                          1 (0.0%)                   1 (1.0%)
+   not found                                2053 (93.2%)                   0 (0.0%)
+
+AIDA TERMS FOUND (entries per term)
+   term                                                 entries
+   --------------------------------------------------   -------
+   AIDA                                                     148
+   Aerosol Interaction and Dynamics in the Atmosphere        30
+
+KIT AFFILIATION (all entries)
+   status                            entries
+   ---------------------------   -----------
+   KIT affiliation found         792 (36.0%)
+   affiliation present, no KIT   871 (39.5%)
+   affiliation field missing     540 (24.5%)
+
+TERM MATCH VERSUS KIT AFFILIATION (all entries)
+                   KIT pass   KIT fail
+   -------------   --------   --------
+   term match           105         45
+   no term match        687       1366
+
+RESULT
+   entries in       : 2203
+   entries kept     : 105 (4.8%)
+   entries removed  : 2098 (95.2%)
+
+   removal reasons
+   reason                                                         entries
+   ------------------------------------------------------------   -------
+   no AIDA term; no KIT affiliation                                   844
+   no AIDA term                                                       687
+   no AIDA term; no KIT affiliation (affiliation field missing)       522
+   no KIT affiliation                                                  27
+   no KIT affiliation (affiliation field missing)                      18

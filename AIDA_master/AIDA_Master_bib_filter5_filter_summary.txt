@@ -1,0 +1,113 @@
+AIDA master bibliography: filter summary
+created 2026-10-13 09:55 by aida_master_bib.py
+input : G:\AIDA\AIDA_master\AIDA_Master_bib_NoDuplicate.bib
+output: G:\AIDA\AIDA_master\AIDA_Master_bib_filter5.bib
+
+EXCLUDED BY noAIDA.txt (before filtering)
+   list file       : G:\AIDA\data\noAIDA.txt
+   items in list   : 8
+   entries removed : 0
+   item 1: DOI 10.1016/0887-2333(90)90021-k
+       no entry matched
+   item 2: citation (title match): 1999	Defaye, P.; Mouton, E.; AIDA	A new diagnostic concept in cardiac pacing for evaluating the inci
+       no entry matched
+   item 3: DOI 10.1007/pl00002004
+       no entry matched
+   item 4: DOI 10.1029/93jd02259
+       no entry matched
+   item 5: DOI 10.1128/jb.186.23.8058-8065.2004
+       no entry matched
+   item 6: DOI 10.1016/j.nima.2018.10.118
+       no entry matched
+   item 7: DOI 10.1016/j.ajo.2025.11.009
+       no entry matched
+   item 8: DOI 10.1109/jphotov.2025.3622321
+       no entry matched
+
+FILTER SETTINGS
+   filter                      : Filter 5
+   rule                        : campaign name in title/abstract/keywords AND KIT affiliation
+   AIDA terms (exact case)     : AIDA
+   AIDA terms (any case)       : Aerosol Interaction and Dynamics in the Atmosphere
+   KIT affiliation check       : on
+   KIT terms (any case)        : Karlsruhe Institute of Technology, Karlsruhe Inst Technol, Karlsruher Institut fur Technologie, Forschungszentrum Karlsruhe, Research Center Karlsruhe, Research Centre Karlsruhe, Res Ctr Karlsruhe, University of Karlsruhe, Univ Karlsruhe, Universitat Karlsruhe
+   KIT terms (exact case)      : KIT, FZK
+   keep if affiliation missing : False
+   title fields                : title
+   abstract fields             : abstract
+   keyword fields              : keywords, author-keywords, keywords-plus
+   affiliation fields          : affiliation, affiliations
+   campaign matching           : exact case
+   campaign_instrument_matrix.csv: 188 unique campaign names
+   campaigns.csv: 188 unique campaign names
+   combined unique names: 188, used for matching: 188
+
+FIELD AVAILABILITY (all entries)
+   field         entries with field
+   -----------   ------------------
+   title              2202 (100.0%)
+   abstract             719 (32.6%)
+   keywords            1881 (85.4%)
+   affiliation         1663 (75.5%)
+
+WHERE THE TERMS WERE FOUND
+   found in                      campaigns, all entries   campaigns, kept entries   AIDA terms, all entries
+   ---------------------------   ----------------------   -----------------------   -----------------------
+   title only                                  6 (0.3%)                 3 (12.5%)                 37 (1.7%)
+   abstract only                              42 (1.9%)                16 (66.7%)                 88 (4.0%)
+   keywords only                               4 (0.2%)                 3 (12.5%)                  8 (0.4%)
+   title + abstract                            4 (0.2%)                  2 (8.3%)                  9 (0.4%)
+   title + keywords                            0 (0.0%)                  0 (0.0%)                  0 (0.0%)
+   abstract + keywords                         1 (0.0%)                  0 (0.0%)                  7 (0.3%)
+   title + abstract + keywords                 0 (0.0%)                  0 (0.0%)                  1 (0.0%)
+   none                                    2146 (97.4%)                  0 (0.0%)              2053 (93.2%)
+                                                                                                           
+   in one field                               52 (2.4%)                22 (91.7%)                133 (6.0%)
+   in two fields                               5 (0.2%)                  2 (8.3%)                 16 (0.7%)
+   in all three fields                         0 (0.0%)                  0 (0.0%)                  1 (0.0%)
+   not found                               2146 (97.4%)                  0 (0.0%)              2053 (93.2%)
+
+MATCH TYPE (all entries)
+   match type                    entries
+   ----------------------   ------------
+   AIDA term only             135 (6.1%)
+   campaign only               42 (1.9%)
+   AIDA term and campaign      15 (0.7%)
+   no match                 2011 (91.3%)
+
+CAMPAIGN NAMES FOUND (entries per campaign)
+   campaign   all entries   kept entries
+   --------   -----------   ------------
+   test                57             24
+
+AIDA TERMS FOUND (entries per term)
+   term                                                 entries
+   --------------------------------------------------   -------
+   AIDA                                                     148
+   Aerosol Interaction and Dynamics in the Atmosphere        30
+
+KIT AFFILIATION (all entries)
+   status                            entries
+   ---------------------------   -----------
+   KIT affiliation found         792 (36.0%)
+   affiliation present, no KIT   871 (39.5%)
+   affiliation field missing     540 (24.5%)
+
+TERM MATCH VERSUS KIT AFFILIATION (all entries)
+                   KIT pass   KIT fail
+   -------------   --------   --------
+   term match            24         33
+   no term match        768       1378
+
+RESULT
+   entries in       : 2203
+   entries kept     : 24 (1.1%)
+   entries removed  : 2179 (98.9%)
+
+   removal reasons
+   reason                                                             entries
+   ----------------------------------------------------------------   -------
+   no campaign name; no KIT affiliation                                   838
+   no campaign name                                                       768
+   no campaign name; no KIT affiliation (affiliation field missing)       540
+   no KIT affiliation                                                      33

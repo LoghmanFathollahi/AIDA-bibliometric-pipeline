@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIDA publications of Leisner, Thomas</title>
+<style>
+  :root {
+    --paper: #FBFCFC;
+    --ink: #1F2B30;
+    --muted: #5B696E;
+    --rule: #D3DDDF;
+    --green: #009682;
+    --green-deep: #00705F;
+    --ice: #E3F0F2;
+    --slate: #56679A;
+    --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    --sans: "Source Sans 3", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.45; }
+  .page { max-width: 1320px; margin: 0 auto; padding: 28px 28px 64px; }
+
+  /* page links */
+  nav.pages { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  nav.pages a { font-size: 0.88rem; padding: 4px 12px; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink); text-decoration: none; background: #fff; }
+  nav.pages a:hover { border-color: var(--green); }
+  nav.pages a[aria-current="page"] { background: var(--green-deep); border-color: var(--green-deep); color: #fff; }
+
+  h1 { font-family: var(--serif); font-weight: 600; font-size: 2.1rem; line-height: 1.15; margin: 0 0 6px; }
+  .summary { color: var(--muted); margin: 0 0 24px; font-size: 1rem; }
+
+  /* top panel: overview or selected profile */
+  .panel { border-top: 2px solid var(--ink); padding-top: 16px; margin-bottom: 26px; }
+  .panel-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; margin-bottom: 14px; }
+  .panel-head h2 { font-family: var(--serif); font-weight: 600; font-size: 1.55rem; line-height: 1.2; margin: 0; }
+  .panel-head .sub { color: var(--muted); }
+  .panel-head .spacer { flex: 1 1 auto; }
+  .also { color: var(--muted); font-size: 0.85rem; margin: -8px 0 14px; }
+  .tile-group { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; margin: 12px 0 6px; }
+  .aff-line { color: var(--muted); font-size: 0.8rem; margin-top: 3px; }
+  .raw-list { margin: 0; padding-left: 16px; font-size: 0.82rem; }
+  .raw-list li { margin: 2px 0; }
+  .raw-list a { color: var(--green-deep); }
+  table.aff-detail td { vertical-align: top; }
+  details summary { cursor: pointer; color: var(--green-deep); font-size: 0.85rem; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 10px; margin-bottom: 20px; }
+  .tile { background: #fff; border: 1px solid var(--rule); border-left: 4px solid var(--tile-color, var(--green)); padding: 7px 11px; }
+  .tile b { display: block; font-size: 1.4rem; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.25; }
+  .tile span { color: var(--muted); font-size: 0.82rem; }
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 22px 32px; }
+  .chart-box { min-width: 0; }
+  .chart-box.wide { grid-column: 1 / -1; }
+  .chart-box h3 { font-size: 0.95rem; font-weight: 600; margin: 0 0 6px; }
+  .chart-box .note { color: var(--muted); font-size: 0.82rem; margin: 4px 0 0; }
+  svg.chart { width: 100%; height: auto; display: block; font-family: var(--sans); overflow: visible; }
+  svg.chart .grid { stroke: var(--rule); stroke-width: 1; }
+  svg.chart .axis { stroke: var(--ink); stroke-width: 1; }
+  svg.chart .tick { fill: var(--muted); font-size: 11px; }
+  svg.chart .hit { fill: transparent; }
+  svg.chart .clickable { cursor: pointer; }
+  svg.chart .clickable:hover .hit { fill: var(--ice); }
+  svg.chart.has-sel .ybar:not(.sel) .seg { opacity: 0.28; }
+  svg.chart .hlabel { fill: var(--ink); font-size: 12px; }
+  svg.chart .clickable .hlabel { fill: var(--green-deep); }
+  svg.chart .hvalue { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  svg.chart .donut-total { fill: var(--ink); font-size: 26px; font-weight: 600; }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.84rem; color: var(--muted); margin-top: 6px; }
+  .legend i, .donut-legend i { display: inline-block; width: 11px; height: 11px; margin-right: 5px; vertical-align: -1px; }
+  .donut-wrap { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+  .donut-wrap svg { width: 170px; flex: 0 0 170px; }
+  .donut-legend { list-style: none; padding: 0; margin: 0; font-size: 0.9rem; }
+  .donut-legend li { margin: 5px 0; }
+
+  /* controls */
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-bottom: 10px; }
+  .controls input[type="search"] { flex: 1 1 260px; }
+  .controls input, .controls select, .button {
+    font: inherit; padding: 7px 10px; border: 1px solid var(--rule); border-radius: 4px; background: #fff; color: var(--ink);
+  }
+  .controls input[type="number"] { width: 5.5em; }
+  .controls label { color: var(--muted); font-size: 0.9rem; display: inline-flex; align-items: center; gap: 6px; }
+  .button { cursor: pointer; }
+  .button:hover { border-color: var(--green); }
+  .controls :focus-visible, .sort-button:focus-visible, a:focus-visible, .name-button:focus-visible, .button:focus-visible {
+    outline: 2px solid var(--green); outline-offset: 2px;
+  }
+  .count { color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; background: var(--ice); border-radius: 999px; padding: 3px 4px 3px 11px; font-size: 0.88rem; }
+  .chip button { font: inherit; border: 0; background: transparent; cursor: pointer; padding: 0 6px; color: var(--muted); }
+  .definitions { font-size: 0.84rem; color: var(--muted); margin: 0 0 12px; }
+
+  /* tables */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 900px; }
+  thead th { position: sticky; top: 0; background: var(--paper); border-bottom: 2px solid var(--ink); text-align: left; padding: 0; font-weight: 600; z-index: 1; vertical-align: bottom; }
+  .sort-button { font: inherit; font-weight: 600; color: var(--ink); background: none; border: 0; padding: 9px 8px; width: 100%; text-align: left; cursor: pointer; }
+  .sort-button.static { cursor: default; display: block; }
+  th.num .sort-button { text-align: right; }
+  .sort-button::after { content: ""; display: inline-block; width: 1em; margin-left: 3px; color: var(--green-deep); }
+  th[aria-sort="ascending"] .sort-button::after { content: "\25B2"; font-size: 0.7em; }
+  th[aria-sort="descending"] .sort-button::after { content: "\25BC"; font-size: 0.7em; }
+  tbody td { border-bottom: 1px solid var(--rule); padding: 8px 8px; vertical-align: top; }
+  tbody tr:hover td { background: var(--ice); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.col-rank { color: var(--muted); width: 3em; }
+  td.col-muted { color: var(--muted); font-size: 0.92rem; }
+  td.col-title { font-family: var(--serif); font-size: 1rem; line-height: 1.45; }
+  td.col-doi { font-size: 0.86rem; word-break: break-all; }
+  td.col-doi a, a.plain-link { color: var(--green-deep); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 2px; }
+  td.col-doi a:hover, a.plain-link:hover { text-decoration-color: var(--green-deep); }
+  .name-button { font: inherit; background: none; border: 0; padding: 0; color: var(--green-deep); cursor: pointer; text-align: left; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 2px; }
+  .name-button:hover { text-decoration-color: var(--green-deep); }
+  .role { display: inline-block; font-size: 0.76rem; padding: 1px 7px; border-radius: 3px; white-space: nowrap; }
+  .muted { color: var(--muted); }
+  sub, sup { font-size: 0.72em; line-height: 0; }
+  .empty-state { padding: 30px 8px; color: var(--muted); }
+  footer { margin-top: 34px; color: var(--muted); font-size: 0.85rem; }
+
+  @media (max-width: 720px) {
+    .page { padding: 20px 14px 48px; }
+    h1 { font-size: 1.6rem; }
+    .charts { grid-template-columns: 1fr; }
+    .count { margin-left: 0; width: 100%; }
+  }
+  @media print {
+    .controls, nav.pages { display: none; }
+    thead th { position: static; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <nav class="pages"><a href="corrections.csv">corrections.csv</a><a href="missing_papers.txt">missing_papers.txt</a><a href="README.txt">README.txt</a></nav>
+  <header>
+    <h1>AIDA publications of Leisner, Thomas</h1>
+    <p class="summary">Review packet aut0023. Leisner, Thomas, 34 papers. Only your own papers are shown here. Please check them and write the corrections into corrections.csv.</p>
+  </header>
+
+  <section class="panel" id="top_panel" aria-live="polite"></section>
+
+  <div class="controls">
+    <select id="view_select" aria-label="Ranking">
+      <option value="authors">Rank authors</option>
+      <option value="author_aff">Rank author and affiliation</option>
+      <option value="author_journal">Rank author and journal</option>
+      <option value="author_type">Rank author and publication type</option>
+    </select>
+    <input type="search" id="search_box" placeholder="Search authors, affiliations, journals" aria-label="Search">
+    <select id="type_select" aria-label="Publication type"><option value="">All types</option></select>
+    <select id="y0_select" aria-label="From year"></select>
+    <select id="y1_select" aria-label="To year"></select>
+    <label>Min. papers <input type="number" id="min_input" min="1" value="1"></label>
+    <select id="limit_select" aria-label="Rows shown">
+      <option value="100">Top 100</option>
+      <option value="250" selected>Top 250</option>
+      <option value="1000">Top 1000</option>
+      <option value="0">All rows</option>
+    </select>
+    <button type="button" class="button" id="reset_button">Clear filters</button>
+    <span class="count" id="count_text" aria-live="polite"></span>
+  </div>
+  <p class="definitions">Roles per paper, they add up to Papers: <b>First + corr.</b> first and corresponding author; <b>First only</b> first author, not corresponding; <b>Corr., not first</b> corresponding but not first author; <b>Co-author</b> neither. <b>First author</b> = First + corr. and First only. Corresponding authors are known for 91% of the papers. Select a name to see the author profile, select a column title to rank by it.</p>
+
+  <div class="table-wrap">
+    <table id="main_table"><thead></thead><tbody></tbody></table>
+    <div class="empty-state" id="empty_state" hidden>No rows match these filters.</div>
+  </div>
+
+  <footer>Generated from AIDA_Master_bib.bib on 2026-09-29. Authors are matched by surname and first initial.</footer>
+</div>
+
+<script>
+
+const D = {"papers":[{"k":"2017_ullrich_jas","y":2017,"th":"A New Ice Nucleation Active Site Parameterization for Desert Dust and Soot","tp":"A New Ice Nucleation Active Site Parameterization for Desert Dust and Soot","j":0,"ty":"Article","doi":"10.1175/jas-d-16-0074.1","url":"","a":[1,2,3,4,5,6,7,8,0],"c":[1],"aa":[[0],[0],[0],[0],[0],[0],[0],[0],[0]],"pa":[0],"ck":true,"as":["o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]]]},{"k":"2018_huang_acp","y":2018,"th":"α-Pinene secondary organic aerosol at low temperature: chemical composition and implications for particle viscosity","tp":"α-Pinene secondary organic aerosol at low temperature: chemical composition and implications for particle viscosity","j":1,"ty":"Article","doi":"10.5194/acp-18-2883-2018","url":"","a":[9,8,10,11,12,5,13,0,14],"c":[14],"aa":[[0],[0],[1],[0],[0],[0],[1],[0],[0,2]],"pa":[0,1,2],"ck":true,"as":["o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[1,1]],[[0,0]],[[0,0]],[[0,0]],[[1,1]],[[0,0]],[[0,0],[2,2]]]},{"k":"2011_steinke_acp","y":2011,"th":"Ice nucleation properties of fine ash particles from the Eyjafjallajokull eruption in April 2010","tp":"Ice nucleation properties of fine ash particles from the Eyjafjallajokull eruption in April 2010","j":1,"ty":"Article","doi":"10.5194/acp-11-12945-2011","url":"","a":[15,3,16,4,8,17,18,2,0],"c":[15],"aa":[[0],[0],[0],[0],[0],[0],[0],[0],[0,3]],"pa":[0,3],"ck":true,"as":["o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0],[3,3]]]},{"k":"2019_umo_acp","y":2019,"th":"Enhanced ice nucleation activity of coal fly ash aerosol particles initiated by ice-filled pores","tp":"Enhanced ice nucleation activity of coal fly ash aerosol particles initiated by ice-filled pores","j":1,"ty":"Article","doi":"10.5194/acp-19-8783-2019","url":"","a":[19,5,1,16,8,20,21,0,3],"c":[19],"aa":[[0],[0],[0],[0],[0],[0],[4,5],[0],[0,6]],"pa":[0,4,5,6],"ck":true,"as":["o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[4,4],[5,5]],[[0,0]],[[0,0],[6,6]]]},{"k":"2021_schneider_acp","y":2021,"th":"High homogeneous freezing onsets of sulfuric acid aerosol at cirrus temperatures","tp":"High homogeneous freezing onsets of sulfuric acid aerosol at cirrus temperatures","j":1,"ty":"Article","doi":"10.5194/acp-21-14403-2021","url":"","a":[22,6,5,8,17,23,15,24,25,26,27,0,3],"c":[5,17,25,26,27,3],"aa":[[0],[0],[0],[0],[0],[0],[7],[8],[9],[10],[10,9],[0],[0]],"pa":[0,7,8,9,10],"ck":true,"as":["o","o","o","o","o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[7,7]],[[8,8]],[[9,9]],[[10,10]],[[10,10],[9,9]],[[0,0]],[[0,0]]]},{"k":"2011_wagner_acp","y":2011,"th":"New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the immersion mode","tp":"New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the immersion mode","j":1,"ty":"Article","doi":"10.5194/acp-11-2083-2011","url":"","a":[5,3,8,17,0],"c":[5],"aa":[[0],[0],[0],[0],[0]],"pa":[0],"ck":true,"as":["o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]]]},{"k":"2013_skrotzki_acp","y":2013,"th":"The accommodation coefficient of water molecules on ice - cirrus cloud studies at the AIDA simulation chamber","tp":"The accommodation coefficient of water molecules on ice - cirrus cloud studies at the AIDA simulation chamber","j":1,"ty":"Article","doi":"10.5194/acp-13-4451-2013","url":"","a":[18,28,17,8,3,5,4,29,0],"c":[18],"aa":[[0,11],[12],[0],[0],[0],[0],[0],[13,14],[0]],"pa":[0,11,12,13,14],"ck":true,"as":["o","o","o","o","o","o","o","o","o"],"ar":[[[0,0],[11,11]],[[12,12]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[13,13],[14,14]],[[0,0]]]},{"k":"2012_wagner_acp","y":2012,"th":"Ice cloud processing of ultra-viscous/glassy aerosol particles leads to enhanced ice nucleation ability","tp":"Ice cloud processing of ultra-viscous/glassy aerosol particles leads to enhanced ice nucleation ability","j":1,"ty":"Article","doi":"10.5194/acp-12-8589-2012","url":"","a":[5,3,8,17,18,0,30,31,32],"c":[5],"aa":[[0],[0],[0],[0],[0],[0],[15],[15],[15]],"pa":[0,15],"ck":true,"as":["o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[15,15]],[[15,15]],[[15,15]]]},{"k":"2018_wagner_jgra","y":2018,"th":"Heterogeneous Ice Nucleation Ability of NaCl and Sea Salt Aerosol Particles at Cirrus Temperatures","tp":"Heterogeneous Ice Nucleation Ability of NaCl and Sea Salt Aerosol Particles at Cirrus Temperatures","j":2,"ty":"Article","doi":"10.1002/2017jd027864","url":"","a":[5,33,3,8,17,1,0],"c":[5],"aa":[[0,16],[0,16],[0,16],[0,16],[0,16],[0,16],[0,16]],"pa":[0,16],"ck":true,"as":["o","o","o","o","o","o","o"],"ar":[[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[16,16]]]},{"k":"2022_gao_acp","y":2022,"th":"Kinetics, SOA yields, and chemical composition of seconaary organic aerosol from β-caryophyllene ozonolysis with and without nitrogen oxides between 213 and 313 K","tp":"Kinetics, SOA yields, and chemical composition of seconaary organic aerosol from β-caryophyllene ozonolysis with and without nitrogen oxides between 213 and 313 K","j":1,"ty":"Article","doi":"10.5194/acp-22-6001-2022","url":"","a":[34,35,14,9,36,37,0,8],"c":[34,35,14,9,8],"aa":[[0],[0],[2],[17],[0],[0],[0,3],[0]],"pa":[0,2,17,3],"ck":true,"as":["o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[2,2]],[[17,17]],[[0,0]],[[0,0]],[[0,0],[3,3]],[[0,0]]]},{"k":"2008_wagner_jpca","y":2008,"th":"Infrared Optical Constants of Highly Diluted Sulfuric Acid Solution Droplets at Cirrus Temperatures","tp":"Infrared Optical Constants of Highly Diluted Sulfuric Acid Solution Droplets at Cirrus Temperatures","j":3,"ty":"Article","doi":"10.1021/jp8066102","url":"","a":[5,24,38,3,8,17,0,29],"c":[5],"aa":[[18],[18],[18],[18],[18],[18],[18],[3]],"pa":[18,3],"ck":true,"as":["w","w","w","w","w","w","w","o"],"ar":[[[18,18]],[[18,18]],[[18,18]],[[18,18]],[[18,18]],[[18,18]],[[18,18]],[[3,3]]]},{"k":"2010_wagner_acp","y":2010,"th":"High variability of the heterogeneous ice nucleation potential of oxalic acid dihydrate and sodium oxalate","tp":"High variability of the heterogeneous ice nucleation potential of oxalic acid dihydrate and sodium oxalate","j":1,"ty":"Article","doi":"10.5194/acp-10-7617-2010","url":"","a":[5,3,8,17,0],"c":[5],"aa":[[0],[0],[0],[0],[0]],"pa":[0],"ck":true,"as":["o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]]]},{"k":"2018_ramisetty_amt","y":2018,"th":"Exploring femtosecond laser ablation in single-particle aerosol mass spectrometry","tp":"Exploring femtosecond laser ablation in single-particle aerosol mass spectrometry","j":4,"ty":"Article","doi":"10.5194/amt-11-4345-2018","url":"","a":[39,40,11,8,0,14],"c":[14],"aa":[[0],[0],[0],[0],[0],[0,2]],"pa":[0,2],"ck":true,"as":["o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0],[2,2]]]},{"k":"2007_wagner_jpca","y":2007,"th":"Influence of particle aspect ratio on the midinfrared extinction spectra of wavelength-sized ice crystals","tp":"Influence of particle aspect ratio on the midinfrared extinction spectra of wavelength-sized ice crystals","j":3,"ty":"Article","doi":"10.1021/jp0741713","url":"","a":[5,24,3,8,17,0],"c":[5],"aa":[[18],[18],[18],[18],[18],[18]],"pa":[18],"ck":true,"as":["w","w","w","w","w","w"],"ar":[[[18,19]],[[18,19]],[[18,19]],[[18,19]],[[18,19]],[[18,19]]]},{"k":"2024_jiang_acp","y":2024,"th":"Molecular analysis of secondary organic aerosol and brown carbon from the oxidation of indole","tp":"Molecular analysis of secondary organic aerosol and brown carbon from the oxidation of indole","j":1,"ty":"Article","doi":"10.5194/acp-24-2639-2024","url":"","a":[37,41,42,43,44,0,45,8],"c":[37,8],"aa":[[0,16],[4],[0,16],[0,16],[0,16],[0,3,16],[4],[0,16]],"pa":[0,16,4,3],"ck":true,"as":["o","o","o","o","o","o","o","o"],"ar":[[[0,0],[16,16]],[[4,4]],[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[3,3],[16,16]],[[4,4]],[[0,0],[16,16]]]},{"k":"2022_vallon_amt","y":2022,"th":"LED-based solar simulator to study photochemistry over a wide temperature range in the large simulation chamber AIDA","tp":"LED-based solar simulator to study photochemistry over a wide temperature range in the large simulation chamber AIDA","j":4,"ty":"Article","doi":"10.5194/amt-15-1795-2022","url":"","a":[36,34,37,46,47,35,0,8],"c":[34,35,8],"aa":[[0],[0],[0],[0],[0],[0],[0],[0]],"pa":[0],"ck":true,"as":["o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]]]},{"k":"2022_vogel_rsi","y":2022,"th":"Development and validation of a new cloud simulation experiment for lab-based aerosol-cloud studies","tp":"Development and validation of a new cloud simulation experiment for lab-based aerosol-cloud studies","j":5,"ty":"Article","doi":"10.1063/5.0098777","url":"","a":[48,49,47,8,0,3],"c":[3],"aa":[[0],[0],[0],[0],[0],[0]],"pa":[0],"ck":true,"as":["o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]]]},{"k":"2013_saathoff_acp","y":2013,"th":"Laser filament-induced aerosol formation","tp":"Laser filament-induced aerosol formation","j":1,"ty":"Article","doi":"10.5194/acp-13-4593-2013","url":"","a":[8,50,51,52,53,54,55,3,56,57,17,58,0,59,60],"c":[17,58],"aa":[[0],[19],[20],[19],[19],[20],[20],[0],[19],[20],[0],[19],[0],[19],[20]],"pa":[0,19,20],"ck":true,"as":["o","o","o","o","o","o","o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[19,20]],[[20,21]],[[19,20]],[[19,20]],[[20,21]],[[20,21]],[[0,0]],[[19,20]],[[20,21]],[[0,0]],[[19,20]],[[0,0]],[[19,20]],[[20,21]]]},{"k":"2012_skrotzki_misc","y":2012,"th":"The accommodation coefficient of water molecules on ice-cirrus cloud studies at the AIDA simulation chamber","tp":"The accommodation coefficient of water molecules on ice-cirrus cloud studies at the AIDA simulation chamber","j":-1,"ty":"Other","doi":"10.5194/acpd-12-24351-2012","url":"","a":[18,28,17,8,3,5,4,29,0],"c":[8],"aa":[[0],[12],[0],[0],[0],[0],[0],[13,14],[0]],"pa":[0,12,13,14],"ck":true,"as":["o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[12,12]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[13,13],[14,14]],[[0,0]]]},{"k":"2023_jiang_misc","y":2023,"th":"Molecular Analysis of Secondary Organic Aerosol and Brown Carbon from the Oxidation of Indole","tp":"Molecular Analysis of Secondary Organic Aerosol and Brown Carbon from the Oxidation of Indole","j":-1,"ty":"Other","doi":"10.5194/egusphere-2023-1804","url":"","a":[37,41,42,43,44,0,45,8],"c":[37,8],"aa":[[0],[4],[0],[0],[0],[0,3],[4],[0]],"pa":[0,4,3],"ck":true,"as":["o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[4,4]],[[0,0]],[[0,0]],[[0,0]],[[0,0],[3,3]],[[4,4]],[[0,0]]]},{"k":"2010_skrotzki_afma","y":2010,"th":"The Accommodation Coefficient of Water Molecules on Ice: Results from Cirrus Cloud Experiments at the Aerosol Chamber AIDA","tp":"The Accommodation Coefficient of Water Molecules on Ice: Results from Cirrus Cloud Experiments at the Aerosol Chamber AIDA","j":6,"ty":"Other","doi":"","url":"","a":[18,28,4,8,3,29,0],"c":[],"aa":[[],[],[],[],[],[],[]],"pa":[],"ck":false,"as":["","","","","","",""],"ar":[[],[],[],[],[],[],[]]},{"k":"2021_vallon_misc","y":2021,"th":"LED based solar simulator to study photochemistry over a wide temperature range in the large simulation chamber AIDA","tp":"LED based solar simulator to study photochemistry over a wide temperature range in the large simulation chamber AIDA","j":-1,"ty":"Other","doi":"10.5194/amt-2021-362","url":"","a":[36,34,37,46,47,35,0,8],"c":[34,35],"aa":[[0],[0],[0],[0],[0],[0],[0],[0]],"pa":[0],"ck":true,"as":["o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]]]},{"k":"2010_mohler_eguga","y":2010,"th":"AIDA experiments on heterogeneous ice nucleation in warm mixed-phase clouds","tp":"AIDA experiments on heterogeneous ice nucleation in warm mixed-phase clouds","j":7,"ty":"Other","doi":"","url":"","a":[3,24,0,4,61,8,17,5],"c":[],"aa":[[0],[],[],[],[],[],[],[]],"pa":[0],"ck":false,"as":["o","","","","","","",""],"ar":[[[0,0]],[],[],[],[],[],[],[]]},{"k":"2021_vallon_misc_d","y":2021,"th":"Supplementary material to &quot;LED based solar simulator to study photochemistry over a wide temperature range in the large simulation chamber AIDA&quot;","tp":"Supplementary material to \"LED based solar simulator to study photochemistry over a wide temperature range in the large simulation chamber AIDA\"","j":-1,"ty":"Other","doi":"10.5194/amt-2021-362-supplement","url":"","a":[36,34,37,46,47,35,0,8],"c":[8],"aa":[[0],[0],[0],[0],[0],[0],[0],[0]],"pa":[0],"ck":true,"as":["o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]]]},{"k":"2023_jiang_misc_b","y":2023,"th":"Supplementary material to &quot;Molecular Analysis of Secondary Organic Aerosol and Brown Carbon from the Oxidation of Indole&quot;","tp":"Supplementary material to \"Molecular Analysis of Secondary Organic Aerosol and Brown Carbon from the Oxidation of Indole\"","j":-1,"ty":"Other","doi":"10.5194/egusphere-2023-1804-supplement","url":"","a":[37,41,42,43,44,0,45,8],"c":[],"aa":[[0,16],[4],[0,16],[0,16],[0,16],[0,3,16],[0,4],[0,16]],"pa":[0,16,4,3],"ck":false,"as":["o","o","o","o","o","o","o","o"],"ar":[[[0,0],[16,16]],[[4,4]],[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[3,3],[16,16]],[[0,0],[4,4]],[[0,0],[16,16]]]},{"k":"2016_steinke_jgra","y":2016,"th":"Ice nucleation activity of agricultural soil dust aerosols from Mongolia, Argentina, and Germany","tp":"Ice nucleation activity of agricultural soil dust aerosols from Mongolia, Argentina, and Germany","j":2,"ty":"Article","doi":"10.1002/2016jd025160","url":"","a":[15,62,63,64,65,66,3,67,17,68,69,1,70,2,0],"c":[15],"aa":[[0],[21],[21],[22],[0],[21],[0],[0],[0],[23],[0],[0],[21],[0],[0,3]],"pa":[0,21,22,23,3],"ck":true,"as":["o","o","o","o","o","o","o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[21,22]],[[21,22]],[[22,23]],[[0,0]],[[21,22]],[[0,0]],[[0,0]],[[0,0]],[[23,24]],[[0,0]],[[0,0]],[[21,22]],[[0,0]],[[0,0],[3,3]]]},{"k":"2016_abdelmonem_amt","y":2016,"th":"PHIPS-HALO: the airborne Particle Habit Imaging and Polar Scattering probe - Part 1: Design and operation","tp":"PHIPS-HALO: the airborne Particle Habit Imaging and Polar Scattering probe - Part 1: Design and operation","j":4,"ty":"Article","doi":"10.5194/amt-9-3131-2016","url":"","a":[40,71,72,73,74,0,17],"c":[40,17],"aa":[[0],[0],[0],[24],[0],[0],[0]],"pa":[0,24],"ck":true,"as":["o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[24,25]],[[0,0]],[[0,0]],[[0,0]]]},{"k":"2011_abdelmonem_amt","y":2011,"th":"First correlated measurements of the shape and light scattering properties of cloud particles using the new Particle Habit Imaging and Polar Scattering (PHIPS) probe","tp":"First correlated measurements of the shape and light scattering properties of cloud particles using the new Particle Habit Imaging and Polar Scattering (PHIPS) probe","j":4,"ty":"Article","doi":"10.5194/amt-4-2125-2011","url":"","a":[40,17,75,76,77,0],"c":[40],"aa":[[0],[0],[23],[24],[10,25],[0]],"pa":[0,23,24,10,25],"ck":true,"as":["o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[23,24]],[[24,25]],[[10,10],[25,26]],[[0,0]]]},{"k":"2012_niemand_jas","y":2012,"th":"A Particle-Surface-Area-Based Parameterization of Immersion Freezing on Desert Dust Particles","tp":"A Particle-Surface-Area-Based Parameterization of Immersion Freezing on Desert Dust Particles","j":0,"ty":"Article","doi":"10.1175/jas-d-11-0249.1","url":"","a":[4,3,78,79,2,28,80,81,82,18,0],"c":[4],"aa":[[0],[0],[0],[0],[0],[12],[26],[26],[27],[0],[0]],"pa":[0,12,26,27],"ck":true,"as":["o","o","o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[12,12]],[[26,27]],[[26,27]],[[27,28]],[[0,0]],[[0,0]]]},{"k":"2015_hiranuma_acp","y":2015,"th":"A comprehensive laboratory study on the immersion freezing behavior of illite NX particles: a comparison of 17 ice nucleation measurement techniques","tp":"A comprehensive laboratory study on the immersion freezing behavior of illite NX particles: a comparison of 17 ice nucleation measurement techniques","j":1,"ty":"Article","doi":"10.5194/acp-15-2489-2015","url":"","a":[7,83,81,84,85,86,87,88,89,90,91,92,16,93,0,3,94,95,96,97,98,99,82,100,101,102,103,104,105,106,32,107,108,109,110,111,112,113,114,115,116,117],"c":[7],"aa":[[0],[28],[26],[29],[26],[26],[9],[29],[30],[26],[0],[30],[0],[29],[0],[0],[26,31],[0],[26],[30],[28],[23],[27],[32],[27],[23],[7],[27],[27],[33],[15],[34,28],[32],[15],[33],[35,36],[33],[35,36],[23],[15],[32],[33]],"pa":[0,28,26,29,9,30,31,23,27,32,7,33,15,34,35,36],"ck":true,"as":["o","o","o","o","o","o","o","o","w","o","o","w","o","o","o","o","o","o","o","w","o","o","o","o","o","o","o","o","o","o","o","o","o","o","o","o","o","o","o","o","o","o"],"ar":[[[0,0]],[[28,29]],[[26,27]],[[29,30]],[[26,27]],[[26,27]],[[9,9]],[[29,30]],[[30,31]],[[26,27]],[[0,0]],[[30,31]],[[0,0]],[[29,30]],[[0,0]],[[0,0]],[[26,27],[31,32]],[[0,0]],[[26,27]],[[30,31]],[[28,29]],[[23,24]],[[27,28]],[[32,33]],[[27,28]],[[23,24]],[[7,7]],[[27,28]],[[27,28]],[[33,34]],[[15,15]],[[34,35],[28,29]],[[32,33]],[[15,15]],[[33,34]],[[35,36],[36,37]],[[33,34]],[[35,36],[36,37]],[[23,24]],[[15,15]],[[32,33]],[[33,34]]]},{"k":"2015_steinke_acp","y":2015,"th":"A new temperature- and humidity-dependent surface site density approach for deposition ice nucleation","tp":"A new temperature- and humidity-dependent surface site density approach for deposition ice nucleation","j":1,"ty":"Article","doi":"10.5194/acp-15-3703-2015","url":"","a":[15,2,3,28,0],"c":[15],"aa":[[0],[0],[0],[12],[0,3]],"pa":[0,12,3],"ck":true,"as":["o","o","o","o","o"],"ar":[[[0,0]],[[0,0]],[[0,0]],[[12,12]],[[0,0],[3,3]]]},{"k":"2020_steinke_acp","y":2020,"th":"Complex plant-derived organic aerosol as ice-nucleating particles - more than the sums of their parts?","tp":"Complex plant-derived organic aerosol as ice-nucleating particles - more than the sums of their parts?","j":1,"ty":"Article","doi":"10.5194/acp-20-11387-2020","url":"","a":[15,7,62,6,118,19,20,3,0],"c":[15,3],"aa":[[0,7],[37],[21],[0],[0],[0],[0],[0],[0]],"pa":[0,7,37,21],"ck":true,"as":["o","o","o","o","o","o","o","o","o"],"ar":[[[0,0],[7,7]],[[37,38]],[[21,22]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]],[[0,0]]]},{"k":"2021_umo_jgra","y":2021,"th":"The Influence of Chemical and Mineral Compositions on the Parameterization of Immersion Freezing by Volcanic Ash Particles","tp":"The Influence of Chemical and Mineral Compositions on the Parameterization of Immersion Freezing by Volcanic Ash Particles","j":2,"ty":"Article","doi":"10.1029/2020jd033356","url":"","a":[19,1,119,15,120,6,5,20,121,16,122,92,123,0,3],"c":[19],"aa":[[0,16],[0,16],[15,38,39],[0,7,16],[14],[0,16],[0,16],[0,40,16],[0,16],[0,16],[41],[14],[41],[0,16],[0,16]],"pa":[0,16,15,38,39,7,14,40,41],"ck":true,"as":["o","o","o","o","o","o","o","o","o","o","o","o","o","o","o"],"ar":[[[0,0],[16,16]],[[0,0],[16,16]],[[15,15],[38,39],[39,40]],[[0,0],[7,7],[16,16]],[[14,14]],[[0,0],[16,16]],[[0,0],[16,16]],[[0,0],[40,41],[16,16]],[[0,0],[16,16]],[[0,0],[16,16]],[[41,42]],[[14,14]],[[41,42]],[[0,0],[16,16]],[[0,0],[16,16]]]},{"k":"2020_leisner_article_d","y":2020,"th":"Einfluss von Aerosol auf die Eisbildung - Experiment mit der Wolkensimulationskammer mini-AIDA","tp":"Einfluss von Aerosol auf die Eisbildung - Experiment mit der Wolkensimulationskammer mini-AIDA","j":-1,"ty":"Article","doi":"10.5445/ir/1000123428","url":"","a":[0],"c":[0],"aa":[[]],"pa":[],"ck":true,"as":[""],"ar":[[]]}],"authors":[{"k":"leisner_t","n":"Leisner, Thomas","v":["Leisner, T."]},{"k":"ullrich_r","n":"Ullrich, Romy","v":["Ullrich, R."]},{"k":"hoose_c","n":"Hoose, Corinna","v":["Hoose, C."]},{"k":"mohler_o","n":"Möhler, Ottmar","v":["Möhler, O.","Moehler, O.","Moehler, Ottmar","Mohler, Ottmar","Mohler, O."]},{"k":"niemand_m","n":"Niemand, Monika","v":["Niemand, M."]},{"k":"wagner_r","n":"Wagner, Robert","v":["Wagner, R.","Wagner, Rafael","Wagner, Richard"]},{"k":"hohler_k","n":"Höhler, Kristina","v":["Hoehler, Kristina","Hohler, Kristina","Hoehler, K."]},{"k":"hiranuma_n","n":"Hiranuma, Naruki","v":["Hiranuma, N."]},{"k":"saathoff_h","n":"Saathoff, Harald","v":["Saathoff, H."]},{"k":"huang_w","n":"Huang, Wei","v":[]},{"k":"pajunoja_a","n":"Pajunoja, Aki","v":[]},{"k":"shen_x","n":"Shen, Xiaoli","v":["Shen, Xiaojing"]},{"k":"naumann_k","n":"Naumann, Karl-Heinz","v":["Naumann, K. H.","Naumann, K. -H.","Naumann, K.‐H.","NAUMANN, K. H."]},{"k":"virtanen_a","n":"Virtanen, Annele","v":[]},{"k":"mohr_c","n":"Mohr, Claudia","v":[]},{"k":"steinke_i","n":"Steinke, Isabelle","v":["Steinke, I."]},{"k":"kiselev_a","n":"Kiselev, Alexei","v":["Kiselev, A.","Kiselev, A. A."]},{"k":"schnaiter_m","n":"Schnaiter, Martin","v":["Schnaiter, M."]},{"k":"skrotzki_j","n":"Skrotzki, Julian","v":["Skrotzki, J."]},{"k":"umo_n","n":"Umo, Nsikanabasi Silas","v":["Umo, Nsikanabasi S.","Umo, N. S."]},{"k":"weidler_p","n":"Weidler, Peter G.","v":["Weidler, P. G."]},{"k":"cziczo_d","n":"Cziczo, Daniel J.","v":["Cziczo, D. J."]},{"k":"schneider_j","n":"Schneider, Julia","v":["Schneider, J.","Schneider, Johannes"]},{"k":"schorr_t","n":"Schorr, Tobias","v":[]},{"k":"benz_s","n":"Benz, Stefan","v":["Benz, S."]},{"k":"baumgartner_m","n":"Baumgartner, Manuel","v":[]},{"k":"rolf_c","n":"Rolf, Christian","v":["Rolf, C."]},{"k":"kramer_m","n":"Krämer, Martina","v":["Kraemer, M.","Krämer, M.","Kramer, Martina"]},{"k":"connolly_p","n":"Connolly, Paul","v":["Connolly, P.","Connolly, P. J."]},{"k":"ebert_v","n":"Ebert, Volker","v":["Ebert, V."]},{"k":"wilson_t","n":"Wilson, Theodore W.","v":["Wilson, T. W."]},{"k":"malkin_t","n":"Malkin, T. L.","v":[]},{"k":"murray_b","n":"Murray, Benjamin J.","v":["Murray, B. J."]},{"k":"kaufmann_j","n":"Kaufmann, Julia","v":[]},{"k":"gao_l","n":"Gao, Linyu","v":[]},{"k":"song_j","n":"Song, Junwei","v":[]},{"k":"vallon_m","n":"Vallon, Magdalena","v":[]},{"k":"jiang_f","n":"Jiang, Feng","v":[]},{"k":"bunz_h","n":"Bunz, Helmut","v":["Bunz, H.","BUNZ, H."]},{"k":"ramisetty_r","n":"Ramisetty, Ramakrishna","v":[]},{"k":"abdelmonem_a","n":"Abdelmonem, Ahmed","v":["Abdelmonem, A."]},{"k":"siemens_k","n":"Siemens, Kyla","v":["Siemens, Kyla N."]},{"k":"linke_c","n":"Linke, Claudia","v":["Linke, C.","Linke, Christian"]},{"k":"li_y","n":"Li, Yanxia","v":[]},{"k":"gong_y","n":"Gong, Yiwei","v":[]},{"k":"laskin_a","n":"Laskin, Alexander","v":[]},{"k":"krumm_b","n":"Krumm, Bianca","v":[]},{"k":"nadolny_j","n":"Nadolny, Jens","v":["Nadolny, J."]},{"k":"vogel_f","n":"Vogel, Franziska","v":["Vogel, F."]},{"k":"lacher_l","n":"Lacher, Larissa","v":["Lacher, L."]},{"k":"henin_s","n":"Henin, S.","v":[]},{"k":"stelmaszczyk_k","n":"Stelmaszczyk, K.","v":[]},{"k":"petrarca_m","n":"Petrarca, M.","v":[]},{"k":"delagrange_r","n":"Delagrange, R.","v":[]},{"k":"hao_z","n":"Hao, Z.","v":[]},{"k":"luder_j","n":"Lueder, J.","v":[]},{"k":"petit_y","n":"Petit, Y.","v":[]},{"k":"rohwetter_p","n":"Rohwetter, P.","v":[]},{"k":"kasparian_j","n":"Kasparian, J.","v":[]},{"k":"wolf_j","n":"Wolf, J. -P.","v":[]},{"k":"woste_l","n":"Woeste, L.","v":[]},{"k":"ohm_c","n":"Oehm, C.","v":[]},{"k":"funk_r","n":"Funk, Roger","v":["Funk, R."]},{"k":"busse_j","n":"Busse, J.","v":[]},{"k":"iturri_a","n":"Iturri, A.","v":[]},{"k":"kirchen_s","n":"Kirchen, S.","v":[]},{"k":"leu_m","n":"Leue, M.","v":[]},{"k":"schwartz_t","n":"Schwartz, T.","v":[]},{"k":"sierau_b","n":"Sierau, B.","v":[]},{"k":"toprak_e","n":"Toprak, E.","v":[]},{"k":"ulrich_a","n":"Ulrich, A.","v":[]},{"k":"jarvinen_e","n":"Jaervinen, Emma","v":["Jaervinen, E."]},{"k":"duft_d","n":"Duft, Denis","v":[]},{"k":"hirst_e","n":"Hirst, Edwin","v":[]},{"k":"vogt_s","n":"Vogt, Steffen","v":[]},{"k":"amsler_p","n":"Amsler, Peter","v":["Amsler, P."]},{"k":"hesse_e","n":"Hesse, Evelyn","v":["Hesse, E."]},{"k":"meyer_j","n":"Meyer, Jessica","v":["Meyer, J.","Meyer, J. P."]},{"k":"vogel_b","n":"Vogel, Bernhard","v":[]},{"k":"vogel_h","n":"Vogel, Heike","v":[]},{"k":"klein_h","n":"Klein, Holger","v":[]},{"k":"bingemer_h","n":"Bingemer, Heinz G.","v":["Bingemer, Heinz","Bingemer, H."]},{"k":"demott_p","n":"DeMott, Paul J.","v":["DeMott, P. J.","DeMott, Paul"]},{"k":"augustinbauditz_s","n":"Augustin‐Bauditz, Stefanie","v":["Augustin-Bauditz, S."]},{"k":"budke_c","n":"Budke, Carsten","v":["Budke, C."]},{"k":"curtius_j","n":"Curtius, Joachim","v":["Curtius, J."]},{"k":"danielczok_a","n":"Danielczok, Anja","v":["Danielczok, A."]},{"k":"diehl_k","n":"Diehl, K.","v":[]},{"k":"dreischmeier_k","n":"Dreischmeier, K.","v":[]},{"k":"ebert_m","n":"Ebert, M.","v":[]},{"k":"frank_f","n":"Frank, F.","v":[]},{"k":"hoffmann_n","n":"Hoffmann, N.","v":[]},{"k":"kandler_k","n":"Kandler, Konrad","v":["Kandler, K."]},{"k":"koop_t","n":"Koop, Thomas","v":["Koop, T."]},{"k":"nillius_b","n":"Nillius, B.","v":[]},{"k":"peckhaus_a","n":"Peckhaus, Andreas","v":["Peckhaus, A."]},{"k":"rose_d","n":"Rose, Dominik","v":["Rose, D.","Rose, Diana"]},{"k":"weinbruch_s","n":"Weinbruch, S.","v":[]},{"k":"wex_h","n":"Wex, Heike","v":["Wex, H."]},{"k":"boose_y","n":"Boose, Yvonne","v":["Boose, Y."]},{"k":"hader_j","n":"Hader, J. D.","v":[]},{"k":"hill_t","n":"Hill, Thomas C. J.","v":["Hill, T. C. J."]},{"k":"kanji_z","n":"Kanji, Zamin A.","v":["Kanji, Z.","Kanji, Z. A."]},{"k":"kulkarni_g","n":"Kulkarni, Gourihar","v":["Kulkarni, G."]},{"k":"levin_e","n":"Levin, Ezra J. T.","v":["Levin, E. J. T."]},{"k":"mccluskey_c","n":"McCluskey, C. S.","v":[]},{"k":"murakami_m","n":"Murakami, Masataka","v":["Murakami, M."]},{"k":"niedermeier_d","n":"Niedermeier, D.","v":[]},{"k":"petters_m","n":"Petters, Markus D.","v":["Petters, M. D."]},{"k":"osullivan_d","n":"O'Sullivan, Daniel","v":["O'Sullivan, D."]},{"k":"saito_a","n":"Saito, Atsushi","v":["Saito, A."]},{"k":"schill_g","n":"Schill, G. P.","v":[]},{"k":"tajiri_t","n":"Tajiri, Takuya","v":["Tajiri, T."]},{"k":"tolbert_m","n":"Tolbert, M. A.","v":[]},{"k":"welti_a","n":"Welti, Andre","v":["Welti, A."]},{"k":"whale_t","n":"Whale, Thomas F.","v":["Whale, T. F."]},{"k":"wright_t","n":"Wright, T. P.","v":[]},{"k":"yamashita_k","n":"Yamashita, Katsuya","v":["Yamashita, K."]},{"k":"tullmann_n","n":"Tuellmann, Nadine","v":[]},{"k":"maters_e","n":"Maters, E. C.","v":[]},{"k":"benker_n","n":"Benker, N.","v":[]},{"k":"hoshyaripour_g","n":"Hoshyaripour, Gholam Ali","v":["Hoshyaripour, G. A."]},{"k":"kuppers_u","n":"Kueppers, U.","v":[]},{"k":"dingwell_d","n":"Dingwell, D. B.","v":[]}],"affs":[{"k":"karlsruhe institute technology","n":"Karlsruhe Institute of Technology","co":"Germany","ci":"Karlsruhe","lat":null,"lon":null,"ror":"https://ror.org/04t3en479","oa":"I102335020","src":"","v":[]},{"k":"university eastern finland","n":"University of Eastern Finland","co":"Finland","ci":"Joensuu","lat":null,"lon":null,"ror":"https://ror.org/00cyydd11","oa":"I175532246","src":"","v":[]},{"k":"stockholm university","n":"Stockholm University","co":"Sweden","ci":"Stockholm","lat":null,"lon":null,"ror":"https://ror.org/05f0yaq80","oa":"I161593684","src":"","v":[]},{"k":"heidelberg university","n":"Heidelberg University","co":"Germany","ci":"Heidelberg","lat":null,"lon":null,"ror":"https://ror.org/038t36y30","oa":"I223822909","src":"","v":["Heidelberg Univ"]},{"k":"purdue university west lafayette","n":"Purdue University West Lafayette","co":"United States","ci":"West Lafayette","lat":null,"lon":null,"ror":"https://ror.org/02dqehb95","oa":"I219193219","src":"","v":[]},{"k":"massachusetts institute technology","n":"Massachusetts Institute of Technology","co":"United States","ci":"Cambridge","lat":null,"lon":null,"ror":"https://ror.org/042nb2s44","oa":"I63966007","src":"","v":[]},{"k":"applied materials united kingdom","n":"Applied Materials (United Kingdom)","co":"United Kingdom","ci":"Lincoln","lat":null,"lon":null,"ror":"https://ror.org/006471y50","oa":"I4210087370","src":"","v":[]},{"k":"pacific northwest national laboratory","n":"Pacific Northwest National Laboratory","co":"United States","ci":"Richland","lat":null,"lon":null,"ror":"https://ror.org/05h992307","oa":"I142606810","src":"","v":[]},{"k":"landesanstalt umwelt baden wurttemberg","n":"Landesanstalt für Umwelt Baden-Württemberg","co":"Germany","ci":"Karlsruhe","lat":null,"lon":null,"ror":"https://ror.org/01qymej67","oa":"I4210118403","src":"","v":[]},{"k":"johannes gutenberg university mainz","n":"Johannes Gutenberg University Mainz","co":"Germany","ci":"Mainz","lat":null,"lon":null,"ror":"https://ror.org/023b0x485","oa":"I197323543","src":"","v":[]},{"k":"forschungszentrum julich","n":"Forschungszentrum Jülich","co":"Germany","ci":"Jülich","lat":null,"lon":null,"ror":"https://ror.org/02nv7yv05","oa":"I171892758","src":"","v":["Forschungszentrum Julich"]},{"k":"graduate theological union","n":"Graduate Theological Union","co":"United States","ci":"Berkeley","lat":null,"lon":null,"ror":"https://ror.org/00xs48965","oa":"I19620478","src":"","v":[]},{"k":"university manchester","n":"University of Manchester","co":"United Kingdom","ci":"Manchester","lat":null,"lon":null,"ror":"https://ror.org/027m9bs27","oa":"I28407311","src":"","v":[]},{"k":"physikalisch technische bundesanstalt","n":"Physikalisch-Technische Bundesanstalt","co":"Germany","ci":"Braunschweig","lat":null,"lon":null,"ror":"https://ror.org/05r3f7h03","oa":"I1285933455","src":"","v":[]},{"k":"technische university darmstadt","n":"Technische Universität Darmstadt","co":"Germany","ci":"Darmstadt","lat":null,"lon":null,"ror":"https://ror.org/05n911h24","oa":"I31512782","src":"","v":[]},{"k":"university leeds","n":"University of Leeds","co":"United Kingdom","ci":"Leeds","lat":null,"lon":null,"ror":"https://ror.org/024mrxd33","oa":"I130828816","src":"","v":[]},{"k":"kerntechnische entsorgung karlsruhe germany","n":"Kerntechnische Entsorgung Karlsruhe (Germany)","co":"Germany","ci":"Eggenstein-Leopoldshafen","lat":null,"lon":null,"ror":"https://ror.org/02kd9ve64","oa":"I4210121389","src":"","v":[]},{"k":"university helsinki","n":"University of Helsinki","co":"Finland","ci":"Helsinki","lat":null,"lon":null,"ror":"https://ror.org/040af2s02","oa":"I133731052","src":"","v":[]},{"k":"forschungszentrum karlsruhe","n":"Forschungszentrum Karlsruhe","co":"Germany","ci":"Karlsruhe","lat":null,"lon":null,"ror":"","oa":"","src":"","v":[]},{"k":"university geneva","n":"University of Geneva","co":"Switzerland","ci":"Geneva","lat":null,"lon":null,"ror":"https://ror.org/01swzsf04","oa":"I114457229","src":"","v":[]},{"k":"freie university berlin","n":"Freie Universität Berlin","co":"Germany","ci":"Berlin","lat":null,"lon":null,"ror":"https://ror.org/046ak2485","oa":"I75951250","src":"","v":[]},{"k":"leibniz center agricultural landscape research","n":"Leibniz Centre for Agricultural Landscape Research","co":"Germany","ci":"Müncheberg","lat":null,"lon":null,"ror":"https://ror.org/01ygyzs83","oa":"I4210113030","src":"","v":[]},{"k":"university nacional pampa","n":"Universidad Nacional de La Pampa","co":"Argentina","ci":"Santa Rosa","lat":null,"lon":null,"ror":"https://ror.org/02c21vy68","oa":"I197025333","src":"","v":[]},{"k":"eth zurich","n":"ETH Zurich","co":"Switzerland","ci":"Zurich","lat":null,"lon":null,"ror":"https://ror.org/05a28rw58","oa":"I35440088","src":"","v":[]},{"k":"university hertfordshire","n":"University of Hertfordshire","co":"United Kingdom","ci":"Hatfield","lat":null,"lon":null,"ror":"https://ror.org/0267vjk41","oa":"I141584323","src":"","v":[]},{"k":"stadtwerke julich germany","n":"Stadtwerke Jülich (Germany)","co":"Germany","ci":"Jülich","lat":null,"lon":null,"ror":"https://ror.org/03kmaet43","oa":"I4210133936","src":"","v":[]},{"k":"goethe university frankfurt","n":"Goethe University Frankfurt","co":"Germany","ci":"Frankfurt am Main","lat":null,"lon":null,"ror":"https://ror.org/04cvxnb49","oa":"I114090438","src":"","v":[]},{"k":"colorado state university","n":"Colorado State University","co":"United States","ci":"Fort Collins","lat":null,"lon":null,"ror":"https://ror.org/03k1gpj17","oa":"I92446798","src":"","v":[]},{"k":"leibniz institute tropospheric research","n":"Leibniz Institute for Tropospheric Research","co":"Germany","ci":"Leipzig","lat":null,"lon":null,"ror":"https://ror.org/03a5xsc56","oa":"I4210117062","src":"","v":[]},{"k":"bielefeld university","n":"Bielefeld University","co":"Germany","ci":"Bielefeld","lat":null,"lon":null,"ror":"https://ror.org/02hpadn98","oa":"I20121455","src":"","v":[]},{"k":"tech university darmstadt","n":"Tech Univ Darmstadt","co":"Germany","ci":"Darmstadt","lat":null,"lon":null,"ror":"","oa":"","src":"","v":[]},{"k":"max planck institute chemistry","n":"Max Planck Institute for Chemistry","co":"Germany","ci":"Mainz","lat":null,"lon":null,"ror":"https://ror.org/02f5b7n18","oa":"I4210113422","src":"","v":[]},{"k":"north carolina state university","n":"North Carolina State University","co":"United States","ci":"Raleigh","lat":null,"lon":null,"ror":"https://ror.org/04tj63d06","oa":"I137902535","src":"","v":[]},{"k":"meteorological research institute","n":"Meteorological Research Institute","co":"Japan","ci":"Tsukuba","lat":null,"lon":null,"ror":"https://ror.org/031gqrq04","oa":"I4388446413","src":"","v":[]},{"k":"michigan technological university","n":"Michigan Technological University","co":"United States","ci":"Houghton","lat":null,"lon":null,"ror":"https://ror.org/0036rpn28","oa":"I11957088","src":"","v":[]},{"k":"cooperative institute research environmental sciences","n":"Cooperative Institute for Research in Environmental Sciences","co":"United States","ci":"Boulder","lat":null,"lon":null,"ror":"https://ror.org/00bdqav06","oa":"I161675122","src":"","v":[]},{"k":"university colorado boulder","n":"University of Colorado Boulder","co":"United States","ci":"Boulder","lat":null,"lon":null,"ror":"https://ror.org/02ttsq026","oa":"I188538660","src":"","v":[]},{"k":"west texas m university","n":"West Texas A&M University","co":"United States","ci":"Canyon","lat":null,"lon":null,"ror":"https://ror.org/04gnp7x40","oa":"I188674872","src":"","v":[]},{"k":"university cambridge","n":"University of Cambridge","co":"United Kingdom","ci":"Cambridge","lat":null,"lon":null,"ror":"https://ror.org/013meh722","oa":"I241749","src":"","v":[]},{"k":"national center atmospheric science","n":"National Centre for Atmospheric Science","co":"United Kingdom","ci":"Leeds","lat":null,"lon":null,"ror":"https://ror.org/01wwwe276","oa":"I4210112368","src":"","v":[]},{"k":"fiz karlsruhe leibniz institute information infrastructure","n":"FIZ Karlsruhe – Leibniz Institute for Information Infrastructure","co":"Germany","ci":"Eggenstein-Leopoldshafen","lat":null,"lon":null,"ror":"https://ror.org/0387prb75","oa":"I158675288","src":"","v":[]},{"k":"ludwig maximilians university munchen","n":"Ludwig-Maximilians-Universität München","co":"Germany","ci":"Munich","lat":null,"lon":null,"ror":"https://ror.org/05591te55","oa":"I8204097","src":"","v":[]}],"journals":["JOURNAL OF THE ATMOSPHERIC SCIENCES","ATMOSPHERIC CHEMISTRY AND PHYSICS","JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES","JOURNAL OF PHYSICAL CHEMISTRY A","ATMOSPHERIC MEASUREMENT TECHNIQUES","REVIEW OF SCIENTIFIC INSTRUMENTS","AGU Fall Meeting Abstracts","EGUGA"],"raws":["Karlsruhe Institute of Technology","University of Eastern Finland","Stockholm University","Heidelberg University","Purdue University West Lafayette","Massachusetts Institute of Technology","Applied Materials (United Kingdom)","Pacific Northwest National Laboratory","Landesanstalt für Umwelt Baden-Württemberg","Johannes Gutenberg University Mainz","Forschungszentrum Jülich","Graduate Theological Union","University of Manchester","Physikalisch-Technische Bundesanstalt","Technische Universität Darmstadt","University of Leeds","Kerntechnische Entsorgung Karlsruhe (Germany)","University of Helsinki","Forschungszentrum Karlsruhe, Inst Meteorol & Climate Res IMK AAF, D-76021 Karlsruhe, Germany.","Forschungszentrum Karlsruhe, Inst Meteorol & Climate Res, D-76021 Karlsruhe, Germany.","University of Geneva","Freie Universität Berlin","Leibniz Centre for Agricultural Landscape Research","Universidad Nacional de La Pampa","ETH Zurich","University of Hertfordshire","Stadtwerke Jülich (Germany)","Goethe University Frankfurt","Colorado State University","Leibniz Institute for Tropospheric Research","Bielefeld University","Tech Univ Darmstadt, Inst Appl Geosci, Darmstadt, Germany.","Max Planck Institute for Chemistry","North Carolina State University","Meteorological Research Institute","Michigan Technological University","Cooperative Institute for Research in Environmental Sciences","University of Colorado Boulder","West Texas A&M University","University of Cambridge","National Centre for Atmospheric Science","FIZ Karlsruhe – Leibniz Institute for Information Infrastructure","Ludwig-Maximilians-Universität München"],"pages":{"authors":"AIDA_leisner_thomas.html","affs":"","map":""},"focus":"leisner_t","source":"AIDA_Master_bib.bib","built":"2026-09-29"};
+D.papers.forEach(function (p) { p.cs = new Set(p.c); });
+
+// ---------- labels and colours of the roles
+const role_labels = ["First + corresponding", "First author only", "Corresponding, not first", "Co-author"];
+const role_colors = ["#00705F", "#3DB5A3", "#56679A", "#BDD4D8"];
+const aff_role_labels = ["First author from here", "Corresponding from here, not first", "Other authors from here"];
+const aff_role_colors = ["#00705F", "#56679A", "#BDD4D8"];
+
+const type_list = Array.from(new Set(D.papers.map(p => p.ty))).sort();
+const years_known = D.papers.map(p => p.y).filter(y => y !== null);
+const year_min = years_known.length ? Math.min.apply(null, years_known) : null;
+const year_max = years_known.length ? Math.max.apply(null, years_known) : null;
+const author_by_key = new Map(D.authors.map((a, i) => [a.k, i]));
+const aff_by_key = new Map(D.affs.map((f, i) => [f.k, i]));
+
+// ---------- small helpers
+function el(id) { return document.getElementById(id); }
+function esc(value) {
+  return String(value === null || value === undefined ? "" : value).replace(/[&<>"']/g,
+    c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function sum(values) { return values.reduce((s, v) => s + v, 0); }
+function trunc(text, n) { text = String(text); return text.length > n ? text.slice(0, n - 1) + "\u2026" : text; }
+function years_text(y0, y1) { if (y0 === null || y0 === undefined) return ""; return y0 === y1 ? String(y0) : y0 + " to " + y1; }
+function pct(a, b) { return b ? Math.round(100 * a / b) + "%" : "0%"; }
+function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
+
+function tally(map, key, role, n_roles, year) {
+  let e = map.get(key);
+  if (!e) { e = { n: 0, r: new Array(n_roles).fill(0), y0: null, y1: null }; map.set(key, e); }
+  e.n++; e.r[role]++;
+  if (year !== null) {
+    if (e.y0 === null || year < e.y0) e.y0 = year;
+    if (e.y1 === null || year > e.y1) e.y1 = year;
+  }
+  return e;
+}
+function sorted_entries(map) {
+  return Array.from(map.entries()).sort((a, b) => b[1].n - a[1].n || String(a[0]).localeCompare(String(b[0])));
+}
+function add_year(s, y) {
+  if (y === null) return;
+  if (s.y0 === null || y < s.y0) s.y0 = y;
+  if (s.y1 === null || y > s.y1) s.y1 = y;
+}
+
+// ---------- roles
+// author on a paper: 0 first + corresponding, 1 first only, 2 corresponding not first, 3 co-author
+function role_of(p, pos, ai) {
+  const first = pos === 0, corr = p.cs.has(ai);
+  return first && corr ? 0 : first ? 1 : corr ? 2 : 3;
+}
+// affiliation on a paper: 0 first author from here, 1 corresponding from here, 2 other
+function aff_role_of(p, f) {
+  if ((p.aa[0] || []).includes(f)) return 0;
+  for (const ci of p.c) {
+    const pos = p.a.indexOf(ci);
+    if (pos >= 0 && (p.aa[pos] || []).includes(f)) return 1;
+  }
+  return 2;
+}
+
+// ---------- filters
+function filter_papers(state, ignore_year) {
+  return D.papers.filter(function (p) {
+    if (state.type && p.ty !== state.type) return false;
+    if (!ignore_year) {
+      if (state.y0 !== null && (p.y === null || p.y < state.y0)) return false;
+      if (state.y1 !== null && (p.y === null || p.y > state.y1)) return false;
+    }
+    return true;
+  });
+}
+function query_match(text, query) {
+  if (!query) return true;
+  return query.split(/\s+/).every(term => text.includes(term));
+}
+function filter_text(state) {
+  const parts = [];
+  if (state.type) parts.push(state.type);
+  if (state.y0 !== null || state.y1 !== null) parts.push(years_text(state.y0 !== null ? state.y0 : year_min, state.y1 !== null ? state.y1 : year_max));
+  return parts.length ? "Filtered: " + parts.join(", ") : "All publication types and years";
+}
+
+// ---------- aggregation
+function aggregate_authors(pool) {
+  const stats = new Map();
+  pool.forEach(function (p) {
+    p.a.forEach(function (ai, pos) {
+      let s = stats.get(ai);
+      if (!s) { s = { id: ai, n: 0, r: [0, 0, 0, 0], y0: null, y1: null, affs: new Map(), jrs: new Map(), tys: new Map() }; stats.set(ai, s); }
+      const role = role_of(p, pos, ai);
+      s.n++; s.r[role]++; add_year(s, p.y);
+      (p.aa[pos] || []).forEach(f => tally(s.affs, f, role, 4, p.y));
+      if (p.j >= 0) tally(s.jrs, p.j, role, 4, p.y);
+      tally(s.tys, p.ty, role, 4, p.y);
+    });
+  });
+  return stats;
+}
+
+function aggregate_affs(pool) {
+  const stats = new Map();
+  pool.forEach(function (p) {
+    p.pa.forEach(function (f) {
+      let s = stats.get(f);
+      if (!s) { s = { id: f, n: 0, r: [0, 0, 0], y0: null, y1: null, authors: new Map(), jrs: new Map(), tys: new Map(), partners: new Map() }; stats.set(f, s); }
+      const role = aff_role_of(p, f);
+      s.n++; s.r[role]++; add_year(s, p.y);
+      p.a.forEach(function (ai, pos) { if ((p.aa[pos] || []).includes(f)) tally(s.authors, ai, role_of(p, pos, ai), 4, p.y); });
+      if (p.j >= 0) tally(s.jrs, p.j, role, 3, p.y);
+      tally(s.tys, p.ty, role, 3, p.y);
+      p.pa.forEach(g => { if (g !== f) tally(s.partners, g, role, 3, p.y); });
+    });
+  });
+  return stats;
+}
+
+function aggregate_countries(pool) {
+  const stats = new Map();
+  pool.forEach(function (p) {
+    const first_countries = new Set((p.aa[0] || []).map(f => D.affs[f].co).filter(Boolean));
+    const countries = new Map();
+    p.pa.forEach(function (f) {
+      const c = D.affs[f].co;
+      if (!c) return;
+      if (!countries.has(c)) countries.set(c, new Set());
+      countries.get(c).add(f);
+    });
+    countries.forEach(function (affs, c) {
+      let s = stats.get(c);
+      if (!s) { s = { id: c, n: 0, first: 0, y0: null, y1: null, affs: new Set(), authors: new Set() }; stats.set(c, s); }
+      s.n++; if (first_countries.has(c)) s.first++; add_year(s, p.y);
+      affs.forEach(f => s.affs.add(f));
+      p.a.forEach(function (ai, pos) { if ((p.aa[pos] || []).some(f => D.affs[f].co === c)) s.authors.add(ai); });
+    });
+  });
+  return stats;
+}
+
+// ---------- charts
+function nice_step(peak) {
+  const raw = peak / 4;
+  if (raw <= 1) return 1;
+  const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  for (const m of [1, 2, 5, 10]) { if (m * mag >= raw) return m * mag; }
+  return 10 * mag;
+}
+
+function legend_html(labels, colors) {
+  return '<div class="legend">' + labels.map((label, k) => '<span><i style="background:' + colors[k] + '"></i>' + esc(label) + '</span>').join("") + '</div>';
+}
+
+// series: [{name, color, values: {year: count}}], stacked bars for every year
+function chart_years(target, series, opts) {
+  opts = opts || {};
+  if (year_min === null) { target.innerHTML = '<p class="muted">No years in the data.</p>'; return; }
+  const W = 1000, H = opts.height || 190, L = 42, R = 10, T = 12, B = 26;
+  const n = year_max - year_min + 1, bw = (W - L - R) / n;
+  const totals = [];
+  for (let y = year_min; y <= year_max; y++) totals.push(series.reduce((s, se) => s + (se.values[y] || 0), 0));
+  const peak = Math.max(1, Math.max.apply(null, totals));
+  const step = nice_step(peak), top = Math.ceil(peak / step) * step;
+  const sy = v => T + (H - T - B) * (1 - v / top);
+  const has_sel = opts.y0 !== null && opts.y0 !== undefined;
+  let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="chart' + (has_sel ? ' has-sel' : '') + '" role="img" aria-label="' + esc(opts.label || "Papers per year") + '">';
+  for (let v = 0; v <= top; v += step) {
+    s += '<line class="grid" x1="' + L + '" x2="' + (W - R) + '" y1="' + sy(v).toFixed(1) + '" y2="' + sy(v).toFixed(1) + '"/>';
+    s += '<text class="tick" x="' + (L - 7) + '" y="' + (sy(v) + 4).toFixed(1) + '" text-anchor="end">' + v + '</text>';
+  }
+  const label_step = n > 30 ? 10 : 5;
+  for (let i = 0; i < n; i++) {
+    const y = year_min + i, x = L + i * bw;
+    const sel = has_sel && y >= opts.y0 && y <= (opts.y1 === null ? year_max : opts.y1);
+    const detail = series.length > 1 ? " (" + series.map(se => se.name + ": " + (se.values[y] || 0)).join(", ") + ")" : "";
+    s += '<g class="ybar' + (opts.on_click ? ' clickable' : '') + (sel ? ' sel' : '') + '" data-year="' + y + '"><title>' + y + ": " + totals[i] + esc(detail) + '</title>';
+    s += '<rect class="hit" x="' + x.toFixed(2) + '" y="' + T + '" width="' + bw.toFixed(2) + '" height="' + (H - T - B) + '"/>';
+    let acc = 0;
+    series.forEach(function (se) {
+      const v = se.values[y] || 0;
+      if (!v) return;
+      const y_top = sy(acc + v), y_bottom = sy(acc);
+      s += '<rect class="seg" x="' + (x + bw * 0.14).toFixed(2) + '" y="' + y_top.toFixed(2) + '" width="' + (bw * 0.72).toFixed(2) + '" height="' + Math.max(0.6, y_bottom - y_top).toFixed(2) + '" fill="' + se.color + '"/>';
+      acc += v;
+    });
+    s += '</g>';
+    if (y === year_min || y === year_max || (y % label_step === 0 && y - year_min > 2 && year_max - y > 2)) {
+      s += '<text class="tick" x="' + (x + bw / 2).toFixed(1) + '" y="' + (H - 8) + '" text-anchor="middle">' + y + '</text>';
+    }
+  }
+  s += '<line class="axis" x1="' + L + '" x2="' + (W - R) + '" y1="' + sy(0) + '" y2="' + sy(0) + '"/></svg>';
+  if (series.length > 1) s += legend_html(series.map(se => se.name), series.map(se => se.color));
+  target.innerHTML = s;
+  if (opts.on_click) target.querySelectorAll(".ybar").forEach(g => g.addEventListener("click", () => opts.on_click(Number(g.dataset.year))));
+}
+
+// items: [{label, values: [n per role], ...}], horizontal stacked bars
+function chart_hbar(target, items, opts) {
+  opts = opts || {};
+  if (!items.length) { target.innerHTML = '<p class="muted">Nothing to show for these filters.</p>'; return; }
+  const colors = opts.colors || ["#009682"];
+  // the drawing width follows the box, so text keeps its size in wide and narrow boxes
+  const W = Math.max(360, Math.round(target.clientWidth || 640)), row_h = 22, T = 2, R = 46;
+  const LW = Math.min(opts.label_width || 240, Math.round(W * 0.45));
+  const H = T + items.length * row_h + 2;
+  const peak = Math.max(1, Math.max.apply(null, items.map(it => sum(it.values))));
+  const scale = (W - LW - R) / peak;
+  const max_chars = Math.floor(LW / 6.7);
+  let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="chart">';
+  items.forEach(function (it, i) {
+    const y = T + i * row_h, total = sum(it.values);
+    const detail = opts.names && it.values.length > 1 ? " (" + it.values.map((v, k) => opts.names[k] + ": " + v).join(", ") + ")" : "";
+    s += '<g class="hrow' + (opts.on_click ? ' clickable' : '') + '" data-index="' + i + '"><title>' + esc(it.label) + ": " + total + esc(detail) + '</title>';
+    s += '<rect class="hit" x="0" y="' + y + '" width="' + W + '" height="' + row_h + '"/>';
+    s += '<text class="hlabel" x="' + (LW - 8) + '" y="' + (y + row_h / 2 + 4) + '" text-anchor="end">' + esc(trunc(it.label, max_chars)) + '</text>';
+    let acc = 0;
+    it.values.forEach(function (v, k) {
+      if (!v) return;
+      s += '<rect x="' + (LW + acc * scale).toFixed(2) + '" y="' + (y + 4) + '" width="' + Math.max(0.8, v * scale).toFixed(2) + '" height="' + (row_h - 8) + '" fill="' + colors[k % colors.length] + '"/>';
+      acc += v;
+    });
+    s += '<text class="hvalue" x="' + (LW + acc * scale + 5).toFixed(1) + '" y="' + (y + row_h / 2 + 4) + '">' + total + '</text></g>';
+  });
+  target.innerHTML = s + '</svg>' + (opts.names && opts.legend !== false ? legend_html(opts.names, colors) : "");
+  if (opts.on_click) target.querySelectorAll(".hrow").forEach(g => g.addEventListener("click", () => opts.on_click(items[Number(g.dataset.index)])));
+}
+
+function chart_donut(target, labels, colors, values, unit) {
+  const total = sum(values);
+  if (!total) { target.innerHTML = '<p class="muted">Nothing to show for these filters.</p>'; return; }
+  const r = 58, C = 2 * Math.PI * r;
+  let s = '<div class="donut-wrap"><svg viewBox="0 0 160 160" class="chart" role="img" aria-label="Role split">';
+  s += '<circle cx="80" cy="80" r="' + r + '" fill="none" stroke="var(--rule)" stroke-width="26"/>';
+  let acc = 0;
+  values.forEach(function (v, k) {
+    if (!v) return;
+    const len = C * v / total;
+    s += '<circle cx="80" cy="80" r="' + r + '" fill="none" stroke="' + colors[k] + '" stroke-width="26" stroke-dasharray="' + len.toFixed(3) + ' ' + (C - len).toFixed(3) + '" stroke-dashoffset="' + (-acc).toFixed(3) + '" transform="rotate(-90 80 80)"><title>' + esc(labels[k]) + ': ' + v + '</title></circle>';
+    acc += len;
+  });
+  s += '<text x="80" y="86" text-anchor="middle" class="donut-total">' + total + '</text>';
+  s += '<text x="80" y="104" text-anchor="middle" class="tick">' + esc(unit || "papers") + '</text></svg><ul class="donut-legend">';
+  values.forEach(function (v, k) {
+    s += '<li><i style="background:' + colors[k] + '"></i>' + esc(labels[k]) + ': <b>' + v + '</b> <span class="muted">(' + pct(v, total) + ')</span></li>';
+  });
+  target.innerHTML = s + '</ul></div>';
+}
+
+function tiles_html(list) {
+  // list: [[value, label, colour]]
+  return '<div class="tiles">' + list.map(t => '<div class="tile"' + (t[2] ? ' style="--tile-color:' + t[2] + '"' : '') + '><b>' + esc(t[0]) + '</b><span>' + esc(t[1]) + '</span></div>').join("") + '</div>';
+}
+
+// ---------- links between the pages
+function author_button(ai) { return '<button type="button" class="name-button" data-author="' + ai + '">' + esc(D.authors[ai].n) + '</button>'; }
+function aff_button(f) { return '<button type="button" class="name-button" data-aff="' + f + '">' + esc(D.affs[f].n) + '</button>'; }
+function author_page_link(ai) { if (!D.pages.authors) return esc(D.authors[ai].n); return '<a class="plain-link" href="' + D.pages.authors + '#author=' + encodeURIComponent(D.authors[ai].k) + '">' + esc(D.authors[ai].n) + '</a>'; }
+function aff_page_link(f) { if (!D.pages.affs) return esc(D.affs[f].n); return '<a class="plain-link" href="' + D.pages.affs + '#aff=' + encodeURIComponent(D.affs[f].k) + '">' + esc(D.affs[f].n) + '</a>'; }
+function go_author_page(ai) { if (D.pages.authors) window.location.href = D.pages.authors + "#author=" + encodeURIComponent(D.authors[ai].k); }
+function go_aff_page(f) { if (D.pages.affs) window.location.href = D.pages.affs + "#aff=" + encodeURIComponent(D.affs[f].k); }
+
+function read_hash(name) { return new URLSearchParams(location.hash.slice(1)).get(name); }
+function write_hash(name, value) {
+  const url = value === null ? location.pathname + location.search : "#" + name + "=" + encodeURIComponent(value);
+  history.replaceState(null, "", url);
+}
+
+// ---------- sortable table; the # column is the rank in the current order
+function render_table(table_id, columns, rows, sort_pair, limit, on_sort) {
+  const key = sort_pair[0], dir = sort_pair[1];
+  const column = columns.find(c => c.key === key) || columns[0];
+  rows.sort(function (a, b) {
+    const va = column.get(a), vb = column.get(b);
+    const am = va === null || va === undefined || va === "", bm = vb === null || vb === undefined || vb === "";
+    if (am !== bm) return am ? 1 : -1;
+    let r = 0;
+    if (!am) r = column.num ? va - vb : String(va).localeCompare(String(vb), undefined, { sensitivity: "base", numeric: true });
+    if (dir === "desc") r = -r;
+    if (r === 0) r = (b.papers || 0) - (a.papers || 0);
+    if (r === 0) r = String(a.sort_name || "").localeCompare(String(b.sort_name || ""));
+    return r;
+  });
+  const table = el(table_id);
+  let head = '<tr><th scope="col"><span class="sort-button static">#</span></th>';
+  columns.forEach(function (c) {
+    const aria = c.key === key ? ' aria-sort="' + (dir === "asc" ? "ascending" : "descending") + '"' : "";
+    head += '<th scope="col" data-key="' + c.key + '" class="' + (c.num ? "num" : "") + '"' + aria + '><button class="sort-button" type="button"' + (c.tip ? ' title="' + esc(c.tip) + '"' : "") + '>' + esc(c.label) + '</button></th>';
+  });
+  const shown = limit ? rows.slice(0, limit) : rows;
+  const parts = [];
+  shown.forEach(function (r, i) {
+    let row = '<tr><td class="col-rank num">' + (i + 1) + '</td>';
+    columns.forEach(function (c) { row += '<td class="' + (c.num ? "num " : "") + (c.cls || "") + '">' + (c.html ? c.html(r) : esc(c.get(r))) + '</td>'; });
+    parts.push(row + '</tr>');
+  });
+  table.querySelector("thead").innerHTML = head + '</tr>';
+  table.querySelector("tbody").innerHTML = parts.join("");
+  table.querySelectorAll("th[data-key] .sort-button").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const k = button.parentElement.dataset.key;
+      const col = columns.find(c => c.key === k);
+      on_sort(k === key ? [k, dir === "asc" ? "desc" : "asc"] : [k, col.num ? "desc" : "asc"]);
+    });
+  });
+  return shown.length;
+}
+
+// ---------- list of papers inside a profile
+function papers_table_html(papers, role_badge, extra_label, extra_html) {
+  const rows = papers.slice().sort((a, b) => (b.y || 0) - (a.y || 0) || a.tp.localeCompare(b.tp));
+  let s = '<div class="table-wrap"><table class="papers"><thead><tr><th><span class="sort-button static">Year</span></th><th><span class="sort-button static">Role</span></th>';
+  if (extra_label) s += '<th><span class="sort-button static">' + esc(extra_label) + '</span></th>';
+  s += '<th><span class="sort-button static">Title</span></th><th><span class="sort-button static">Journal</span></th><th><span class="sort-button static">Type</span></th><th><span class="sort-button static">DOI</span></th></tr></thead><tbody>';
+  rows.forEach(function (p) {
+    const badge = role_badge(p);
+    const link = p.doi ? "https://doi.org/" + encodeURI(p.doi) : p.url;
+    s += '<tr><td class="num">' + (p.y === null ? "" : p.y) + '</td>';
+    s += '<td><span class="role" style="background:' + badge[1] + ';color:' + (badge[2] || "#fff") + '">' + esc(badge[0]) + '</span></td>';
+    if (extra_label) s += '<td class="col-muted">' + extra_html(p) + '</td>';
+    s += '<td class="col-title">' + p.th + '</td>';
+    s += '<td class="col-muted">' + esc(p.j >= 0 ? D.journals[p.j] : "") + '</td>';
+    s += '<td class="col-muted">' + esc(p.ty) + '</td>';
+    s += '<td class="col-doi">' + (link ? '<a href="' + esc(link) + '" target="_blank" rel="noopener noreferrer">' + esc(p.doi || "Link") + '</a>' : '<span class="muted">none</span>') + '</td></tr>';
+  });
+  return s + '</tbody></table></div>';
+}
+
+// ---------- filter controls shared by the pages
+function setup_year_and_type(state, render) {
+  const type_select = el("type_select");
+  type_list.forEach(function (label) {
+    const option = document.createElement("option");
+    option.value = label; option.textContent = label;
+    type_select.appendChild(option);
+  });
+  [["y0_select", "From year"], ["y1_select", "To year"]].forEach(function (pair) {
+    const select = el(pair[0]);
+    select.innerHTML = '<option value="">' + pair[1] + '</option>';
+    if (year_min === null) return;
+    for (let y = year_min; y <= year_max; y++) select.innerHTML += '<option value="' + y + '">' + y + '</option>';
+  });
+  type_select.addEventListener("change", function () { state.type = type_select.value; render(); });
+  el("y0_select").addEventListener("change", function () { state.y0 = this.value ? Number(this.value) : null; render(); });
+  el("y1_select").addEventListener("change", function () { state.y1 = this.value ? Number(this.value) : null; render(); });
+  let timer = null;
+  el("search_box").addEventListener("input", function (event) {
+    clearTimeout(timer);
+    timer = setTimeout(function () { state.query = event.target.value.trim().toLowerCase(); render(); }, 140);
+  });
+  el("min_input").addEventListener("input", function () { state.min = Math.max(1, Number(this.value) || 1); render(); });
+}
+function sync_year_and_type(state) {
+  el("type_select").value = state.type;
+  el("y0_select").value = state.y0 === null ? "" : String(state.y0);
+  el("y1_select").value = state.y1 === null ? "" : String(state.y1);
+}
+function toggle_year(state, y) {
+  if (state.y0 === y && state.y1 === y) { state.y0 = null; state.y1 = null; }
+  else { state.y0 = y; state.y1 = y; }
+}
+
+
+// ================= authors page =================
+const state = {
+  view: "authors", query: "", type: "", y0: null, y1: null, min: 1, limit: 250, sel: null,
+  sort: { authors: ["papers", "desc"], author_aff: ["papers", "desc"], author_journal: ["papers", "desc"], author_type: ["papers", "desc"] }
+};
+
+// ---------- table columns
+const role_columns = [
+  { key: "papers", label: "Papers", num: true, get: r => r.papers, tip: "Papers in the current filters" },
+  { key: "first_all", label: "First author", num: true, get: r => r.r[0] + r.r[1], tip: "First author, corresponding or not" },
+  { key: "first_corr", label: "First + corr.", num: true, get: r => r.r[0], tip: role_labels[0] },
+  { key: "first_only", label: "First only", num: true, get: r => r.r[1], tip: role_labels[1] },
+  { key: "corr_not_first", label: "Corr., not first", num: true, get: r => r.r[2], tip: role_labels[2] },
+  { key: "co", label: "Co-author", num: true, get: r => r.r[3], tip: "Neither first nor corresponding author" },
+];
+const author_column = { key: "author", label: "Author", get: r => r.name, html: r => author_button(r.ai) };
+const years_column = { key: "years", label: "Years", get: r => r.y0, html: r => esc(years_text(r.y0, r.y1)), cls: "col-muted" };
+
+function columns_for(view) {
+  if (view === "authors") return [author_column].concat(role_columns, [
+    { key: "aff", label: "Main affiliation", get: r => r.aff >= 0 ? D.affs[r.aff].n : "", html: r => r.aff >= 0 ? aff_page_link(r.aff) : "", cls: "col-muted" },
+    { key: "journal", label: "Top journal", get: r => r.jr >= 0 ? D.journals[r.jr] : "", cls: "col-muted" },
+    years_column]);
+  if (view === "author_aff") return [author_column,
+    { key: "aff", label: "Affiliation", get: r => D.affs[r.aff].n, html: r => aff_page_link(r.aff) },
+    { key: "country", label: "Country", get: r => D.affs[r.aff].co, cls: "col-muted" }].concat(role_columns, [years_column]);
+  if (view === "author_journal") return [author_column,
+    { key: "journal", label: "Journal", get: r => D.journals[r.jr] }].concat(role_columns, [years_column]);
+  return [author_column, { key: "papers", label: "Papers", num: true, get: r => r.papers }].concat(
+    type_list.map(t => ({ key: "type_" + t, label: t, num: true, get: r => r.tys.get(t) ? r.tys.get(t).n : 0 })));
+}
+
+// ---------- rows for the selected ranking
+function build_rows(stats) {
+  const rows = [];
+  stats.forEach(function (s) {
+    const author = D.authors[s.id];
+    const base_text = (author.n + " " + author.v.join(" ")).toLowerCase();
+    if (state.view === "authors") {
+      const top_aff = sorted_entries(s.affs)[0], top_jr = sorted_entries(s.jrs)[0];
+      const aff_text = Array.from(s.affs.keys()).map(f => D.affs[f].n + " " + D.affs[f].co).join(" ");
+      rows.push({ ai: s.id, name: author.n, sort_name: author.n, papers: s.n, r: s.r, y0: s.y0, y1: s.y1,
+        aff: top_aff ? top_aff[0] : -1, jr: top_jr ? top_jr[0] : -1,
+        search: base_text + " " + (aff_text + " " + (top_jr ? D.journals[top_jr[0]] : "")).toLowerCase() });
+    } else if (state.view === "author_aff") {
+      s.affs.forEach(function (e, f) {
+        rows.push({ ai: s.id, name: author.n, sort_name: author.n, aff: f, papers: e.n, r: e.r, y0: e.y0, y1: e.y1,
+          search: base_text + " " + (D.affs[f].n + " " + D.affs[f].co).toLowerCase() });
+      });
+    } else if (state.view === "author_journal") {
+      s.jrs.forEach(function (e, j) {
+        rows.push({ ai: s.id, name: author.n, sort_name: author.n, jr: j, papers: e.n, r: e.r, y0: e.y0, y1: e.y1,
+          search: base_text + " " + D.journals[j].toLowerCase() });
+      });
+    } else {
+      rows.push({ ai: s.id, name: author.n, sort_name: author.n, papers: s.n, tys: s.tys, search: base_text });
+    }
+  });
+  return rows.filter(r => r.papers >= state.min && query_match(r.search, state.query));
+}
+
+// ---------- overview of all authors
+function render_overview(pool, pool_all_years, stats) {
+  const panel = el("top_panel");
+  const affs = new Set(), journals = new Set();
+  pool.forEach(p => { p.pa.forEach(f => affs.add(f)); if (p.j >= 0) journals.add(p.j); });
+  const role_totals = [0, 0, 0, 0];
+  stats.forEach(s => s.r.forEach((v, k) => role_totals[k] += v));
+  panel.innerHTML = '<div class="panel-head"><h2>All authors</h2><span class="sub">' + esc(filter_text(state)) + '</span></div>' +
+    tiles_html([[pool.length, "papers"], [stats.size, "different authors"], [affs.size, "different affiliations"], [journals.size, "different journals"],
+      [pct(pool.filter(p => p.ck).length, pool.length), "papers with known corresponding author", "#56679A"]]) +
+    '<div class="charts">' +
+    '<div class="chart-box wide"><h3>Papers per year</h3><div id="c_years"></div><p class="note">Select a bar to show that year only, select it again to show all years.</p></div>' +
+    '<div class="chart-box"><h3>Top 15 authors by papers</h3><div id="c_top"></div></div>' +
+    '<div class="chart-box"><h3>Top 15 first authors</h3><div id="c_first"></div></div>' +
+    '<div class="chart-box"><h3>Top 15 corresponding authors</h3><div id="c_corr"></div></div>' +
+    '<div class="chart-box"><h3>All author positions by role</h3><div id="c_roles"></div></div>' +
+    '</div>';
+  const per_year = {};
+  pool_all_years.forEach(p => { if (p.y !== null) per_year[p.y] = (per_year[p.y] || 0) + 1; });
+  chart_years(el("c_years"), [{ name: "Papers", color: "#009682", values: per_year }],
+    { y0: state.y0, y1: state.y1, on_click: y => { toggle_year(state, y); render(); } });
+  const all = Array.from(stats.values());
+  const select = it => select_author(it.id);
+  const top = all.slice().sort((a, b) => b.n - a.n).slice(0, 15);
+  chart_hbar(el("c_top"), top.map(s => ({ label: D.authors[s.id].n, id: s.id, values: s.r })), { colors: role_colors, names: role_labels, on_click: select });
+  const top_first = all.filter(s => s.r[0] + s.r[1] > 0).sort((a, b) => (b.r[0] + b.r[1]) - (a.r[0] + a.r[1]) || b.n - a.n).slice(0, 15);
+  chart_hbar(el("c_first"), top_first.map(s => ({ label: D.authors[s.id].n, id: s.id, values: [s.r[0], s.r[1]] })), { colors: role_colors.slice(0, 2), names: role_labels.slice(0, 2), on_click: select });
+  const top_corr = all.filter(s => s.r[0] + s.r[2] > 0).sort((a, b) => (b.r[0] + b.r[2]) - (a.r[0] + a.r[2]) || b.n - a.n).slice(0, 15);
+  chart_hbar(el("c_corr"), top_corr.map(s => ({ label: D.authors[s.id].n, id: s.id, values: [s.r[0], s.r[2]] })), { colors: [role_colors[0], role_colors[2]], names: [role_labels[0], role_labels[2]], on_click: select });
+  chart_donut(el("c_roles"), role_labels, role_colors, role_totals, "author positions");
+}
+
+// ---------- affiliations of one author, with the source text of each
+const source_labels = { o: "OpenAlex", w: "Web of Science address" };
+
+function slot_aff_text(p, pos) {
+  const ids = p.aa[pos] || [];
+  if (!ids.length) return "Affiliation of this author not known for this paper";
+  return "Affiliation here: " + esc(ids.map(f => D.affs[f].n).join("; ")) + (source_labels[p.as[pos]] ? " (" + source_labels[p.as[pos]] + ")" : "");
+}
+
+function aff_detail_html(ai, papers) {
+  const rows = new Map();
+  let unknown = 0;
+  papers.forEach(function (p) {
+    const pos = p.a.indexOf(ai);
+    const ids = p.aa[pos] || [];
+    if (!ids.length) { unknown++; return; }
+    ids.forEach(function (f) {
+      let r = rows.get(f);
+      if (!r) { r = { f: f, n: 0, y0: null, y1: null, src: {}, raws: new Map(), papers: [], shared: 0 }; rows.set(f, r); }
+      r.n++; add_year(r, p.y);
+      r.src[p.as[pos]] = (r.src[p.as[pos]] || 0) + 1;
+      if (ids.length > 1) r.shared++;
+      (p.ar[pos] || []).forEach(pair => { if (pair[0] === f) r.raws.set(pair[1], (r.raws.get(pair[1]) || 0) + 1); });
+      r.papers.push(p);
+    });
+  });
+  const list = Array.from(rows.values()).sort((a, b) => b.n - a.n || (a.y0 || 0) - (b.y0 || 0));
+  const multi = papers.filter(p => (p.aa[p.a.indexOf(ai)] || []).length > 1).length;
+  let s = '<p class="note">One person can have several affiliation names: an institute can be renamed or merged (Forschungszentrum Karlsruhe became KIT in 2009), a paper can list two affiliations for one author, or the author worked somewhere else for a while. ' +
+    'Check each row below: the years, the text as written in the source, and the papers.' +
+    (multi ? ' On ' + plural(multi, "paper", "papers") + ' this author has more than one affiliation.' : '') +
+    (unknown ? ' On ' + plural(unknown, "paper", "papers") + ' the affiliation of this author is not known.' : '') + '</p>';
+  if (!list.length) return s;
+  s += '<div class="table-wrap"><table class="papers aff-detail"><thead><tr>' +
+    ['Affiliation', 'Country', 'Papers', 'Years', 'Found in', 'As written in the source', 'Papers with this affiliation'].map(h => '<th><span class="sort-button static">' + h + '</span></th>').join("") +
+    '</tr></thead><tbody>';
+  list.forEach(function (r) {
+    const aff = D.affs[r.f];
+    const found = Object.keys(r.src).map(k => (source_labels[k] || "other") + ": " + r.src[k]).join("<br>");
+    const raws = Array.from(r.raws.entries()).sort((a, b) => b[1] - a[1]).slice(0, 6)
+      .map(e => '<li>' + esc(D.raws[e[0]]) + ' <span class="muted">(' + e[1] + ')</span></li>').join("");
+    const paper_items = r.papers.slice().sort((a, b) => (a.y || 0) - (b.y || 0)).map(function (p) {
+      const link = p.doi ? "https://doi.org/" + encodeURI(p.doi) : p.url;
+      return '<li>' + (p.y === null ? "" : p.y + ": ") + (link ? '<a href="' + esc(link) + '" target="_blank" rel="noopener noreferrer">' + p.th + '</a>' : p.th) + '</li>';
+    }).join("");
+    s += '<tr><td>' + aff_page_link(r.f) + (aff.v && aff.v.length ? '<div class="aff-line">Also written as: ' + esc(aff.v.slice(0, 4).join("; ")) + '</div>' : '') + '</td>' +
+      '<td class="col-muted">' + esc([aff.ci, aff.co].filter(Boolean).join(", ")) + '</td>' +
+      '<td class="num">' + r.n + (r.shared ? '<div class="aff-line">' + r.shared + ' together with another affiliation</div>' : '') + '</td>' +
+      '<td class="col-muted">' + esc(years_text(r.y0, r.y1)) + '</td>' +
+      '<td class="col-muted">' + found + '</td>' +
+      '<td class="col-muted"><ul class="raw-list">' + raws + '</ul></td>' +
+      '<td><details><summary>Show ' + plural(r.n, "paper", "papers") + '</summary><ul class="raw-list">' + paper_items + '</ul></details></td></tr>';
+  });
+  return s + '</tbody></table></div>';
+}
+
+// ---------- profile of one author
+function render_profile(ai, pool, pool_all_years, stats) {
+  const panel = el("top_panel");
+  const author = D.authors[ai];
+  const s = stats.get(ai) || { n: 0, r: [0, 0, 0, 0], y0: null, y1: null, affs: new Map(), jrs: new Map(), tys: new Map() };
+  const papers = pool.filter(p => p.a.includes(ai));
+  const per_role_year = [{}, {}, {}, {}];
+  pool_all_years.forEach(function (p) {
+    const pos = p.a.indexOf(ai);
+    if (pos < 0 || p.y === null) return;
+    const role = role_of(p, pos, ai);
+    per_role_year[role][p.y] = (per_role_year[role][p.y] || 0) + 1;
+  });
+  const coauthors = new Map();
+  papers.forEach(p => p.a.forEach(bj => { if (bj !== ai) tally(coauthors, bj, 0, 1, p.y); }));
+  const top_aff = sorted_entries(s.affs)[0];
+
+  panel.innerHTML = '<div class="panel-head"><h2>' + esc(author.n) + '</h2><span class="sub">' +
+    esc([top_aff ? "Main affiliation: " + D.affs[top_aff[0]].n : "", s.y0 !== null ? "AIDA papers " + years_text(s.y0, s.y1) : ""].filter(Boolean).join(". ")) +
+    '</span><span class="spacer"></span><button type="button" class="button" id="back_button">Back to all authors</button></div>' +
+    (author.v.length ? '<p class="also">Also written as: ' + esc(author.v.join("; ")) + '</p>' : '') +
+    '<p class="tile-group">Papers by role: the last four tiles add up to the total; papers as first author = first + corresponding and first author only together</p>' +
+    tiles_html([[s.n, "papers in total"], [s.r[0] + s.r[1], "papers as first author", role_colors[1]], [s.r[0], "papers as first + corresponding author", role_colors[0]],
+      [s.r[1], "papers as first author only", role_colors[1]], [s.r[2], "papers as corresponding, not first author", role_colors[2]], [s.r[3], "papers as co-author", role_colors[3]]]) +
+    '<p class="tile-group">Collaboration</p>' +
+    tiles_html([[coauthors.size, "different people who wrote papers with this author"],
+      [s.affs.size, "different affiliation names on this author\u2019s papers"], [s.jrs.size, "different journals"]]) +
+    '<div class="charts">' +
+    '<div class="chart-box wide"><h3>Papers per year by role</h3><div id="c_years"></div><p class="note">Select a bar to show that year only.</p></div>' +
+    '<div class="chart-box"><h3>Role split</h3><div id="c_roles"></div></div>' +
+    '<div class="chart-box"><h3>Affiliations</h3><div id="c_affs"></div><p class="note">Select a bar to open the affiliation profile.</p></div>' +
+    '<div class="chart-box wide"><h3>Affiliations in detail</h3>' + aff_detail_html(ai, papers) + '</div>' +
+    '<div class="chart-box"><h3>Journals</h3><div id="c_journals"></div></div>' +
+    '<div class="chart-box"><h3>Publication types</h3><div id="c_types"></div></div>' +
+    '<div class="chart-box wide"><h3>Most frequent co-authors</h3><div id="c_coauthors"></div><p class="note">Select a bar to open that author.</p></div>' +
+    '<div class="chart-box wide"><h3>' + esc(plural(papers.length, "paper", "papers")) + '</h3>' +
+    papers_table_html(papers, p => { const role = role_of(p, p.a.indexOf(ai), ai); return [role_labels[role], role_colors[role], role === 3 ? "#1F2B30" : "#fff"]; },
+      "Authors and affiliation", p => esc(p.a.slice(0, 5).map(x => D.authors[x].n).join("; ") + (p.a.length > 5 ? " et al." : "")) +
+        '<br><span class="aff-line">' + slot_aff_text(p, p.a.indexOf(ai)) + '</span>') + '</div>' +
+    '</div>';
+
+  chart_years(el("c_years"), role_labels.map((label, k) => ({ name: label, color: role_colors[k], values: per_role_year[k] })),
+    { y0: state.y0, y1: state.y1, on_click: y => { toggle_year(state, y); render(); } });
+  chart_donut(el("c_roles"), role_labels, role_colors, s.r);
+  const to_items = (map, name_of, n) => sorted_entries(map).slice(0, n).map(e => ({ label: name_of(e[0]), id: e[0], values: e[1].r }));
+  chart_hbar(el("c_affs"), to_items(s.affs, f => D.affs[f].n, 12), { colors: role_colors, names: role_labels, legend: false, on_click: it => go_aff_page(it.id) });
+  chart_hbar(el("c_journals"), to_items(s.jrs, j => D.journals[j], 12), { colors: role_colors, names: role_labels, legend: false });
+  chart_hbar(el("c_types"), to_items(s.tys, t => t, 12), { colors: role_colors, names: role_labels, legend: false });
+  chart_hbar(el("c_coauthors"), sorted_entries(coauthors).slice(0, 20).map(e => ({ label: D.authors[e[0]].n, id: e[0], values: [e[1].n] })),
+    { colors: ["#009682"], label_width: 260, on_click: it => select_author(it.id) });
+  el("back_button").addEventListener("click", () => select_author(null));
+}
+
+function select_author(ai) {
+  state.sel = ai;
+  write_hash("author", ai === null ? null : D.authors[ai].k);
+  render();
+  el("top_panel").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+// ---------- main render
+function render() {
+  sync_year_and_type(state);
+  const pool = filter_papers(state, false);
+  const pool_all_years = filter_papers(state, true);
+  const stats = aggregate_authors(pool);
+  if (state.sel !== null) render_profile(state.sel, pool, pool_all_years, stats);
+  else render_overview(pool, pool_all_years, stats);
+
+  const rows = build_rows(stats);
+  const shown = render_table("main_table", columns_for(state.view), rows, state.sort[state.view], state.limit,
+    function (pair) { state.sort[state.view] = pair; render(); });
+  el("empty_state").hidden = rows.length > 0;
+  el("count_text").textContent = "Showing " + shown + " of " + plural(rows.length, "row", "rows");
+}
+
+// ---------- events
+setup_year_and_type(state, render);
+el("view_select").addEventListener("change", function () { state.view = this.value; render(); });
+el("limit_select").addEventListener("change", function () { state.limit = Number(this.value); render(); });
+el("main_table").addEventListener("click", function (event) {
+  const target = event.target.closest("[data-author]");
+  if (target) select_author(Number(target.dataset.author));
+});
+el("reset_button").addEventListener("click", function () {
+  Object.assign(state, { query: "", type: "", y0: null, y1: null, min: 1 });
+  el("search_box").value = ""; el("min_input").value = 1;
+  render();
+});
+function apply_hash() {
+  let key = read_hash("author");
+  // a one author review packet carries D.focus and opens on that profile
+  if (key === null && D.focus && author_by_key.has(D.focus)) key = D.focus;
+  state.sel = key !== null && author_by_key.has(key) ? author_by_key.get(key) : null;
+  render();
+}
+window.addEventListener("hashchange", apply_hash);
+apply_hash();
+</script>
+</body>
+</html>

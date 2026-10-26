@@ -1,0 +1,502 @@
+author,papers,Article,Book chapter,Other
+"Möhler, Ottmar",110,94,1,15
+"Saathoff, Harald",84,69,1,14
+"Schnaiter, Martin",55,43,1,11
+"Wagner, Robert",53,45,1,7
+"Leisner, Thomas",34,27,0,7
+"Schurath, Ulrich",26,21,1,4
+"Benz, Stefan",21,17,0,4
+"Ebert, Volker",19,16,0,3
+"Hiranuma, Naruki",19,16,0,3
+"Krämer, Martina",19,13,0,6
+"Linke, Claudia",19,11,1,7
+"Naumann, Karl-Heinz",14,12,1,1
+"Steinke, Isabelle",13,11,0,2
+"Connolly, Paul",12,10,0,2
+"Kiselev, Alexei",12,11,0,1
+"Niemand, Monika",12,8,0,4
+"Höhler, Kristina",11,10,0,1
+"Mangold, Alexander",11,9,0,2
+"Hoose, Corinna",10,9,0,1
+"Jiang, Feng",10,4,0,6
+"Stetzer, Olaf",10,8,0,2
+"Ullrich, Romy",10,10,0,0
+"Skrotzki, Julian",9,7,0,2
+"Umo, Nsikanabasi Silas",9,7,0,2
+"Cziczo, Daniel J.",8,8,0,0
+"Murray, Benjamin J.",8,8,0,0
+"Bunz, Helmut",7,6,1,0
+"DeMott, Paul J.",7,7,0,0
+"Field, Paul R.",7,6,0,1
+"Kaercher, Bernd",7,5,0,2
+"Kanji, Zamin A.",7,6,0,1
+"Nadolny, Jens",7,4,0,3
+"Vogel, Franziska",7,5,0,2
+"Gong, Yiwei",6,2,0,4
+"Koop, Thomas",6,5,0,1
+"Li, Yanxia",6,2,0,4
+"Meyer, Jessica",6,3,0,3
+"Mohr, Claudia",6,6,0,0
+"Moyer, Elisabeth J.",6,6,0,0
+"Shen, Xiaoli",6,6,0,0
+"Abdelmonem, Ahmed",5,4,0,1
+"Clouser, Benjamin W.",5,5,0,0
+"Cotton, Richard",5,4,0,1
+"Gallagher, M. W.",5,4,0,1
+"Kulkarni, Gourihar",5,5,0,0
+"Lacher, Larissa",5,4,0,1
+"Laj, Paolo",5,2,0,3
+"Lamb, Kara D.",5,5,0,0
+"Mentel, Thomas F.",5,5,0,0
+"Sarkozy, Laszlo",5,5,0,0
+"Wagner, Steven",5,5,0,0
+"Zanatta, Marco",5,2,0,3
+"Afchine, Armin",4,1,0,3
+"Budke, Carsten",4,3,0,1
+"Büttner, S.",4,3,0,1
+"Coe, Hugh",4,3,0,1
+"Gao, Linyu",4,2,0,2
+"Haag, W.",4,2,0,2
+"Habig, Jan",4,4,0,0
+"Heymsfield, Andrew J.",4,4,0,0
+"Hoshyaripour, Gholam Ali",4,2,0,2
+"Jaervinen, Emma",4,4,0,0
+"Kandler, Konrad",4,3,0,1
+"Rose, Dominik",4,3,0,1
+"Schaefers, S.",4,2,0,2
+"Schiller, C.",4,3,0,1
+"Schmitt, Carl",4,3,0,1
+"Schneider, Julia",4,4,0,0
+"Song, Junwei",4,2,0,2
+"Stratmann, Frank",4,3,0,1
+"Vallon, Magdalena",4,2,0,2
+"Vepuri, Hemanth S. K.",4,3,0,1
+"Augustin‐Bauditz, Stefanie",3,2,0,1
+"Baltensperger, U.",3,3,0,0
+"Bell, David M.",3,3,0,0
+"Bingemer, Heinz G.",3,3,0,0
+"Bogert, Pia",3,1,0,2
+"Boose, Yvonne",3,2,0,1
+"Bozoki, Z.",3,3,0,0
+"Curtius, Joachim",3,2,0,1
+"Diehl, K.",3,2,0,1
+"Dreyer, Axel",3,2,0,1
+"Flynn, Michael",3,2,0,1
+"Frank, F.",3,2,0,1
+"Giesemann, C.",3,2,0,1
+"Ginot, Patrick",3,1,0,2
+"Hallquist, Mattias",3,3,0,0
+"Hu, Yaqiong",3,1,0,2
+"Huang, Wei",3,3,0,0
+"Jonsson, Asa M.",3,3,0,0
+"Kiendler-Scharr, Astrid",3,3,0,0
+"Krumm, Bianca",3,1,0,2
+"Kühnreich, Benjamin",3,3,0,0
+"Laskin, Alexander",3,1,0,2
+"Liu, D.",3,2,0,1
+"Lohmann, Ulrike",3,3,0,0
+"Murphy, Daniel M.",3,3,0,0
+"Newton, Roy F.",3,0,0,3
+"Niedermeier, D.",3,2,0,1
+"Nillius, B.",3,2,0,1
+"Oehm, C.",3,1,0,2
+"Petters, Markus D.",3,3,0,0
+"Rolf, Christian",3,3,0,0
+"Rosenlof, Karen",3,3,0,0
+"Siemens, Kyla",3,1,0,2
+"Smith, J. B.",3,3,0,0
+"Sullivan, Ryan C.",3,3,0,0
+"Tiede, Ralph",3,2,0,1
+"Tillmann, Ralf",3,3,0,0
+"Vochezer, Paul",3,3,0,0
+"Vogt, Steffen",3,3,0,0
+"Vragel, Marlen",3,2,0,1
+"Weidler, Peter G.",3,3,0,0
+"Wex, Heike",3,2,0,1
+"Wilson, Jacqueline",3,3,0,0
+"Wilson, Theodore W.",3,3,0,0
+"Zelenyuk, Alla",3,3,0,0
+"Abbatt, J. P. D.",2,2,0,0
+"Adams, Michael P.",2,2,0,0
+"Allan, J. D.",2,1,0,1
+"Amarouche, Nadir",2,2,0,0
+"Amato, P.",2,2,0,0
+"Amsler, Peter",2,2,0,0
+"Baumgardner, Darrel",2,0,0,2
+"Baumgartner, Manuel",2,2,0,0
+"Belosi, Franco",2,2,0,0
+"Berlenz, S.",2,1,0,1
+"Budz, P.",2,1,0,1
+"Burgess, R.",2,2,0,0
+"Cozic, J.",2,1,0,1
+"Dahlkötter, F.",2,1,0,1
+"Danielczok, Anja",2,2,0,0
+"Donahue, N. M.",2,2,0,0
+"Durry, Georges",2,2,0,0
+"Froyd, Karl D.",2,2,0,0
+"Funk, Roger",2,2,0,0
+"Gallavardin, Stephane J.",2,2,0,0
+"Gensch, Iulia",2,2,0,0
+"Georgakopoulos, Dimitrios G.",2,2,0,0
+"Gorokhova, Elena",2,2,0,0
+"Gysel, M.",2,1,0,1
+"Hartmann, Susan M.",2,1,0,1
+"Heimerl, Katharina",2,1,0,1
+"Herman, R. L.",2,2,0,0
+"Hesse, Evelyn",2,2,0,0
+"Hill, Thomas C. J.",2,2,0,0
+"Hitzenberger, R.",2,1,0,1
+"Hoffmann, N.",2,2,0,0
+"Hoffmann, T.",2,2,0,0
+"Horvath, Helmuth",2,2,0,0
+"Hummel, Matthias",2,1,0,1
+"Hunsmann, S.",2,2,0,0
+"Ickes, Luisa",2,2,0,0
+"Jantsch, Evelyn",2,1,0,1
+"Kerstel, Erik",2,2,0,0
+"KOYRO, M.",2,2,0,0
+"Laborde, M.",2,1,0,1
+"Levin, Ezra J. T.",2,2,0,0
+"Mackrodt, P.",2,2,0,0
+"Malkin, T. L.",2,2,0,0
+"Mauersberger, K.",2,1,0,1
+"McMeeking, G. R.",2,2,0,0
+"Morris, C. E.",2,2,0,0
+"Mueller, L.",2,2,0,0
+"Murakami, Masataka",2,2,0,0
+"O'Sullivan, Daniel",2,2,0,0
+"Pajunoja, Aki",2,2,0,0
+"Peckhaus, Andreas",2,2,0,0
+"Pittman, J. V.",2,2,0,0
+"Prenni, Anthony J.",2,2,0,0
+"Prevot, A. S. H.",2,2,0,0
+"Price, Hannah C.",2,2,0,0
+"Reinnig, M. C.",2,2,0,0
+"Rösch, Michael",2,1,0,1
+"Saito, Atsushi",2,2,0,0
+"Salter, Matthew E.",2,2,0,0
+"Santachiara, Gianni",2,2,0,0
+"Sayres, D. S.",2,2,0,0
+"Schaupp, C.",2,2,0,0
+"Schiebel, Thea",2,2,0,0
+"Schmidt, Christina",2,1,0,1
+"Schmitt, T.",2,1,0,1
+"Schorr, Tobias",2,2,0,0
+"Schreiner, J.",2,1,0,1
+"Schwarz, Joshua P.",2,1,0,1
+"Schöck, W.",2,2,0,0
+"Slowik, J. G.",2,2,0,0
+"Spelten, N.",2,2,0,0
+"Spindler, C.",2,2,0,0
+"Stutz, Eric J.",2,2,0,0
+"Suski, Kaitlyn J.",2,2,0,0
+"Tajiri, Takuya",2,2,0,0
+"Taylor, Jonathan",2,1,0,1
+"Teichert, H.",2,1,0,1
+"Troy, R. F.",2,2,0,0
+"Ulanowski, Zbigniew",2,2,0,0
+"Virtanen, Annele",2,2,0,0
+"Wagner, Uwe",2,1,0,1
+"Wehner, Birgit",2,2,0,0
+"Weinstock, E. M.",2,2,0,0
+"Weinzierl, Bernadett",2,1,0,1
+"Welti, Andre",2,2,0,0
+"Whale, Thomas F.",2,2,0,0
+"Wolf, R.",2,2,0,0
+"Wollny, A. G.",2,1,0,1
+"Yamashita, Katsuya",2,2,0,0
+"Zhang, K.",2,2,0,0
+"Zink, P.",2,1,0,1
+"Al-Jumur, S. M. R. K.",1,1,0,0
+"Alam, Kamran",1,1,0,0
+"Ali, Asad",1,1,0,0
+"Ali, Saddam",1,1,0,0
+"Alpert, Peter A.",1,1,0,0
+"Alrehaili, Omar",1,1,0,0
+"Anderson, J. G.",1,1,0,0
+"Astorga, C.",1,1,0,0
+"Atkinson, Ariel J.",1,1,0,0
+"Attard, E.",1,1,0,0
+"Auvermann, Brent W.",1,1,0,0
+"Avallone, L. M.",1,1,0,0
+"Barahona, Donifan",1,1,0,0
+"Barmet, P.",1,1,0,0
+"Bauer, R.",1,1,0,0
+"Baumgarnder, D.",1,0,0,1
+"Benker, N.",1,1,0,0
+"Berger, Corentin",1,1,0,0
+"Bertram, Allan K.",1,1,0,0
+"Bi, Yugiang",1,1,0,0
+"Bianchi, F.",1,1,0,0
+"Bierbauer, Sascha",1,1,0,0
+"Bilde, Merete",1,1,0,0
+"Blond, Nadege",1,1,0,0
+"Boffo, Cristian",1,1,0,0
+"Bohn, B.",1,1,0,0
+"Bower, K. N.",1,1,0,0
+"Brauers, Theo",1,1,0,0
+"Brooks, Sarah D.",1,1,0,0
+"Brown, Peter",1,0,0,1
+"Brunamonti, Simone",1,1,0,0
+"Brunet, Y.",1,1,0,0
+"Bucci, Silvia",1,1,0,0
+"Buchholz, A.",1,1,0,0
+"Burkert-Kohn, Monika",1,1,0,0
+"Bush, Jack",1,1,0,0
+"Busse, J.",1,1,0,0
+"Cenac, Claire",1,1,0,0
+"Chang, Zhiguang",1,1,0,0
+"Chou, Cedric",1,1,0,0
+"Choularton, T.",1,1,0,0
+"Christensen, L. E.",1,1,0,0
+"Christiansen, Sigurd",1,1,0,0
+"Clairotte, M.",1,1,0,0
+"Collier, Kristen N.",1,1,0,0
+"Cory, Kimberly M.",1,1,0,0
+"Crawford, I.",1,1,0,0
+"Davis, S. M.",1,1,0,0
+"Delagrange, R.",1,1,0,0
+"Delort, A. -M.",1,1,0,0
+"Dingwell, D. B.",1,1,0,0
+"Dippel, B.",1,1,0,0
+"Diskin, Glenn",1,1,0,0
+"Dobbie, S.",1,1,0,0
+"Dorsey, J. R.",1,0,0,1
+"Dreier, J.",1,1,0,0
+"Dreischmeier, K.",1,1,0,0
+"Drinovec, L.",1,1,0,0
+"Duft, Denis",1,1,0,0
+"Dusek, Ulrike",1,0,0,1
+"Dyroff, C.",1,1,0,0
+"Ebert, M.",1,1,0,0
+"Ekman, Annica M. L.",1,1,0,0
+"El Haddad, I.",1,1,0,0
+"Els, Nora",1,1,0,0
+"Emmenegger, Lukas",1,1,0,0
+"Eppers, Oliver",1,1,0,0
+"Fahey, D. W.",1,1,0,0
+"Felgitsch, Laura",1,1,0,0
+"Fiorentino, Raffaele",1,1,0,0
+"Firth, Peter",1,1,0,0
+"Fosig, Romy",1,1,0,0
+"Frerot, Fabien",1,1,0,0
+"Fridlind, A. M.",1,1,0,0
+"Friedl-Vallon, Felix",1,1,0,0
+"Fry, Juliane L.",1,0,0,1
+"Fu, Jiajie",1,0,0,1
+"Fuchs, H.",1,1,0,0
+"Fujiwara, Masatomo",1,1,0,0
+"Funk, Jens",1,1,0,0
+"Gangl, Martin",1,1,0,0
+"Gao, R. -S.",1,1,0,0
+"Garcia-Pando, Carlos Perez",1,1,0,0
+"Garimella, Sarvesh",1,1,0,0
+"Ghysels, Melanie",1,1,0,0
+"Gonzalez-Romero, Adolfo",1,1,0,0
+"Goschnick, J.",1,1,0,0
+"Grooss, Jens-Uwe",1,1,0,0
+"Grothe, Hinrich",1,1,0,0
+"Guerrero, Carlos",1,1,0,0
+"Hader, J. D.",1,1,0,0
+"Han, Lie-Bao",1,1,0,0
+"Hanisco, T. F.",1,1,0,0
+"Hao, Z.",1,1,0,0
+"Hara, Takahito",1,1,0,0
+"Harrington, Jerry Y.",1,1,0,0
+"Hauglustaine, Didier",1,1,0,0
+"Henin, S.",1,1,0,0
+"Henning, S.",1,1,0,0
+"Herenz, Paul",1,1,0,0
+"Hertzog, Albert",1,1,0,0
+"Hintsa, E. J.",1,1,0,0
+"Hirst, Edwin",1,1,0,0
+"Hobl, Achim",1,1,0,0
+"Hohaus, Thorsten",1,1,0,0
+"Holman, Zachary C.",1,1,0,0
+"Holzinger, Rupert",1,0,0,1
+"Hou, Yidi",1,1,0,0
+"Huang, Shuqiang",1,1,0,0
+"Hudson, P. K.",1,1,0,0
+"Hussain, Sajjad",1,1,0,0
+"Höpfner, M.",1,1,0,0
+"Imre, Dan",1,1,0,0
+"Indris, O.",1,1,0,0
+"Iturri, A.",1,1,0,0
+"Jensen, E. J.",1,1,0,0
+"Jezek, I.",1,1,0,0
+"Johansson, Sören",1,1,0,0
+"Joly, M.",1,1,0,0
+"Jourdan, Olivier",1,1,0,0
+"Kamm, S.",1,1,0,0
+"Kammer, Beatrix",1,1,0,0
+"Kasparian, J.",1,1,0,0
+"Kaufmann, Julia",1,1,0,0
+"Khan, Khurram Imran",1,1,0,0
+"Khaykin, S. M.",1,1,0,0
+"Kirchen, S.",1,1,0,0
+"Kirchner, U.",1,1,0,0
+"Klein, Holger",1,1,0,0
+"Klose, Martina",1,1,0,0
+"Knopf, Daniel A.",1,1,0,0
+"Kreidenweis, S. M.",1,1,0,0
+"Kremer, Martina",1,1,0,0
+"Kristensen, Thomas B.",1,1,0,0
+"Kroese, Willem",1,0,0,1
+"Krueger, Konstantin",1,1,0,0
+"Krämer, L.",1,1,0,0
+"Kueppers, U.",1,1,0,0
+"Kusunoki, Kenichi",1,1,0,0
+"Landsberg, Janek",1,1,0,0
+"Lang, Qi",1,1,0,0
+"Lang, Yue",1,1,0,0
+"Laumer, Werner",1,1,0,0
+"Leck, Charles F.",1,1,0,0
+"Lee, Aram",1,1,0,0
+"Legras, Bernard",1,1,0,0
+"Leue, M.",1,1,0,0
+"Li, Cong",1,1,0,0
+"Li, Zhengjin",1,1,0,0
+"Lilie, Lyle",1,1,0,0
+"Liu, Chenli",1,1,0,0
+"Liu, Jiao",1,1,0,0
+"Longobardi, Sergio",1,1,0,0
+"Lopez, Julio",1,1,0,0
+"Lueder, J.",1,1,0,0
+"Mahrt, Fabian",1,1,0,0
+"Marchand, N.",1,1,0,0
+"Marsden, Nicholas A.",1,1,0,0
+"Maters, E. C.",1,1,0,0
+"Maßling, Andreas",1,1,0,0
+"McCluskey, C. S.",1,1,0,0
+"Megahed, K.",1,1,0,0
+"Mendez, Maxence",1,1,0,0
+"Michaud, V.",1,1,0,0
+"Micolier, Alice",1,1,0,0
+"Mihelcic, D.",1,1,0,0
+"Mioche, Guillaume",1,1,0,0
+"Miyazaki, Hideyo",1,1,0,0
+"Mocnik, G.",1,1,0,0
+"Mohler, Stanley R.",1,0,0,1
+"Monier, M.",1,1,0,0
+"Monnier, Paul",1,1,0,0
+"Müller, Thomas",1,0,0,1
+"Natzeck, C.",1,1,0,0
+"Nenes, Athanasios",1,1,0,0
+"Nicosia, Alessia",1,1,0,0
+"Niessner, R.",1,1,0,0
+"Orikasa, Narihiro",1,1,0,0
+"Ou, Hengjia",1,0,0,1
+"Pantoya, Aidan D.",1,1,0,0
+"Paukert, M.",1,1,0,0
+"Peter, T.",1,1,0,0
+"Petit, Y.",1,1,0,0
+"Petrarca, M.",1,1,0,0
+"Petters, Sarah S.",1,1,0,0
+"Petzold, Andreas",1,0,0,1
+"Pfeuffer, Tatjana",1,1,0,0
+"Pfister, L.",1,1,0,0
+"Philippin, Heiko",1,1,0,0
+"Plane, J. M. C.",1,1,0,0
+"Platt, S. M.",1,1,0,0
+"Polen, Michael J.",1,1,0,0
+"Ponche, Jean-Luc",1,1,0,0
+"Porter, Grace C. E.",1,1,0,0
+"Pöschl, U.",1,1,0,0
+"Querol, Xavier",1,1,0,0
+"Ramisetty, Ramakrishna",1,1,0,0
+"Reicher, Naama",1,1,0,0
+"Reiter, Robert E.",1,1,0,0
+"Richter, R.",1,1,0,0
+"Rohs, S.",1,1,0,0
+"Rohwetter, P.",1,1,0,0
+"Rollins, A. W.",1,1,0,0
+"Rothenberg, Daniel A.",1,1,0,0
+"Rubach, F.",1,1,0,0
+"Rudich, Yinon",1,1,0,0
+"Salo, K.",1,1,0,0
+"Samake, Jean-Christophe",1,1,0,0
+"Sargent, M. R.",1,1,0,0
+"Saunders, R. W.",1,1,0,0
+"Scaletti, Alessandro",1,1,0,0
+"Schill, G. P.",1,1,0,0
+"Schoen, Roland",1,1,0,0
+"Schrod, Jann",1,1,0,0
+"Schwartz, T.",1,1,0,0
+"Schöck, O. W.",1,1,0,0
+"Seifert, M.",1,1,0,0
+"Seifried, Teresa M.",1,1,0,0
+"Sellegri, K.",1,1,0,0
+"Shcherbakov, Valery N.",1,1,0,0
+"Sierau, B.",1,1,0,0
+"Sitnikov, N.",1,1,0,0
+"Snider, J. R.",1,1,0,0
+"Soelch, Ingo",1,1,0,0
+"Spackman, J. R.",1,1,0,0
+"Spang, Reinhold",1,1,0,0
+"Specht, H.",1,1,0,0
+"Spichtinger, Peter",1,1,0,0
+"St Clair, J. M.",1,1,0,0
+"Stein, Olaf",1,1,0,0
+"Stelmaszczyk, K.",1,1,0,0
+"Stiller, G. P.",1,1,0,0
+"Ström, J.",1,1,0,0
+"Swanson, Brian D.",1,1,0,0
+"Szakall, Miklos",1,1,0,0
+"Tatrai, D.",1,1,0,0
+"Taylor, Hans P.",1,1,0,0
+"Temime-Roussel, B.",1,1,0,0
+the CAINA team,1,0,0,1
+"Thompson, T. L.",1,1,0,0
+"Thornberry, T. D.",1,1,0,0
+"Tobo, Y.",1,1,0,0
+"Tokuyasu, Taku A.",1,1,0,0
+"Tolbert, M. A.",1,1,0,0
+"Toprak, E.",1,1,0,0
+"Tran, Chan P.",1,1,0,0
+"Tricoli, Ugo",1,1,0,0
+"Tuellmann, Nadine",1,1,0,0
+"Tuzson, Bela",1,1,0,0
+"Ullah, Asmat",1,1,0,0
+"Ullah, Saad",1,1,0,0
+"Ulrich, A.",1,1,0,0
+"Ungermann, Jörn",1,1,0,0
+"Vergara-Palacio, Sebastian",1,1,0,0
+"Vergara-Temprado, Jesus",1,1,0,0
+"Verhaege, Christophe",1,0,0,1
+"Voemel, H.",1,1,0,0
+"Vogel, Bernhard",1,1,0,0
+"Vogel, Heike",1,1,0,0
+"Vogt, R.",1,1,0,0
+"Voutilainen, Arto",1,1,0,0
+"Wahner, Andreas",1,1,0,0
+"Walker, R.",1,1,0,0
+"Walter, S.",1,1,0,0
+"Wang, Song",1,1,0,0
+"Wang, Z.",1,1,0,0
+"Weber, Daniel",1,1,0,0
+"Wegener, Robert",1,1,0,0
+"Weinbruch, S.",1,1,0,0
+"Weingartner, E.",1,1,0,0
+"Weiss, Maximilian",1,1,0,0
+"Westerhoff, Paul",1,1,0,0
+"Wiedensohler, A.",1,1,0,0
+"Wienhold, F. G.",1,1,0,0
+"Wilbourn, Elise K.",1,1,0,0
+"Wills, R.",1,1,0,0
+"Wilmsmeyer, Sonja",1,1,0,0
+"Woeste, L.",1,1,0,0
+"Wohltmann, Ingo",1,1,0,0
+"Wolf, J. -P.",1,1,0,0
+"Wolf, Martin J.",1,1,0,0
+"Wooley, Allyson H.",1,0,0,1
+"Wright, T. P.",1,1,0,0
+"Xu, Shuxuan",1,1,0,0
+"Yadigaroglu, G.",1,1,0,0
+"Zardini, A. A.",1,1,0,0
+"Zawadowicz, Maria A.",1,1,0,0
+"Zenker, Jake",1,1,0,0
+"Zhang, Xunzhong",1,1,0,0
+"Zheng, Hai",1,1,0,0
+"Ziese, M.",1,1,0,0
+"Zoeger, M.",1,1,0,0
+"Zong, Pengcheng",1,1,0,0

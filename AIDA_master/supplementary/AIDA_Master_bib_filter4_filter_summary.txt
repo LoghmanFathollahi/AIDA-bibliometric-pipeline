@@ -1,0 +1,107 @@
+AIDA master bibliography: filter summary
+created 2026-10-14 19:32 by aida_master_bib.py
+input : G:\AIDA\AIDA_master\supplementary\AIDA_Master_bib_NoDuplicate.bib
+output: G:\AIDA\AIDA_master\supplementary\AIDA_Master_bib_filter4.bib
+
+EXCLUDED BY noAIDA.txt (before filtering)
+   list file       : G:\AIDA\data\noAIDA.txt
+   items in list   : 8
+   entries removed : 0
+   item 1: DOI 10.1016/0887-2333(90)90021-k
+       no entry matched
+   item 2: citation (title match): 1999	Defaye, P.; Mouton, E.; AIDA	A new diagnostic concept in cardiac pacing for evaluating the inci
+       no entry matched
+   item 3: DOI 10.1007/pl00002004
+       no entry matched
+   item 4: DOI 10.1029/93jd02259
+       no entry matched
+   item 5: DOI 10.1128/jb.186.23.8058-8065.2004
+       no entry matched
+   item 6: DOI 10.1016/j.nima.2018.10.118
+       no entry matched
+   item 7: DOI 10.1016/j.ajo.2025.11.009
+       no entry matched
+   item 8: DOI 10.1109/jphotov.2025.3622321
+       no entry matched
+
+AUTHORS' CONFIRMED LISTS (before filtering)
+   Ottmar Möhler: 141 confirmed papers in his list (scope articles, complete)
+   Robert Wagner: 59 confirmed papers in his list (scope all, reviewed)
+   confirmed papers kept, filters skipped : 156
+     of those added, not found by harvests: 7
+   removed by an author                   : 9
+   removed, not in a complete list        : 193
+   conflicts between authors, kept        : 0
+   every decision: AIDA_Master_bib_author_decisions.csv
+
+FILTER SETTINGS
+   filter                      : Filter 4
+   rule                        : AIDA term in title/abstract/keywords AND KIT affiliation
+   AIDA terms (exact case)     : AIDA
+   AIDA terms (any case)       : Aerosol Interaction and Dynamics in the Atmosphere
+   KIT affiliation check       : on
+   KIT terms (any case)        : Karlsruhe Institute of Technology, Karlsruhe Inst Technol, Karlsruher Institut fur Technologie, Forschungszentrum Karlsruhe, Research Center Karlsruhe, Research Centre Karlsruhe, Res Ctr Karlsruhe, University of Karlsruhe, Univ Karlsruhe, Universitat Karlsruhe
+   KIT terms (exact case)      : KIT, FZK
+   keep if affiliation missing : False
+   title fields                : title
+   abstract fields             : abstract
+   keyword fields              : keywords, author-keywords, keywords-plus
+   affiliation fields          : affiliation, affiliations
+
+FIELD AVAILABILITY (all entries)
+   field         entries with field
+   -----------   ------------------
+   title               2006 (99.8%)
+   abstract             675 (33.6%)
+   keywords            1740 (86.5%)
+   affiliation         1585 (78.8%)
+
+WHERE THE TERMS WERE FOUND
+   found in                      AIDA terms, all entries   AIDA terms, kept entries
+   ---------------------------   -----------------------   ------------------------
+   title only                                  24 (1.2%)                  13 (7.5%)
+   abstract only                               86 (4.3%)                 73 (42.0%)
+   keywords only                                8 (0.4%)                   1 (0.6%)
+   title + abstract                             9 (0.4%)                   9 (5.2%)
+   title + keywords                             0 (0.0%)                   0 (0.0%)
+   abstract + keywords                          7 (0.3%)                   7 (4.0%)
+   title + abstract + keywords                  1 (0.0%)                   1 (0.6%)
+   none                                     1876 (93.3%)                 70 (40.2%)
+                                                                                   
+   in one field                               118 (5.9%)                 87 (50.0%)
+   in two fields                               16 (0.8%)                  16 (9.2%)
+   in all three fields                          1 (0.0%)                   1 (0.6%)
+   not found                                1876 (93.3%)                 70 (40.2%)
+
+AIDA TERMS FOUND (entries per term)
+   term                                                 entries
+   --------------------------------------------------   -------
+   AIDA                                                     133
+   Aerosol Interaction and Dynamics in the Atmosphere        29
+
+KIT AFFILIATION (all entries)
+   status                            entries
+   ---------------------------   -----------
+   KIT affiliation found         729 (36.3%)
+   affiliation present, no KIT   856 (42.6%)
+   affiliation field missing     426 (21.2%)
+
+TERM MATCH VERSUS KIT AFFILIATION (all entries)
+                   KIT pass   KIT fail
+   -------------   --------   --------
+   term match           101         34
+   no term match        628       1248
+
+RESULT
+   entries in       : 2011
+   entries kept     : 174 (8.7%)
+   entries removed  : 1837 (91.3%)
+
+   removal reasons
+   reason                                                         entries
+   ------------------------------------------------------------   -------
+   no AIDA term; no KIT affiliation                                   831
+   no AIDA term                                                       565
+   no AIDA term; no KIT affiliation (affiliation field missing)       410
+   no KIT affiliation                                                  25
+   no KIT affiliation (affiliation field missing)                       6

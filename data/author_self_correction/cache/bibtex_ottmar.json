@@ -1,0 +1,550 @@
+{
+"10.5194/acp-26-9113-2026": {
+"text": "@article{Vergara_Palacio_2026, title={Ice nucleation activity of mineral dust from Morocco and Iceland in immersion freezing mode and its relationship with mineralogy and particle size}, volume={26}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-26-9113-2026}, DOI={10.5194/acp-26-9113-2026}, number={12}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Vergara-Palacio, Sebastian and Kiselev, Alexei and Vogel, Franziska and González-Romero, Adolfo and Fösig, Romy and Querol, Xavier and Hoose, Corinna and Silas Umo, Nsikanabasi and Möhler, Ottmar and Kandler, Konrad and Pérez García-Pando, Carlos and Klose, Martina}, year={2026}, month=June, pages={9113–9147} }",
+"source": "doi_org"
+},
+"10.5194/amt-19-4165-2026": {
+"text": "@article{Fuchs_2026, title={Atmospheric Simulation Chambers in the ACTRIS Research Infrastructure}, volume={19}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-19-4165-2026}, DOI={10.5194/amt-19-4165-2026}, number={12}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Fuchs, Hendrik and Illmann, Niklas and Muñoz, Amalia and Ródenas, Mila and Picquet-Varrault, Bénédicte and Alfarra, M. Rami and Arsene, Cecilia and Bejan, Iustinian G. and Bell, David M. and Bilde, Merete and Böhmländer, Alexander and Campos-Pineda, Mixtli and Cazaunau, Mathieu and Coll, Patrice and Daële, Véronique and Di Biagio, Claudia and Flynn, Michael and Formenti, Paola and Herrmann, Hartmut and Höhler, Kristina and Hohaus, Thorsten and Johnson, Matthew S. and Juurola, Eija and Kivekäs, Niku and Kaiser, Jan and Kaltsonoudis, Christos and Laj, Paolo and Massabò, Dario and Mazzei, Federico and McFiggans, Gordon and McGillen, Max R. and Mellouki, Abdelwahid and Mettke, Peter and Möhler, Ottmar and Mothes, Falk and Niedermeier, Dennis and Novelli, Anna and Olariu, Romeo I. and Pandis, Spyros N. and Patroescu-Klotz, Iulia and Petracca Altieri, Rosa Maria and Prati, Paolo and Roman, Claudiu and Ruth, Albert A. and Saathoff, Harald and Schmalfuß, Silvio and Stratmann, Frank and Vernocchi, Virginia and Voliotis, Aristeidis and Voigtländer, Jens and Virtanen, Annele and Wahner, Andreas and Wagner, Robert and Wenger, John and Zorn, Sören and Wiesen, Peter and Doussin, Jean-Francois}, year={2026}, month=June, pages={4165–4199} }",
+"source": "doi_org"
+},
+"10.5194/amt-19-2695-2026": {
+"text": "@article{Bazo_2026, title={Evaluation of different sampling methods to determine the ice-nucleating particle concentration in the atmosphere using the GRAnada Ice Nuclei Spectrometer (GRAINS)}, volume={19}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-19-2695-2026}, DOI={10.5194/amt-19-2695-2026}, number={8}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Bazo, Elena and Ruiz-Galera, Olga and Alados-Arboledas, Lucas and Böhmländer, Alexander and Höhler, Kristina and Kim, Najin and Lacher, Larissa and Möhler, Ottmar and Olmo, Frascisco José and Perez Fogwill, German and Piedehierro, Ana A. and Umo, Nsikanabasi Silas and Welti, André and Titos, Gloria and Cazorla, Alberto}, year={2026}, month=Apr, pages={2695–2713} }",
+"source": "doi_org"
+},
+"10.1126/sciadv.aee6174": {
+"text": "@article{Lamb_2026, title={Discovering how ice crystals grow using neural ODEs and symbolic regression}, volume={12}, ISSN={2375-2548}, url={http://dx.doi.org/10.1126/sciadv.aee6174}, DOI={10.1126/sciadv.aee6174}, number={39}, journal={Science Advances}, publisher={American Association for the Advancement of Science (AAAS)}, author={Lamb, Kara D. and Harrington, Jerry Y. and Moyle, Alfred M. and Pokrifka, Gwenore F. and Clouser, Benjamin W. and Ebert, Volker and Möhler, Ottmar and Saathoff, Harald}, year={2026}, month=Sept }",
+"source": "doi_org"
+},
+"10.1175/bams-d-25-0027.1": {
+"text": "@article{Shaw_2025, title={Scientific Directions for Cloud Chamber Research: Instrumentation, Modeling, New Chambers, and Emerging Chamber Concepts}, volume={106}, ISSN={1520-0477}, url={http://dx.doi.org/10.1175/bams-d-25-0027.1}, DOI={10.1175/bams-d-25-0027.1}, number={4}, journal={Bulletin of the American Meteorological Society}, publisher={American Meteorological Society}, author={Shaw, Raymond A. and Chen, Sisi and Freer, Matt and Korolev, Alexei and Krueger, Steve and Murakami, Masataka and Niedermeier, Dennis and Ovchinnikov, Mikhail and Schmalfuß, Silvio and Tian, Ping and Yang, Fan and Yum, Seong Soo and Zhu, Zeen and Cha, Joo Wan and Möhler, Ottmar}, year={2025}, month=Apr, pages={E770–E781} }",
+"source": "doi_org"
+},
+"10.5194/amt-18-5321-2025": {
+"text": "@article{Brunamonti_2025, title={The AquaVIT-4 intercomparison of atmospheric hygrometers}, volume={18}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-18-5321-2025}, DOI={10.5194/amt-18-5321-2025}, number={20}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Brunamonti, Simone and Saathoff, Harald and Hertzog, Albert and Diskin, Glenn and Fujiwara, Masatomo and Rosenlof, Karen and Möhler, Ottmar and Tuzson, Béla and Emmenegger, Lukas and Amarouche, Nadir and Durry, Georges and Frérot, Fabien and Samake, Jean-Christophe and Cenac, Claire and Lopez, Julio and Monnier, Paul and Ghysels, Mélanie}, year={2025}, month=Oct, pages={5321–5348} }",
+"source": "doi_org"
+},
+"10.1029/2024jd041576": {
+"text": "@article{Wagner_2024, title={How Porosity Influences the Heterogeneous Ice Nucleation Ability of Secondary Organic Aerosol Particles}, volume={129}, ISSN={2169-8996}, url={http://dx.doi.org/10.1029/2024jd041576}, DOI={10.1029/2024jd041576}, number={20}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Wagner, Robert and Hu, Yaqiong and Bogert, Pia and Höhler, Kristina and Kiselev, Alexei and Möhler, Ottmar and Saathoff, Harald and Umo, Nsikanabasi and Zanatta, Marco}, year={2024}, month=Oct }",
+"source": "doi_org"
+},
+"10.5194/acp-24-10869-2024": {
+"text": "@article{Shen_2024, title={Measurement report: The Fifth International Workshop on Ice Nucleation phase 1 (FIN-01): intercomparison  of single-particle mass spectrometers}, volume={24}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-24-10869-2024}, DOI={10.5194/acp-24-10869-2024}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Shen, Xiaoli and Bell, David M. and Coe, Hugh and Hiranuma, Naruki and Mahrt, Fabian and Marsden, Nicholas A. and Mohr, Claudia and Murphy, Daniel M. and Saathoff, Harald and Schneider, Johannes and Wilson, Jacqueline and Zawadowicz, Maria A. and Zelenyuk, Alla and DeMott, Paul J. and Möhler, Ottmar and Cziczo, Daniel J.}, year={2024}, month=Sept, pages={10869–10891} }",
+"source": "doi_org"
+},
+"10.1175/bams-d-23-0064.1": {
+"text": "@article{Laj_2024, title={Aerosol, Clouds and Trace Gases Research Infrastructure (ACTRIS): The European Research Infrastructure Supporting Atmospheric Science}, volume={105}, ISSN={1520-0477}, url={http://dx.doi.org/10.1175/bams-d-23-0064.1}, DOI={10.1175/bams-d-23-0064.1}, number={7}, journal={Bulletin of the American Meteorological Society}, publisher={American Meteorological Society}, author={Laj, Paolo and Lund Myhre, Cathrine and Riffault, Véronique and Amiridis, Vassilis and Fuchs, Hendrik and Eleftheriadis, Konstantinos and Petäjä, Tuukka and Salameh, Thérèse and Kivekäs, Niku and Juurola, Eija and Saponaro, Giulia and Philippin, Sabine and Cornacchia, Carmela and Alados Arboledas, Lucas and Baars, Holger and Claude, Anja and De Mazière, Martine and Dils, Bart and Dufresne, Marvin and Evangeliou, Nikolaos and Favez, Olivier and Fiebig, Markus and Haeffelin, Martial and Herrmann, Hartmut and Höhler, Kristina and Illmann, Niklas and Kreuter, Axel and Ludewig, Elke and Marinou, Eleni and Möhler, Ottmar and Mona, Lucia and Eder Murberg, Lise and Nicolae, Doina and Novelli, Anna and O’Connor, Ewan and Ohneiser, Kevin and Petracca Altieri, Rosa Maria and Picquet-Varrault, Bénédicte and van Pinxteren, Dominik and Pospichal, Bernhard and Putaud, Jean-Philippe and Reimann, Stefan and Siomos, Nikolaos and Stachlewska, Iwona and Tillmann, Ralf and Voudouri, Kalliopi Artemis and Wandinger, Ulla and Wiedensohler, Alfred and Apituley, Arnoud and Comerón, Adolfo and Gysel-Beer, Martin and Mihalopoulos, Nikolaos and Nikolova, Nina and Pietruczuk, Aleksander and Sauvage, Stéphane and Sciare, Jean and Skov, Henrik and Svendby, Tove and Swietlicki, Erik and Tonev, Dimitar and Vaughan, Geraint and Zdimal, Vladimir and Baltensperger, Urs and Doussin, Jean-François and Kulmala, Markku and Pappalardo, Gelsomina and Sorvari Sundet, Sanna and Vana, Milan}, year={2024}, month=July, pages={E1098–E1136} }",
+"source": "doi_org"
+},
+"10.1029/2023jd040078": {
+"text": "@article{Bertozzi_2024, title={Influence of the Neutralization Degree on the Ice Nucleation Ability of Ammoniated Sulfate Particles}, volume={129}, ISSN={2169-8996}, url={http://dx.doi.org/10.1029/2023jd040078}, DOI={10.1029/2023jd040078}, number={2}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Bertozzi, Barbara and Wagner, Robert and Höhler, Kristina and Saathoff, Harald and Möhler, Ottmar and Leisner, Thomas}, year={2024}, month=Jan }",
+"source": "doi_org"
+},
+"10.5194/acp-23-6789-2023": {
+"text": "@article{Wagner_2023, title={Particle shapes and infrared extinction spectra of nitric acid dihydrate (NAD) crystals: optical constants of the\n                    <i>β</i>\n                    -NAD modification}, volume={23}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-23-6789-2023}, DOI={10.5194/acp-23-6789-2023}, number={12}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wagner, Robert and James, Alexander D. and Frankland, Victoria L. and Möhler, Ottmar and Murray, Benjamin J. and Plane, John M. C. and Saathoff, Harald and Weigel, Ralf and Schnaiter, Martin}, year={2023}, month=June, pages={6789–6811} }",
+"source": "doi_org"
+},
+"10.1021/acs.est.3c01151": {
+"text": "@article{Gao_2023, title={Volatility of Secondary Organic Aerosol from β-Caryophyllene Ozonolysis over a Wide Tropospheric Temperature Range}, volume={57}, ISSN={1520-5851}, url={http://dx.doi.org/10.1021/acs.est.3c01151}, DOI={10.1021/acs.est.3c01151}, number={24}, journal={Environmental Science &amp; Technology}, publisher={American Chemical Society (ACS)}, author={Gao, Linyu and Buchholz, Angela and Li, Zijun and Song, Junwei and Vallon, Magdalena and Jiang, Feng and Möhler, Ottmar and Leisner, Thomas and Saathoff, Harald}, year={2023}, month=June, pages={8965–8974} }",
+"source": "doi_org"
+},
+"10.5194/acp-23-6043-2023": {
+"text": "@article{Lamb_2023, title={Re-evaluating cloud chamber constraints on depositional ice growth in cirrus clouds – Part 1: Model description and sensitivity tests}, volume={23}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-23-6043-2023}, DOI={10.5194/acp-23-6043-2023}, number={11}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Lamb, Kara D. and Harrington, Jerry Y. and Clouser, Benjamin W. and Moyer, Elisabeth J. and Sarkozy, Laszlo and Ebert, Volker and Möhler, Ottmar and Saathoff, Harald}, year={2023}, month=June, pages={6043–6064} }",
+"source": "doi_org"
+},
+"10.1063/5.0098777": {
+"text": "@article{Vogel_2022, title={Development and validation of a new cloud simulation experiment for lab-based aerosol–cloud studies}, volume={93}, ISSN={1089-7623}, url={http://dx.doi.org/10.1063/5.0098777}, DOI={10.1063/5.0098777}, number={9}, journal={Review of Scientific Instruments}, publisher={AIP Publishing}, author={Vogel, F. and Lacher, L. and Nadolny, J. and Saathoff, H. and Leisner, T. and Möhler, O.}, year={2022}, month=Sept }",
+"source": "doi_org"
+},
+"10.1080/02786826.2022.2055994": {
+"text": "@article{Cornwell_2022, title={Discrimination between individual dust and bioparticles using aerosol time-of-flight mass spectrometry}, volume={56}, ISSN={1521-7388}, url={http://dx.doi.org/10.1080/02786826.2022.2055994}, DOI={10.1080/02786826.2022.2055994}, number={7}, journal={Aerosol Science and Technology}, publisher={Informa UK Limited}, author={Cornwell, G. C. and Sultana, C. M. and Petters, M. D. and Al-Mashat, H. and Rothfuss, N. E. and Möhler, O. and DeMott, P. J. and Martin, A. C. and Prather, K. A.}, year={2022}, month=Apr, pages={592–608} }",
+"source": "doi_org"
+},
+"10.5194/acp-22-65-2022": {
+"text": "@article{Baumgartner_2022, title={New investigations on homogeneous ice  nucleation: the effects of water activity  and water saturation formulations}, volume={22}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-22-65-2022}, DOI={10.5194/acp-22-65-2022}, number={1}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Baumgartner, Manuel and Rolf, Christian and Grooß, Jens-Uwe and Schneider, Julia and Schorr, Tobias and Möhler, Ottmar and Spichtinger, Peter and Krämer, Martina}, year={2022}, month=Jan, pages={65–91} }",
+"source": "doi_org"
+},
+"10.1029/2021jd035186": {
+"text": "@article{Testa_2021, title={Ice Nucleating Particle Connections to Regional Argentinian Land Surface Emissions and Weather During the Cloud, Aerosol, and Complex Terrain Interactions Experiment}, volume={126}, ISSN={2169-8996}, url={http://dx.doi.org/10.1029/2021jd035186}, DOI={10.1029/2021jd035186}, number={23}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Testa, Baptiste and Hill, Thomas C. J. and Marsden, Nicholas A. and Barry, Kevin R. and Hume, Carson C. and Bian, Qijing and Uetake, Jun and Hare, Hannah and Perkins, Russell J. and Möhler, Ottmar and Kreidenweis, Sonia M. and DeMott, Paul J.}, year={2021}, month=Nov }",
+"source": "doi_org"
+},
+"10.5194/acp-21-14403-2021": {
+"text": "@article{Schneider_2021, title={High homogeneous freezing onsets of sulfuric acid aerosol  at cirrus temperatures}, volume={21}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-21-14403-2021}, DOI={10.5194/acp-21-14403-2021}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Schneider, Julia and Höhler, Kristina and Wagner, Robert and Saathoff, Harald and Schnaiter, Martin and Schorr, Tobias and Steinke, Isabelle and Benz, Stefan and Baumgartner, Manuel and Rolf, Christian and Krämer, Martina and Leisner, Thomas and Möhler, Ottmar}, year={2021}, month=Sept, pages={14403–14425} }",
+"source": "doi_org"
+},
+"10.5194/acp-21-14215-2021": {
+"text": "@article{Hiranuma_2021, title={Laboratory and field studies of ice-nucleating particles from open-lot livestock facilities in Texas}, volume={21}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-21-14215-2021}, DOI={10.5194/acp-21-14215-2021}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Hiranuma, Naruki and Auvermann, Brent W. and Belosi, Franco and Bush, Jack and Cory, Kimberly M. and Georgakopoulos, Dimitrios G. and Höhler, Kristina and Hou, Yidi and Lacher, Larissa and Saathoff, Harald and Santachiara, Gianni and Shen, Xiaoli and Steinke, Isabelle and Ullrich, Romy and Umo, Nsikanabasi S. and Vepuri, Hemanth S. K. and Vogel, Franziska and Möhler, Ottmar}, year={2021}, month=Sept, pages={14215–14234} }",
+"source": "doi_org"
+},
+"10.5194/acp-21-13903-2021": {
+"text": "@article{Wagner_2021, title={Heterogeneous ice nucleation ability of aerosol particles generated from Arctic sea surface microlayer and surface seawater samples at cirrus temperatures}, volume={21}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-21-13903-2021}, DOI={10.5194/acp-21-13903-2021}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wagner, Robert and Ickes, Luisa and Bertram, Allan K. and Els, Nora and Gorokhova, Elena and Möhler, Ottmar and Murray, Benjamin J. and Umo, Nsikanabasi Silas and Salter, Matthew E.}, year={2021}, month=Sept, pages={13903–13930} }",
+"source": "doi_org"
+},
+"10.1029/2020jd033356": {
+"text": "@article{Umo_2021, title={The Influence of Chemical and Mineral Compositions on the Parameterization of Immersion Freezing by Volcanic Ash Particles}, volume={126}, ISSN={2169-8996}, url={http://dx.doi.org/10.1029/2020jd033356}, DOI={10.1029/2020jd033356}, number={17}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Umo, N. S. and Ullrich, R. and Maters, E. C. and Steinke, I. and Benker, N. and Höhler, K. and Wagner, R. and Weidler, P. G. and Hoshyaripour, G. A. and Kiselev, A. and Kueppers, U. and Kandler, K. and Dingwell, D. B. and Leisner, T. and Möhler, O.}, year={2021}, month=Sept }",
+"source": "doi_org"
+},
+"10.5194/acp-21-10779-2021": {
+"text": "@article{Bertozzi_2021, title={Ice nucleation ability of ammonium sulfate aerosol particles internally mixed with secondary organics}, volume={21}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-21-10779-2021}, DOI={10.5194/acp-21-10779-2021}, number={13}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Bertozzi, Barbara and Wagner, Robert and Song, Junwei and Höhler, Kristina and Pfeifer, Joschka and Saathoff, Harald and Leisner, Thomas and Möhler, Ottmar}, year={2021}, month=July, pages={10779–10798} }",
+"source": "doi_org"
+},
+"10.5194/amt-14-1977-2021": {
+"text": "@article{Wagner_2021, title={High-resolution optical constants of crystalline ammonium nitrate for infrared remote sensing of the Asian Tropopause  Aerosol Layer}, volume={14}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-14-1977-2021}, DOI={10.5194/amt-14-1977-2021}, number={3}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Wagner, Robert and Testa, Baptiste and Höpfner, Michael and Kiselev, Alexei and Möhler, Ottmar and Saathoff, Harald and Ungermann, Jörn and Leisner, Thomas}, year={2021}, month=Mar, pages={1977–1991} }",
+"source": "doi_org"
+},
+"10.5194/amt-13-6631-2020": {
+"text": "@article{Kulkarni_2020, title={A new method for operating a continuous-flow diffusion chamber to investigate immersion freezing: assessment and performance study}, volume={13}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-13-6631-2020}, DOI={10.5194/amt-13-6631-2020}, number={12}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Kulkarni, Gourihar and Hiranuma, Naruki and Möhler, Ottmar and Höhler, Kristina and China, Swarup and Cziczo, Daniel J. and DeMott, Paul J.}, year={2020}, month=Dec, pages={6631–6643} }",
+"source": "doi_org"
+},
+"10.5194/acp-20-11387-2020": {
+"text": "@article{Steinke_2020, title={Complex plant-derived organic aerosol as ice-nucleating particles – more than the sums of their parts?}, volume={20}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-20-11387-2020}, DOI={10.5194/acp-20-11387-2020}, number={19}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Steinke, Isabelle and Hiranuma, Naruki and Funk, Roger and Höhler, Kristina and Tüllmann, Nadine and Umo, Nsikanabasi Silas and Weidler, Peter G. and Möhler, Ottmar and Leisner, Thomas}, year={2020}, month=Oct, pages={11387–11397} }",
+"source": "doi_org"
+},
+"10.5194/acp-20-11089-2020": {
+"text": "@article{Ickes_2020, title={The ice-nucleating activity of Arctic sea surface microlayer samples and marine algal cultures}, volume={20}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-20-11089-2020}, DOI={10.5194/acp-20-11089-2020}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Ickes, Luisa and Porter, Grace C. E. and Wagner, Robert and Adams, Michael P. and Bierbauer, Sascha and Bertram, Allan K. and Bilde, Merete and Christiansen, Sigurd and Ekman, Annica M. L. and Gorokhova, Elena and Höhler, Kristina and Kiselev, Alexei A. and Leck, Caroline and Möhler, Ottmar and Murray, Benjamin J. and Schiebel, Thea and Ullrich, Romy and Salter, Matthew E.}, year={2020}, month=Sept, pages={11089–11117} }",
+"source": "doi_org"
+},
+"10.1029/2019jd032248": {
+"text": "@article{Wagner_2020, title={Solid Ammonium Nitrate Aerosols as Efficient Ice Nucleating Particles at Cirrus Temperatures}, volume={125}, ISSN={2169-8996}, url={http://dx.doi.org/10.1029/2019jd032248}, DOI={10.1029/2019jd032248}, number={8}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Wagner, Robert and Bertozzi, Barbara and Höpfner, Michael and Höhler, Kristina and Möhler, Ottmar and Saathoff, Harald and Leisner, Thomas}, year={2020}, month=Apr }",
+"source": "doi_org"
+},
+"10.1063/1.5139244": {
+"text": "@article{Sarkozy_2020, title={The Chicago Water Isotope Spectrometer (ChiWIS-lab): A tunable diode laser spectrometer for chamber-based measurements of water vapor isotopic evolution during cirrus formation}, volume={91}, ISSN={1089-7623}, url={http://dx.doi.org/10.1063/1.5139244}, DOI={10.1063/1.5139244}, number={4}, journal={Review of Scientific Instruments}, publisher={AIP Publishing}, author={Sarkozy, Laszlo C. and Clouser, Benjamin W. and Lamb, Kara D. and Stutz, Eric J. and Saathoff, Harald and Möhler, Ottmar and Ebert, Volker and Moyer, Elisabeth J.}, year={2020}, month=Apr }",
+"source": "doi_org"
+},
+"10.5194/acp-20-1089-2020": {
+"text": "@article{Clouser_2020, title={No anomalous supersaturation in ultracold  cirrus laboratory experiments}, volume={20}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-20-1089-2020}, DOI={10.5194/acp-20-1089-2020}, number={2}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Clouser, Benjamin W. and Lamb, Kara D. and Sarkozy, Laszlo C. and Habig, Jan and Ebert, Volker and Saathoff, Harald and Möhler, Ottmar and Moyer, Elisabeth J.}, year={2020}, month=Jan, pages={1089–1103} }",
+"source": "doi_org"
+},
+"10.1021/acs.jpcc.9b09749": {
+"text": "@article{Liang_2019, title={Enhanced Ice Nucleation and Growth by Porous Composite of RGO and Hydrophilic Silica Nanoparticles}, volume={124}, ISSN={1932-7455}, url={http://dx.doi.org/10.1021/acs.jpcc.9b09749}, DOI={10.1021/acs.jpcc.9b09749}, number={1}, journal={The Journal of Physical Chemistry C}, publisher={American Chemical Society (ACS)}, author={Liang, Haoran and Möhler, Ottmar and Griffiths, Steven and Zou, Linda}, year={2019}, month=Dec, pages={677–685} }",
+"source": "doi_org"
+},
+"10.1038/s41561-019-0385-8": {
+"text": "@article{H_pfner_2019, title={Ammonium nitrate particles formed in upper troposphere from ground ammonia sources during Asian monsoons}, volume={12}, ISSN={1752-0908}, url={http://dx.doi.org/10.1038/s41561-019-0385-8}, DOI={10.1038/s41561-019-0385-8}, number={8}, journal={Nature Geoscience}, publisher={Springer Science and Business Media LLC}, author={Höpfner, Michael and Ungermann, Jörn and Borrmann, Stephan and Wagner, Robert and Spang, Reinhold and Riese, Martin and Stiller, Gabriele and Appel, Oliver and Batenburg, Anneke M. and Bucci, Silvia and Cairo, Francesco and Dragoneas, Antonis and Friedl-Vallon, Felix and Hünig, Andreas and Johansson, Sören and Krasauskas, Lukas and Legras, Bernard and Leisner, Thomas and Mahnke, Christoph and Möhler, Ottmar and Molleker, Sergej and Müller, Rolf and Neubert, Tom and Orphal, Johannes and Preusse, Peter and Rex, Markus and Saathoff, Harald and Stroh, Fred and Weigel, Ralf and Wohltmann, Ingo}, year={2019}, month=July, pages={608–612} }",
+"source": "doi_org"
+},
+"10.5194/acp-19-5091-2019": {
+"text": "@article{Kanji_2019, title={Heterogeneous ice nucleation properties of natural desert dust particles coated with a surrogate of secondary organic aerosol}, volume={19}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-19-5091-2019}, DOI={10.5194/acp-19-5091-2019}, number={7}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Kanji, Zamin A. and Sullivan, Ryan C. and Niemand, Monika and DeMott, Paul J. and Prenni, Anthony J. and Chou, Cédric and Saathoff, Harald and Möhler, Ottmar}, year={2019}, month=Apr, pages={5091–5110} }",
+"source": "doi_org"
+},
+"10.5194/acp-19-4823-2019": {
+"text": "@article{Hiranuma_2019, title={A comprehensive characterization of ice nucleation by three different types of cellulose particles immersed in water}, volume={19}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-19-4823-2019}, DOI={10.5194/acp-19-4823-2019}, number={7}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Hiranuma, Naruki and Adachi, Kouji and Bell, David M. and Belosi, Franco and Beydoun, Hassan and Bhaduri, Bhaskar and Bingemer, Heinz and Budke, Carsten and Clemen, Hans-Christian and Conen, Franz and Cory, Kimberly M. and Curtius, Joachim and DeMott, Paul J. and Eppers, Oliver and Grawe, Sarah and Hartmann, Susan and Hoffmann, Nadine and Höhler, Kristina and Jantsch, Evelyn and Kiselev, Alexei and Koop, Thomas and Kulkarni, Gourihar and Mayer, Amelie and Murakami, Masataka and Murray, Benjamin J. and Nicosia, Alessia and Petters, Markus D. and Piazza, Matteo and Polen, Michael and Reicher, Naama and Rudich, Yinon and Saito, Atsushi and Santachiara, Gianni and Schiebel, Thea and Schill, Gregg P. and Schneider, Johannes and Segev, Lior and Stopelli, Emiliano and Sullivan, Ryan C. and Suski, Kaitlyn and Szakáll, Miklós and Tajiri, Takuya and Taylor, Hans and Tobo, Yutaka and Ullrich, Romy and Weber, Daniel and Wex, Heike and Whale, Thomas F. and Whiteside, Craig L. and Yamashita, Katsuya and Zelenyuk, Alla and Möhler, Ottmar}, year={2019}, month=Apr, pages={4823–4849} }",
+"source": "doi_org"
+},
+"10.5194/acp-19-2259-2019": {
+"text": "@article{Marsden_2019, title={Mineralogy and mixing state of north African mineral dust by online single-particle mass spectrometry}, volume={19}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-19-2259-2019}, DOI={10.5194/acp-19-2259-2019}, number={4}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Marsden, Nicholas A. and Ullrich, Romy and Möhler, Ottmar and Eriksen Hammer, Stine and Kandler, Konrad and Cui, Zhiqiang and Williams, Paul I. and Flynn, Michael J. and Liu, Dantong and Allan, James D. and Coe, Hugh}, year={2019}, month=Feb, pages={2259–2281} }",
+"source": "doi_org"
+},
+"10.1175/jas-d-18-0034.1": {
+"text": "@article{Ullrich_2019, title={Comparison of Modeled and Measured Ice Nucleating Particle Composition in a Cirrus Cloud}, volume={76}, ISSN={1520-0469}, url={http://dx.doi.org/10.1175/jas-d-18-0034.1}, DOI={10.1175/jas-d-18-0034.1}, number={4}, journal={Journal of the Atmospheric Sciences}, publisher={American Meteorological Society}, author={Ullrich, Romy and Hoose, Corinna and Cziczo, Daniel J. and Froyd, Karl D. and Schwarz, Joshua P. and Perring, Anne E. and Bui, Thaopaul V. and Schmitt, Carl G. and Vogel, Bernhard and Rieger, Daniel and Leisner, Thomas and Möhler, Ottmar}, year={2019}, month=Mar, pages={1015–1029} }",
+"source": "doi_org"
+},
+"10.5194/acp-19-8783-2019": {
+"text": "@article{Umo_2019, title={Enhanced ice nucleation activity of coal fly ash aerosol particles initiated by ice-filled pores}, volume={19}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-19-8783-2019}, DOI={10.5194/acp-19-8783-2019}, number={13}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Umo, Nsikanabasi Silas and Wagner, Robert and Ullrich, Romy and Kiselev, Alexei and Saathoff, Harald and Weidler, Peter G. and Cziczo, Daniel J. and Leisner, Thomas and Möhler, Ottmar}, year={2019}, month=July, pages={8783–8800} }",
+"source": "doi_org"
+},
+"10.5194/amt-11-6231-2018": {
+"text": "@article{DeMott_2018, title={The Fifth International Workshop on Ice Nucleation phase 2 (FIN-02): laboratory intercomparison of ice nucleation measurements}, volume={11}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-11-6231-2018}, DOI={10.5194/amt-11-6231-2018}, number={11}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={DeMott, Paul J. and Möhler, Ottmar and Cziczo, Daniel J. and Hiranuma, Naruki and Petters, Markus D. and Petters, Sarah S. and Belosi, Franco and Bingemer, Heinz G. and Brooks, Sarah D. and Budke, Carsten and Burkert-Kohn, Monika and Collier, Kristen N. and Danielczok, Anja and Eppers, Oliver and Felgitsch, Laura and Garimella, Sarvesh and Grothe, Hinrich and Herenz, Paul and Hill, Thomas C. J. and Höhler, Kristina and Kanji, Zamin A. and Kiselev, Alexei and Koop, Thomas and Kristensen, Thomas B. and Krüger, Konstantin and Kulkarni, Gourihar and Levin, Ezra J. T. and Murray, Benjamin J. and Nicosia, Alessia and O’Sullivan, Daniel and Peckhaus, Andreas and Polen, Michael J. and Price, Hannah C. and Reicher, Naama and Rothenberg, Daniel A. and Rudich, Yinon and Santachiara, Gianni and Schiebel, Thea and Schrod, Jann and Seifried, Teresa M. and Stratmann, Frank and Sullivan, Ryan C. and Suski, Kaitlyn J. and Szakáll, Miklós and Taylor, Hans P. and Ullrich, Romy and Vergara-Temprado, Jesus and Wagner, Robert and Whale, Thomas F. and Weber, Daniel and Welti, André and Wilson, Theodore W. and Wolf, Martin J. and Zenker, Jake}, year={2018}, month=Nov, pages={6231–6257} }",
+"source": "doi_org"
+},
+"10.1002/2017jd027864": {
+"text": "@article{Wagner_2018, title={Heterogeneous Ice Nucleation Ability of NaCl and Sea Salt Aerosol Particles at Cirrus Temperatures}, volume={123}, ISSN={2169-8996}, url={http://dx.doi.org/10.1002/2017jd027864}, DOI={10.1002/2017jd027864}, number={5}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Wagner, Robert and Kaufmann, Julia and Möhler, Ottmar and Saathoff, Harald and Schnaiter, Martin and Ullrich, Romy and Leisner, Thomas}, year={2018}, month=Mar, pages={2841–2860} }",
+"source": "doi_org"
+},
+"10.5194/amt-11-5687-2018": {
+"text": "@article{Christopoulos_2018, title={A machine learning approach to aerosol classification for single-particle mass spectrometry}, volume={11}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-11-5687-2018}, DOI={10.5194/amt-11-5687-2018}, number={10}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Christopoulos, Costa D. and Garimella, Sarvesh and Zawadowicz, Maria A. and Möhler, Ottmar and Cziczo, Daniel J.}, year={2018}, month=Oct, pages={5687–5699} }",
+"source": "doi_org"
+},
+"10.5194/acp-18-15437-2018": {
+"text": "@article{Hummel_2018, title={Simulating the influence of primary biological aerosol particles on clouds by heterogeneous ice nucleation}, volume={18}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-18-15437-2018}, DOI={10.5194/acp-18-15437-2018}, number={20}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Hummel, Matthias and Hoose, Corinna and Pummer, Bernhard and Schaupp, Caroline and Fröhlich-Nowoisky, Janine and Möhler, Ottmar}, year={2018}, month=Oct, pages={15437–15450} }",
+"source": "doi_org"
+},
+"10.5194/acp-18-17497-2018": {
+"text": "@article{Suski_2018, title={Activation of intact bacteria and bacterial fragments mixed with agar as cloud droplets and ice crystals in cloud chamber experiments}, volume={18}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-18-17497-2018}, DOI={10.5194/acp-18-17497-2018}, number={23}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Suski, Kaitlyn J. and Bell, David M. and Hiranuma, Naruki and Möhler, Ottmar and Imre, Dan and Zelenyuk, Alla}, year={2018}, month=Dec, pages={17497–17513} }",
+"source": "doi_org"
+},
+"10.5194/amt-10-3231-2017": {
+"text": "@article{Nichman_2017, title={Intercomparison study and optical asphericity measurements of small ice particles in the CERN CLOUD experiment}, volume={10}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-10-3231-2017}, DOI={10.5194/amt-10-3231-2017}, number={9}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Nichman, Leonid and Järvinen, Emma and Dorsey, James and Connolly, Paul and Duplissy, Jonathan and Fuchs, Claudia and Ignatius, Karoliina and Sengupta, Kamalika and Stratmann, Frank and Möhler, Ottmar and Schnaiter, Martin and Gallagher, Martin}, year={2017}, month=Sept, pages={3231–3248} }",
+"source": "doi_org"
+},
+"10.5194/gmd-10-2303-2017": {
+"text": "@article{Ciarelli_2017, title={Constraining a hybrid volatility basis-set model for aging of wood-burning emissions using smog chamber experiments: a box-model study based on the VBS scheme of the CAMx model (v5.40)}, volume={10}, ISSN={1991-9603}, url={http://dx.doi.org/10.5194/gmd-10-2303-2017}, DOI={10.5194/gmd-10-2303-2017}, number={6}, journal={Geoscientific Model Development}, publisher={Copernicus GmbH}, author={Ciarelli, Giancarlo and El Haddad, Imad and Bruns, Emily and Aksoyoglu, Sebnem and Möhler, Ottmar and Baltensperger, Urs and Prévôt, André S. H.}, year={2017}, month=June, pages={2303–2320} }",
+"source": "doi_org"
+},
+"10.1073/pnas.1618374114": {
+"text": "@article{Lamb_2017, title={Laboratory measurements of HDO/H\n                    <sub>2</sub>\n                    O isotopic fractionation during ice deposition in simulated cirrus clouds}, volume={114}, ISSN={1091-6490}, url={http://dx.doi.org/10.1073/pnas.1618374114}, DOI={10.1073/pnas.1618374114}, number={22}, journal={Proceedings of the National Academy of Sciences}, publisher={National Academy of Sciences}, author={Lamb, Kara D. and Clouser, Benjamin W. and Bolot, Maximilien and Sarkozy, Laszlo and Ebert, Volker and Saathoff, Harald and Möhler, Ottmar and Moyer, Elisabeth J.}, year={2017}, month=May, pages={5612–5617} }",
+"source": "doi_org"
+},
+"10.1002/2016jd026401": {
+"text": "@article{Wagner_2017, title={Heterogeneous ice nucleation of <i>α</i>‐pinene SOA particles before and after ice cloud processing}, volume={122}, ISSN={2169-8996}, url={http://dx.doi.org/10.1002/2016jd026401}, DOI={10.1002/2016jd026401}, number={9}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Wagner, Robert and Höhler, Kristina and Huang, Wei and Kiselev, Alexei and Möhler, Ottmar and Mohr, Claudia and Pajunoja, Aki and Saathoff, Harald and Schiebel, Thea and Shen, Xiaoli and Virtanen, Annele}, year={2017}, month=May, pages={4924–4943} }",
+"source": "doi_org"
+},
+"10.1175/jas-d-16-0074.1": {
+"text": "@article{Ullrich_2017, title={A New Ice Nucleation Active Site Parameterization for Desert Dust and Soot}, volume={74}, ISSN={1520-0469}, url={http://dx.doi.org/10.1175/jas-d-16-0074.1}, DOI={10.1175/jas-d-16-0074.1}, number={3}, journal={Journal of the Atmospheric Sciences}, publisher={American Meteorological Society}, author={Ullrich, Romy and Hoose, Corinna and Möhler, Ottmar and Niemand, Monika and Wagner, Robert and Höhler, Kristina and Hiranuma, Naruki and Saathoff, Harald and Leisner, Thomas}, year={2017}, month=Feb, pages={699–717} }",
+"source": "doi_org"
+},
+"10.1002/2016jd025160": {
+"text": "@article{Steinke_2016, title={Ice nucleation activity of agricultural soil dust aerosols from Mongolia, Argentina, and Germany}, volume={121}, ISSN={2169-8996}, url={http://dx.doi.org/10.1002/2016jd025160}, DOI={10.1002/2016jd025160}, number={22}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Steinke, I. and Funk, R. and Busse, J. and Iturri, A. and Kirchen, S. and Leue, M. and Möhler, O. and Schwartz, T. and Schnaiter, M. and Sierau, B. and Toprak, E. and Ullrich, R. and Ulrich, A. and Hoose, C. and Leisner, T.}, year={2016}, month=Nov }",
+"source": "doi_org"
+},
+"10.1175/jas-d-15-0365.1": {
+"text": "@article{J_rvinen_2016, title={Quasi-Spherical Ice in Convective Clouds}, volume={73}, ISSN={1520-0469}, url={http://dx.doi.org/10.1175/jas-d-15-0365.1}, DOI={10.1175/jas-d-15-0365.1}, number={10}, journal={Journal of the Atmospheric Sciences}, publisher={American Meteorological Society}, author={Järvinen, Emma and Schnaiter, Martin and Mioche, Guillaume and Jourdan, Olivier and Shcherbakov, Valery N. and Costa, Anja and Afchine, Armin and Krämer, Martina and Heidelberg, Fabian and Jurkat, Tina and Voigt, Christiane and Schlager, Hans and Nichman, Leonid and Gallagher, Martin and Hirst, Edwin and Schmitt, Carl and Bansemer, Aaron and Heymsfield, Andy and Lawson, Paul and Tricoli, Ugo and Pfeilsticker, Klaus and Vochezer, Paul and Möhler, Ottmar and Leisner, Thomas}, year={2016}, month=Sept, pages={3885–3910} }",
+"source": "doi_org"
+},
+"10.5194/amt-9-3817-2016": {
+"text": "@article{Hiranuma_2016, title={Development and characterization of an ice-selecting pumped counterflow\nvirtual impactor (IS-PCVI) to study ice crystal residuals}, volume={9}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-9-3817-2016}, DOI={10.5194/amt-9-3817-2016}, number={8}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Hiranuma, Naruki and Möhler, Ottmar and Kulkarni, Gourihar and Schnaiter, Martin and Vogt, Steffen and Vochezer, Paul and Järvinen, Emma and Wagner, Robert and Bell, David M. and Wilson, Jacqueline and Zelenyuk, Alla and Cziczo, Daniel J.}, year={2016}, month=Aug, pages={3817–3836} }",
+"source": "doi_org"
+},
+"10.1016/j.jqsrt.2016.02.003": {
+"text": "@article{J_rvinen_2016, title={Laboratory investigations of mineral dust near-backscattering depolarization ratios}, volume={178}, ISSN={0022-4073}, url={http://dx.doi.org/10.1016/j.jqsrt.2016.02.003}, DOI={10.1016/j.jqsrt.2016.02.003}, journal={Journal of Quantitative Spectroscopy and Radiative Transfer}, publisher={Elsevier BV}, author={Järvinen, E. and Kemppinen, O. and Nousiainen, T. and Kociok, T. and Möhler, O. and Leisner, T. and Schnaiter, M.}, year={2016}, month=July, pages={192–208} }",
+"source": "doi_org"
+},
+"10.5194/acp-16-6495-2016": {
+"text": "@article{Ignatius_2016, title={Heterogeneous ice nucleation of viscous secondary organic aerosol produced from ozonolysis of\n                    <i>α</i>\n                    -pinene}, volume={16}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-16-6495-2016}, DOI={10.5194/acp-16-6495-2016}, number={10}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Ignatius, Karoliina and Kristensen, Thomas  B. and Järvinen, Emma and Nichman, Leonid and Fuchs, Claudia and Gordon, Hamish and Herenz, Paul and Hoyle, Christopher  R. and Duplissy, Jonathan and Garimella, Sarvesh and Dias, Antonio and Frege, Carla and Höppel, Niko and Tröstl, Jasmin and Wagner, Robert and Yan, Chao and Amorim, Antonio and Baltensperger, Urs and Curtius, Joachim and Donahue, Neil M. and Gallagher, Martin W. and Kirkby, Jasper and Kulmala, Markku and Möhler, Ottmar and Saathoff, Harald and Schnaiter, Martin and Tomé, Antonio and Virtanen, Annele and Worsnop, Douglas and Stratmann, Frank}, year={2016}, month=May, pages={6495–6509} }",
+"source": "doi_org"
+},
+"10.1038/nature18271": {
+"text": "@article{Tr_stl_2016, title={The role of low-volatility organic compounds in initial particle growth in the atmosphere}, volume={533}, ISSN={1476-4687}, url={http://dx.doi.org/10.1038/nature18271}, DOI={10.1038/nature18271}, number={7604}, journal={Nature}, publisher={Springer Science and Business Media LLC}, author={Tröstl, Jasmin and Chuang, Wayne K. and Gordon, Hamish and Heinritzi, Martin and Yan, Chao and Molteni, Ugo and Ahlm, Lars and Frege, Carla and Bianchi, Federico and Wagner, Robert and Simon, Mario and Lehtipalo, Katrianne and Williamson, Christina and Craven, Jill S. and Duplissy, Jonathan and Adamov, Alexey and Almeida, Joao and Bernhammer, Anne-Kathrin and Breitenlechner, Martin and Brilke, Sophia and Dias, Antònio and Ehrhart, Sebastian and Flagan, Richard C. and Franchin, Alessandro and Fuchs, Claudia and Guida, Roberto and Gysel, Martin and Hansel, Armin and Hoyle, Christopher R. and Jokinen, Tuija and Junninen, Heikki and Kangasluoma, Juha and Keskinen, Helmi and Kim, Jaeseok and Krapf, Manuel and Kürten, Andreas and Laaksonen, Ari and Lawler, Michael and Leiminger, Markus and Mathot, Serge and Möhler, Ottmar and Nieminen, Tuomo and Onnela, Antti and Petäjä, Tuukka and Piel, Felix M. and Miettinen, Pasi and Rissanen, Matti P. and Rondo, Linda and Sarnela, Nina and Schobesberger, Siegfried and Sengupta, Kamalika and Sipilä, Mikko and Smith, James N. and Steiner, Gerhard and Tomè, Antònio and Virtanen, Annele and Wagner, Andrea C. and Weingartner, Ernest and Wimmer, Daniela and Winkler, Paul M. and Ye, Penglin and Carslaw, Kenneth S. and Curtius, Joachim and Dommen, Josef and Kirkby, Jasper and Kulmala, Markku and Riipinen, Ilona and Worsnop, Douglas R. and Donahue, Neil M. and Baltensperger, Urs}, year={2016}, month=May, pages={527–531} }",
+"source": "doi_org"
+},
+"10.5194/acp-16-4423-2016": {
+"text": "@article{J_rvinen_2016, title={Observation of viscosity transition in\n                    <i>α</i>\n                    -pinene secondary organic aerosol}, volume={16}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-16-4423-2016}, DOI={10.5194/acp-16-4423-2016}, number={7}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Järvinen, Emma and Ignatius, Karoliina and Nichman, Leonid and Kristensen, Thomas B. and Fuchs, Claudia and Hoyle, Christopher R. and Höppel, Niko and Corbin, Joel C. and Craven, Jill and Duplissy, Jonathan and Ehrhart, Sebastian and El Haddad, Imad and Frege, Carla and Gordon, Hamish and Jokinen, Tuija and Kallinger, Peter and Kirkby, Jasper and Kiselev, Alexei and Naumann, Karl-Heinz and Petäjä, Tuukka and Pinterich, Tamara and Prevot, Andre S. H. and Saathoff, Harald and Schiebel, Thea and Sengupta, Kamalika and Simon, Mario and Slowik, Jay G. and Tröstl, Jasmin and Virtanen, Annele and Vochezer, Paul and Vogt, Steffen and Wagner, Andrea C. and Wagner, Robert and Williamson, Christina and Winkler, Paul M. and Yan, Chao and Baltensperger, Urs and Donahue, Neil M. and Flagan, Rick C. and Gallagher, Martin and Hansel, Armin and Kulmala, Markku and Stratmann, Frank and Worsnop, Douglas R. and Möhler, Ottmar and Leisner, Thomas and Schnaiter, Martin}, year={2016}, month=Apr, pages={4423–4438} }",
+"source": "doi_org"
+},
+"10.5194/acp-16-3651-2016": {
+"text": "@article{Nichman_2016, title={Phase transition observations and discrimination of small cloud particles by light polarization in expansion chamber experiments}, volume={16}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-16-3651-2016}, DOI={10.5194/acp-16-3651-2016}, number={5}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Nichman, Leonid and Fuchs, Claudia and Järvinen, Emma and Ignatius, Karoliina and Höppel, Niko Florian and Dias, Antonio and Heinritzi, Martin and Simon, Mario and Tröstl, Jasmin and Wagner, Andrea Christine and Wagner, Robert and Williamson, Christina and Yan, Chao and Connolly, Paul James and Dorsey, James Robert and Duplissy, Jonathan and Ehrhart, Sebastian and Frege, Carla and Gordon, Hamish and Hoyle, Christopher Robert and Kristensen, Thomas Bjerring and Steiner, Gerhard and McPherson Donahue, Neil and Flagan, Richard and Gallagher, Martin William and Kirkby, Jasper and Möhler, Ottmar and Saathoff, Harald and Schnaiter, Martin and Stratmann, Frank and Tomé, António}, year={2016}, month=Mar, pages={3651–3664} }",
+"source": "doi_org"
+},
+"10.5194/acp-16-2025-2016": {
+"text": "@article{Wagner_2016, title={Pre-activation of ice-nucleating particles by the pore condensation and  freezing mechanism}, volume={16}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-16-2025-2016}, DOI={10.5194/acp-16-2025-2016}, number={4}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wagner, Robert and Kiselev, Alexei and Möhler, Ottmar and Saathoff, Harald and Steinke, Isabelle}, year={2016}, month=Feb, pages={2025–2042} }",
+"source": "doi_org"
+},
+"10.5194/acp-15-10263-2015": {
+"text": "@article{Vali_2015, title={Technical Note: A proposal for ice nucleation terminology}, volume={15}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-15-10263-2015}, DOI={10.5194/acp-15-10263-2015}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Vali, G. and DeMott, P. J. and Möhler, O. and Whale, T. F.}, year={2015}, month=Sept, pages={10263–10270} }",
+"source": "doi_org"
+},
+"10.5194/acp-15-8521-2015": {
+"text": "@article{Meyer_2015, title={Two decades of water vapor measurements with the FISH fluorescence hygrometer: a review}, volume={15}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-15-8521-2015}, DOI={10.5194/acp-15-8521-2015}, number={14}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Meyer, J. and Rolf, C. and Schiller, C. and Rohs, S. and Spelten, N. and Afchine, A. and Zöger, M. and Sitnikov, N. and Thornberry, T. D. and Rollins, A. W. and Bozóki, Z. and Tátrai, D. and Ebert, V. and Kühnreich, B. and Mackrodt, P. and Möhler, O. and Saathoff, H. and Rosenlof, K. H. and Krämer, M.}, year={2015}, month=July, pages={8521–8538} }",
+"source": "doi_org"
+},
+"10.5194/acp-15-6455-2015": {
+"text": "@article{Amato_2015, title={Survival and ice nucleation activity of bacteria as aerosols in a cloud simulation chamber}, volume={15}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-15-6455-2015}, DOI={10.5194/acp-15-6455-2015}, number={11}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Amato, P. and Joly, M. and Schaupp, C. and Attard, E. and Möhler, O. and Morris, C. E. and Brunet, Y. and Delort, A.-M.}, year={2015}, month=June, pages={6455–6465} }",
+"source": "doi_org"
+},
+"10.5194/acp-15-3703-2015": {
+"text": "@article{Steinke_2015, title={A new temperature- and humidity-dependent surface site density approach for deposition ice nucleation}, volume={15}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-15-3703-2015}, DOI={10.5194/acp-15-3703-2015}, number={7}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Steinke, I. and Hoose, C. and Möhler, O. and Connolly, P. and Leisner, T.}, year={2015}, month=Apr, pages={3703–3717} }",
+"source": "doi_org"
+},
+"10.1002/2015gl063075": {
+"text": "@article{Wagner_2015, title={Crystallization and immersion freezing ability of oxalic and succinic acid in multicomponent aqueous organic aerosol particles}, volume={42}, ISSN={1944-8007}, url={http://dx.doi.org/10.1002/2015gl063075}, DOI={10.1002/2015gl063075}, number={7}, journal={Geophysical Research Letters}, publisher={American Geophysical Union (AGU)}, author={Wagner, Robert and Höhler, Kristina and Möhler, Ottmar and Saathoff, Harald and Schnaiter, Martin}, year={2015}, month=Apr, pages={2464–2472} }",
+"source": "doi_org"
+},
+"10.1002/jms.3573": {
+"text": "@article{Wolf_2015, title={Characterization of ice‐nucleating bacteria using on‐line electron impact ionization aerosol mass spectrometry}, volume={50}, ISSN={1096-9888}, url={http://dx.doi.org/10.1002/jms.3573}, DOI={10.1002/jms.3573}, number={4}, journal={Journal of Mass Spectrometry}, publisher={Wiley}, author={Wolf, R. and Slowik, J. G. and Schaupp, C. and Amato, P. and Saathoff, H. and Möhler, O. and Prévôt, A. S. H. and Baltensperger, U.}, year={2015}, month=Mar, pages={662–671} }",
+"source": "doi_org"
+},
+"10.1038/ngeo2374": {
+"text": "@article{Hiranuma_2015, title={Ice nucleation by cellulose and its potential contribution to ice formation in clouds}, volume={8}, ISSN={1752-0908}, url={http://dx.doi.org/10.1038/ngeo2374}, DOI={10.1038/ngeo2374}, number={4}, journal={Nature Geoscience}, publisher={Springer Science and Business Media LLC}, author={Hiranuma, N. and Möhler, O. and Yamashita, K. and Tajiri, T. and Saito, A. and Kiselev, A. and Hoffmann, N. and Hoose, C. and Jantsch, E. and Koop, T. and Murakami, M.}, year={2015}, month=Mar, pages={273–277} }",
+"source": "doi_org"
+},
+"10.5194/acp-15-1463-2015": {
+"text": "@article{Wex_2015, title={Intercomparing different devices for the investigation of ice nucleating  particles using Snomax\n                    <sup>®</sup>\n                    as  test substance}, volume={15}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-15-1463-2015}, DOI={10.5194/acp-15-1463-2015}, number={3}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wex, H. and Augustin-Bauditz, S. and Boose, Y. and Budke, C. and Curtius, J. and Diehl, K. and Dreyer, A. and Frank, F. and Hartmann, S. and Hiranuma, N. and Jantsch, E. and Kanji, Z. A. and Kiselev, A. and Koop, T. and Möhler, O. and Niedermeier, D. and Nillius, B. and Rösch, M. and Rose, D. and Schmidt, C. and Steinke, I. and Stratmann, F.}, year={2015}, month=Feb, pages={1463–1485} }",
+"source": "doi_org"
+},
+"10.5194/acp-15-393-2015": {
+"text": "@article{DeMott_2015, title={Integrating laboratory and field data to quantify the immersion freezing ice nucleation activity of mineral dust particles}, volume={15}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-15-393-2015}, DOI={10.5194/acp-15-393-2015}, number={1}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={DeMott, P. J. and Prenni, A. J. and McMeeking, G. R. and Sullivan, R. C. and Petters, M. D. and Tobo, Y. and Niemand, M. and Möhler, O. and Snider, J. R. and Wang, Z. and Kreidenweis, S. M.}, year={2015}, month=Jan, pages={393–409} }",
+"source": "doi_org"
+},
+"10.1007/s00340-015-6074-4": {
+"text": "@article{K_hnreich_2015, title={Time-multiplexed open-path TDLAS spectrometer for dynamic, sampling-free, interstitial H2 18O and H2 16O vapor detection in ice clouds}, volume={119}, ISSN={1432-0649}, url={http://dx.doi.org/10.1007/s00340-015-6074-4}, DOI={10.1007/s00340-015-6074-4}, number={1}, journal={Applied Physics B}, publisher={Springer Science and Business Media LLC}, author={Kühnreich, B. and Wagner, S. and Habig, J. C. and Möhler, O. and Saathoff, H. and Ebert, V.}, year={2015}, month=Mar, pages={177–187} }",
+"source": "doi_org"
+},
+"10.5194/acp-15-2489-2015": {
+"text": "@article{Hiranuma_2015, title={A comprehensive laboratory study on the immersion freezing behavior of illite NX particles: a comparison of 17 ice nucleation measurement techniques}, volume={15}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-15-2489-2015}, DOI={10.5194/acp-15-2489-2015}, number={5}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Hiranuma, N. and Augustin-Bauditz, S. and Bingemer, H. and Budke, C. and Curtius, J. and Danielczok, A. and Diehl, K. and Dreischmeier, K. and Ebert, M. and Frank, F. and Hoffmann, N. and Kandler, K. and Kiselev, A. and Koop, T. and Leisner, T. and Möhler, O. and Nillius, B. and Peckhaus, A. and Rose, D. and Weinbruch, S. and Wex, H. and Boose, Y. and DeMott, P. J. and Hader, J. D. and Hill, T. C. J. and Kanji, Z. A. and Kulkarni, G. and Levin, E. J. T. and McCluskey, C. S. and Murakami, M. and Murray, B. J. and Niedermeier, D. and Petters, M. D. and O’Sullivan, D. and Saito, A. and Schill, G. P. and Tajiri, T. and Tolbert, M. A. and Welti, A. and Whale, T. F. and Wright, T. P. and Yamashita, K.}, year={2015}, month=Mar, pages={2489–2518} }",
+"source": "doi_org"
+},
+"10.5194/acp-14-13145-2014": {
+"text": "@article{Hiranuma_2014, title={A comprehensive parameterization of heterogeneous ice nucleation of dust surrogate: laboratory study with hematite particles and its application to atmospheric models}, volume={14}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-14-13145-2014}, DOI={10.5194/acp-14-13145-2014}, number={23}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Hiranuma, N. and Paukert, M. and Steinke, I. and Zhang, K. and Kulkarni, G. and Hoose, C. and Schnaiter, M. and Saathoff, H. and Möhler, O.}, year={2014}, month=Dec, pages={13145–13158} }",
+"source": "doi_org"
+},
+"10.1364/ao.53.007566": {
+"text": "@article{J_rvinen_2014, title={Laboratory study of microphysical and scattering properties of corona-producing cirrus clouds}, volume={53}, ISSN={1539-4522}, url={http://dx.doi.org/10.1364/ao.53.007566}, DOI={10.1364/ao.53.007566}, number={31}, journal={Applied Optics}, publisher={Optica Publishing Group}, author={Järvinen, E. and Vochezer, P. and Möhler, O. and Schnaiter, M.}, year={2014}, month=Oct, pages={7566} }",
+"source": "doi_org"
+},
+"10.5194/amt-7-3177-2014": {
+"text": "@article{Fahey_2014, title={The AquaVIT-1 intercomparison of atmospheric water vapor measurement techniques}, volume={7}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-7-3177-2014}, DOI={10.5194/amt-7-3177-2014}, number={9}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Fahey, D. W. and Gao, R.-S. and Möhler, O. and Saathoff, H. and Schiller, C. and Ebert, V. and Krämer, M. and Peter, T. and Amarouche, N. and Avallone, L. M. and Bauer, R. and Bozóki, Z. and Christensen, L. E. and Davis, S. M. and Durry, G. and Dyroff, C. and Herman, R. L. and Hunsmann, S. and Khaykin, S. M. and Mackrodt, P. and Meyer, J. and Smith, J. B. and Spelten, N. and Troy, R. F. and Vömel, H. and Wagner, S. and Wienhold, F. G.}, year={2014}, month=Sept, pages={3177–3213} }",
+"source": "doi_org"
+},
+"10.1002/2014jd021741": {
+"text": "@article{Wagner_2014, title={Enhanced high-temperature ice nucleation ability of crystallized aerosol particles after preactivation at low temperature: Pre-activation at low temperature}, volume={119}, ISSN={2169-897X}, url={http://dx.doi.org/10.1002/2014jd021741}, DOI={10.1002/2014jd021741}, number={13}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Wagner, Robert and Möhler, Ottmar and Saathoff, Harald and Schnaiter, Martin}, year={2014}, month=July, pages={8212–8230} }",
+"source": "doi_org"
+},
+"10.5194/acp-14-2315-2014": {
+"text": "@article{Hiranuma_2014, title={Influence of surface morphology on the immersion mode ice nucleation efficiency of hematite particles}, volume={14}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-14-2315-2014}, DOI={10.5194/acp-14-2315-2014}, number={5}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Hiranuma, N. and Hoffmann, N. and Kiselev, A. and Dreyer, A. and Zhang, K. and Kulkarni, G. and Koop, T. and Möhler, O.}, year={2014}, month=Mar, pages={2315–2324} }",
+"source": "doi_org"
+},
+"10.1002/jgre.20155": {
+"text": "@article{Cziczo_2013, title={Ice nucleation by surrogates of Martian mineral dust: What can we learn about Mars without leaving Earth?}, volume={118}, ISSN={2169-9100}, url={http://dx.doi.org/10.1002/jgre.20155}, DOI={10.1002/jgre.20155}, number={9}, journal={Journal of Geophysical Research: Planets}, publisher={American Geophysical Union (AGU)}, author={Cziczo, Daniel J. and Garimella, Sarvesh and Raddatz, Michael and Hoehler, Kristina and Schnaiter, Martin and Saathoff, Harald and Moehler, Ottmar and Abbatt, Jonathan P. D. and Ladino, Luis A.}, year={2013}, month=Sept, pages={1945–1954} }",
+"source": "doi_org"
+},
+"10.5194/acp-13-9141-2013": {
+"text": "@article{Platt_2013, title={Secondary organic aerosol formation from gasoline vehicle emissions in a new mobile environmental reaction chamber}, volume={13}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-13-9141-2013}, DOI={10.5194/acp-13-9141-2013}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Platt, S. M. and El Haddad, I. and Zardini, A. A. and Clairotte, M. and Astorga, C. and Wolf, R. and Slowik, J. G. and Temime-Roussel, B. and Marchand, N. and Ježek, I. and Drinovec, L. and Močnik, G. and Möhler, O. and Richter, R. and Barmet, P. and Bianchi, F. and Baltensperger, U. and Prévôt, A. S. H.}, year={2013}, month=Sept, pages={9141–9158} }",
+"source": "doi_org"
+},
+"10.1073/pnas.1222190110": {
+"text": "@article{Leisner_2013, title={Laser-induced plasma cloud interaction and ice multiplication under cirrus cloud conditions}, volume={110}, ISSN={1091-6490}, url={http://dx.doi.org/10.1073/pnas.1222190110}, DOI={10.1073/pnas.1222190110}, number={25}, journal={Proceedings of the National Academy of Sciences}, publisher={National Academy of Sciences}, author={Leisner, Thomas and Duft, Denis and Möhler, Ottmar and Saathoff, Harald and Schnaiter, Martin and Henin, Stefano and Stelmaszczyk, Kamil and Petrarca, Massimo and Delagrange, Raphaëlle and Hao, Zuoqiang and Lüder, Johannes and Petit, Yannick and Rohwetter, Philipp and Kasparian, Jérôme and Wolf, Jean-Pierre and Wöste, Ludger}, year={2013}, month=June, pages={10106–10110} }",
+"source": "doi_org"
+},
+"10.1002/jgrd.50325": {
+"text": "@article{Wagner_2013, title={Heterogeneous ice nucleation ability of crystalline sodium chloride dihydrate particles}, volume={118}, ISSN={2169-8996}, url={http://dx.doi.org/10.1002/jgrd.50325}, DOI={10.1002/jgrd.50325}, number={10}, journal={Journal of Geophysical Research: Atmospheres}, publisher={American Geophysical Union (AGU)}, author={Wagner, Robert and Möhler, Ottmar}, year={2013}, month=May, pages={4610–4622} }",
+"source": "doi_org"
+},
+"10.5194/acp-13-4593-2013": {
+"text": "@article{Saathoff_2013, title={Laser filament-induced aerosol formation}, volume={13}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-13-4593-2013}, DOI={10.5194/acp-13-4593-2013}, number={9}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Saathoff, H. and Henin, S. and Stelmaszczyk, K. and Petrarca, M. and Delagrange, R. and Hao, Z. and Lüder, J. and Möhler, O. and Petit, Y. and Rohwetter, P. and Schnaiter, M. and Kasparian, J. and Leisner, T. and Wolf, J.-P. and Wöste, L.}, year={2013}, month=May, pages={4593–4604} }",
+"source": "doi_org"
+},
+"10.5194/acp-13-4451-2013": {
+"text": "@article{Skrotzki_2013, title={The accommodation coefficient of water molecules on ice – cirrus cloud studies at the AIDA simulation chamber}, volume={13}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-13-4451-2013}, DOI={10.5194/acp-13-4451-2013}, number={8}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Skrotzki, J. and Connolly, P. and Schnaiter, M. and Saathoff, H. and Möhler, O. and Wagner, R. and Niemand, M. and Ebert, V. and Leisner, T.}, year={2013}, month=Apr, pages={4451–4466} }",
+"source": "doi_org"
+},
+"10.5194/acp-12-10465-2012": {
+"text": "@article{Schnaiter_2012, title={Influence of particle size and shape on the backscattering  linear depolarisation ratio of small ice crystals – cloud chamber  measurements in the context of contrail and cirrus microphysics}, volume={12}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-12-10465-2012}, DOI={10.5194/acp-12-10465-2012}, number={21}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Schnaiter, M. and Büttner, S. and Möhler, O. and Skrotzki, J. and Vragel, M. and Wagner, R.}, year={2012}, month=Nov, pages={10465–10484} }",
+"source": "doi_org"
+},
+"10.5194/acp-12-9817-2012": {
+"text": "@article{Hoose_2012, title={Heterogeneous ice nucleation on atmospheric aerosols: a review of results from laboratory experiments}, volume={12}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-12-9817-2012}, DOI={10.5194/acp-12-9817-2012}, number={20}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Hoose, C. and Möhler, O.}, year={2012}, month=Oct, pages={9817–9854} }",
+"source": "doi_org"
+},
+"10.1175/jas-d-11-0249.1": {
+"text": "@article{Niemand_2012, title={A Particle-Surface-Area-Based Parameterization of Immersion Freezing on Desert Dust Particles}, volume={69}, ISSN={1520-0469}, url={http://dx.doi.org/10.1175/jas-d-11-0249.1}, DOI={10.1175/jas-d-11-0249.1}, number={10}, journal={Journal of the Atmospheric Sciences}, publisher={American Meteorological Society}, author={Niemand, Monika and Möhler, Ottmar and Vogel, Bernhard and Vogel, Heike and Hoose, Corinna and Connolly, Paul and Klein, Holger and Bingemer, Heinz and DeMott, Paul and Skrotzki, Julian and Leisner, Thomas}, year={2012}, month=Apr, pages={3077–3092} }",
+"source": "doi_org"
+},
+"10.5194/acp-12-8611-2012": {
+"text": "@article{Wilson_2012, title={Glassy aerosols with a range of compositions nucleate ice heterogeneously at cirrus temperatures}, volume={12}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-12-8611-2012}, DOI={10.5194/acp-12-8611-2012}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wilson, T. W. and Murray, B. J. and Wagner, R. and Möhler, O. and Saathoff, H. and Schnaiter, M. and Skrotzki, J. and Price, H. C. and Malkin, T. L. and Dobbie, S. and Al-Jumur, S. M. R. K.}, year={2012}, month=Sept, pages={8611–8632} }",
+"source": "doi_org"
+},
+"10.5194/acp-12-8589-2012": {
+"text": "@article{Wagner_2012, title={Ice cloud processing of ultra-viscous/glassy aerosol particles leads to enhanced ice nucleation ability}, volume={12}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-12-8589-2012}, DOI={10.5194/acp-12-8589-2012}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wagner, R. and Möhler, O. and Saathoff, H. and Schnaiter, M. and Skrotzki, J. and Leisner, T. and Wilson, T. W. and Malkin, T. L. and Murray, B. J.}, year={2012}, month=Sept, pages={8589–8610} }",
+"source": "doi_org"
+},
+"10.1073/pnas.1115186109": {
+"text": "@article{Donahue_2012, title={Aging of biogenic secondary organic aerosol via gas-phase OH radical reactions}, volume={109}, ISSN={1091-6490}, url={http://dx.doi.org/10.1073/pnas.1115186109}, DOI={10.1073/pnas.1115186109}, number={34}, journal={Proceedings of the National Academy of Sciences}, publisher={National Academy of Sciences}, author={Donahue, Neil M. and Henry, Kaytlin M. and Mentel, Thomas F. and Kiendler-Scharr, Astrid and Spindler, Christian and Bohn, Birger and Brauers, Theo and Dorn, Hans P. and Fuchs, Hendrik and Tillmann, Ralf and Wahner, Andreas and Saathoff, Harald and Naumann, Karl-Heinz and Möhler, Ottmar and Leisner, Thomas and Müller, Lars and Reinnig, Marc-Christopher and Hoffmann, Thorsten and Salo, Kent and Hallquist, Mattias and Frosch, Mia and Bilde, Merete and Tritscher, Torsten and Barmet, Peter and Praplan, Arnaud P. and DeCarlo, Peter F. and Dommen, Josef and Prévôt, Andre S.H. and Baltensperger, Urs}, year={2012}, month=Aug, pages={13503–13508} }",
+"source": "doi_org"
+},
+"10.1175/bams-d-11-00123.1": {
+"text": "@article{Baumgardner_2012, title={In Situ, Airborne Instrumentation: Addressing and Solving Measurement Problems in Ice Clouds}, volume={93}, ISSN={1520-0477}, url={http://dx.doi.org/10.1175/bams-d-11-00123.1}, DOI={10.1175/bams-d-11-00123.1}, number={2}, journal={Bulletin of the American Meteorological Society}, publisher={American Meteorological Society}, author={Baumgardner, D. and Avallone, L. and Bansemer, A. and Borrmann, S. and Brown, P. and Bundke, U. and Chuang, P. Y. and Cziczo, D. and Field, P. and Gallagher, M. and Gayet, J.-F. and Heymsfield, A. and Korolev, A. and Krämer, M. and McFarquhar, G. and Mertes, S. and Möhler, O. and Lance, S. and Lawson, P. and Petters, M. D. and Pratt, K. and Roberts, G. and Rogers, D. and Stetzer, O. and Stith, J. and Strapp, W. and Twohy, C. and Wendisch, M.}, year={2012}, month=Feb, pages={ES29–ES34} }",
+"source": "doi_org"
+},
+"10.1021/jp306240s": {
+"text": "@article{Wagner_2012, title={Infrared Optical Constants of Crystalline Sodium Chloride Dihydrate: Application To Study the Crystallization of Aqueous Sodium Chloride Solution Droplets at Low Temperatures}, volume={116}, ISSN={1520-5215}, url={http://dx.doi.org/10.1021/jp306240s}, DOI={10.1021/jp306240s}, number={33}, journal={The Journal of Physical Chemistry A}, publisher={American Chemical Society (ACS)}, author={Wagner, Robert and Möhler, Ottmar and Schnaiter, Martin}, year={2012}, month=Aug, pages={8557–8571} }",
+"source": "doi_org"
+},
+"10.5194/acp-12-4525-2012": {
+"text": "@article{Henning_2012, title={Hygroscopic growth and droplet activation of soot particles: uncoated, succinic or sulfuric acid coated}, volume={12}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-12-4525-2012}, DOI={10.5194/acp-12-4525-2012}, number={10}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Henning, S. and Ziese, M. and Kiselev, A. and Saathoff, H. and Möhler, O. and Mentel, T. F. and Buchholz, A. and Spindler, C. and Michaud, V. and Monier, M. and Sellegri, K. and Stratmann, F.}, year={2012}, month=May, pages={4525–4537} }",
+"source": "doi_org"
+},
+"10.5194/amt-5-3077-2012": {
+"text": "@article{Laborde_2012, title={Single Particle Soot Photometer intercomparison at the AIDA chamber}, volume={5}, ISSN={1867-8548}, url={http://dx.doi.org/10.5194/amt-5-3077-2012}, DOI={10.5194/amt-5-3077-2012}, number={12}, journal={Atmospheric Measurement Techniques}, publisher={Copernicus GmbH}, author={Laborde, M. and Schnaiter, M. and Linke, C. and Saathoff, H. and Naumann, K.-H. and Möhler, O. and Berlenz, S. and Wagner, U. and Taylor, J. W. and Liu, D. and Flynn, M. and Allan, J. D. and Coe, H. and Heimerl, K. and Dahlkötter, F. and Weinzierl, B. and Wollny, A. G. and Zanatta, M. and Cozic, J. and Laj, P. and Hitzenberger, R. and Schwarz, J. P. and Gysel, M.}, year={2012}, month=Dec, pages={3077–3097} }",
+"source": "doi_org"
+},
+"10.5194/acp-11-12945-2011": {
+"text": "@article{Steinke_2011, title={Ice nucleation properties of fine ash particles from the Eyjafjallajökull eruption in April 2010}, volume={11}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-11-12945-2011}, DOI={10.5194/acp-11-12945-2011}, number={24}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Steinke, I. and Möhler, O. and Kiselev, A. and Niemand, M. and Saathoff, H. and Schnaiter, M. and Skrotzki, J. and Hoose, C. and Leisner, T.}, year={2011}, month=Dec, pages={12945–12958} }",
+"source": "doi_org"
+},
+"10.5194/acp-11-9549-2011": {
+"text": "@article{Crawford_2011, title={Studies of propane flame soot acting as heterogeneous ice nuclei in conjunction with single particle soot photometer measurements}, volume={11}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-11-9549-2011}, DOI={10.5194/acp-11-9549-2011}, number={18}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Crawford, I. and Möhler, O. and Schnaiter, M. and Saathoff, H. and Liu, D. and McMeeking, G. and Linke, C. and Flynn, M. and Bower, K. N. and Connolly, P. J. and Gallagher, M. W. and Coe, H.}, year={2011}, month=Sept, pages={9549–9561} }",
+"source": "doi_org"
+},
+"10.1175/2011jtecha1445.1": {
+"text": "@article{Sch_n_2011, title={Particle Habit Imaging Using Incoherent Light: A First Step toward a Novel Instrument for Cloud Microphysics}, volume={28}, ISSN={1520-0426}, url={http://dx.doi.org/10.1175/2011jtecha1445.1}, DOI={10.1175/2011jtecha1445.1}, number={4}, journal={Journal of Atmospheric and Oceanic Technology}, publisher={American Meteorological Society}, author={Schön, Roland and Schnaiter, Martin and Ulanowski, Zbigniew and Schmitt, Carl and Benz, Stefan and Möhler, Ottmar and Vogt, Steffen and Wagner, Robert and Schurath, Ulrich}, year={2011}, month=Apr, pages={493–512} }",
+"source": "doi_org"
+},
+"10.5194/acp-11-2083-2011": {
+"text": "@article{Wagner_2011, title={New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the immersion mode}, volume={11}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-11-2083-2011}, DOI={10.5194/acp-11-2083-2011}, number={5}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wagner, R. and Möhler, O. and Saathoff, H. and Schnaiter, M. and Leisner, T.}, year={2011}, month=Mar, pages={2083–2110} }",
+"source": "doi_org"
+},
+"10.5194/acp-11-53-2011": {
+"text": "@article{Jones_2011, title={Manchester Ice Nucleus Counter (MINC) measurements from the 2007 International workshop on Comparing Ice nucleation Measuring Systems (ICIS-2007)}, volume={11}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-11-53-2011}, DOI={10.5194/acp-11-53-2011}, number={1}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Jones, H. M. and Flynn, M. J. and DeMott, P. J. and Möhler, O.}, year={2011}, month=Jan, pages={53–65} }",
+"source": "doi_org"
+},
+"10.5194/acp-11-31-2011": {
+"text": "@article{Kanji_2011, title={Results from the University of Toronto continuous flow diffusion chamber at ICIS 2007: instrument intercomparison and ice onsets for different aerosol types}, volume={11}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-11-31-2011}, DOI={10.5194/acp-11-31-2011}, number={1}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Kanji, Z. A. and DeMott, P. J. and Möhler, O. and Abbatt, J. P. D.}, year={2011}, month=Jan, pages={31–41} }",
+"source": "doi_org"
+},
+"10.1175/2011bams3119.1": {
+"text": "@article{DeMott_2011, title={Resurgence in Ice Nuclei Measurement Research}, volume={92}, ISSN={1520-0477}, url={http://dx.doi.org/10.1175/2011bams3119.1}, DOI={10.1175/2011bams3119.1}, number={12}, journal={Bulletin of the American Meteorological Society}, publisher={American Meteorological Society}, author={DeMott, Paul J. and Möhler, Ottmar and Stetzer, Olaf and Vali, Gabor and Levin, Zev and Petters, Markus D. and Murakami, Masataka and Leisner, Thomas and Bundke, Ulrich and Klein, Holger and Kanji, Zamin A. and Cotton, Richard and Jones, Hazel and Benz, Stefan and Brinkmann, Maren and Rzesanke, Daniel and Saathoff, Harald and Nicolet, Mathieu and Saito, Atsushi and Nillius, Bjorn and Bingemer, Heinz and Abbatt, Jonathan and Ardon, Karin and Ganor, Eli and Georgakopoulos, Dimitrios G. and Saunders, Clive}, year={2011}, month=Dec, pages={1623–1635} }",
+"source": "doi_org"
+},
+"10.5194/acp-10-11955-2010": {
+"text": "@article{Koehler_2010, title={Laboratory investigations of the impact of mineral dust aerosol on cold cloud formation}, volume={10}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-10-11955-2010}, DOI={10.5194/acp-10-11955-2010}, number={23}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Koehler, K. A. and Kreidenweis, S. M. and DeMott, P. J. and Petters, M. D. and Prenni, A. J. and Möhler, O.}, year={2010}, month=Dec, pages={11955–11968} }",
+"source": "doi_org"
+},
+"10.5194/acp-10-7617-2010": {
+"text": "@article{Wagner_2010, title={High variability of the heterogeneous ice nucleation potential of oxalic acid dihydrate and sodium oxalate}, volume={10}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-10-7617-2010}, DOI={10.5194/acp-10-7617-2010}, number={16}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wagner, R. and Möhler, O. and Saathoff, H. and Schnaiter, M. and Leisner, T.}, year={2010}, month=Aug, pages={7617–7641} }",
+"source": "doi_org"
+},
+"10.1038/ngeo1817": {
+"text": "@article{Ward_2013, title={Degradation of terrestrially derived macromolecules in the Amazon River}, volume={6}, ISSN={1752-0908}, url={http://dx.doi.org/10.1038/ngeo1817}, DOI={10.1038/ngeo1817}, number={7}, journal={Nature Geoscience}, publisher={Springer Science and Business Media LLC}, author={Ward, Nicholas D. and Keil, Richard G. and Medeiros, Patricia M. and Brito, Daimio C. and Cunha, Alan C. and Dittmar, Thorsten and Yager, Patricia L. and Krusche, Alex V. and Richey, Jeffrey E.}, year={2013}, month=May, pages={530–533} }",
+"source": "doi_org"
+},
+"10.5194/acp-10-1227-2010": {
+"text": "@article{Saunders_2010, title={An aerosol chamber investigation of the heterogeneous ice nucleating potential of refractory nanoparticles}, volume={10}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-10-1227-2010}, DOI={10.5194/acp-10-1227-2010}, number={3}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Saunders, R. W. and Möhler, O. and Schnaiter, M. and Benz, S. and Wagner, R. and Saathoff, H. and Connolly, P. J. and Burgess, R. and Murray, B. J. and Gallagher, M. and Wills, R. and Plane, J. M. C.}, year={2010}, month=Feb, pages={1227–1247} }",
+"source": "doi_org"
+},
+"10.5194/acp-10-313-2010": {
+"text": "@article{Nicolet_2010, title={Single ice crystal measurements during nucleation experiments with the depolarization detector IODE}, volume={10}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-10-313-2010}, DOI={10.5194/acp-10-313-2010}, number={2}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Nicolet, M. and Stetzer, O. and Lüönd, F. and Möhler, O. and Lohmann, U.}, year={2010}, month=Jan, pages={313–325} }",
+"source": "doi_org"
+},
+"10.1364/ao.48.005811": {
+"text": "@article{Amsler_2009, title={Ice crystal habits from cloud chamber studies obtained by in-line holographic microscopy related to depolarization measurements}, volume={48}, ISSN={1539-4522}, url={http://dx.doi.org/10.1364/ao.48.005811}, DOI={10.1364/ao.48.005811}, number={30}, journal={Applied Optics}, publisher={Optica Publishing Group}, author={Amsler, Peter and Stetzer, Olaf and Schnaiter, Martin and Hesse, Evelyn and Benz, Stefan and Moehler, Ottmar and Lohmann, Ulrike}, year={2009}, month=Oct, pages={5811} }",
+"source": "doi_org"
+},
+"10.1016/j.atmosenv.2009.08.020": {
+"text": "@article{Laj_2009, title={Measuring atmospheric composition change}, volume={43}, ISSN={1352-2310}, url={http://dx.doi.org/10.1016/j.atmosenv.2009.08.020}, DOI={10.1016/j.atmosenv.2009.08.020}, number={33}, journal={Atmospheric Environment}, publisher={Elsevier BV}, author={Laj, P. and Klausen, J. and Bilde, M. and Plaß-Duelmer, C. and Pappalardo, G. and Clerbaux, C. and Baltensperger, U. and Hjorth, J. and Simpson, D. and Reimann, S. and Coheur, P.-F. and Richter, A. and De Mazière, M. and Rudich, Y. and McFiggans, G. and Torseth, K. and Wiedensohler, A. and Morin, S. and Schulz, M. and Allan, J.D. and Attié, J.-L. and Barnes, I. and Birmili, W. and Cammas, J.P. and Dommen, J. and Dorn, H.-P. and Fowler, D. and Fuzzi, S. and Glasius, M. and Granier, C. and Hermann, M. and Isaksen, I.S.A. and Kinne, S. and Koren, I. and Madonna, F. and Maione, M. and Massling, A. and Moehler, O. and Mona, L. and Monks, P.S. and Müller, D. and Müller, T. and Orphal, J. and Peuch, V.-H. and Stratmann, F. and Tanré, D. and Tyndall, G. and Abo Riziq, A. and Van Roozendael, M. and Villani, P. and Wehner, B. and Wex, H. and Zardini, A.A.}, year={2009}, month=Oct, pages={5351–5414} }",
+"source": "doi_org"
+},
+"10.5194/acp-9-2805-2009": {
+"text": "@article{Connolly_2009, title={Studies of heterogeneous freezing by three different desert dust samples}, volume={9}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-9-2805-2009}, DOI={10.5194/acp-9-2805-2009}, number={8}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Connolly, P. J. and Möhler, O. and Field, P. R. and Saathoff, H. and Burgess, R. and Choularton, T. and Gallagher, M.}, year={2009}, month=Apr, pages={2805–2824} }",
+"source": "doi_org"
+},
+"10.1038/ngeo499": {
+"text": "@article{Cziczo_2009, title={Inadvertent climate modification due to anthropogenic lead}, volume={2}, ISSN={1752-0908}, url={http://dx.doi.org/10.1038/ngeo499}, DOI={10.1038/ngeo499}, number={5}, journal={Nature Geoscience}, publisher={Springer Science and Business Media LLC}, author={Cziczo, Daniel J. and Stetzer, Olaf and Worringen, Annette and Ebert, Martin and Weinbruch, Stephan and Kamphus, Michael and Gallavardin, Stephane J. and Curtius, Joachim and Borrmann, Stephan and Froyd, Karl D. and Mertes, Stephan and Möhler, Ottmar and Lohmann, Ulrike}, year={2009}, month=Apr, pages={333–336} }",
+"source": "doi_org"
+},
+"10.5194/acp-9-1551-2009": {
+"text": "@article{Saathoff_2009, title={Temperature dependence of yields of secondary organic aerosols from the ozonolysis of\n                    <i>α</i>\n                    -pinene and limonene}, volume={9}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-9-1551-2009}, DOI={10.5194/acp-9-1551-2009}, number={5}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Saathoff, H. and Naumann, K.-H. and Möhler, O. and Jonsson, Å. M. and Hallquist, M. and Kiendler-Scharr, A. and Mentel, Th. F. and Tillmann, R. and Schurath, U.}, year={2009}, month=Mar, pages={1551–1577} }",
+"source": "doi_org"
+},
+"10.5194/bg-5-1425-2008": {
+"text": "@article{M_hler_2008, title={Heterogeneous ice nucleation activity of bacteria: new laboratory experiments at simulated cloud conditions}, volume={5}, ISSN={1726-4189}, url={http://dx.doi.org/10.5194/bg-5-1425-2008}, DOI={10.5194/bg-5-1425-2008}, number={5}, journal={Biogeosciences}, publisher={Copernicus GmbH}, author={Möhler, O. and Georgakopoulos, D. G. and Morris, C. E. and Benz, S. and Ebert, V. and Hunsmann, S. and Saathoff, H. and Schnaiter, M. and Wagner, R.}, year={2008}, month=Oct, pages={1425–1435} }",
+"source": "doi_org"
+},
+"10.1080/02786820802339538": {
+"text": "@article{Gallavardin_2008, title={Single Particle Laser Mass Spectrometry Applied to Differential Ice Nucleation Experiments at the AIDA Chamber}, volume={42}, ISSN={1521-7388}, url={http://dx.doi.org/10.1080/02786820802339538}, DOI={10.1080/02786820802339538}, number={9}, journal={Aerosol Science and Technology}, publisher={Informa UK Limited}, author={Gallavardin, Stéphane J. and Froyd, Karl D. and Lohmann, Ulrike and Moehler, Ottmar and Murphy, Daniel M. and Cziczo, Daniel J.}, year={2008}, month=July, pages={773–791} }",
+"source": "doi_org"
+},
+"10.1021/jp8066102": {
+"text": "@article{Wagner_2008, title={Infrared Optical Constants of Highly Diluted Sulfuric Acid Solution Droplets at Cirrus Temperatures}, volume={112}, ISSN={1520-5215}, url={http://dx.doi.org/10.1021/jp8066102}, DOI={10.1021/jp8066102}, number={46}, journal={The Journal of Physical Chemistry A}, publisher={American Chemical Society (ACS)}, author={Wagner, Robert and Benz, Stefan and Bunz, Helmut and Möhler, Ottmar and Saathoff, Harald and Schnaiter, Martin and Leisner, Thomas and Ebert, Volker}, year={2008}, month=Oct, pages={11661–11676} }",
+"source": "doi_org"
+},
+"10.5194/bg-4-1059-2007": {
+"text": "@article{M_hler_2007, title={Microbiology and atmospheric processes: the role of biological particles in cloud physics}, volume={4}, ISSN={1726-4189}, url={http://dx.doi.org/10.5194/bg-4-1059-2007}, DOI={10.5194/bg-4-1059-2007}, number={6}, journal={Biogeosciences}, publisher={Copernicus GmbH}, author={Möhler, O. and DeMott, P. J. and Vali, G. and Levin, Z.}, year={2007}, month=Dec, pages={1059–1071} }",
+"source": "doi_org"
+},
+"10.5194/acp-7-4203-2007": {
+"text": "@article{K_rcher_2007, title={Insights into the role of soot aerosols in cirrus cloud formation}, volume={7}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-7-4203-2007}, DOI={10.5194/acp-7-4203-2007}, number={16}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Kärcher, B. and Möhler, O. and DeMott, P. J. and Pechtl, S. and Yu, F.}, year={2007}, month=Aug, pages={4203–4227} }",
+"source": "doi_org"
+},
+"10.5194/acp-7-243-2007": {
+"text": "@article{Cotton_2007, title={Technical Note: A numerical test-bed for detailed ice nucleation studies in the AIDA cloud simulation chamber}, volume={7}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-7-243-2007}, DOI={10.5194/acp-7-243-2007}, number={1}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Cotton, R. J. and Benz, S. and Field, P. R. and Möhler, O. and Schnaiter, M.}, year={2007}, month=Jan, pages={243–256} }",
+"source": "doi_org"
+},
+"10.1021/jp0741713": {
+"text": "@article{Wagner_2007, title={Influence of Particle Aspect Ratio on the Midinfrared Extinction Spectra of Wavelength-Sized Ice Crystals}, volume={111}, ISSN={1520-5215}, url={http://dx.doi.org/10.1021/jp0741713}, DOI={10.1021/jp0741713}, number={50}, journal={The Journal of Physical Chemistry A}, publisher={American Chemical Society (ACS)}, author={Wagner, Robert and Benz, Stefan and Möhler, Ottmar and Saathoff, Harald and Schnaiter, Martin and Leisner, Thomas}, year={2007}, month=Nov, pages={13003–13022} }",
+"source": "doi_org"
+},
+"10.5194/acp-6-4775-2006": {
+"text": "@article{Wagner_2006, title={Probing ice clouds by broadband mid-infrared extinction  spectroscopy: case studies from ice nucleation experiments in the AIDA  aerosol and cloud chamber}, volume={6}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-6-4775-2006}, DOI={10.5194/acp-6-4775-2006}, number={12}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wagner, R. and Benz, S. and Möhler, O. and Saathoff, H. and Schurath, U.}, year={2006}, month=Oct, pages={4775–4800} }",
+"source": "doi_org"
+},
+"10.1126/science.1129726": {
+"text": "@article{Abbatt_2006, title={Solid Ammonium Sulfate Aerosols as Ice Nuclei: A Pathway for Cirrus Cloud Formation}, volume={313}, ISSN={1095-9203}, url={http://dx.doi.org/10.1126/science.1129726}, DOI={10.1126/science.1129726}, number={5794}, journal={Science}, publisher={American Association for the Advancement of Science (AAAS)}, author={Abbatt, J. P. D. and Benz, S. and Cziczo, D. J. and Kanji, Z. and Lohmann, U. and Möhler, O.}, year={2006}, month=Sept, pages={1770–1773} }",
+"source": "doi_org"
+},
+"10.5194/acp-6-3315-2006": {
+"text": "@article{Linke_2006, title={Optical properties and mineralogical composition of different  Saharan mineral dust samples: a laboratory study}, volume={6}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-6-3315-2006}, DOI={10.5194/acp-6-3315-2006}, number={11}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Linke, C. and Möhler, O. and Veres, A. and Mohácsi, Á. and Bozóki, Z. and Szabó, G. and Schnaiter, M.}, year={2006}, month=Aug, pages={3315–3323} }",
+"source": "doi_org"
+},
+"10.5194/acp-6-3007-2006": {
+"text": "@article{M_hler_2006, title={Efficiency of the deposition mode ice nucleation on mineral dust particles}, volume={6}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-6-3007-2006}, DOI={10.5194/acp-6-3007-2006}, number={10}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Möhler, O. and Field, P. R. and Connolly, P. and Benz, S. and Saathoff, H. and Schnaiter, M. and Wagner, R. and Cotton, R. and Krämer, M. and Mangold, A. and Heymsfield, A. J.}, year={2006}, month=July, pages={3007–3021} }",
+"source": "doi_org"
+},
+"10.5194/acp-6-2991-2006": {
+"text": "@article{Field_2006, title={Some ice nucleation characteristics of Asian and Saharan desert dust}, volume={6}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-6-2991-2006}, DOI={10.5194/acp-6-2991-2006}, number={10}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Field, P. R. and Möhler, O. and Connolly, P. and Krämer, M. and Cotton, R. and Heymsfield, A. J. and Saathoff, H. and Schnaiter, M.}, year={2006}, month=July, pages={2991–3006} }",
+"source": "doi_org"
+},
+"10.5194/acp-6-3035-2006": {
+"text": "@article{M_hler_2006, title={Homogeneous nucleation rates of nitric acid dihydrate (NAD) at simulated stratospheric conditions – Part II: Modelling}, volume={6}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-6-3035-2006}, DOI={10.5194/acp-6-3035-2006}, number={10}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Möhler, O. and Bunz, H. and Stetzer, O.}, year={2006}, month=July, pages={3035–3047} }",
+"source": "doi_org"
+},
+"10.5194/acp-6-3023-2006": {
+"text": "@article{Stetzer_2006, title={Homogeneous nucleation rates of nitric acid dihydrate (NAD) at simulated stratospheric conditions – Part I: Experimental results}, volume={6}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-6-3023-2006}, DOI={10.5194/acp-6-3023-2006}, number={10}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Stetzer, O. and Möhler, O. and Wagner, R. and Benz, S. and Saathoff, H. and Bunz, H. and Indris, O.}, year={2006}, month=July, pages={3023–3033} }",
+"source": "doi_org"
+},
+"10.1016/j.jphotochem.2005.08.026": {
+"text": "@article{Benz_2005, title={T-dependent rate measurements of homogeneous ice nucleation in cloud droplets using a large atmospheric simulation chamber}, volume={176}, ISSN={1010-6030}, url={http://dx.doi.org/10.1016/j.jphotochem.2005.08.026}, DOI={10.1016/j.jphotochem.2005.08.026}, number={1-3}, journal={Journal of Photochemistry and Photobiology A: Chemistry}, publisher={Elsevier BV}, author={Benz, Stefan and Megahed, Khaled and Möhler, Ottmar and Saathoff, Harald and Wagner, Robert and Schurath, Ulrich}, year={2005}, month=Dec, pages={208–217} }",
+"source": "doi_org"
+},
+"10.1127/0941-2948/2005/0053": {
+"text": "@article{Mangold_2005, title={Experimental investigation of ice nucleation by different types of aerosols in the aerosol chamber AIDA: implications to microphysics of cirrus clouds}, volume={14}, ISSN={0941-2948}, url={http://dx.doi.org/10.1127/0941-2948/2005/0053}, DOI={10.1127/0941-2948/2005/0053}, number={4}, journal={Meteorologische Zeitschrift}, publisher={Schweizerbart}, author={Mangold, Alexander and Wagner, Robert and Saathoff, Harald and Schurath, Ulrich and Giesemann, Carsten and Ebert, Volker and Krämer, Martina and Möhler, Ottmar}, year={2005}, month=Sept, pages={485–497} }",
+"source": "doi_org"
+},
+"10.1127/0941-2948/2005/0055": {
+"text": "@article{M_hler_2005, title={Ice nucleation on flame soot aerosol of different organic carbon content}, volume={14}, ISSN={0941-2948}, url={http://dx.doi.org/10.1127/0941-2948/2005/0055}, DOI={10.1127/0941-2948/2005/0055}, number={4}, journal={Meteorologische Zeitschrift}, publisher={Schweizerbart}, author={Möhler, Ottmar and Linke, Claudia and Saathoff, Harald and Schnaiter, Martin and Wagner, Robert and Mangold, Alexander and Krämer, Martina and Schurath, Ulrich}, year={2005}, month=Sept, pages={477–484} }",
+"source": "doi_org"
+},
+"10.1080/027868290925958": {
+"text": "@article{Schnaiter_2005, title={Measurement of Wavelength-Resolved Light Absorption by Aerosols Utilizing a UV-VIS Extinction Cell}, volume={39}, ISSN={1521-7388}, url={http://dx.doi.org/10.1080/027868290925958}, DOI={10.1080/027868290925958}, number={3}, journal={Aerosol Science and Technology}, publisher={Informa UK Limited}, author={Schnaiter, M. and Schmid, O. and Petzold, A. and Fritzsche, L. and Klein, K. F. and Andreae, M. O. and Helas, G. and Thielmann, A. and Gimmler, M. and Möhler, O. and Linke, C. and Schurath, U.}, year={2005}, month=Mar, pages={249–260} }",
+"source": "doi_org"
+},
+"10.1021/jp0513364": {
+"text": "@article{Wagner_2005, title={Aerosol Chamber Study of Optical Constants and N<sub>2</sub>O<sub>5</sub> Uptake on Supercooled H<sub>2</sub>SO<sub>4</sub>/H<sub>2</sub>O/HNO<sub>3</sub> Solution Droplets at Polar Stratospheric Cloud Temperatures}, volume={109}, ISSN={1520-5215}, url={http://dx.doi.org/10.1021/jp0513364}, DOI={10.1021/jp0513364}, number={36}, journal={The Journal of Physical Chemistry A}, publisher={American Chemical Society (ACS)}, author={Wagner, Robert and Naumann, Karl-Heinz and Mangold, Alexander and Möhler, Ottmar and Saathoff, Harald and Schurath, Ulrich}, year={2005}, month=Aug, pages={8140–8148} }",
+"source": "doi_org"
+},
+"10.1021/jp051942z": {
+"text": "@article{Wagner_2005, title={Mid-infrared Extinction Spectra and Optical Constants of Supercooled Water Droplets}, volume={109}, ISSN={1520-5215}, url={http://dx.doi.org/10.1021/jp051942z}, DOI={10.1021/jp051942z}, number={32}, journal={The Journal of Physical Chemistry A}, publisher={American Chemical Society (ACS)}, author={Wagner, Robert and Benz, Stefan and Möhler, Ottmar and Saathoff, Harald and Schnaiter, Martin and Schurath, Ulrich}, year={2005}, month=July, pages={7099–7112} }",
+"source": "doi_org"
+},
+"10.1021/jp044997u": {
+"text": "@article{Wagner_2005, title={Infrared Spectrum of Nitric Acid Dihydrate:  Influence of Particle Shape}, volume={109}, ISSN={1520-5215}, url={http://dx.doi.org/10.1021/jp044997u}, DOI={10.1021/jp044997u}, number={11}, journal={The Journal of Physical Chemistry A}, publisher={American Chemical Society (ACS)}, author={Wagner, Robert and Möhler, Ottmar and Saathoff, Harald and Stetzer, Olaf and Schurath, Ulrich}, year={2005}, month=Feb, pages={2572–2581} }",
+"source": "doi_org"
+},
+"10.1016/j.combustflame.2004.06.008": {
+"text": "@article{Kamm_2004, title={Gasification of a soot aerosol by O3 and NO2: Temperature dependence of the reaction probability}, volume={138}, ISSN={0010-2180}, url={http://dx.doi.org/10.1016/j.combustflame.2004.06.008}, DOI={10.1016/j.combustflame.2004.06.008}, number={4}, journal={Combustion and Flame}, publisher={Elsevier BV}, author={Kamm, S. and Saathoff, H. and Naumann, K.-H. and Möhler, O. and Schurath, U.}, year={2004}, month=Sept, pages={353–361} }",
+"source": "doi_org"
+},
+"10.1016/j.jaerosci.2004.03.002": {
+"text": "@article{Seifert_2004, title={Operation and performance of a differential mobility particle sizer and a TSI 3010 condensation particle counter at stratospheric temperatures and pressures}, volume={35}, ISSN={0021-8502}, url={http://dx.doi.org/10.1016/j.jaerosci.2004.03.002}, DOI={10.1016/j.jaerosci.2004.03.002}, number={8}, journal={Journal of Aerosol Science}, publisher={Elsevier BV}, author={Seifert, M and Tiede, R and Schnaiter, M and Linke, C and Möhler, O and Schurath, U and Ström, J}, year={2004}, month=Aug, pages={981–993} }",
+"source": "doi_org"
+},
+"10.1016/s0021-8502(03)00363-x": {
+"text": "@article{Saathoff_2003, title={The AIDA soot aerosol characterisation campaign 1999}, volume={34}, ISSN={0021-8502}, url={http://dx.doi.org/10.1016/s0021-8502(03)00363-x}, DOI={10.1016/s0021-8502(03)00363-x}, number={10}, journal={Journal of Aerosol Science}, publisher={Elsevier BV}, author={Saathoff, H. and Moehler, O. and Schurath, U. and Kamm, S. and Dippel, B. and Mihelcic, D.}, year={2003}, month=Oct, pages={1277–1296} }",
+"source": "doi_org"
+},
+"10.1016/s0021-8502(03)00361-6": {
+"text": "@article{Schnaiter_2003, title={UV-VIS-NIR spectral optical properties of soot and soot-containing aerosols}, volume={34}, ISSN={0021-8502}, url={http://dx.doi.org/10.1016/s0021-8502(03)00361-6}, DOI={10.1016/s0021-8502(03)00361-6}, number={10}, journal={Journal of Aerosol Science}, publisher={Elsevier BV}, author={Schnaiter, M. and Horvath, H. and Möhler, O. and Naumann, K.-H. and Saathoff, H. and Schöck, O.W.}, year={2003}, month=Oct, pages={1421–1444} }",
+"source": "doi_org"
+},
+"10.5194/acp-3-1147-2003": {
+"text": "@article{Wagner_2003, title={A quantitative test of infrared optical constants for supercooled sulphuric and nitric acid droplet aerosols}, volume={3}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-3-1147-2003}, DOI={10.5194/acp-3-1147-2003}, number={4}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Wagner, R. and Mangold, A. and Möhler, O. and Saathoff, H. and Schnaiter, M. and Schurath, U.}, year={2003}, month=Aug, pages={1147–1164} }",
+"source": "doi_org"
+},
+"10.5194/acp-3-211-2003": {
+"text": "@article{M_hler_2003, title={Experimental investigation of homogeneous freezing of sulphuric acid particles in the aerosol chamber AIDA}, volume={3}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-3-211-2003}, DOI={10.5194/acp-3-211-2003}, number={1}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Möhler, O. and Stetzer, O. and Schaefers, S. and Linke, C. and Schnaiter, M. and Tiede, R. and Saathoff, H. and Krämer, M. and Mangold, A. and Budz, P. and Zink, P. and Schreiner, J. and Mauersberger, K. and Haag, W. and Kärcher, B. and Schurath, U.}, year={2003}, month=Feb, pages={211–223} }",
+"source": "doi_org"
+},
+"10.5194/acp-3-195-2003": {
+"text": "@article{Haag_2003, title={Numerical simulations of homogeneous freezing processes in the aerosol chamber AIDA}, volume={3}, ISSN={1680-7324}, url={http://dx.doi.org/10.5194/acp-3-195-2003}, DOI={10.5194/acp-3-195-2003}, number={1}, journal={Atmospheric Chemistry and Physics}, publisher={Copernicus GmbH}, author={Haag, W. and Kärcher, B. and Schaefers, S. and Stetzer, O. and Möhler, O. and Schurath, U. and Krämer, M. and Schiller, C.}, year={2003}, month=Feb, pages={195–210} }",
+"source": "doi_org"
+},
+"10.1016/s0021-8502(03)00364-1": {
+"text": "@article{Saathoff_2003, title={Coating of soot and (NH4)2SO4 particles by ozonolysis products of α-pinene}, volume={34}, ISSN={0021-8502}, url={http://dx.doi.org/10.1016/s0021-8502(03)00364-1}, DOI={10.1016/s0021-8502(03)00364-1}, number={10}, journal={Journal of Aerosol Science}, publisher={Elsevier BV}, author={Saathoff, H. and Naumann, K.-H. and Schnaiter, M. and Schöck, W. and Möhler, O. and Schurath, U. and Weingartner, E. and Gysel, M. and Baltensperger, U.}, year={2003}, month=Oct, pages={1297–1321} }",
+"source": "doi_org"
+},
+"10.1029/2001gl013296": {
+"text": "@article{Zink_2002, title={Cryo‐chamber simulation of stratospheric H<sub>2</sub>SO<sub>4</sub>/H<sub>2</sub>O particles: Composition analysis and model comparison}, volume={29}, ISSN={1944-8007}, url={http://dx.doi.org/10.1029/2001gl013296}, DOI={10.1029/2001gl013296}, number={11}, journal={Geophysical Research Letters}, publisher={American Geophysical Union (AGU)}, author={Zink, Peter and Knopf, Daniel A. and Schreiner, Jochen and Mauersberger, Konrad and Möhler, Ottmar and Saathoff, Harald and Seifert, Marco and Tiede, Ralph and Schurath, Ulrich}, year={2002}, month=June }",
+"source": "doi_org"
+},
+"10.1021/es015564x": {
+"text": "@article{Szak_ll_2001, title={Evaluation of a Photoacoustic Detector for Water Vapor Measurements under Simulated Tropospheric/Lower Stratospheric Conditions}, volume={35}, ISSN={1520-5851}, url={http://dx.doi.org/10.1021/es015564x}, DOI={10.1021/es015564x}, number={24}, journal={Environmental Science &amp; Technology}, publisher={American Chemical Society (ACS)}, author={Szakáll, Miklós and Bozóki, Zoltán and Kraemer, Martina and Spelten, Nicole and Moehler, Ottmar and Schurath, Ulrich}, year={2001}, month=Nov, pages={4881–4885} }",
+"source": "doi_org"
+},
+"10.1029/2000gl012619": {
+"text": "@article{Saathoff_2001, title={The loss of NO<sub>2</sub>, HNO<sub>3</sub>, NO<sub>3</sub>/N<sub>2</sub>O<sub>5</sub>, and HO<sub>2</sub>/HOONO<sub>2</sub> on soot aerosol: A chamber and modeling study}, volume={28}, ISSN={1944-8007}, url={http://dx.doi.org/10.1029/2000gl012619}, DOI={10.1029/2000gl012619}, number={10}, journal={Geophysical Research Letters}, publisher={American Geophysical Union (AGU)}, author={Saathoff, H. and Naumann, K.‐H. and Riemer, N. and Kamm, S. and Möhler, O. and Schurath, U. and Vogel, H. and Vogel, B.}, year={2001}, month=May, pages={1957–1960} }",
+"source": "doi_org"
+},
+"10.1016/s1352-2310(99)00235-6": {
+"text": "@article{Kamm_1999, title={The heterogeneous reaction of ozone with soot aerosol}, volume={33}, ISSN={1352-2310}, url={http://dx.doi.org/10.1016/s1352-2310(99)00235-6}, DOI={10.1016/s1352-2310(99)00235-6}, number={28}, journal={Atmospheric Environment}, publisher={Elsevier BV}, author={Kamm, S and Möhler, O and Naumann, K.-H and Saathoff, H and Schurath, U}, year={1999}, month=Dec, pages={4651–4661} }",
+"source": "doi_org"
+}
+}

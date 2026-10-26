@@ -1,0 +1,502 @@
+rank,author,author_key,papers,first_author_all,first_and_corresponding,first_only,corresponding_not_first,co_author,main_affiliation,affiliations,top_journal,first_year,last_year
+1,"Möhler, Ottmar",mohler_o,110,13,8,5,8,89,Karlsruhe Institute of Technology,10,ATMOSPHERIC CHEMISTRY AND PHYSICS,2001,2026
+2,"Saathoff, Harald",saathoff_h,84,4,3,1,11,69,Karlsruhe Institute of Technology,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2025
+3,"Schnaiter, Martin",schnaiter_m,55,5,4,1,4,46,Karlsruhe Institute of Technology,7,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2025
+4,"Wagner, Robert",wagner_r,53,18,16,2,2,33,Karlsruhe Institute of Technology,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2003,2025
+5,"Leisner, Thomas",leisner_t,34,1,1,0,0,33,Karlsruhe Institute of Technology,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2007,2024
+6,"Schurath, Ulrich",schurath_u,26,0,0,0,1,25,Forschungszentrum Karlsruhe,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2011
+7,"Benz, Stefan",benz_s,21,1,0,1,0,20,Forschungszentrum Karlsruhe,7,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2021
+8,"Hiranuma, Naruki",hiranuma_n,19,6,6,0,4,9,Karlsruhe Institute of Technology,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2024
+9,"Ebert, Volker",ebert_v,19,1,1,0,4,14,Physikalisch-Technische Bundesanstalt,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2003,2023
+10,"Krämer, Martina",kramer_m,19,1,0,1,1,17,Forschungszentrum Jülich,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2021
+11,"Linke, Claudia",linke_c,19,1,0,1,0,18,Karlsruhe Institute of Technology,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2025
+12,"Naumann, Karl-Heinz",naumann_k,14,0,0,0,0,14,Karlsruhe Institute of Technology,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,1991,2018
+13,"Steinke, Isabelle",steinke_i,13,4,4,0,0,9,Karlsruhe Institute of Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2021
+14,"Connolly, Paul",connolly_p,12,1,1,0,0,11,University of Manchester,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2003,2015
+15,"Niemand, Monika",niemand_m,12,1,1,0,1,10,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2010,2019
+16,"Kiselev, Alexei",kiselev_a,12,0,0,0,2,10,Karlsruhe Institute of Technology,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2026
+17,"Mangold, Alexander",mangold_a,11,2,1,1,0,9,Forschungszentrum Jülich,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2006
+18,"Höhler, Kristina",hohler_k,11,0,0,0,1,10,Karlsruhe Institute of Technology,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2024
+19,"Jiang, Feng",jiang_f,10,3,2,1,0,7,Karlsruhe Institute of Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2025
+20,"Ullrich, Romy",ullrich_r,10,2,1,1,3,5,Karlsruhe Institute of Technology,2,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2015,2021
+21,"Stetzer, Olaf",stetzer_o,10,1,1,0,0,9,FZI Research Center for Information Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2009
+22,"Hoose, Corinna",hoose_c,10,0,0,0,0,10,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2026
+23,"Skrotzki, Julian",skrotzki_j,9,4,1,3,0,5,Karlsruhe Institute of Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2010,2014
+24,"Umo, Nsikanabasi Silas",umo_n,9,2,2,0,0,7,Karlsruhe Institute of Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2019,2026
+25,"Cziczo, Daniel J.",cziczo_d,8,1,1,0,2,5,Massachusetts Institute of Technology,12,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2024
+26,"Murray, Benjamin J.",murray_b,8,0,0,0,4,4,University of Leeds,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2010,2021
+27,"Bunz, Helmut",bunz_h,7,3,2,1,0,4,FZI Research Center for Information Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,1991,2008
+28,"DeMott, Paul J.",demott_p,7,2,2,0,1,4,Colorado State University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2024
+29,"Kaercher, Bernd",karcher_b,7,2,2,0,0,5,Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2017
+30,"Kanji, Zamin A.",kanji_z,7,2,2,0,2,3,ETH Zurich,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2006,2019
+31,"Field, Paul R.",field_p,7,1,1,0,0,6,Met Office,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2003,2009
+32,"Vogel, Franziska",vogel_f,7,1,0,1,0,6,Karlsruhe Institute of Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2026
+33,"Nadolny, Jens",nadolny_j,7,0,0,0,0,7,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2020,2024
+34,"Meyer, Jessica",meyer_j,6,3,1,2,0,3,Forschungszentrum Jülich,3,JuSER (Forschungszentrum Jülich),2009,2015
+35,"Shen, Xiaoli",shen_x,6,1,1,0,0,5,Karlsruhe Institute of Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2017,2026
+36,"Gong, Yiwei",gong_y,6,0,0,0,0,6,Karlsruhe Institute of Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2023,2025
+37,"Koop, Thomas",koop_t,6,0,0,0,2,4,Bielefeld University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2018
+38,"Li, Yanxia",li_y,6,0,0,0,0,6,Karlsruhe Institute of Technology,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2023,2025
+39,"Mohr, Claudia",mohr_c,6,0,0,0,3,3,Karlsruhe Institute of Technology,7,ATMOSPHERIC CHEMISTRY AND PHYSICS,2017,2024
+40,"Moyer, Elisabeth J.",moyer_e,6,0,0,0,3,3,University of Chicago,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2009,2023
+41,"Cotton, Richard",cotton_r,5,3,1,2,0,2,Met Office,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2003,2007
+42,"Lamb, Kara D.",lamb_k,5,3,2,1,1,1,University of Chicago,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2023
+43,"Zanatta, Marco",zanatta_m,5,3,2,1,0,2,Laboratoire de Glaciologie et Géophysique de l’Environnement,4,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2025
+44,"Abdelmonem, Ahmed",abdelmonem_a,5,2,2,0,0,3,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2011,2018
+45,"Clouser, Benjamin W.",clouser_b,5,1,1,0,1,3,University of Chicago,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2023
+46,"Sarkozy, Laszlo",sarkozy_l,5,1,0,1,2,2,University of Chicago,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2023
+47,"Gallagher, M. W.",gallagher_m,5,0,0,0,0,5,University of Manchester,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2003,2012
+48,"Kulkarni, Gourihar",kulkarni_g,5,0,0,0,1,4,Pacific Northwest National Laboratory,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2018
+49,"Lacher, Larissa",lacher_l,5,0,0,0,3,2,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2020,2024
+50,"Laj, Paolo",laj_p,5,0,0,0,0,5,Laboratoire de Glaciologie et Géophysique de l’Environnement,6,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2025
+51,"Mentel, Thomas F.",mentel_t,5,0,0,0,1,4,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2009,2012
+52,"Wagner, Steven",wagner_s,5,0,0,0,0,5,Heidelberg University,2,ENVIRONMENTAL RESEARCH LETTERS,2008,2015
+53,"Vallon, Magdalena",vallon_m,4,3,0,3,0,1,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2022
+54,"Haag, W.",haag_w,4,2,1,1,0,2,Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2003
+55,"Gao, Linyu",gao_l,4,1,1,0,2,1,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2022
+56,"Jaervinen, Emma",jarvinen_e,4,1,1,0,0,3,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2016
+57,"Schneider, Julia",schneider_j,4,1,0,1,0,3,Max Planck Institute for Chemistry,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2008,2024
+58,"Afchine, Armin",afchine_a,4,0,0,0,0,4,Forschungszentrum Jülich,1,JuSER (Forschungszentrum Jülich),2009,2015
+59,"Budke, Carsten",budke_c,4,0,0,0,1,3,Bielefeld University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2018
+60,"Büttner, S.",buttner_s,4,0,0,0,0,4,Karlsruhe Institute of Technology,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2003,2012
+61,"Coe, Hugh",co_h,4,0,0,0,0,4,University of Manchester,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2024
+62,"Habig, Jan",habig_j,4,0,0,0,1,3,Karlsruhe Institute of Technology,1,APPLIED PHYSICS B-LASERS AND OPTICS,2013,2020
+63,"Heymsfield, Andrew J.",heymsfield_a,4,0,0,0,0,4,NSF National Center for Atmospheric Research,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2016
+64,"Hoshyaripour, Gholam Ali",hoshyaripour_g,4,0,0,0,0,4,Karlsruhe Institute of Technology,2,Aerosol Research,2021,2025
+65,"Kandler, Konrad",kandler_k,4,0,0,0,0,4,Technische Universität Darmstadt,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2009,2026
+66,"Rose, Dominik",rose_d,4,0,0,0,0,4,Goethe University Frankfurt,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2003,2015
+67,"Schaefers, S.",schafers_s,4,0,0,0,0,4,FZI Research Center for Information Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2003
+68,"Schiller, C.",schiller_c,4,0,0,0,0,4,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2015
+69,"Schmitt, Carl",schmitt_c,4,0,0,0,0,4,NSF National Center for Atmospheric Research,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2016
+70,"Song, Junwei",song_j,4,0,0,0,3,1,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2022
+71,"Stratmann, Frank",stratmann_f,4,0,0,0,1,3,Leibniz Institute for Tropospheric Research,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2018
+72,"Vepuri, Hemanth S. K.",vepuri_h,4,0,0,0,3,1,West Texas A&M University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2020,2024
+73,"Wex, Heike",wex_h,3,2,2,0,0,1,Leibniz Institute for Tropospheric Research,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+74,"Huang, Wei",huang_w,3,1,0,1,1,1,Karlsruhe Institute of Technology,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2017,2022
+75,"Jonsson, Asa M.",jonsson_a,3,1,1,0,0,2,University of Gothenburg,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2007,2011
+76,"Kühnreich, Benjamin",kuhnreich_b,3,1,0,1,0,2,Physikalisch-Technische Bundesanstalt,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2015
+77,"Tillmann, Ralf",tillmann_r,3,1,0,1,0,2,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2009,2011
+78,"Wilson, Theodore W.",wilson_t,3,1,0,1,1,1,University of Leeds,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2018
+79,"Augustin‐Bauditz, Stefanie",augustinbauditz_s,3,0,0,0,0,3,Leibniz Institute for Tropospheric Research,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+80,"Baltensperger, U.",baltensperger_u,3,0,0,0,0,3,Paul Scherrer Institute,1,JOURNAL OF MASS SPECTROMETRY,2003,2015
+81,"Bell, David M.",bell_d,3,0,0,0,0,3,Pacific Northwest National Laboratory,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2016,2024
+82,"Bingemer, Heinz G.",bingemer_h,3,0,0,0,1,2,Goethe University Frankfurt,1,JOURNAL OF THE ATMOSPHERIC SCIENCES,2012,2018
+83,"Bogert, Pia",bogert_p,3,0,0,0,0,3,Karlsruhe Institute of Technology,1,Aerosol Research,2025,2025
+84,"Boose, Yvonne",boose_y,3,0,0,0,1,2,ETH Zurich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+85,"Bozoki, Z.",bozoki_z,3,0,0,0,0,3,University of Szeged,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2003,2015
+86,"Curtius, Joachim",curtius_j,3,0,0,0,1,2,Goethe University Frankfurt,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+87,"Diehl, K.",diehl_k,3,0,0,0,0,3,Johannes Gutenberg University Mainz,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+88,"Dreyer, Axel",dreyer_a,3,0,0,0,0,3,Bielefeld University,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+89,"Flynn, Michael",flynn_m,3,0,0,0,0,3,University of Manchester,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2011,2012
+90,"Frank, F.",frank_f,3,0,0,0,1,2,Goethe University Frankfurt,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+91,"Giesemann, C.",giesemann_c,3,0,0,0,0,3,,0,METEOROLOGISCHE ZEITSCHRIFT,2003,2005
+92,"Ginot, Patrick",ginot_p,3,0,0,0,0,3,Centre National de la Recherche Scientifique,4,Aerosol Research,2025,2025
+93,"Hallquist, Mattias",hallquist_m,3,0,0,0,0,3,University of Gothenburg,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2007,2011
+94,"Hu, Yaqiong",hu_y,3,0,0,0,0,3,Karlsruhe Institute of Technology,1,Aerosol Research,2025,2025
+95,"Kiendler-Scharr, Astrid",kiendlerscharr_a,3,0,0,0,0,3,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2009,2011
+96,"Krumm, Bianca",krumm_b,3,0,0,0,0,3,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2021,2022
+97,"Laskin, Alexander",laskin_a,3,0,0,0,0,3,Purdue University West Lafayette,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2023,2024
+98,"Liu, D.",liu_d,3,0,0,0,0,3,University of Manchester,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2011,2012
+99,"Lohmann, Ulrike",lohmann_u,3,0,0,0,0,3,ETH Zurich,5,APPLIED OPTICS,2006,2009
+100,"Murphy, Daniel M.",murphy_d,3,0,0,0,1,2,National Oceanic and Atmospheric Administration,2,ENVIRONMENTAL RESEARCH LETTERS,2008,2024
+101,"Newton, Roy F.",newton_r,3,0,0,0,0,3,,0,JuSER (Forschungszentrum Jülich),2009,2012
+102,"Niedermeier, D.",niedermeier_d,3,0,0,0,1,2,Leibniz Institute for Tropospheric Research,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+103,"Nillius, B.",nillius_b,3,0,0,0,0,3,Goethe University Frankfurt,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+104,"Oehm, C.",ohm_c,3,0,0,0,0,3,Karlsruhe Institute of Technology,1,EGUGA,2010,2013
+105,"Petters, Markus D.",petters_m,3,0,0,0,1,2,North Carolina State University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2018
+106,"Rolf, Christian",rolf_c,3,0,0,0,3,0,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2022
+107,"Rosenlof, Karen",rosenlof_k,3,0,0,0,0,3,NOAA Chemical Sciences Laboratory,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2025
+108,"Siemens, Kyla",siemens_k,3,0,0,0,0,3,Purdue University West Lafayette,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2023,2024
+109,"Smith, J. B.",smith_j,3,0,0,0,0,3,Harvard University,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2005,2014
+110,"Sullivan, Ryan C.",sullivan_r,3,0,0,0,2,1,Carnegie Mellon University,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2019
+111,"Tiede, Ralph",tiede_r,3,0,0,0,0,3,FZI Research Center for Information Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2004
+112,"Vochezer, Paul",vochezer_p,3,0,0,0,0,3,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2016
+113,"Vogt, Steffen",vogt_s,3,0,0,0,0,3,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2011,2016
+114,"Vragel, Marlen",vragel_m,3,0,0,0,0,3,Forschungszentrum Karlsruhe,2,JOURNAL OF QUANTITATIVE SPECTROSCOPY & RADIATIVE TRANSFER,2009,2012
+115,"Weidler, Peter G.",weidler_p,3,0,0,0,0,3,Karlsruhe Institute of Technology,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2019,2021
+116,"Wilson, Jacqueline",wilson_j,3,0,0,0,0,3,Pacific Northwest National Laboratory,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2024
+117,"Zelenyuk, Alla",zelenyuk_a,3,0,0,0,1,2,Pacific Northwest National Laboratory,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2016,2024
+118,"Laborde, M.",laborde_m,2,2,0,2,0,0,Paul Scherrer Institute,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+119,"Abbatt, J. P. D.",abbatt_j,2,1,1,0,0,1,University of Toronto,4,SCIENCE,2006,2011
+120,"Amato, P.",amato_p,2,1,1,0,0,1,Institut de Chimie de Clermont-Ferrand,4,JOURNAL OF MASS SPECTROMETRY,2015,2015
+121,"Amsler, Peter",amsler_p,2,1,1,0,0,1,ETH Zurich,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2009,2011
+122,"Baumgartner, Manuel",baumgartner_m,2,1,1,0,1,0,Johannes Gutenberg University Mainz,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2022
+123,"Gallavardin, Stephane J.",gallavardin_s,2,1,0,1,0,1,ETH Zurich,2,ENVIRONMENTAL RESEARCH LETTERS,2008,2009
+124,"Gensch, Iulia",gensch_i,2,1,1,0,0,1,Forschungszentrum Jülich,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2008,2011
+125,"Mueller, L.",muller_l,2,1,0,1,0,1,Johannes Gutenberg University Mainz,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2012
+126,"Salter, Matthew E.",salter_m,2,1,0,1,1,0,Stockholm University,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2017,2021
+127,"Suski, Kaitlyn J.",suski_k,2,1,0,1,1,0,Pacific Northwest National Laboratory,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+128,"Tajiri, Takuya",tajiri_t,2,1,0,1,0,1,Meteorological Research Institute,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2015
+129,"Wehner, Birgit",wehner_b,2,1,0,1,0,1,Leibniz Institute for Tropospheric Research,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2003,2005
+130,"Weinstock, E. M.",weinstock_e,2,1,1,0,0,1,Harvard University,2,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2005,2009
+131,"Wolf, R.",wolf_r,2,1,0,1,0,1,Paul Scherrer Institute,1,JOURNAL OF MASS SPECTROMETRY,2013,2015
+132,"Adams, Michael P.",adams_m,2,0,0,0,0,2,University of Leeds,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2017,2021
+133,"Allan, J. D.",allan_j,2,0,0,0,0,2,University of Manchester,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+134,"Amarouche, Nadir",amarouche_n,2,0,0,0,0,2,Centre National de la Recherche Scientifique,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2025
+135,"Baumgardner, Darrel",baumgardner_d,2,0,0,0,0,2,,0,JuSER (Forschungszentrum Jülich),2009,2010
+136,"Belosi, Franco",belosi_f,2,0,0,0,2,0,Institute of Atmospheric Sciences and Climate,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2018,2021
+137,"Berlenz, S.",berlenz_s,2,0,0,0,0,2,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+138,"Budz, P.",budz_p,2,0,0,0,0,2,Max Planck Institute for Nuclear Physics,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2003
+139,"Burgess, R.",burgess_r,2,0,0,0,0,2,University of Manchester,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2009,2010
+140,"Cozic, J.",cozic_j,2,0,0,0,0,2,Laboratoire de Glaciologie et Géophysique de l’Environnement,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+141,"Dahlkötter, F.",dahlkotter_f,2,0,0,0,0,2,Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+142,"Danielczok, Anja",danielczok_a,2,0,0,0,1,1,Goethe University Frankfurt,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2018
+143,"Donahue, N. M.",donahu_n,2,0,0,0,0,2,Carnegie Mellon University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2012
+144,"Durry, Georges",durry_g,2,0,0,0,0,2,Centre National de la Recherche Scientifique,6,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2025
+145,"Froyd, Karl D.",froyd_k,2,0,0,0,0,2,National Oceanic and Atmospheric Administration,3,ENVIRONMENTAL RESEARCH LETTERS,2008,2009
+146,"Funk, Roger",funk_r,2,0,0,0,0,2,Leibniz Centre for Agricultural Landscape Research,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2016,2020
+147,"Georgakopoulos, Dimitrios G.",georgakopoulos_d,2,0,0,0,1,1,Agricultural University of Athens,1,BIOGEOSCIENCES,2008,2021
+148,"Gorokhova, Elena",gorokhova_e,2,0,0,0,0,2,Stockholm University,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2017,2021
+149,"Gysel, M.",gysel_m,2,0,0,0,1,1,Paul Scherrer Institute,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+150,"Hartmann, Susan M.",hartmann_s,2,0,0,0,1,1,Leibniz Institute for Tropospheric Research,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+151,"Heimerl, Katharina",heimerl_k,2,0,0,0,0,2,Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+152,"Herman, R. L.",herman_r,2,0,0,0,0,2,Jet Propulsion Laboratory,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2005,2014
+153,"Hesse, Evelyn",hesse_e,2,0,0,0,0,2,University of Hertfordshire,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2009,2011
+154,"Hill, Thomas C. J.",hill_t,2,0,0,0,1,1,Colorado State University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2018
+155,"Hitzenberger, R.",hitzenberger_r,2,0,0,0,0,2,University of Vienna,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+156,"Hoffmann, N.",hoffmann_n,2,0,0,0,0,2,Karlsruhe Institute of Technology,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+157,"Hoffmann, T.",hoffmann_t,2,0,0,0,1,1,Johannes Gutenberg University Mainz,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2012
+158,"Horvath, Helmuth",horvath_h,2,0,0,0,0,2,University of Vienna,1,Journal of Aerosol Science,2003,2009
+159,"Hummel, Matthias",hummel_m,2,0,0,0,0,2,Karlsruhe Institute of Technology,1,AIP conference proceedings,2013,2013
+160,"Hunsmann, S.",hunsmann_s,2,0,0,0,0,2,Heidelberg University,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2008,2014
+161,"Ickes, Luisa",ickes_l,2,0,0,0,1,1,Chalmers University of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2017,2021
+162,"Jantsch, Evelyn",jantsch_e,2,0,0,0,1,1,Johannes Gutenberg University Mainz,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+163,"Kerstel, Erik",kerstel_e,2,0,0,0,0,2,Laboratoire Interdisciplinaire de Physique,1,HAL (Le Centre pour la Communication Scientifique Directe),2013,2014
+164,"KOYRO, M.",koyro_m,2,0,0,0,0,2,FZI Research Center for Information Technology,1,Journal of Aerosol Science,1991,2001
+165,"Levin, Ezra J. T.",levin_e,2,0,0,0,1,1,Colorado State University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2018
+166,"Mackrodt, P.",mackrodt_p,2,0,0,0,0,2,Heidelberg University,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2015
+167,"Malkin, T. L.",malkin_t,2,0,0,0,0,2,University of Leeds,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2012
+168,"Mauersberger, K.",maursberger_k,2,0,0,0,0,2,Max Planck Institute for Nuclear Physics,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2003
+169,"McMeeking, G. R.",mcmeeking_g,2,0,0,0,0,2,University of Manchester,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2015
+170,"Morris, C. E.",morris_c,2,0,0,0,0,2,"Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",2,BIOGEOSCIENCES,2008,2015
+171,"Murakami, Masataka",murakami_m,2,0,0,0,1,1,Meteorological Research Institute,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2015
+172,"O'Sullivan, Daniel",osullivan_d,2,0,0,0,1,1,University of Leeds,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2018
+173,"Pajunoja, Aki",pajunoja_a,2,0,0,0,0,2,University of Eastern Finland,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2017,2018
+174,"Peckhaus, Andreas",peckhaus_a,2,0,0,0,1,1,Karlsruhe Institute of Technology,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2018
+175,"Pittman, J. V.",pittman_j,2,0,0,0,0,2,Planetary Science Institute,3,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2005,2009
+176,"Prenni, Anthony J.",prenni_a,2,0,0,0,1,1,National Park Service,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2019
+177,"Prevot, A. S. H.",prevot_a,2,0,0,0,2,0,Paul Scherrer Institute,1,JOURNAL OF MASS SPECTROMETRY,2013,2015
+178,"Price, Hannah C.",price_h,2,0,0,0,1,1,University of Leeds,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2018
+179,"Reinnig, M. C.",reinnig_m,2,0,0,0,0,2,Johannes Gutenberg University Mainz,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2012
+180,"Rösch, Michael",rosch_m,2,0,0,0,0,2,Leibniz Institute for Tropospheric Research,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+181,"Saito, Atsushi",saito_a,2,0,0,0,0,2,Meteorological Research Institute,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2015
+182,"Santachiara, Gianni",santachiara_g,2,0,0,0,1,1,Institute of Atmospheric Sciences and Climate,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2018,2021
+183,"Sayres, D. S.",sayres_d,2,0,0,0,0,2,Harvard University,2,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2005,2009
+184,"Schaupp, C.",schaupp_c,2,0,0,0,0,2,Karlsruhe Institute of Technology,1,JOURNAL OF MASS SPECTROMETRY,2015,2015
+185,"Schiebel, Thea",schiebel_t,2,0,0,0,1,1,Karlsruhe Institute of Technology,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2017,2018
+186,"Schmidt, Christina",schmidt_c,2,0,0,0,0,2,Heidelberg University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2015
+187,"Schmitt, T.",schmitt_t,2,0,0,0,0,2,Karlsruhe Institute of Technology,1,AIP conference proceedings,2013,2013
+188,"Schorr, Tobias",schorr_t,2,0,0,0,0,2,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2022
+189,"Schreiner, J.",schreiner_j,2,0,0,0,0,2,Max Planck Institute for Nuclear Physics,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2003
+190,"Schwarz, Joshua P.",schwarz_j,2,0,0,0,0,2,NOAA Earth System Research Laboratory,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+191,"Schöck, W.",schock_w,2,0,0,0,0,2,,0,Journal of Aerosol Science,2003,2003
+192,"Slowik, J. G.",slowik_j,2,0,0,0,0,2,Paul Scherrer Institute,1,JOURNAL OF MASS SPECTROMETRY,2013,2015
+193,"Spelten, N.",spelten_n,2,0,0,0,0,2,Forschungszentrum Jülich,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2015
+194,"Spindler, C.",spindler_c,2,0,0,0,0,2,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2012
+195,"Stutz, Eric J.",stutz_e,2,0,0,0,0,2,University of Chicago,1,REVIEW OF SCIENTIFIC INSTRUMENTS,2013,2020
+196,"Taylor, Jonathan",taylor_j,2,0,0,0,0,2,University of Manchester,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+197,"Teichert, H.",teichert_h,2,0,0,0,0,2,,0,TECHNISCHES MESSEN,2003,2005
+198,"Troy, R. F.",troy_r,2,0,0,0,0,2,Jet Propulsion Laboratory,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2005,2014
+199,"Ulanowski, Zbigniew",ulanowski_z,2,0,0,0,0,2,University of Hertfordshire,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2016
+200,"Virtanen, Annele",virtanen_a,2,0,0,0,0,2,University of Eastern Finland,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2017,2018
+201,"Wagner, Uwe",wagner_u,2,0,0,0,0,2,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+202,"Weinzierl, Bernadett",weinzierl_b,2,0,0,0,0,2,Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+203,"Welti, Andre",welti_a,2,0,0,0,1,1,ETH Zurich,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2018
+204,"Whale, Thomas F.",whale_t,2,0,0,0,1,1,University of Leeds,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2018
+205,"Wollny, A. G.",wollny_a,2,0,0,0,0,2,Deutscher Wetterdienst,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2012,2012
+206,"Yamashita, Katsuya",yamashita_k,2,0,0,0,0,2,Meteorological Research Institute,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2015
+207,"Zhang, K.",zhang_k,2,0,0,0,0,2,Pacific Northwest National Laboratory,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2014
+208,"Zink, P.",zink_p,2,0,0,0,0,2,Max Planck Institute for Nuclear Physics,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2002,2003
+209,"Alam, Kamran",alam_k,1,1,0,1,0,0,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,2,THIN SOLID FILMS,2021,2021
+210,"Alpert, Peter A.",alpert_p,1,1,1,0,0,0,Lyon 1 Université,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2016,2016
+211,"Atkinson, Ariel J.",atkinson_a,1,1,1,0,0,0,Arizona State University,1,JOURNAL OF NANOPARTICLE RESEARCH,2020,2020
+212,"Barahona, Donifan",barahona_d,1,1,1,0,0,0,Georgia Institute of Technology,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2008,2008
+213,"Berger, Corentin",berger_c,1,1,1,0,0,0,"Laboratoire Image, Ville, Environnement",1,Journal of Aerosol Science,2023,2023
+214,"Brunamonti, Simone",brunamonti_s,1,1,0,1,0,0,Swiss Federal Laboratories for Materials Science and Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+215,"Chang, Zhiguang",chang_z,1,1,0,1,0,0,Chinese Academy of Sciences,4,ACS SYNTHETIC BIOLOGY,2019,2019
+216,"Crawford, I.",crawford_i,1,1,1,0,0,0,University of Manchester,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2011
+217,"Dusek, Ulrike",dusek_u,1,1,0,1,0,0,University of Groningen,1,,2025,2025
+218,"Fahey, D. W.",fahey_d,1,1,1,0,0,0,National Oceanic and Atmospheric Administration,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+219,"Fiorentino, Raffaele",fiorentino_r,1,1,0,1,0,0,Parthenope University of Naples,1,EUROPEAN JOURNAL OF INNOVATION MANAGEMENT,2020,2020
+220,"Hara, Takahito",hara_t,1,1,0,1,0,0,Urology San Antonio,2,CANCER RESEARCH,2008,2008
+221,"Henning, S.",henning_s,1,1,1,0,0,0,Leibniz Institute for Tropospheric Research,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2012
+222,"Höpfner, M.",hopfner_m,1,1,0,1,0,0,,0,,2019,2019
+223,"Jensen, E. J.",jensen_e,1,1,1,0,0,0,Ames Research Center,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2005
+224,"Kirchner, U.",kirchner_u,1,1,1,0,0,0,Ford (Germany),1,Journal of Aerosol Science,2003,2003
+225,"Li, Cong",li_c,1,1,0,1,0,0,Beijing Forestry University,2,JOURNAL OF THE AMERICAN SOCIETY FOR HORTICULTURAL SCIENCE,2012,2012
+226,"Platt, S. M.",platt_s,1,1,0,1,0,0,Paul Scherrer Institute,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+227,"Ramisetty, Ramakrishna",ramisetty_r,1,1,0,1,0,0,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+228,"Salo, K.",salo_k,1,1,1,0,0,0,University of Gothenburg,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2011
+229,"Saunders, R. W.",saunders_r,1,1,0,1,0,0,University of Leeds,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2010,2010
+230,"Schoen, Roland",schon_r,1,1,0,1,0,0,Karlsruhe Institute of Technology,1,JOURNAL OF ATMOSPHERIC AND OCEANIC TECHNOLOGY,2011,2011
+231,"Seifert, M.",seifert_m,1,1,1,0,0,0,Stockholm University,1,Journal of Aerosol Science,2004,2004
+232,"Soelch, Ingo",solch_i,1,1,1,0,0,0,Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),1,QUARTERLY JOURNAL OF THE ROYAL METEOROLOGICAL SOCIETY,2010,2010
+233,"Swanson, Brian D.",swanson_b,1,1,1,0,0,0,University of Washington,2,JOURNAL OF THE ATMOSPHERIC SCIENCES,2009,2009
+234,"Vergara-Palacio, Sebastian",vergarapalacio_s,1,1,1,0,0,0,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2026,2026
+235,"Walker, R.",walker_r,1,1,0,1,0,0,Augenklinik Heidelberg,1,BIOMEDIZINISCHE TECHNIK,2002,2002
+236,"Wilbourn, Elise K.",wilbourn_e,1,1,0,1,0,0,West Texas A&M University,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2024,2024
+237,"Wilmsmeyer, Sonja",wilmsmeyer_s,1,1,1,0,0,0,University of Freiburg,2,GRAEFES ARCHIVE FOR CLINICAL AND EXPERIMENTAL OPHTHALMOLOGY,2006,2006
+238,"Xu, Shuxuan",xu_s,1,1,1,0,0,0,Jiangsu Provincial Meteorological Bureau,1,RSC ADVANCES,2026,2026
+239,"Yadigaroglu, G.",yadigaroglu_g,1,1,1,0,0,0,ETH Zentrum,1,KERNTECHNIK,1998,1998
+240,"Al-Jumur, S. M. R. K.",aljumur_s,1,0,0,0,0,1,University of Leeds,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2012
+241,"Ali, Asad",ali_a,1,0,0,0,0,1,Arizona State University,1,THIN SOLID FILMS,2021,2021
+242,"Ali, Saddam",ali_s,1,0,0,0,0,1,Arizona State University,1,THIN SOLID FILMS,2021,2021
+243,"Alrehaili, Omar",alrehaili_o,1,0,0,0,0,1,Arizona State University,1,JOURNAL OF NANOPARTICLE RESEARCH,2020,2020
+244,"Anderson, J. G.",anderson_j,1,0,0,0,0,1,Harvard University,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2009,2009
+245,"Astorga, C.",astorga_c,1,0,0,0,0,1,Joint Research Centre,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+246,"Attard, E.",attard_e,1,0,0,0,0,1,Centre National de la Recherche Scientifique,5,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+247,"Auvermann, Brent W.",auvermann_b,1,0,0,0,0,1,Texas A&M AgriLife Res,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2021
+248,"Avallone, L. M.",avallone_l,1,0,0,0,0,1,U.S. National Science Foundation,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+249,"Barmet, P.",barmet_p,1,0,0,0,0,1,Paul Scherrer Institute,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+250,"Bauer, R.",baur_r,1,0,0,0,0,1,Forschungszentrum Jülich,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+251,"Baumgarnder, D.",baumgarnder_d,1,0,0,0,0,1,,0,JuSER (Forschungszentrum Jülich),2012,2012
+252,"Benker, N.",benker_n,1,0,0,0,0,1,Technische Universität Darmstadt,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2021,2021
+253,"Bertram, Allan K.",bertram_a,1,0,0,0,1,0,University of British Columbia,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2021
+254,"Bi, Yugiang",bi_y,1,0,0,0,0,1,Arizona State University,1,JOURNAL OF NANOPARTICLE RESEARCH,2020,2020
+255,"Bianchi, F.",bianchi_f,1,0,0,0,0,1,Paul Scherrer Institute,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+256,"Bierbauer, Sascha",bierbaur_s,1,0,0,0,0,1,,0,AGUFM,2017,2017
+257,"Bilde, Merete",bilde_m,1,0,0,0,0,1,,0,AGUFM,2017,2017
+258,"Blond, Nadege",blond_n,1,0,0,0,0,1,"Laboratoire Image, Ville, Environnement",1,Journal of Aerosol Science,2023,2023
+259,"Boffo, Cristian",boffo_c,1,0,0,0,0,1,Fermi National Accelerator Laboratory,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2021,2021
+260,"Bohn, B.",bohn_b,1,0,0,0,0,1,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2011
+261,"Bower, K. N.",bower_k,1,0,0,0,0,1,University of Manchester,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2011
+262,"Brauers, Theo",braurs_t,1,0,0,0,0,1,Forschungszentrum Jülich,1,PHYSICAL CHEMISTRY CHEMICAL PHYSICS,2009,2009
+263,"Brooks, Sarah D.",brooks_s,1,0,0,0,1,0,Texas A&M University,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+264,"Brown, Peter",brown_p,1,0,0,0,0,1,,0,JuSER (Forschungszentrum Jülich),2012,2012
+265,"Brunet, Y.",brunet_y,1,0,0,0,0,1,"Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+266,"Bucci, Silvia",bucci_s,1,0,0,0,0,1,,0,,2019,2019
+267,"Buchholz, A.",buchholz_a,1,0,0,0,0,1,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2012
+268,"Burkert-Kohn, Monika",burkertkohn_m,1,0,0,0,1,0,ETH Zurich,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+269,"Bush, Jack",bush_j,1,0,0,0,0,1,Texas A&M AgriLife Res,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2021
+270,"Busse, J.",busse_j,1,0,0,0,0,1,Leibniz Centre for Agricultural Landscape Research,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2016,2016
+271,"Cenac, Claire",cenac_c,1,0,0,0,0,1,École Polytechnique,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+272,"Chou, Cedric",chou_c,1,0,0,0,1,0,ETH Zurich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2019,2019
+273,"Choularton, T.",choularton_t,1,0,0,0,0,1,University of Manchester,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2009,2009
+274,"Christensen, L. E.",christensen_l,1,0,0,0,0,1,Jet Propulsion Laboratory,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+275,"Christiansen, Sigurd",christiansen_s,1,0,0,0,0,1,,0,AGUFM,2017,2017
+276,"Clairotte, M.",clairotte_m,1,0,0,0,0,1,Joint Research Centre,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+277,"Collier, Kristen N.",collier_k,1,0,0,0,1,0,Texas A&M University,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+278,"Cory, Kimberly M.",cory_k,1,0,0,0,0,1,Texas Tech University,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2021
+279,"Davis, S. M.",davis_s,1,0,0,0,0,1,National Oceanic and Atmospheric Administration,4,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+280,"Delagrange, R.",delagrange_r,1,0,0,0,0,1,University of Geneva,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+281,"Delort, A. -M.",delort_a,1,0,0,0,0,1,Centre National de la Recherche Scientifique,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+282,"Dingwell, D. B.",dingwell_d,1,0,0,0,0,1,Ludwig-Maximilians-Universität München,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2021,2021
+283,"Dippel, B.",dippel_b,1,0,0,0,0,1,Leibniz Institute for Tropospheric Research,1,Journal of Aerosol Science,2003,2003
+284,"Diskin, Glenn",diskin_g,1,0,0,0,0,1,Langley Research Center,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+285,"Dobbie, S.",dobbie_s,1,0,0,0,0,1,University of Leeds,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2012
+286,"Dorsey, J. R.",dorsey_j,1,0,0,0,0,1,,0,JuSER (Forschungszentrum Jülich),2012,2012
+287,"Dreier, J.",dreier_j,1,0,0,0,0,1,,0,KERNTECHNIK,1998,1998
+288,"Dreischmeier, K.",dreischmeier_k,1,0,0,0,0,1,Bielefeld University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+289,"Drinovec, L.",drinovec_l,1,0,0,0,0,1,Jolly Aero (Slovenia),1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+290,"Duft, Denis",duft_d,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2016,2016
+291,"Dyroff, C.",dyroff_c,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+292,"Ebert, M.",ebert_m,1,0,0,0,0,1,Tech Univ Darmstadt,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+293,"Ekman, Annica M. L.",ekman_a,1,0,0,0,0,1,,0,AGUFM,2017,2017
+294,"El Haddad, I.",elhaddad_i,1,0,0,0,0,1,Paul Scherrer Institute,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+295,"Els, Nora",els_n,1,0,0,0,1,0,Universität Innsbruck,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2021
+296,"Emmenegger, Lukas",emmenegger_l,1,0,0,0,0,1,Swiss Federal Laboratories for Materials Science and Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+297,"Eppers, Oliver",eppers_o,1,0,0,0,1,0,Johannes Gutenberg University Mainz,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+298,"Felgitsch, Laura",felgitsch_l,1,0,0,0,1,0,TU Wien,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+299,"Firth, Peter",firth_p,1,0,0,0,0,1,Foothill College,2,JOURNAL OF NANOPARTICLE RESEARCH,2020,2020
+300,"Fosig, Romy",fosig_r,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2026,2026
+301,"Frerot, Fabien",frerot_f,1,0,0,0,0,1,Centre de Génétique Moléculaire,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+302,"Fridlind, A. M.",fridlind_a,1,0,0,0,0,1,Ames Research Center,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2005
+303,"Friedl-Vallon, Felix",friedlvallon_f,1,0,0,0,0,1,,0,,2019,2019
+304,"Fry, Juliane L.",fry_j,1,0,0,0,1,0,Wageningen University & Research,1,,2025,2025
+305,"Fu, Jiajie",fu_j,1,0,0,0,0,1,Karlsruhe Institute of Technology,2,,2025,2025
+306,"Fuchs, H.",fuchs_h,1,0,0,0,0,1,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2011
+307,"Fujiwara, Masatomo",fujiwara_m,1,0,0,0,0,1,Hokkaido University,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+308,"Funk, Jens",funk_j,1,0,0,0,0,1,University of Freiburg,1,GRAEFES ARCHIVE FOR CLINICAL AND EXPERIMENTAL OPHTHALMOLOGY,2006,2006
+309,"Gangl, Martin",gangl_m,1,0,0,0,0,1,University of Vienna,1,JOURNAL OF QUANTITATIVE SPECTROSCOPY & RADIATIVE TRANSFER,2009,2009
+310,"Gao, R. -S.",gao_r,1,0,0,0,0,1,National Oceanic and Atmospheric Administration,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+311,"Garcia-Pando, Carlos Perez",garciapando_c,1,0,0,0,0,1,Barcelona Supercomp Ctr BSC,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2026,2026
+312,"Garimella, Sarvesh",garimella_s,1,0,0,0,1,0,Massachusetts Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+313,"Ghysels, Melanie",ghysels_m,1,0,0,0,1,0,Centre National pour la Recherche Scientifique et Technique (CNRST),1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+314,"Gonzalez-Romero, Adolfo",gonzalezromero_a,1,0,0,0,0,1,Consejo Superior de Investigaciones Científicas,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2026,2026
+315,"Goschnick, J.",goschnick_j,1,0,0,0,0,1,FZI Research Center for Information Technology,1,Journal of Aerosol Science,2003,2003
+316,"Grooss, Jens-Uwe",grooss_j,1,0,0,0,0,1,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2022,2022
+317,"Grothe, Hinrich",grothe_h,1,0,0,0,1,0,TU Wien,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+318,"Guerrero, Carlos",gurrero_c,1,0,0,0,0,1,West Texas A&M University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2024,2024
+319,"Hader, J. D.",hader_j,1,0,0,0,0,1,North Carolina State University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+320,"Han, Lie-Bao",han_l,1,0,0,0,1,0,Beijing Forestry University,2,JOURNAL OF THE AMERICAN SOCIETY FOR HORTICULTURAL SCIENCE,2012,2012
+321,"Hanisco, T. F.",hanisco_t,1,0,0,0,0,1,Goddard Space Flight Center,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2009,2009
+322,"Hao, Z.",hao_z,1,0,0,0,0,1,Freie Universität Berlin,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+323,"Harrington, Jerry Y.",harrington_j,1,0,0,0,1,0,Pennsylvania State University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2023,2023
+324,"Hauglustaine, Didier",hauglustaine_d,1,0,0,0,0,1,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,3,Journal of Aerosol Science,2023,2023
+325,"Henin, S.",henin_s,1,0,0,0,0,1,University of Geneva,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+326,"Herenz, Paul",herenz_p,1,0,0,0,1,0,Leibniz Institute for Tropospheric Research,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+327,"Hertzog, Albert",hertzog_a,1,0,0,0,0,1,École Polytechnique,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+328,"Hintsa, E. J.",hintsa_e,1,0,0,0,0,1,Cooperative Institute for Research in Environmental Sciences,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2009,2009
+329,"Hirst, Edwin",hirst_e,1,0,0,0,0,1,University of Hertfordshire,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2016,2016
+330,"Hobl, Achim",hobl_a,1,0,0,0,0,1,Bilfinger (Germany),1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2021,2021
+331,"Hohaus, Thorsten",hohaus_t,1,0,0,0,0,1,Forschungszentrum Jülich,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2011,2011
+332,"Holman, Zachary C.",holman_z,1,0,0,0,1,0,Foothill College,2,JOURNAL OF NANOPARTICLE RESEARCH,2020,2020
+333,"Holzinger, Rupert",holzinger_r,1,0,0,0,1,0,Utrecht University,1,,2025,2025
+334,"Hou, Yidi",hou_y,1,0,0,0,0,1,West Texas A&M University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2021,2021
+335,"Huang, Shuqiang",huang_s,1,0,0,0,0,1,Chinese Academy of Sciences,4,ACS SYNTHETIC BIOLOGY,2019,2019
+336,"Hudson, P. K.",hudson_p,1,0,0,0,0,1,National Oceanic and Atmospheric Administration,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2005
+337,"Hussain, Sajjad",hussain_s,1,0,0,0,0,1,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,1,THIN SOLID FILMS,2021,2021
+338,"Imre, Dan",imre_d,1,0,0,0,0,1,Imre Consulting,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2018,2018
+339,"Indris, O.",indris_o,1,0,0,0,0,1,Max Planck Institute for Nuclear Physics,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2006,2006
+340,"Iturri, A.",iturri_a,1,0,0,0,0,1,Universidad Nacional de La Pampa,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2016,2016
+341,"Jezek, I.",jezek_i,1,0,0,0,0,1,Jolly Aero (Slovenia),2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+342,"Johansson, Sören",johansson_s,1,0,0,0,0,1,,0,,2019,2019
+343,"Joly, M.",joly_m,1,0,0,0,0,1,Centre National de la Recherche Scientifique,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+344,"Jourdan, Olivier",jourdan_o,1,0,0,0,0,1,Laboratoire de Météorologie Physique,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2016,2016
+345,"Kamm, S.",kamm_s,1,0,0,0,0,1,,0,Journal of Aerosol Science,2003,2003
+346,"Kammer, Beatrix",kammer_b,1,0,0,0,0,1,Forschungszentrum Jülich,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2011,2011
+347,"Kasparian, J.",kasparian_j,1,0,0,0,1,0,University of Geneva,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+348,"Kaufmann, Julia",kaufmann_j,1,0,0,0,0,1,Karlsruhe Institute of Technology,2,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2018,2018
+349,"Khan, Khurram Imran",khan_k,1,0,0,0,1,0,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,1,THIN SOLID FILMS,2021,2021
+350,"Khaykin, S. M.",khaykin_s,1,0,0,0,0,1,Centre National de la Recherche Scientifique,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+351,"Kirchen, S.",kirchen_s,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2016,2016
+352,"Klein, Holger",klein_h,1,0,0,0,0,1,Goethe University Frankfurt,1,JOURNAL OF THE ATMOSPHERIC SCIENCES,2012,2012
+353,"Klose, Martina",klose_m,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2026,2026
+354,"Knopf, Daniel A.",knopf_d,1,0,0,0,1,0,Stony Brook University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2016,2016
+355,"Kreidenweis, S. M.",kreidenweis_s,1,0,0,0,0,1,Colorado State University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+356,"Kremer, Martina",kremer_m,1,0,0,0,1,0,Forschungszentrum Jülich,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2022,2022
+357,"Kristensen, Thomas B.",kristensen_t,1,0,0,0,1,0,Lund University,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+358,"Kroese, Willem",krose_w,1,0,0,0,1,0,Utrecht University,1,,2025,2025
+359,"Krueger, Konstantin",kruger_k,1,0,0,0,1,0,Karlsruhe Institute of Technology,4,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+360,"Krämer, L.",kramer_l,1,0,0,0,0,1,Technical University of Munich,1,Journal of Aerosol Science,2003,2003
+361,"Kueppers, U.",kuppers_u,1,0,0,0,0,1,Ludwig-Maximilians-Universität München,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2021,2021
+362,"Kusunoki, Kenichi",kusunoki_k,1,0,0,0,0,1,Meteorological Research Institute,1,JOURNAL OF THE METEOROLOGICAL SOCIETY OF JAPAN,2013,2013
+363,"Landsberg, Janek",landsberg_j,1,0,0,0,0,1,Laboratoire Interdisciplinaire de Physique,1,HAL (Le Centre pour la Communication Scientifique Directe),2013,2013
+364,"Lang, Qi",lang_q,1,0,0,0,0,1,Chinese Academy of Sciences,4,ACS SYNTHETIC BIOLOGY,2019,2019
+365,"Lang, Yue",lang_y,1,0,0,0,0,1,BGI Group (China),3,ACS SYNTHETIC BIOLOGY,2019,2019
+366,"Laumer, Werner",laumer_w,1,0,0,0,0,1,Forschungszentrum Jülich,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2011,2011
+367,"Leck, Charles F.",leck_c,1,0,0,0,0,1,,0,AGUFM,2017,2017
+368,"Lee, Aram",lee_a,1,0,0,0,0,1,Yale University,2,CANCER RESEARCH,2008,2008
+369,"Legras, Bernard",legras_b,1,0,0,0,0,1,,0,,2019,2019
+370,"Leue, M.",leu_m,1,0,0,0,0,1,Leibniz Centre for Agricultural Landscape Research,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2016,2016
+371,"Li, Zhengjin",li_z,1,0,0,0,0,1,Jiangsu Provincial Meteorological Bureau,1,RSC ADVANCES,2026,2026
+372,"Lilie, Lyle",lilie_l,1,0,0,0,0,1,Engineering Associates (United States),1,JOURNAL OF THE METEOROLOGICAL SOCIETY OF JAPAN,2013,2013
+373,"Liu, Chenli",liu_c,1,0,0,0,1,0,Chinese Academy of Sciences,4,ACS SYNTHETIC BIOLOGY,2019,2019
+374,"Liu, Jiao",liu_j,1,0,0,0,0,1,Jiangsu Provincial Meteorological Bureau,1,RSC ADVANCES,2026,2026
+375,"Longobardi, Sergio",longobardi_s,1,0,0,0,1,0,Parthenope University of Naples,1,EUROPEAN JOURNAL OF INNOVATION MANAGEMENT,2020,2020
+376,"Lopez, Julio",lopez_j,1,0,0,0,0,1,École Polytechnique,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+377,"Lueder, J.",luder_j,1,0,0,0,0,1,Freie Universität Berlin,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+378,"Mahrt, Fabian",mahrt_f,1,0,0,0,0,1,Aarhus University,4,ATMOSPHERIC CHEMISTRY AND PHYSICS,2024,2024
+379,"Marchand, N.",marchand_n,1,0,0,0,0,1,Centre National de la Recherche Scientifique,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+380,"Marsden, Nicholas A.",marsden_n,1,0,0,0,0,1,University of Manchester,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2024,2024
+381,"Maters, E. C.",maters_e,1,0,0,0,0,1,University of Leeds,3,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2021,2021
+382,"Maßling, Andreas",massling_a,1,0,0,0,0,1,,0,EAEJA,2003,2003
+383,"McCluskey, C. S.",mccluskey_c,1,0,0,0,0,1,Colorado State University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+384,"Megahed, K.",megahed_k,1,0,0,0,0,1,,0,JOURNAL OF PHOTOCHEMISTRY AND PHOTOBIOLOGY A-CHEMISTRY,2005,2005
+385,"Mendez, Maxence",mendez_m,1,0,0,0,0,1,Octopus Lab,1,Journal of Aerosol Science,2023,2023
+386,"Michaud, V.",michaud_v,1,0,0,0,0,1,Laboratoire de Météorologie Physique,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2012
+387,"Micolier, Alice",micolier_a,1,0,0,0,0,1,Octopus Lab,1,Journal of Aerosol Science,2023,2023
+388,"Mihelcic, D.",mihelcic_d,1,0,0,0,0,1,Forschungszentrum Jülich,1,Journal of Aerosol Science,2003,2003
+389,"Mioche, Guillaume",mioche_g,1,0,0,0,0,1,Laboratoire de Météorologie Physique,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2016,2016
+390,"Miyazaki, Hideyo",miyazaki_h,1,0,0,0,0,1,Urology San Antonio,2,CANCER RESEARCH,2008,2008
+391,"Mocnik, G.",mocnik_g,1,0,0,0,0,1,Jolly Aero (Slovenia),2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+392,"Mohler, Stanley R.",mohler_s,1,0,0,0,0,1,,0,JuSER (Forschungszentrum Jülich),2012,2012
+393,"Monier, M.",monier_m,1,0,0,0,0,1,Laboratoire de Météorologie Physique,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2012
+394,"Monnier, Paul",monnier_p,1,0,0,0,0,1,École Polytechnique,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+395,"Müller, Thomas",muller_t,1,0,0,0,0,1,Leibniz Institute for Tropospheric Research,1,HAL (Le Centre pour la Communication Scientifique Directe),2009,2009
+396,"Natzeck, C.",natzeck_c,1,0,0,0,0,1,FZI Research Center for Information Technology,1,Journal of Aerosol Science,2003,2003
+397,"Nenes, Athanasios",nenes_a,1,0,0,0,0,1,Georgia Institute of Technology,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2008,2008
+398,"Nicosia, Alessia",nicosia_a,1,0,0,0,1,0,Centre National de la Recherche Scientifique,3,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+399,"Niessner, R.",niessner_r,1,0,0,0,0,1,Technical University of Munich,1,Journal of Aerosol Science,2003,2003
+400,"Orikasa, Narihiro",orikasa_n,1,0,0,0,0,1,Japan Meteorological Agency,1,JOURNAL OF THE METEOROLOGICAL SOCIETY OF JAPAN,2013,2013
+401,"Ou, Hengjia",ou_h,1,0,0,0,0,1,University of Groningen,1,,2025,2025
+402,"Pantoya, Aidan D.",pantoya_a,1,0,0,0,0,1,West Texas A&M University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2024,2024
+403,"Paukert, M.",paukert_m,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2014,2014
+404,"Peter, T.",peter_t,1,0,0,0,0,1,ETH Zurich,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+405,"Petit, Y.",petit_y,1,0,0,0,0,1,University of Geneva,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+406,"Petrarca, M.",petrarca_m,1,0,0,0,0,1,University of Geneva,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+407,"Petters, Sarah S.",petters_s,1,0,0,0,1,0,University of North Carolina at Chapel Hill,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+408,"Petzold, Andreas",petzold_a,1,0,0,0,0,1,Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),1,HAL (Le Centre pour la Communication Scientifique Directe),2009,2009
+409,"Pfeuffer, Tatjana",pfeuffer_t,1,0,0,0,0,1,Bilfinger (Germany),1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2021,2021
+410,"Pfister, L.",pfister_l,1,0,0,0,0,1,Ames Research Center,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2005
+411,"Philippin, Heiko",philippin_h,1,0,0,0,0,1,University of Freiburg,1,GRAEFES ARCHIVE FOR CLINICAL AND EXPERIMENTAL OPHTHALMOLOGY,2006,2006
+412,"Plane, J. M. C.",plane_j,1,0,0,0,1,0,University of Leeds,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2010,2010
+413,"Polen, Michael J.",polen_m,1,0,0,0,1,0,Carnegie Mellon University,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+414,"Ponche, Jean-Luc",ponche_j,1,0,0,0,0,1,"Laboratoire Image, Ville, Environnement",1,Journal of Aerosol Science,2023,2023
+415,"Porter, Grace C. E.",porter_g,1,0,0,0,0,1,,0,AGUFM,2017,2017
+416,"Pöschl, U.",poschl_u,1,0,0,0,0,1,Technical University of Munich,1,Journal of Aerosol Science,2003,2003
+417,"Querol, Xavier",qurol_x,1,0,0,0,0,1,Consejo Superior de Investigaciones Científicas,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2026,2026
+418,"Reicher, Naama",reicher_n,1,0,0,0,1,0,Weizmann Institute of Science,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+419,"Reiter, Robert E.",reiter_r,1,0,0,0,1,0,"University of California, Los Angeles",3,CANCER RESEARCH,2008,2008
+420,"Richter, R.",richter_r,1,0,0,0,0,1,Paul Scherrer Institute,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+421,"Rohs, S.",rohs_s,1,0,0,0,0,1,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+422,"Rohwetter, P.",rohwetter_p,1,0,0,0,0,1,Freie Universität Berlin,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+423,"Rollins, A. W.",rollins_a,1,0,0,0,0,1,Cooperative Institute for Research in Environmental Sciences,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+424,"Rothenberg, Daniel A.",rothenberg_d,1,0,0,0,1,0,Massachusetts Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+425,"Rubach, F.",rubach_f,1,0,0,0,0,1,Forschungszentrum Jülich,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2011,2011
+426,"Rudich, Yinon",rudich_y,1,0,0,0,1,0,Weizmann Institute of Science,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+427,"Samake, Jean-Christophe",samake_j,1,0,0,0,0,1,Centre de Génétique Moléculaire,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+428,"Sargent, M. R.",sargent_m,1,0,0,0,0,1,Harvard University,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2009,2009
+429,"Scaletti, Alessandro",scaletti_a,1,0,0,0,0,1,Parthenope University of Naples,1,EUROPEAN JOURNAL OF INNOVATION MANAGEMENT,2020,2020
+430,"Schill, G. P.",schill_g,1,0,0,0,0,1,Cooperative Institute for Research in Environmental Sciences,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+431,"Schrod, Jann",schrod_j,1,0,0,0,1,0,Goethe University Frankfurt,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+432,"Schwartz, T.",schwartz_t,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2016,2016
+433,"Schöck, O. W.",schock_o,1,0,0,0,0,1,,0,Journal of Aerosol Science,2003,2003
+434,"Seifried, Teresa M.",seifried_t,1,0,0,0,1,0,TU Wien,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+435,"Sellegri, K.",sellegri_k,1,0,0,0,0,1,Laboratoire de Météorologie Physique,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2012
+436,"Shcherbakov, Valery N.",shcherbakov_v,1,0,0,0,0,1,Laboratoire de Météorologie Physique,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2016,2016
+437,"Sierau, B.",sierau_b,1,0,0,0,0,1,ETH Zurich,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2016,2016
+438,"Sitnikov, N.",sitnikov_n,1,0,0,0,0,1,Roshydromet,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+439,"Snider, J. R.",snider_j,1,0,0,0,0,1,University of Wyoming,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+440,"Spackman, J. R.",spackman_j,1,0,0,0,0,1,Cooperative Institute for Research in Environmental Sciences,2,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2009,2009
+441,"Spang, Reinhold",spang_r,1,0,0,0,0,1,,0,,2019,2019
+442,"Specht, H.",specht_h,1,0,0,0,1,0,Heidelberg University,1,BIOMEDIZINISCHE TECHNIK,2002,2002
+443,"Spichtinger, Peter",spichtinger_p,1,0,0,0,1,0,Johannes Gutenberg University Mainz,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2022,2022
+444,"St Clair, J. M.",stclair_j,1,0,0,0,0,1,California Institute of Technology,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2009,2009
+445,"Stein, Olaf",stein_o,1,0,0,0,0,1,Forschungszentrum Jülich,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2011,2011
+446,"Stelmaszczyk, K.",stelmaszczyk_k,1,0,0,0,0,1,Freie Universität Berlin,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+447,"Stiller, G. P.",stiller_g,1,0,0,0,0,1,,0,,2019,2019
+448,"Ström, J.",strom_j,1,0,0,0,0,1,Stockholm University,1,Journal of Aerosol Science,2004,2004
+449,"Szakall, Miklos",szakall_m,1,0,0,0,1,0,Johannes Gutenberg University Mainz,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+450,"Tatrai, D.",tatrai_d,1,0,0,0,0,1,University of Szeged,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+451,"Taylor, Hans P.",taylor_h,1,0,0,0,1,0,North Carolina State University,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+452,"Temime-Roussel, B.",temimeroussel_b,1,0,0,0,0,1,Centre National de la Recherche Scientifique,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+453,the CAINA team,thecainateam,1,0,0,0,0,1,,0,,2025,2025
+454,"Thompson, T. L.",thompson_t,1,0,0,0,0,1,National Oceanic and Atmospheric Administration,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2005,2005
+455,"Thornberry, T. D.",thornberry_t,1,0,0,0,0,1,Cooperative Institute for Research in Environmental Sciences,3,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+456,"Tobo, Y.",tobo_y,1,0,0,0,0,1,National Institute of Polar Research,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+457,"Tokuyasu, Taku A.",tokuyasu_t,1,0,0,0,0,1,Chinese Academy of Sciences,4,ACS SYNTHETIC BIOLOGY,2019,2019
+458,"Tolbert, M. A.",tolbert_m,1,0,0,0,0,1,Cooperative Institute for Research in Environmental Sciences,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+459,"Toprak, E.",toprak_e,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2016,2016
+460,"Tran, Chan P.",tran_c,1,0,0,0,0,1,"University of California, Los Angeles",3,CANCER RESEARCH,2008,2008
+461,"Tricoli, Ugo",tricoli_u,1,0,0,0,0,1,Heidelberg University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2016,2016
+462,"Tuellmann, Nadine",tullmann_n,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2020,2020
+463,"Tuzson, Bela",tuzson_b,1,0,0,0,0,1,Swiss Federal Laboratories for Materials Science and Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2025,2025
+464,"Ullah, Asmat",ullah_a,1,0,0,0,0,1,Arizona State University,2,THIN SOLID FILMS,2021,2021
+465,"Ullah, Saad",ullah_s,1,0,0,0,0,1,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,1,THIN SOLID FILMS,2021,2021
+466,"Ulrich, A.",ulrich_a,1,0,0,0,0,1,Leibniz Centre for Agricultural Landscape Research,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2016,2016
+467,"Ungermann, Jörn",ungermann_j,1,0,0,0,0,1,,0,,2019,2019
+468,"Vergara-Temprado, Jesus",vergaratemprado_j,1,0,0,0,1,0,University of Leeds,2,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+469,"Verhaege, Christophe",verhage_c,1,0,0,0,0,1,Laboratoire de Météorologie Physique,1,HAL (Le Centre pour la Communication Scientifique Directe),2009,2009
+470,"Voemel, H.",vomel_h,1,0,0,0,0,1,National Oceanic and Atmospheric Administration,4,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+471,"Vogel, Bernhard",vogel_b,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,JOURNAL OF THE ATMOSPHERIC SCIENCES,2012,2012
+472,"Vogel, Heike",vogel_h,1,0,0,0,0,1,Karlsruhe Institute of Technology,1,JOURNAL OF THE ATMOSPHERIC SCIENCES,2012,2012
+473,"Vogt, R.",vogt_r,1,0,0,0,0,1,Ford (Germany),1,Journal of Aerosol Science,2003,2003
+474,"Voutilainen, Arto",voutilainen_a,1,0,0,0,0,1,,0,EAEJA,2003,2003
+475,"Wahner, Andreas",wahner_a,1,0,0,0,0,1,Forschungszentrum Jülich,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2011,2011
+476,"Walter, S.",walter_s,1,0,0,0,0,1,Max Planck Society,2,ENVIRONMENTAL RESEARCH LETTERS,2008,2008
+477,"Wang, Song",wang_s,1,0,0,0,0,1,Jiangsu Provincial Meteorological Bureau,1,RSC ADVANCES,2026,2026
+478,"Wang, Z.",wang_z,1,0,0,0,0,1,University of Wyoming,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+479,"Weber, Daniel",weber_d,1,0,0,0,1,0,Goethe University Frankfurt,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+480,"Wegener, Robert",wegener_r,1,0,0,0,0,1,Forschungszentrum Jülich,1,JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES,2011,2011
+481,"Weinbruch, S.",weinbruch_s,1,0,0,0,0,1,Tech Univ Darmstadt,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+482,"Weingartner, E.",weingartner_e,1,0,0,0,0,1,Paul Scherrer Institute,1,Journal of Aerosol Science,2003,2003
+483,"Weiss, Maximilian",weiss_m,1,0,0,0,0,1,Karlsruhe University of Education,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2021,2021
+484,"Westerhoff, Paul",westerhoff_p,1,0,0,0,0,1,Arizona State University,1,JOURNAL OF NANOPARTICLE RESEARCH,2020,2020
+485,"Wiedensohler, A.",wiedensohler_a,1,0,0,0,0,1,,0,EAEJA,2003,2003
+486,"Wienhold, F. G.",wienhold_f,1,0,0,0,0,1,ETH Zurich,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2014,2014
+487,"Wills, R.",wills_r,1,0,0,0,0,1,University of Leeds,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2010,2010
+488,"Woeste, L.",woste_l,1,0,0,0,0,1,Freie Universität Berlin,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+489,"Wohltmann, Ingo",wohltmann_i,1,0,0,0,0,1,,0,,2019,2019
+490,"Wolf, J. -P.",wolf_j,1,0,0,0,0,1,University of Geneva,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+491,"Wolf, Martin J.",wolf_m,1,0,0,0,1,0,Massachusetts Institute of Technology,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+492,"Wooley, Allyson H.",wooley_a,1,0,0,0,0,1,,0,JuSER (Forschungszentrum Jülich),2012,2012
+493,"Wright, T. P.",wright_t,1,0,0,0,0,1,North Carolina State University,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+494,"Zardini, A. A.",zardini_a,1,0,0,0,0,1,Joint Research Centre,1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2013,2013
+495,"Zawadowicz, Maria A.",zawadowicz_m,1,0,0,0,0,1,Brookhaven National Laboratory,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2024,2024
+496,"Zenker, Jake",zenker_j,1,0,0,0,1,0,Texas A&M University,1,ATMOSPHERIC MEASUREMENT TECHNIQUES,2018,2018
+497,"Zhang, Xunzhong",zhang_x,1,0,0,0,0,1,Beijing Forestry University,2,JOURNAL OF THE AMERICAN SOCIETY FOR HORTICULTURAL SCIENCE,2012,2012
+498,"Zheng, Hai",zheng_h,1,0,0,0,0,1,Chinese Academy of Sciences,4,ACS SYNTHETIC BIOLOGY,2019,2019
+499,"Ziese, M.",ziese_m,1,0,0,0,0,1,Deutscher Wetterdienst,2,ATMOSPHERIC CHEMISTRY AND PHYSICS,2012,2012
+500,"Zoeger, M.",zoger_m,1,0,0,0,0,1,Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR),1,ATMOSPHERIC CHEMISTRY AND PHYSICS,2015,2015
+501,"Zong, Pengcheng",zong_p,1,0,0,0,0,1,Jiangsu Provincial Meteorological Bureau,1,RSC ADVANCES,2026,2026

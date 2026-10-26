@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIDA publications of Ulrich Schurath</title>
+<style>
+  :root {
+    --paper: #FBFCFC;
+    --ink: #1F2B30;
+    --muted: #5B696E;
+    --rule: #D3DDDF;
+    --green: #009682;
+    --green-deep: #00705F;
+    --ice: #E3F0F2;
+    --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    --sans: "Source Sans 3", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.45;
+  }
+  .page { max-width: 1320px; margin: 0 auto; padding: 40px 28px 64px; }
+
+  /* header */
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 1.15;
+    margin: 0 0 6px;
+  }
+  .summary { color: var(--muted); margin: 0 0 28px; font-size: 1rem; }
+
+  /* year histogram, also the year filter */
+  .years { margin-bottom: 26px; }
+  .years-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 110px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .year-bar {
+    flex: 1 1 0;
+    min-width: 6px;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+  }
+  .year-bar span {
+    display: block;
+    width: 100%;
+    background: var(--green);
+    min-height: 2px;
+  }
+  .year-bar.empty span { background: var(--rule); }
+  .year-bar:hover span { background: var(--green-deep); }
+  .years.has-selection .year-bar span { background: var(--ice); }
+  .years.has-selection .year-bar[aria-pressed="true"] span { background: var(--green-deep); }
+  .year-bar:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .years-axis { display: flex; gap: 3px; margin-top: 4px; }
+  .years-axis span {
+    flex: 1 1 0;
+    min-width: 6px;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    overflow: visible;
+  }
+  .years-hint { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
+
+  /* controls */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 16px;
+    margin-bottom: 14px;
+  }
+  .controls input[type="search"] {
+    flex: 1 1 320px;
+    font: inherit;
+    padding: 9px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--ink);
+  }
+  .controls select, .controls button {
+    font: inherit;
+    padding: 8px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--ink);
+  }
+  .controls button { cursor: pointer; }
+  .controls button:hover { border-color: var(--green); }
+  .controls :focus-visible, .sort-button:focus-visible, a:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 2px;
+  }
+  .count { color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
+
+  /* table */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 960px; }
+  thead th {
+    position: sticky;
+    top: 0;
+    background: var(--paper);
+    border-bottom: 2px solid var(--ink);
+    text-align: left;
+    padding: 0;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .sort-button {
+    font: inherit;
+    font-weight: 600;
+    color: var(--ink);
+    background: none;
+    border: 0;
+    padding: 10px 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+  }
+  .sort-button::after { content: ""; display: inline-block; width: 1em; margin-left: 4px; color: var(--green-deep); }
+  th[aria-sort="ascending"] .sort-button::after { content: "\25B2"; font-size: 0.7em; }
+  th[aria-sort="descending"] .sort-button::after { content: "\25BC"; font-size: 0.7em; }
+  tbody td {
+    border-bottom: 1px solid var(--rule);
+    padding: 11px 10px;
+    vertical-align: top;
+  }
+  tbody tr:hover td { background: var(--ice); }
+  .col-num { width: 3.5em; }
+  td.col-num { color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; }
+  .col-year { width: 5em; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .col-authors { width: 22%; }
+  td.col-authors { color: var(--muted); font-size: 0.92rem; }
+  td.col-title { font-family: var(--serif); font-size: 1.02rem; line-height: 1.5; }
+  .col-venue { width: 17%; }
+  .col-venue small { display: block; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .col-type { width: 8em; }
+  td.col-type { color: var(--muted); font-size: 0.9rem; }
+  .col-doi { width: 15em; }
+  td.col-doi { font-size: 0.88rem; word-break: break-all; }
+  .col-doi a { color: var(--green-deep); text-decoration: underline; text-underline-offset: 2px; }
+  .col-doi a:visited { color: #4F5F8A; }
+  .missing { color: var(--rule); }
+  .confirmed { display: block; margin-top: 4px; font-family: var(--sans); font-size: 0.82rem; color: var(--green-deep); }
+  .confirmed::before { content: "\2713  "; }
+  .pages { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 10px; font-size: 0.92rem; }
+  .pages a { color: var(--green-deep); text-underline-offset: 2px; }
+  .index-list { columns: 3 260px; padding: 0; list-style: none; }
+  .index-list li { break-inside: avoid; padding: 5px 0; border-bottom: 1px solid var(--rule); }
+  .index-list a { color: var(--ink); }
+  .index-list small { color: var(--muted); margin-left: 6px; font-variant-numeric: tabular-nums; }
+  sub, sup { font-size: 0.72em; line-height: 0; }
+
+  .empty-state { padding: 40px 10px; color: var(--muted); }
+  .empty-state button { margin-top: 10px; }
+  footer { margin-top: 36px; color: var(--muted); font-size: 0.85rem; }
+
+  @media (max-width: 720px) {
+    .page { padding: 24px 14px 48px; }
+    h1 { font-size: 1.6rem; }
+    .count { margin-left: 0; width: 100%; }
+  }
+  @media print {
+    .years, .controls { display: none; }
+    thead th { position: static; }
+    table { min-width: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <nav class="pages"><a href="../AIDA_Publication_List.html">All AIDA publications</a><a href="../AIDA_Authors_Index.html">All researchers</a></nav>
+    <h1>AIDA publications of Ulrich Schurath</h1>
+    <p class="summary">29 publications from 1999 to 2011.</p>
+  </header>
+
+  <section class="years" id="years" aria-label="Publications per year">
+    <div class="years-bars" id="years_bars"></div>
+    <div class="years-axis" id="years_axis" aria-hidden="true"></div>
+    <div class="years-hint" id="years_hint">Select a year bar to show only that year.</div>
+  </section>
+
+  <div class="controls">
+    <input type="search" id="search_box" placeholder="Search authors, titles, journals, DOIs" aria-label="Search publications">
+    <select id="type_select" aria-label="Filter by publication type">
+      <option value="">All types</option>
+    </select>
+    <select id="confirmed_select" aria-label="Filter by author confirmation">
+      <option value="">All papers</option>
+      <option value="yes">Confirmed by an author</option>
+      <option value="no">Not confirmed</option>
+    </select>
+    <button type="button" id="reset_button">Clear filters</button>
+    <span class="count" id="count_text" aria-live="polite"></span>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-num" scope="col"><span class="sort-button" style="cursor:default">#</span></th>
+          <th class="col-year" scope="col" data-key="year"><button class="sort-button" type="button">Year</button></th>
+          <th class="col-authors" scope="col" data-key="authors"><button class="sort-button" type="button">Authors</button></th>
+          <th class="col-title" scope="col" data-key="title"><button class="sort-button" type="button">Title</button></th>
+          <th class="col-venue" scope="col" data-key="venue"><button class="sort-button" type="button">Journal</button></th>
+          <th class="col-type" scope="col" data-key="type"><button class="sort-button" type="button">Type</button></th>
+          <th class="col-doi" scope="col" data-key="doi"><button class="sort-button" type="button">DOI</button></th>
+        </tr>
+      </thead>
+      <tbody id="table_body"></tbody>
+    </table>
+    <div class="empty-state" id="empty_state" hidden>
+      No publications match these filters.<br>
+      <button type="button" id="empty_reset_button">Clear filters</button>
+    </div>
+  </div>
+
+  <footer>Generated from Ulrich_Schurath.bib on 2026-10-14.</footer>
+</div>
+
+<script>
+const records = [{"key": "2011_schoen_jaot", "year": 2011, "authors_short": "Schoen, R.; Schnaiter, M.; Ulanowski, Z.; Schmitt, C.; Benz, S.; Moehler, O.; Vogt, S.; Wagner, R.; Schurath, U.", "authors_full": "Schoen, R.; Schnaiter, M.; Ulanowski, Z.; Schmitt, C.; Benz, S.; Moehler, O.; Vogt, S.; Wagner, R.; Schurath, U.", "first_author": "Schoen, R.", "title_plain": "Particle Habit Imaging Using Incoherent Light: A First Step toward a Novel Instrument for Cloud Microphysics", "title_html": "Particle Habit Imaging Using Incoherent Light: A First Step toward a Novel Instrument for Cloud Microphysics", "venue": "JOURNAL OF ATMOSPHERIC AND OCEANIC TECHNOLOGY", "venue_detail": "28(4), 493-512", "doi": "10.1175/2011JTECHA1445.1", "doi_url": "https://doi.org/10.1175/2011JTECHA1445.1", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2009_saathoff_acp", "year": 2009, "authors_short": "Saathoff, H.; Naumann, K. H.; Moehler, O.; Jonsson, A. M.; Hallquist, M.; Kiendler-Scharr, A.; Mentel, T. F.; Tillmann, R.; Schurath, U.", "authors_full": "Saathoff, H.; Naumann, K. H.; Moehler, O.; Jonsson, A. M.; Hallquist, M.; Kiendler-Scharr, A.; Mentel, T. F.; Tillmann, R.; Schurath, U.", "first_author": "Saathoff, H.", "title_plain": "Temperature dependence of yields of secondary organic aerosols from the ozonolysis of α-pinene and limonene", "title_html": "Temperature dependence of yields of secondary organic aerosols from the ozonolysis of α-pinene and limonene", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "9(5), 1551-1577", "doi": "10.5194/acp-9-1551-2009", "doi_url": "https://doi.org/10.5194/acp-9-1551-2009", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2006_wagner_kape", "year": 2006, "authors_short": "Wagner, R.; Bunz, H.; Linke, C.; Möhler, O.; Naumann, K. H.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "authors_full": "Wagner, R.; Bunz, H.; Linke, C.; Möhler, O.; Naumann, K. H.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Chamber Simulations of Cloud Chemistry: The AIDA Chamber", "title_html": "Chamber Simulations of Cloud Chemistry: The AIDA Chamber", "venue": "Kluwer Academic Publishers eBooks", "venue_detail": "67-82", "doi": "10.1007/1-4020-4232-9_5", "doi_url": "https://doi.org/10.1007/1-4020-4232-9_5", "url": "", "type_label": "Book chapter", "confirmed_by": "Robert Wagner"}, {"key": "2006_wagner_acp", "year": 2006, "authors_short": "Wagner, R.; Benz, S.; Moehler, O.; Saathoff, H.; Schurath, U.", "authors_full": "Wagner, R.; Benz, S.; Moehler, O.; Saathoff, H.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Probing ice clouds by broadband mid-infrared extinction spectroscopy:: case studies from ice nucleation experiments in the AIDA aerosol and cloud chamber", "title_html": "Probing ice clouds by broadband mid-infrared extinction spectroscopy:: case studies from ice nucleation experiments in the AIDA aerosol and cloud chamber", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "6(12), 4775-4800", "doi": "10.5194/acp-6-4775-2006", "doi_url": "https://doi.org/10.5194/acp-6-4775-2006", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_benz_jppac", "year": 2005, "authors_short": "Benz, S.; Megahed, K.; Möhler, O.; Saathoff, H.; Wagner, R.; Schurath, U.", "authors_full": "Benz, S.; Megahed, K.; Möhler, O.; Saathoff, H.; Wagner, R.; Schurath, U.", "first_author": "Benz, S.", "title_plain": "T-dependent rate measurements of homogeneous ice nucleation in cloud droplets using a large atmospheric simulation chamber", "title_html": "T-dependent rate measurements of homogeneous ice nucleation in cloud droplets using a large atmospheric simulation chamber", "venue": "JOURNAL OF PHOTOCHEMISTRY AND PHOTOBIOLOGY A-CHEMISTRY", "venue_detail": "176(1-3), 208-217", "doi": "10.1016/j.jphotochem.2005.08.026", "doi_url": "https://doi.org/10.1016/j.jphotochem.2005.08.026", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_ebert_tm", "year": 2005, "authors_short": "Ebert, V.; Teichert, H.; Giesemann, C.; Saathoff, H.; Schurath, U.", "authors_full": "Ebert, V.; Teichert, H.; Giesemann, C.; Saathoff, H.; Schurath, U.", "first_author": "Ebert, V.", "title_plain": "Fibre-coupled in-situ laser absorption spectrometer for the selective detection of water vapour traces down to the ppb-level", "title_html": "Fibre-coupled in-situ laser absorption spectrometer for the selective detection of water vapour traces down to the ppb-level", "venue": "TECHNISCHES MESSEN", "venue_detail": "72(1), 23-30", "doi": "10.1524/teme.72.1.23.56689", "doi_url": "https://doi.org/10.1524/teme.72.1.23.56689", "url": "", "type_label": "Article", "confirmed_by": ""}, {"key": "2005_mangold_mz", "year": 2005, "authors_short": "Mangold, A.; Wagner, R.; Saathoff, H.; Schurath, U.; Giesemann, C.; Ebert, V.; Krämer, M.; Möhler, O.", "authors_full": "Mangold, A.; Wagner, R.; Saathoff, H.; Schurath, U.; Giesemann, C.; Ebert, V.; Krämer, M.; Möhler, O.", "first_author": "Mangold, A.", "title_plain": "Experimental investigation of ice nucleation by different types of aerosols in the aerosol chamber AIDA:: implications to microphysics of cirrus clouds", "title_html": "Experimental investigation of ice nucleation by different types of aerosols in the aerosol chamber AIDA:: implications to microphysics of cirrus clouds", "venue": "METEOROLOGISCHE ZEITSCHRIFT", "venue_detail": "14(4), 485-497", "doi": "10.1127/0941-2948/2005/0053", "doi_url": "https://doi.org/10.1127/0941-2948/2005/0053", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_mohler_jgra", "year": 2005, "authors_short": "Möhler, O.; Büttner, S.; Linke, C.; Schnaiter, M.; Saathoff, H.; Stetzer, O.; Wagner, R.; Krämer, M.; Mangold, A.; Ebert, V. et al.", "authors_full": "Möhler, O.; Büttner, S.; Linke, C.; Schnaiter, M.; Saathoff, H.; Stetzer, O.; Wagner, R.; Krämer, M.; Mangold, A.; Ebert, V.; Schurath, U.", "first_author": "Möhler, O.", "title_plain": "Effect of sulfuric acid coating on heterogeneous ice nucleation by soot aerosol particles - art. no. D11210", "title_html": "Effect of sulfuric acid coating on heterogeneous ice nucleation by soot aerosol particles - art. no. D11210", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "110(D11)", "doi": "10.1029/2004JD005169", "doi_url": "https://doi.org/10.1029/2004JD005169", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2005_mohler_mz", "year": 2005, "authors_short": "Möhler, O.; Linke, C.; Saathoff, H.; Schnaiter, M.; Wagner, R.; Mangold, A.; Krämer, M.; Schurath, U.", "authors_full": "Möhler, O.; Linke, C.; Saathoff, H.; Schnaiter, M.; Wagner, R.; Mangold, A.; Krämer, M.; Schurath, U.", "first_author": "Möhler, O.", "title_plain": "Ice nucleation on flame soot aerosol of different organic carbon content", "title_html": "Ice nucleation on flame soot aerosol of different organic carbon content", "venue": "METEOROLOGISCHE ZEITSCHRIFT", "venue_detail": "14(4), 477-484", "doi": "10.1127/0941-2948/2005/0055", "doi_url": "https://doi.org/10.1127/0941-2948/2005/0055", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_schnaiter_jgra", "year": 2005, "authors_short": "Schnaiter, M.; Linke, C.; Möhler, O.; Naumann, K.; Saathoff, H.; Wagner, R.; Schurath, U.; Wehner, B.", "authors_full": "Schnaiter, M.; Linke, C.; Möhler, O.; Naumann, K.; Saathoff, H.; Wagner, R.; Schurath, U.; Wehner, B.", "first_author": "Schnaiter, M.", "title_plain": "Absorption amplification of black carbon internally mixed with secondary organic aerosol -: art. no. D19204", "title_html": "Absorption amplification of black carbon internally mixed with secondary organic aerosol -: art. no. D19204", "venue": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES", "venue_detail": "110(D19)", "doi": "10.1029/2005JD006046", "doi_url": "https://doi.org/10.1029/2005JD006046", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2005_schnaiter_ast", "year": 2005, "authors_short": "Schnaiter, M.; Schmid, O.; Petzold, A.; Fritzsche, L.; Klein, K.; Andreae, M.; Helas, G.; Thielmann, A.; Gimmler, M.; Möhler, O. et al.", "authors_full": "Schnaiter, M.; Schmid, O.; Petzold, A.; Fritzsche, L.; Klein, K.; Andreae, M.; Helas, G.; Thielmann, A.; Gimmler, M.; Möhler, O.; Linke, C.; Schurath, U.", "first_author": "Schnaiter, M.", "title_plain": "Measurement of wavelength-resolved light absorption by aerosols utilizing a UV-VIS extinction cell", "title_html": "Measurement of wavelength-resolved light absorption by aerosols utilizing a UV-VIS extinction cell", "venue": "AEROSOL SCIENCE AND TECHNOLOGY", "venue_detail": "39(3), 249-260", "doi": "10.1080/027868290925958", "doi_url": "https://doi.org/10.1080/027868290925958", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2005_wagner_jpca_c", "year": 2005, "authors_short": "Wagner, R.; Naumann, K.; Mangold, A.; Möhler, O.; Saathoff, H.; Schurath, U.", "authors_full": "Wagner, R.; Naumann, K.; Mangold, A.; Möhler, O.; Saathoff, H.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Aerosol chamber study of optical constants and N2O5 uptake on supercooled H2SO4/H2O/HNO3 solution droplets at polar stratospheric cloud temperatures", "title_html": "Aerosol chamber study of optical constants and N2O5 uptake on supercooled H2SO4/H2O/HNO3 solution droplets at polar stratospheric cloud temperatures", "venue": "JOURNAL OF PHYSICAL CHEMISTRY A", "venue_detail": "109(36), 8140-8148", "doi": "10.1021/jp0513364", "doi_url": "https://doi.org/10.1021/jp0513364", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_wagner_jpca", "year": 2005, "authors_short": "Wagner, R.; Möhler, O.; Saathoff, H.; Stetzer, O.; Schurath, U.", "authors_full": "Wagner, R.; Möhler, O.; Saathoff, H.; Stetzer, O.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Infrared spectrum of nitric acid dihydrate: Influence of particle shape", "title_html": "Infrared spectrum of nitric acid dihydrate: Influence of particle shape", "venue": "JOURNAL OF PHYSICAL CHEMISTRY A", "venue_detail": "109(11), 2572-2581", "doi": "10.1021/jp044997u", "doi_url": "https://doi.org/10.1021/jp044997u", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2005_wagner_jpca_b", "year": 2005, "authors_short": "Wagner, R.; Benz, S.; Möhler, O.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "authors_full": "Wagner, R.; Benz, S.; Möhler, O.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "Mid-infrared extinction spectra and optical constants of supercooled water droplets", "title_html": "Mid-infrared extinction spectra and optical constants of supercooled water droplets", "venue": "JOURNAL OF PHYSICAL CHEMISTRY A", "venue_detail": "109(32), 7099-7112", "doi": "10.1021/jp051942z", "doi_url": "https://doi.org/10.1021/jp051942z", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2004_kamm_cf", "year": 2004, "authors_short": "Kamm, S.; Saathoff, H.; Naumann, K.; Möhler, O.; Schurath, U.", "authors_full": "Kamm, S.; Saathoff, H.; Naumann, K.; Möhler, O.; Schurath, U.", "first_author": "Kamm, S.", "title_plain": "Gasification of a soot aerosol by O3 and NO2: Temperature dependence of the reaction probability", "title_html": "Gasification of a soot aerosol by O3 and NO2: Temperature dependence of the reaction probability", "venue": "COMBUSTION AND FLAME", "venue_detail": "138(4), 353-361", "doi": "10.1016/j.combustflame.2004.06.008", "doi_url": "https://doi.org/10.1016/j.combustflame.2004.06.008", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2004_seifert_jas", "year": 2004, "authors_short": "Seifert, M.; Tiede, R.; Schnaiter, M.; Linke, C.; Möhler, O.; Schurath, U.; Ström, J.", "authors_full": "Seifert, M.; Tiede, R.; Schnaiter, M.; Linke, C.; Möhler, O.; Schurath, U.; Ström, J.", "first_author": "Seifert, M.", "title_plain": "Operation and performance of a differential mobility particle sizer and a TSI 3010 condensation particle counter at stratospheric temperatures and pressures", "title_html": "Operation and performance of a differential mobility particle sizer and a TSI 3010 condensation particle counter at stratospheric temperatures and pressures", "venue": "JOURNAL OF AEROSOL SCIENCE", "venue_detail": "35(8), 981-993", "doi": "10.1016/j.jaerosci.2004.03.002", "doi_url": "https://doi.org/10.1016/j.jaerosci.2004.03.002", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2003_haag_acp", "year": 2003, "authors_short": "Haag, W.; Kärcher, B.; Schaefers, S.; Stetzer, O.; Möhler, O.; Schurath, U.; Krämer, M.; Schiller, C.", "authors_full": "Haag, W.; Kärcher, B.; Schaefers, S.; Stetzer, O.; Möhler, O.; Schurath, U.; Krämer, M.; Schiller, C.", "first_author": "Haag, W.", "title_plain": "Numerical simulations of homogeneous freezing processes in the aerosol chamber AIDA", "title_html": "Numerical simulations of homogeneous freezing processes in the aerosol chamber AIDA", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "3(1), 195-210", "doi": "10.5194/acp-3-195-2003", "doi_url": "https://doi.org/10.5194/acp-3-195-2003", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2003_mohler_acp", "year": 2003, "authors_short": "Möhler, O.; Stetzer, O.; Schaefers, S.; Linke, C.; Schnaiter, M.; Tiede, R.; Saathoff, H.; Krämer, M.; Mangold, A.; Budz, P. et al.", "authors_full": "Möhler, O.; Stetzer, O.; Schaefers, S.; Linke, C.; Schnaiter, M.; Tiede, R.; Saathoff, H.; Krämer, M.; Mangold, A.; Budz, P.; Zink, P.; Schreiner, J.; Mauersberger, K.; Haag, W.; Kärcher, B.; Schurath, U.", "first_author": "Möhler, O.", "title_plain": "Experimental investigation of homogeneous freezing of sulphuric acid particles in the aerosol chamber AIDA", "title_html": "Experimental investigation of homogeneous freezing of sulphuric acid particles in the aerosol chamber AIDA", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "3(1), 211-223", "doi": "10.5194/acp-3-211-2003", "doi_url": "https://doi.org/10.5194/acp-3-211-2003", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2003_mohler_eaeja", "year": 2003, "authors_short": "Möhler, O.; Büttner, S.; Schurath, U.; Wagner, R.; Mangold, A.; Krämer, M.; Field, P. R.; Connolly, P.; Gallagher, M. W.", "authors_full": "Möhler, O.; Büttner, S.; Schurath, U.; Wagner, R.; Mangold, A.; Krämer, M.; Field, P. R.; Connolly, P.; Gallagher, M. W.", "first_author": "Möhler, O.", "title_plain": "Heterogeneous ice nucleation in the AIDA chamber: freezing onset and ice particle characterisation", "title_html": "Heterogeneous ice nucleation in the AIDA chamber: freezing onset and ice particle characterisation", "venue": "EAEJA", "venue_detail": "8342", "doi": "", "doi_url": "", "url": "", "type_label": "Article", "confirmed_by": "Robert Wagner"}, {"key": "2003_saathoff_jas_c", "year": 2003, "authors_short": "Saathoff, H.; Naumann, K.; Schnaiter, M.; Schöck, W.; Weingartner, E.; Baltensperger, U.; Krämer, L.; Bozoki, Z.; Pöschl, U.; Niessner, R. et al.", "authors_full": "Saathoff, H.; Naumann, K.; Schnaiter, M.; Schöck, W.; Weingartner, E.; Baltensperger, U.; Krämer, L.; Bozoki, Z.; Pöschl, U.; Niessner, R.; Schurath, U.", "first_author": "Saathoff, H.", "title_plain": "Carbon mass determinations during the AIDA soot aerosol campaign 1999", "title_html": "Carbon mass determinations during the AIDA soot aerosol campaign 1999", "venue": "JOURNAL OF AEROSOL SCIENCE", "venue_detail": "34(10), 1399-1420", "doi": "10.1016/S0021-8502(03)00365-3", "doi_url": "https://doi.org/10.1016/S0021-8502(03)00365-3", "url": "", "type_label": "Article", "confirmed_by": ""}, {"key": "2003_saathoff_jas", "year": 2003, "authors_short": "Saathoff, H.; Naumann, K.; Schnaiter, M.; Schöck, W.; Möhler, O.; Schurath, U.; Weingartner, E.; Gysel, M.; Baltensperger, U.", "authors_full": "Saathoff, H.; Naumann, K.; Schnaiter, M.; Schöck, W.; Möhler, O.; Schurath, U.; Weingartner, E.; Gysel, M.; Baltensperger, U.", "first_author": "Saathoff, H.", "title_plain": "Coating of soot and (NH4)2SO4 particles by ozonolysis products of α-pinene", "title_html": "Coating of soot and (NH4)2SO4 particles by ozonolysis products of α-pinene", "venue": "JOURNAL OF AEROSOL SCIENCE", "venue_detail": "34(10), 1297-1321", "doi": "10.1016/S0021-8502(03)00364-1", "doi_url": "https://doi.org/10.1016/S0021-8502(03)00364-1", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2003_saathoff_jas_b", "year": 2003, "authors_short": "Saathoff, H.; Mohler, O.; Schurath, U.; Kamm, S.; Dippel, B.; Mihelcic, D.", "authors_full": "Saathoff, H.; Mohler, O.; Schurath, U.; Kamm, S.; Dippel, B.; Mihelcic, D.", "first_author": "Saathoff, H.", "title_plain": "The AIDA soot aerosol characterisation campaign 1999", "title_html": "The AIDA soot aerosol characterisation campaign 1999", "venue": "JOURNAL OF AEROSOL SCIENCE", "venue_detail": "34(10), 1277-1296", "doi": "10.1016/S0021-8502(03)00363-X", "doi_url": "https://doi.org/10.1016/S0021-8502(03)00363-X", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2003_wagner_acp", "year": 2003, "authors_short": "Wagner, R.; Mangold, A.; Möhler, O.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "authors_full": "Wagner, R.; Mangold, A.; Möhler, O.; Saathoff, H.; Schnaiter, M.; Schurath, U.", "first_author": "Wagner, R.", "title_plain": "A quantitative test of infrared optical constants for supercooled sulphuric and nitric acid droplet aerosols", "title_html": "A quantitative test of infrared optical constants for supercooled sulphuric and nitric acid droplet aerosols", "venue": "ATMOSPHERIC CHEMISTRY AND PHYSICS", "venue_detail": "3(4), 1147-1164", "doi": "10.5194/acp-3-1147-2003", "doi_url": "https://doi.org/10.5194/acp-3-1147-2003", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler; Robert Wagner"}, {"key": "2002_haag_misc", "year": 2002, "authors_short": "Haag, W.; Kärcher, B.; Schaefers, S.; Stetzer, O.; Möhler, O.; Schurath, U.; Krämer, M.; Schiller, C.", "authors_full": "Haag, W.; Kärcher, B.; Schaefers, S.; Stetzer, O.; Möhler, O.; Schurath, U.; Krämer, M.; Schiller, C.", "first_author": "Haag, W.", "title_plain": "Numerical simulations of homogeneous freezing processes in the aerosol chamber AIDA", "title_html": "Numerical simulations of homogeneous freezing processes in the aerosol chamber AIDA", "venue": "", "venue_detail": "", "doi": "10.5194/acpd-2-1467-2002", "doi_url": "https://doi.org/10.5194/acpd-2-1467-2002", "url": "", "type_label": "Other", "confirmed_by": ""}, {"key": "2002_mohler_misc", "year": 2002, "authors_short": "Möhler, O.; Stetzer, O.; Schaefers, S.; Linke, C.; Schnaiter, M.; Tiede, R.; Saathoff, H.; Krämer, M.; Mangold, A.; Budz, P. et al.", "authors_full": "Möhler, O.; Stetzer, O.; Schaefers, S.; Linke, C.; Schnaiter, M.; Tiede, R.; Saathoff, H.; Krämer, M.; Mangold, A.; Budz, P.; Zink, P.; Schreiner, J.; Mauersberger, K.; Haag, W.; Kärcher, B.; Schurath, U.", "first_author": "Möhler, O.", "title_plain": "Experimental investigation of homogeneous freezing of sulphuric acid particles in the aerosol chamber AIDA", "title_html": "Experimental investigation of homogeneous freezing of sulphuric acid particles in the aerosol chamber AIDA", "venue": "", "venue_detail": "", "doi": "10.5194/acpd-2-1429-2002", "doi_url": "https://doi.org/10.5194/acpd-2-1429-2002", "url": "", "type_label": "Other", "confirmed_by": ""}, {"key": "2002_zink_grl", "year": 2002, "authors_short": "Zink, P.; Knopf, D.; Schreiner, J.; Mauersberger, K.; Möhler, O.; Saathoff, H.; Seifert, M.; Tiede, R.; Schurath, U.", "authors_full": "Zink, P.; Knopf, D.; Schreiner, J.; Mauersberger, K.; Möhler, O.; Saathoff, H.; Seifert, M.; Tiede, R.; Schurath, U.", "first_author": "Zink, P.", "title_plain": "Cryo-chamber simulation of stratospheric H2SO4/H2O particles: Composition analysis and model comparison - art. no. 1551", "title_html": "Cryo-chamber simulation of stratospheric H2SO4/H2O particles: Composition analysis and model comparison - art. no. 1551", "venue": "GEOPHYSICAL RESEARCH LETTERS", "venue_detail": "29(11)", "doi": "10.1029/2001GL013296", "doi_url": "https://doi.org/10.1029/2001GL013296", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2001_saathoff_grl", "year": 2001, "authors_short": "Saathoff, H.; Naumann, K.; Riemer, N.; Kamm, S.; Möhler, O.; Schurath, U.; Vogel, H.; Vogel, B.", "authors_full": "Saathoff, H.; Naumann, K.; Riemer, N.; Kamm, S.; Möhler, O.; Schurath, U.; Vogel, H.; Vogel, B.", "first_author": "Saathoff, H.", "title_plain": "The loss of NO2, HNO3, NO3/N2O5, and HO2/HOONO2 on soot aerosol:: A chamber and modeling study", "title_html": "The loss of NO2, HNO3, NO3/N2O5, and HO2/HOONO2 on soot aerosol:: A chamber and modeling study", "venue": "GEOPHYSICAL RESEARCH LETTERS", "venue_detail": "28(10), 1957-1960", "doi": "10.1029/2000GL012619", "doi_url": "https://doi.org/10.1029/2000GL012619", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "2001_szakall_est", "year": 2001, "authors_short": "Szakáll, M.; Bozóki, Z.; Kraemer, M.; Spelten, N.; Mohler, O.; Schurath, U.", "authors_full": "Szakáll, M.; Bozóki, Z.; Kraemer, M.; Spelten, N.; Mohler, O.; Schurath, U.", "first_author": "Szakáll, M.", "title_plain": "Evaluation of a photoacoustic detector for water vapor measurements under simulated tropospheric/lower stratospheric conditions", "title_html": "Evaluation of a photoacoustic detector for water vapor measurements under simulated tropospheric/lower stratospheric conditions", "venue": "ENVIRONMENTAL SCIENCE & TECHNOLOGY", "venue_detail": "35(24), 4881-4885", "doi": "10.1021/es015564x", "doi_url": "https://doi.org/10.1021/es015564x", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}, {"key": "1999_kamm_ae", "year": 1999, "authors_short": "Kamm, S.; Möhler, O.; Naumann, K.; Saathoff, H.; Schurath, U.", "authors_full": "Kamm, S.; Möhler, O.; Naumann, K.; Saathoff, H.; Schurath, U.", "first_author": "Kamm, S.", "title_plain": "The heterogeneous reaction of ozone with soot aerosol", "title_html": "The heterogeneous reaction of ozone with soot aerosol", "venue": "ATMOSPHERIC ENVIRONMENT", "venue_detail": "33(28), 4651-4661", "doi": "10.1016/S1352-2310(99)00235-6", "doi_url": "https://doi.org/10.1016/S1352-2310(99)00235-6", "url": "", "type_label": "Article", "confirmed_by": "Ottmar Möhler"}];
+
+// ---------- state
+const state = { sort_key: "year", sort_dir: "desc", query: "", year: null, type: "", confirmed: "" };
+
+// ---------- precomputed search text
+records.forEach(function (r) {
+  r.search_text = [r.year, r.authors_full, r.title_plain, r.venue, r.venue_detail, r.doi, r.type_label, r.key, r.confirmed_by]
+    .join(" ").toLowerCase();
+});
+
+const years_known = records.map(r => r.year).filter(y => y !== null);
+const year_min = years_known.length ? Math.min.apply(null, years_known) : null;
+const year_max = years_known.length ? Math.max.apply(null, years_known) : null;
+
+// ---------- type dropdown
+const type_select = document.getElementById("type_select");
+Array.from(new Set(records.map(r => r.type_label))).sort().forEach(function (label) {
+  const option = document.createElement("option");
+  option.value = label;
+  option.textContent = label;
+  type_select.appendChild(option);
+});
+
+// ---------- filtering
+function matches_text_and_type(r) {
+  if (state.type && r.type_label !== state.type) return false;
+  if (state.confirmed === "yes" && !r.confirmed_by) return false;
+  if (state.confirmed === "no" && r.confirmed_by) return false;
+  if (!state.query) return true;
+  return state.query.split(/\s+/).every(term => r.search_text.includes(term));
+}
+
+// ---------- sorting
+function sort_value(r, key) {
+  switch (key) {
+    case "year": return r.year;
+    case "authors": return r.first_author;
+    case "title": return r.title_plain;
+    case "venue": return r.venue;
+    case "type": return r.type_label;
+    case "doi": return r.doi;
+  }
+  return "";
+}
+
+function compare_records(a, b) {
+  const va = sort_value(a, state.sort_key);
+  const vb = sort_value(b, state.sort_key);
+  const a_missing = va === null || va === "";
+  const b_missing = vb === null || vb === "";
+  // missing values always go to the bottom
+  if (a_missing !== b_missing) return a_missing ? 1 : -1;
+  let result = 0;
+  if (!a_missing) {
+    result = state.sort_key === "year"
+      ? va - vb
+      : String(va).localeCompare(String(vb), undefined, { sensitivity: "base", numeric: true });
+    if (state.sort_dir === "desc") result = -result;
+  }
+  // ties: newest first, then first author, then title
+  if (result === 0) result = (b.year || 0) - (a.year || 0);
+  if (result === 0) result = a.first_author.localeCompare(b.first_author, undefined, { sensitivity: "base" });
+  if (result === 0) result = a.title_plain.localeCompare(b.title_plain, undefined, { sensitivity: "base" });
+  return result;
+}
+
+// ---------- year histogram
+function render_years(pool) {
+  const bars = document.getElementById("years_bars");
+  const axis = document.getElementById("years_axis");
+  const section = document.getElementById("years");
+  bars.innerHTML = "";
+  axis.innerHTML = "";
+  if (year_min === null) { section.hidden = true; return; }
+
+  const counts = {};
+  pool.forEach(r => { if (r.year !== null) counts[r.year] = (counts[r.year] || 0) + 1; });
+  const peak = Math.max(1, ...Object.values(counts));
+  const span = year_max - year_min;
+  const label_step = span > 30 ? 10 : 5;
+
+  for (let y = year_min; y <= year_max; y++) {
+    const n = counts[y] || 0;
+    const bar = document.createElement("button");
+    bar.type = "button";
+    bar.className = "year-bar" + (n === 0 ? " empty" : "");
+    bar.setAttribute("aria-pressed", state.year === y ? "true" : "false");
+    bar.setAttribute("aria-label", y + ": " + n + (n === 1 ? " publication" : " publications"));
+    bar.title = y + ": " + n;
+    const fill = document.createElement("span");
+    fill.style.height = (n === 0 ? 0 : Math.max(4, 100 * n / peak)) + "%";
+    bar.appendChild(fill);
+    bar.addEventListener("click", function () {
+      state.year = state.year === y ? null : y;
+      render();
+    });
+    bars.appendChild(bar);
+
+    const tick = document.createElement("span");
+    if (y === year_min || y === year_max || (y % label_step === 0 && y - year_min > 2 && year_max - y > 2)) {
+      tick.textContent = y;
+    }
+    axis.appendChild(tick);
+  }
+  section.classList.toggle("has-selection", state.year !== null);
+  document.getElementById("years_hint").textContent = state.year === null
+    ? "Select a year bar to show only that year."
+    : "Showing " + state.year + " only. Select the bar again to show all years.";
+}
+
+// ---------- table
+function make_cell(class_name) {
+  const td = document.createElement("td");
+  td.className = class_name;
+  return td;
+}
+
+function render_table(rows) {
+  const body = document.getElementById("table_body");
+  const fragment = document.createDocumentFragment();
+  rows.forEach(function (r, index) {
+    const tr = document.createElement("tr");
+
+    const td_num = make_cell("col-num");
+    td_num.textContent = index + 1;
+
+    const td_year = make_cell("col-year");
+    td_year.textContent = r.year === null ? "" : r.year;
+
+    const td_authors = make_cell("col-authors");
+    td_authors.textContent = r.authors_short;
+    if (r.authors_short !== r.authors_full) td_authors.title = r.authors_full;
+
+    const td_title = make_cell("col-title");
+    // title_html is escaped in Python, only <sub> and <sup> tags are added
+    td_title.innerHTML = r.title_html;
+    if (r.confirmed_by) {
+      const mark = document.createElement("small");
+      mark.className = "confirmed";
+      mark.textContent = "confirmed by " + r.confirmed_by;
+      td_title.appendChild(mark);
+    }
+
+    const td_venue = make_cell("col-venue");
+    td_venue.textContent = r.venue;
+    if (r.venue_detail) {
+      const small = document.createElement("small");
+      small.textContent = r.venue_detail;
+      td_venue.appendChild(small);
+    }
+
+    const td_type = make_cell("col-type");
+    td_type.textContent = r.type_label;
+
+    const td_doi = make_cell("col-doi");
+    const link_href = r.doi_url || r.url;
+    if (link_href) {
+      const a = document.createElement("a");
+      a.href = link_href;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = r.doi || "Link";
+      td_doi.appendChild(a);
+    } else {
+      const none = document.createElement("span");
+      none.className = "missing";
+      none.textContent = "none";
+      td_doi.appendChild(none);
+    }
+
+    [td_num, td_year, td_authors, td_title, td_venue, td_type, td_doi].forEach(td => tr.appendChild(td));
+    fragment.appendChild(tr);
+  });
+  body.replaceChildren(fragment);
+  document.getElementById("empty_state").hidden = rows.length > 0;
+}
+
+function render_sort_headers() {
+  document.querySelectorAll("th[data-key]").forEach(function (th) {
+    if (th.dataset.key === state.sort_key) {
+      th.setAttribute("aria-sort", state.sort_dir === "asc" ? "ascending" : "descending");
+    } else {
+      th.removeAttribute("aria-sort");
+    }
+  });
+}
+
+// ---------- main render
+function render() {
+  const pool = records.filter(matches_text_and_type);
+  const rows = pool.filter(r => state.year === null || r.year === state.year).sort(compare_records);
+  render_years(pool);
+  render_table(rows);
+  render_sort_headers();
+  document.getElementById("count_text").textContent =
+    "Showing " + rows.length + " of " + records.length + (records.length === 1 ? " publication" : " publications");
+}
+
+// ---------- events
+document.querySelectorAll("th[data-key] .sort-button").forEach(function (button) {
+  button.addEventListener("click", function () {
+    const key = button.parentElement.dataset.key;
+    if (state.sort_key === key) {
+      state.sort_dir = state.sort_dir === "asc" ? "desc" : "asc";
+    } else {
+      state.sort_key = key;
+      state.sort_dir = key === "year" ? "desc" : "asc";
+    }
+    render();
+  });
+});
+
+let search_timer = null;
+document.getElementById("search_box").addEventListener("input", function (event) {
+  clearTimeout(search_timer);
+  search_timer = setTimeout(function () {
+    state.query = event.target.value.trim().toLowerCase();
+    render();
+  }, 120);
+});
+
+type_select.addEventListener("change", function () {
+  state.type = type_select.value;
+  render();
+});
+
+const confirmed_select = document.getElementById("confirmed_select");
+// the filter is only offered when at least one paper is confirmed
+if (!records.some(r => r.confirmed_by)) confirmed_select.hidden = true;
+confirmed_select.addEventListener("change", function () {
+  state.confirmed = confirmed_select.value;
+  render();
+});
+
+function reset_filters() {
+  state.query = "";
+  state.year = null;
+  state.type = "";
+  state.confirmed = "";
+  document.getElementById("search_box").value = "";
+  type_select.value = "";
+  confirmed_select.value = "";
+  render();
+}
+document.getElementById("reset_button").addEventListener("click", reset_filters);
+document.getElementById("empty_reset_button").addEventListener("click", reset_filters);
+
+render();
+</script>
+</body>
+</html>

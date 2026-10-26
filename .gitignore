@@ -1,0 +1,18 @@
+# =================================================== #
+# FOLDERS TO IGNORE
+# =================================================== #
+/aida/
+/AIDAa/
+/New folder/
+
+# =================================================== #
+# FILES TO IGNORE
+# =================================================== #
+# --- archives
+/AIDA.zip
+/AIDA_crossplatform.zip
+/AIDA_v2.zip
+
+# --- manuals
+/AIDA_Pipeline_Operator_Manual.pdf
+/AIDA_Pipeline_Operator_Manual_v2.docx

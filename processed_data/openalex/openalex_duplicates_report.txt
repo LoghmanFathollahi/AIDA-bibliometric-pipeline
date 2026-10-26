@@ -1,0 +1,2607 @@
+Stage 2: duplicate records in the master list
+======================================================================
+
+451 duplicated publications, 797 copies removed.
+Copy kept = the one with the most populated fields.
+
+[group 1578] x7 (matched on openalex_id+doi+title: W1482034486)
+  2014: Enhanced high-temperature ice nucleation ability of crystallized aerosol particles after preactivati
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/robert_wagner.bib   (8 fields)
+
+[group 1628] x7 (matched on openalex_id+title: W2998768853)
+  2003: Amplification of Black Carbon Absorption by Internal Mixing With Secondary Organic Aerosol Mass
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (7 fields)
+
+[group 1643] x7 (matched on openalex_id+title: W3083305277)
+  2003: Optical properties of internally mixed black carbon - Results of the AIDA SOOT 2002 campaign
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (7 fields)
+
+[group 1242] x6 (matched on openalex_id+doi: W2041106491)
+  2005: Absorption amplification of black carbon internally mixed with secondary organic aerosol
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1250] x6 (matched on openalex_id+doi: W2066324062)
+  2000: The aida soot aerosol campaign 1999: Dynamics and optical properties of pure and mixed aerosols
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (12 fields)
+
+[group 1298] x6 (matched on openalex_id+doi: W2167089987)
+  2016: Observation of viscosity transition in α -pinene secondary organic aerosol
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1299] x6 (matched on openalex_id+doi: W2167798908)
+  2003: Coating of soot and (NH4)2SO4 particles by ozonolysis products of α-pinene
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (13 fields)
+
+[group 1409] x6 (matched on openalex_id+doi: W4233135729)
+  2015: Observation of viscosity transition in α-pinene secondary organic aerosol
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1547] x6 (matched on openalex_id+doi: W51126428)
+  2006: Chamber Simulations of Cloud Chemistry: The AIDA Chamber
+    KEPT     researchers/harald_saathoff.bib   (9 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (9 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (9 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (9 fields)
+    DROPPED  researchers/robert_wagner.bib   (9 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (9 fields)
+
+[group 1652] x6 (matched on openalex_id+title: W80394489)
+  2000: UV-VIS-NIR extinction spectroscopy of aerosols relevant for the atmosphere
+    KEPT     researchers/aline_nink.bib   (6 fields)
+    DROPPED  researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (6 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (6 fields)
+
+[group 1209] x5 (matched on openalex_id+doi: W1969177432)
+  2007: Influence of Particle Aspect Ratio on the Midinfrared Extinction Spectra of Wavelength-Sized Ice Cry
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1214] x5 (matched on openalex_id+doi: W1982873100)
+  2010: High variability of the heterogeneous ice nucleation potential of oxalic acid dihydrate and sodium o
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1218] x5 (matched on openalex_id+doi: W1991146436)
+  2005: Ice nucleation on flame soot aerosol of different organic carbon content
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1226] x5 (matched on openalex_id+doi: W2014079461)
+  2005: Mid-infrared Extinction Spectra and Optical Constants of Supercooled Water Droplets
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1229] x5 (matched on openalex_id+doi: W2016933919)
+  2008: Infrared Optical Constants of Highly Diluted Sulfuric Acid Solution Droplets at Cirrus Temperatures
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1239] x5 (matched on openalex_id+doi: W2035555288)
+  2003: UV-VIS-NIR spectral optical properties of soot and soot-containing aerosols
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (13 fields)
+
+[group 1246] x5 (matched on openalex_id+doi: W2049905428)
+  2012: Ice cloud processing of ultra-viscous/glassy aerosol particles leads to enhanced ice nucleation abil
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1255] x5 (matched on openalex_id+doi: W2089618495)
+  2011: New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the imme
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1264] x5 (matched on openalex_id+doi: W2099806847)
+  2003: A quantitative test of infrared optical constants for supercooled sulphuric and nitric acid droplet 
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1265] x5 (matched on openalex_id+doi: W2101556369)
+  2013: The accommodation coefficient of water molecules on ice – cirrus cloud studies at the AIDA simulatio
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1277] x5 (matched on openalex_id+doi: W2129882995)
+  2005: Aerosol Chamber Study of Optical Constants and N2O5 Uptake on Supercooled H2SO4/H2O/HNO3 Solution Dr
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1287] x5 (matched on openalex_id+doi: W2151404447)
+  2003: Carbon mass determinations during the AIDA soot aerosol campaign 1999
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (13 fields)
+
+[group 1289] x5 (matched on openalex_id+doi: W2152207910)
+  2005: Effect of sulfuric acid coating on heterogeneous ice nucleation by soot aerosol particles
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1326] x5 (matched on openalex_id+doi: W2792883972)
+  2018: Heterogeneous Ice Nucleation Ability of NaCl and Sea Salt Aerosol Particles at Cirrus Temperatures
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1356] x5 (matched on openalex_id+doi: W3124023888)
+  2001: INVESTIGATIONS OF HOMOGENEOUS ICE NUCLEATION INSIDE A LARGE CRYO -CHAMBER
+    KEPT     researchers/aline_nink.bib   (12 fields)
+    DROPPED  researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1360] x5 (matched on openalex_id+doi: W3152546808)
+  2021: High homogeneous freezing onsets of sulfuric acid aerosol at cirrus temperatures
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1400] x5 (matched on openalex_id+doi: W4230062521)
+  2012: Ice cloud processing of ultra-viscous/glassy aerosol particles leads to enhanced ice nucleation abil
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1402] x5 (matched on openalex_id+doi: W4230876385)
+  2012: The accommodation coefficient of water molecules on ice-cirrus cloud studies at the AIDA simulation 
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1404] x5 (matched on openalex_id+doi: W4231767514)
+  2021: High Homogeneous Freezing Onsets of Sulfuric Acid Aerosol at Cirrus Temperatures
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1419] x5 (matched on openalex_id+doi: W4236215448)
+  2010: High variability of the heterogeneous ice nucleation potential of oxalic acid dihydrate and sodium o
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1459] x5 (matched on openalex_id+doi: W4252653767)
+  2010: New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the imme
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1583] x5 (matched on openalex_id+title: W14976630)
+  2010: AIDA experiments on heterogeneous ice nucleation in warm mixed-phase clouds
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+    DROPPED  researchers/robert_wagner.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1599] x5 (matched on openalex_id+title: W2620104740)
+  2009: Ice nucleation of soot particles with variable organic and sulphuric acid coating
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1605] x5 (matched on openalex_id+title: W2727753363)
+  2004: Heterogeneous ice nucleation of soot aerosol coated with sulphuric acid and organic carbon
+    KEPT     researchers/harald_saathoff.bib   (5 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (5 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (5 fields)
+    DROPPED  researchers/robert_wagner.bib   (5 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (5 fields)
+
+[group 1624] x5 (matched on openalex_id+title: W2996559631)
+  2003: Ice Nucleation of Re-Dispersed African Desert Dust Samples
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1650] x5 (matched on openalex_id+title: W3186331088)
+  2003: Laboratory studies of homogeneous and heterogeneous ice nucleation at simulated cirrus cloud conditi
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1212] x4 (matched on openalex_id+doi: W1973581816)
+  1999: The heterogeneous reaction of ozone with soot aerosol
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1216] x4 (matched on openalex_id+doi: W1988018972)
+  2004: Gasification of a soot aerosol by O3 and NO2: Temperature dependence of the reaction probability
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1223] x4 (matched on openalex_id+doi: W2000119838)
+  2005: Infrared Spectrum of Nitric Acid Dihydrate: Influence of Particle Shape
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1232] x4 (matched on openalex_id+doi: W2023571360)
+  1995: The reaction of fractal soot aerosol with ozone
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (11 fields)
+
+[group 1233] x4 (matched on openalex_id+doi: W2026579905)
+  2007: Backscattering linear depolarization ratio of laboratory generated ice clouds composed of pristine a
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1234] x4 (matched on openalex_id+doi: W2026712916)
+  1997: The influence of soot surface reactions on the ozone and NOx chemistry
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (11 fields)
+
+[group 1235] x4 (matched on openalex_id+doi: W2027804676)
+  1998: Kinetics and mechanism of the heterogeneous interaction of ozone with soot aerosol
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (11 fields)
+
+[group 1236] x4 (matched on openalex_id+doi: W2031457789)
+  2012: Aging of biogenic secondary organic aerosol via gas-phase OH radical reactions
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1238] x4 (matched on openalex_id+doi: W2033562390)
+  1998: Heterogeneous chemistry of nitrogen oxides and ozone on the surface of soot agglomerates
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (11 fields)
+
+[group 1244] x4 (matched on openalex_id+doi: W2043736438)
+  2014: Laser Filament-induced Ice Multiplication under Cirrus Cloud Conditions
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1245] x4 (matched on openalex_id+doi: W2046343796)
+  2005: Experimental investigation of ice nucleation by different types of aerosols in the aerosol chamber A
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1249] x4 (matched on openalex_id+doi: W2062762388)
+  2008: The effect of organic coating on the heterogeneous ice nucleation efficiency of mineral dust aerosol
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1251] x4 (matched on openalex_id+doi: W2082821699)
+  2010: An aerosol chamber investigation of the heterogeneous ice nucleating potential of refractory nanopar
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1252] x4 (matched on openalex_id+doi: W2084177570)
+  2005: T-dependent rate measurements of homogeneous ice nucleation in cloud droplets using a large atmosphe
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1260] x4 (matched on openalex_id+doi: W2095777412)
+  2009: Temperature dependence of yields of secondary organic aerosols from the ozonolysis of α -pinene and 
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1261] x4 (matched on openalex_id+doi: W2095833045)
+  2013: Laser-induced plasma cloud interaction and ice multiplication under cirrus cloud conditions
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1266] x4 (matched on openalex_id+doi: W2101940369)
+  2008: Heterogeneous ice nucleation activity of bacteria: new laboratory experiments at simulated cloud con
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1267] x4 (matched on openalex_id+doi: W2103516396)
+  2012: Glassy aerosols with a range of compositions nucleate ice heterogeneously at cirrus temperatures
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1273] x4 (matched on openalex_id+doi: W2107655158)
+  2013: Laser filament-induced aerosol formation
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1274] x4 (matched on openalex_id+doi: W2114337380)
+  2011: Ice nucleation properties of fine ash particles from the Eyjafjallajökull eruption in April 2010
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1275] x4 (matched on openalex_id+doi: W2120484911)
+  2015: Crystallization and immersion freezing ability of oxalic and succinic acid in multicomponent aqueous
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1276] x4 (matched on openalex_id+doi: W2124305549)
+  2006: Probing ice clouds by broadband mid-infrared extinction spectroscopy: case studies from ice nucleati
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1280] x4 (matched on openalex_id+doi: W2135943307)
+  2011: Particle Habit Imaging Using Incoherent Light: A First Step toward a Novel Instrument for Cloud Micr
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1281] x4 (matched on openalex_id+doi: W2137223522)
+  2006: Efficiency of the deposition mode ice nucleation on mineral dust particles
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1283] x4 (matched on openalex_id+doi: W2137768150)
+  2001: The loss of NO2, HNO3, NO3/N2O5, and HO2/HOONO2 on soot aerosol: A chamber and modeling study
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1292] x4 (matched on openalex_id+doi: W2158137897)
+  2003: Experimental investigation of homogeneous freezing of sulphuric acid particles in the aerosol chambe
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1293] x4 (matched on openalex_id+doi: W2161411175)
+  2010: Heterogeneous nucleation of ice particles on glassy aerosols under cirrus conditions
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1296] x4 (matched on openalex_id+doi: W2163109203)
+  2012: Single Particle Soot Photometer intercomparison at the AIDA chamber
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1301] x4 (matched on openalex_id+doi: W2218252826)
+  2016: Heterogeneous ice nucleation of viscous secondary organic aerosol produced from ozonolysis of α -pin
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1304] x4 (matched on openalex_id+doi: W2297650241)
+  2016: Phase transition observations and discrimination of small cloud particles by light polarization in e
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1317] x4 (matched on openalex_id+doi: W2566267159)
+  2016: A New Ice Nucleation Active Site Parameterization for Desert Dust and Soot
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1320] x4 (matched on openalex_id+doi: W2607523751)
+  2015: Discrimination of water, ice and aerosols by light polarisation in the CLOUD experiment
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1323] x4 (matched on openalex_id+doi: W2753712924)
+  2018: α -Pinene secondary organic aerosol at low temperature: chemical composition and implications for pa
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1333] x4 (matched on openalex_id+doi: W2914776178)
+  2019: Enhanced ice nucleation activity of coal fly ash aerosol particles initiated by ice-filled pores
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1336] x4 (matched on openalex_id+doi: W2943361895)
+  2012: Single Particle Soot Photometer intercomparison at the AIDA chamber
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1339] x4 (matched on openalex_id+doi: W2960871415)
+  2019: Ammonium nitrate particles formed in upper troposphere from ground ammonia sources during Asian mons
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1345] x4 (matched on openalex_id+doi: W3015057736)
+  2020: Solid Ammonium Nitrate Aerosols as Efficient Ice Nucleating Particles at Cirrus Temperatures
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1348] x4 (matched on openalex_id+doi: W3083506397)
+  2021: High-resolution optical constants of crystalline ammonium nitrate for infrared remote sensing of the
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1353] x4 (matched on openalex_id+doi: W3122065222)
+  2001: OPTICAL PROPERTIES OF AIRBORNE DIESEL SOOT PARTICLES
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (11 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (11 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (11 fields)
+
+[group 1357] x4 (matched on openalex_id+doi: W3126888046)
+  2021: Ice nucleation ability of ammonium sulfate aerosol particles internally mixed with secondary organic
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1358] x4 (matched on openalex_id+doi: W3128682331)
+  2021: Data sets for the research article "High-resolution optical constants of crystalline ammonium nitrat
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1359] x4 (matched on openalex_id+doi: W3140203696)
+  2020: Data sets for the research article "Solid ammonium nitrate aerosols as efficient ice nucleating part
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1361] x4 (matched on openalex_id+doi: W3153460413)
+  2020: Solid ammonium nitrate aerosols: efficient ice nucleating particles in the upper troposphere during 
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1391] x4 (matched on openalex_id+doi: W4220737000)
+  2022: Crystallization, deliquescence, and ice nucleation ability of ammoniated sulphate particles in the c
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1397] x4 (matched on openalex_id+doi: W4229539232)
+  2015: Heterogeneous ice nucleation of viscous secondary organic aerosol produced from ozonolysis of α-pine
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1405] x4 (matched on openalex_id+doi: W4232509262)
+  2017: Supplementary material to "α-pinene secondary organic aerosol at low temperature: Chemical compositi
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1407] x4 (matched on openalex_id+doi: W4232927182)
+  2011: Particle habit imaging using incoherent light: a first step towards a novel instrument for cloud mic
+    KEPT     researchers/martin_schnaiter.bib   (10 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (10 fields)
+    DROPPED  researchers/robert_wagner.bib   (10 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (10 fields)
+
+[group 1408] x4 (matched on openalex_id+doi: W4232940241)
+  2021: Comment on acp-2021-319
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1417] x4 (matched on openalex_id+doi: W4234898106)
+  2021: Ice nucleation ability of Ammonium Sulfate aerosol particles internally mixed with Secondary Organic
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1427] x4 (matched on openalex_id+doi: W4238605697)
+  2021: Review for ``High Homogeneous Freezing Onsets of Sulfuric Acid Aerosol at Cirrus Temperatures'' by S
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1428] x4 (matched on openalex_id+doi: W4238775201)
+  2008: Temperature dependence of yields of secondary organic aerosols from the ozonolysis of α-pinene and l
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1437] x4 (matched on openalex_id+doi: W4242707584)
+  2020: High-resolution optical constants of crystalline ammonium nitrate for infrared remote sensing of the
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1440] x4 (matched on openalex_id+doi: W4244129117)
+  2012: Glassy aerosols with a range of compositions nucleate ice heterogeneously at cirrus temperatures
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1446] x4 (matched on openalex_id+doi: W4246644256)
+  2012: Laser filament-induced aerosol formation
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1449] x4 (matched on openalex_id+doi: W4247954911)
+  2017: α-pinene secondary organic aerosol at low temperature: Chemical composition and implications for par
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1451] x4 (matched on openalex_id+doi: W4249459025)
+  2011: Ice nucleation properties of fine ash particles from the Eyjafjallajökull eruption in April 2010
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1453] x4 (matched on openalex_id+doi: W4250257161)
+  2009: An aerosol chamber investigation of the heterogeneous ice nucleating potential of refractory nanopar
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+
+[group 1466] x4 (matched on openalex_id+doi: W4255817244)
+  2019: Enhanced ice nucleation activity of coal fly ash aerosol particles initiated by ice-filled pores
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1482] x4 (matched on openalex_id+doi: W4318044142)
+  2023: Particle shapes and infrared extinction spectra of nitric acid dihydrate crystals: Optical constants
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1490] x4 (matched on openalex_id+doi: W4381429543)
+  2023: Particle shapes and infrared extinction spectra of nitric acid dihydrate (NAD) crystals: optical con
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1502] x4 (matched on openalex_id+doi: W4390718943)
+  2024: Influence of the Neutralization Degree on the Ice Nucleation Ability of Ammoniated Sulfate Particles
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1534] x4 (matched on openalex_id+doi: W4409293594)
+  2025: Supplementary material to "AIDA Arctic transport experiment (part 1): simulation of northward transp
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+
+[group 1535] x4 (matched on openalex_id+doi: W4409293611)
+  2025: AIDA Arctic transport experiment (part 1): simulation of northward transport and aging effect on fun
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1542] x4 (matched on openalex_id+doi: W4415808444)
+  2025: AIDA Arctic transport experiment – Part 1: Simulation of northward transport and aging effect on fun
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+
+[group 1579] x4 (matched on openalex_id+doi+title: W2146878872)
+  2013: Ice nucleation by surrogates of Martian mineral dust: What can we learn about Mars without leaving E
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (8 fields)
+
+[group 1581] x4 (matched on openalex_id+doi+title: W2909900797)
+  2019: Chemical Characterization of Highly Functionalized Organonitrates Contributing to Night-Time Organic
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+    DROPPED  researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1587] x4 (matched on openalex_id+title: W159502174)
+  2011: Inter-comparison study of 6 Single Particle Soot Photometers
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1588] x4 (matched on openalex_id+title: W1619671069)
+  2009: The Backscattering Linear Depolarization Ratio of Ice Clouds Composed of Small Ice Crystals
+    KEPT     researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+    DROPPED  researchers/robert_wagner.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1590] x4 (matched on openalex_id+title: W2140709805)
+  2009: Laboratory and Cloud Chamber Studies of Formation Processes and Properties of Atmospheric Ice Partic
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1592] x4 (matched on openalex_id+title: W2528657531)
+  2004: Absorption Poperties of Cated BC Intercomparison of Dfferent Flter-Based and Aiborne Methods
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1594] x4 (matched on openalex_id+title: W2581186089)
+  2011: Changes in black carbon undergoing SOA coating measured with SP2, SP-AMS and optical instruments
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1595] x4 (matched on openalex_id+title: W2604197891)
+  1997: Temperature dependence of slow heterogeneous reactions on soot aerosol
+    KEPT     researchers/harald_saathoff.bib   (5 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (5 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (5 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (5 fields)
+
+[group 1596] x4 (matched on openalex_id+title: W2610465698)
+  2003: Nucleation, growth, and optical properties of ice crystals at simulated cirrus conditions
+    KEPT     researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+    DROPPED  researchers/robert_wagner.bib   (8 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (8 fields)
+
+[group 1597] x4 (matched on openalex_id+title: W2611293147)
+  2003: Ice water content of low temperature cirrus clouds and its dependency on different types of aerosols
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+    DROPPED  researchers/robert_wagner.bib   (8 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (8 fields)
+
+[group 1604] x4 (matched on openalex_id+title: W2724812447)
+  2004: Absorption properties of black carbon with refractive coatings: intercomparison of different instrum
+    KEPT     researchers/harald_saathoff.bib   (5 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (5 fields)
+    DROPPED  researchers/robert_wagner.bib   (5 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (5 fields)
+
+[group 1617] x4 (matched on openalex_id+title: W2990824104)
+  2003: FTIR Study of PSC-like Aerosol Particles in a large Simulation Chamber
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1621] x4 (matched on openalex_id+title: W2994959306)
+  2010: New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the depo
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1626] x4 (matched on openalex_id+title: W2997095387)
+  2009: Does the homogeneous ice nucleation initiate at the surface or in the volume of super-cooled water d
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1638] x4 (matched on openalex_id+title: W3033713619)
+  2010: Glassy aerosols heterogeneously nucleate cirrus ice particles
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1648] x4 (matched on openalex_id+title: W3164506101)
+  2003: Ice Water Content of low Temperature Cirrus Clouds measured at the AIDA Aerosol Chamber
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+    DROPPED  researchers/robert_wagner.bib   (8 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (8 fields)
+
+[group 1649] x4 (matched on openalex_id+title: W3185219620)
+  2019: Do coal fly ash particles nucleate ice by pore condensation and freezing mechanism
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1651] x4 (matched on openalex_id+title: W3209989080)
+  2002: Heterogeneous Nucleation of Nitric Acid Containing Particles Studied In An Aerosol Chamber Using An 
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (8 fields)
+
+[group 1206] x3 (matched on openalex_id+doi: W1858036806)
+  2016: Pre-activation of ice-nucleating particles by the pore condensation and freezing mechanism
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1213] x3 (matched on openalex_id+doi: W1975965330)
+  2012: Influence of particle size and shape on the backscattering linear depolarisation ratio of small ice 
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1225] x3 (matched on openalex_id+doi: W2012132123)
+  2009: A review of optical measurements at the aerosol and cloud chamber AIDA
+    KEPT     researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1230] x3 (matched on openalex_id+doi: W2017980302)
+  1994: 20.O.02 Dynamic behaviour of fractal soot aerosols
+    KEPT     researchers/karl_heinz_naumann.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (11 fields)
+
+[group 1241] x3 (matched on openalex_id+doi: W2039992950)
+  2002: Cryo‐chamber simulation of stratospheric H2SO4/H2O particles: Composition analysis and model compari
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1243] x3 (matched on openalex_id+doi: W2041216607)
+  2004: Operation and performance of a differential mobility particle sizer and a TSI 3010 condensation part
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1254] x3 (matched on openalex_id+doi: W2085205022)
+  1995: Redistribution of NH4NO3 within a system of (NH4)2SO4- and NH4NO3-particles Part 2: Experimental
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+    DROPPED  researchers/wolfgang_schock.bib   (11 fields)
+
+[group 1257] x3 (matched on openalex_id+doi: W2090946899)
+  2013: Modelling and measurement of particle deposition for cell exposure at the air–liquid interface
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (11 fields)
+    DROPPED  researchers/thomas_leisner.bib   (11 fields)
+
+[group 1262] x3 (matched on openalex_id+doi: W2096477182)
+  2005: Measurement of Wavelength-Resolved Light Absorption by Aerosols Utilizing a UV-VIS Extinction Cell
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1268] x3 (matched on openalex_id+doi: W2104789550)
+  2014: A comprehensive parameterization of heterogeneous ice nucleation of dust surrogate: laboratory study
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1271] x3 (matched on openalex_id+doi: W2105930044)
+  2006: Some ice nucleation characteristics of Asian and Saharan desert dust
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1278] x3 (matched on openalex_id+doi: W2130752964)
+  2006: Homogeneous nucleation rates of nitric acid dihydrate (NAD) at simulated stratospheric conditions – 
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1279] x3 (matched on openalex_id+doi: W2134164569)
+  2016: In situ characterization of mixed phase clouds using the Small Ice Detector and the Particle Phase D
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1282] x3 (matched on openalex_id+doi: W2137376410)
+  2011: Studies of propane flame soot acting as heterogeneous ice nuclei in conjunction with single particle
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1302] x3 (matched on openalex_id+doi: W2270661910)
+  2016: Aqueous phase oxidation of sulphur dioxide by ozone in cloud droplets
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1303] x3 (matched on openalex_id+doi: W2281447885)
+  2016: Laboratory investigations of mineral dust near-backscattering depolarization ratios
+    KEPT     researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1307] x3 (matched on openalex_id+doi: W2317097760)
+  2016: Influence of biodiesel fuel composition on the morphology and microstructure of particles emitted fr
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1308] x3 (matched on openalex_id+doi: W2327260410)
+  2011: Resurgence in Ice Nuclei Measurement Research
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1309] x3 (matched on openalex_id+doi: W2335169768)
+  2012: Infrared Optical Constants of Crystalline Sodium Chloride Dihydrate: Application To Study the Crysta
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1310] x3 (matched on openalex_id+doi: W2335808954)
+  2016: Development and characterization of an ice-selecting pumped counterflow virtual impactor (IS-PCVI) t
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1311] x3 (matched on openalex_id+doi: W2363382851)
+  2016: Quasi-Spherical Ice in Convective Clouds
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1314] x3 (matched on openalex_id+doi: W2543460200)
+  2016: Ice nucleation activity of agricultural soil dust aerosols from Mongolia, Argentina, and Germany
+    KEPT     researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1318] x3 (matched on openalex_id+doi: W2575610781)
+  2016: Development and characterization of an ice-selecting pumped counterflow virtual impactor (IS-PCVI) t
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1319] x3 (matched on openalex_id+doi: W2607397959)
+  2017: Heterogeneous ice nucleation of α‐pinene SOA particles before and after ice cloud processing
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1355] x3 (matched on openalex_id+doi: W3123674219)
+  2001: INTERACTION OF DIESEL SOOT WITH O3, N2O5 AND NO3
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (11 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (11 fields)
+
+[group 1365] x3 (matched on openalex_id+doi: W3166351671)
+  2021: Data sets for the research article "Ice nucleation ability of ammonium sulfate aerosol particles int
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1369] x3 (matched on openalex_id+doi: W3193660358)
+  2021: Umo et al. (2021), data to: The Influence of Chemical and Mineral Compositions on the Parameterizati
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1370] x3 (matched on openalex_id+doi: W3196503349)
+  2021: The Influence of Chemical and Mineral Compositions on the Parameterization of Immersion Freezing by 
+    KEPT     researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1399] x3 (matched on openalex_id+doi: W4229616109)
+  2015: In situ characterization of mixed phase clouds using the Small Ice Detector and the Particle Phase D
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1413] x3 (matched on openalex_id+doi: W4234514000)
+  2006: Probing ice clouds by broadband mid-infrared extinction spectroscopy: case studies from ice nucleati
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+
+[group 1416] x3 (matched on openalex_id+doi: W4234830908)
+  2015: Pre-activation of ice nucleating particles by the pore condensation and freezing mechanism
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+
+[group 1420] x3 (matched on openalex_id+doi: W4236396402)
+  2016: Supplementary material to "Development and characterization of an ice-selecting pumped counterflow v
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1426] x3 (matched on openalex_id+doi: W4238510180)
+  2021: Comment on acp-2021-53
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1439] x3 (matched on openalex_id+doi: W4243998073)
+  2008: Heterogeneous ice nucleation activity of bacteria: new laboratory experiments at simulated cloud con
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1444] x3 (matched on openalex_id+doi: W4245752928)
+  2014: A comprehensive parameterization of heterogeneous ice nucleation of dust surrogate: laboratory study
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1455] x3 (matched on openalex_id+doi: W4250891678)
+  2015: Aqueous phase oxidation of sulphur dioxide by ozone in cloud droplets
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1460] x3 (matched on openalex_id+doi: W4252750394)
+  2012: Influence of particle size and shape on the backscattering linear depolarisation ratio of small ice 
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+
+[group 1461] x3 (matched on openalex_id+doi: W4253509650)
+  2011: Studies of propane flame soot acting as heterogeneous ice nuclei in conjunction with single particle
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1464] x3 (matched on openalex_id+doi: W4255526560)
+  2021: Comment on acp-2021-53
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1476] x3 (matched on openalex_id+doi: W4298149170)
+  2022: Development and validation of a new cloud simulation experiment for lab-based aerosol–cloud studies
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1486] x3 (matched on openalex_id+doi: W4324056209)
+  2023: Comment on acp-2023-28
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1489] x3 (matched on openalex_id+doi: W4379619410)
+  2023: Volatility of Secondary Organic Aerosol from β-Caryophyllene Ozonolysis over a Wide Tropospheric Tem
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1529] x3 (matched on openalex_id+doi: W4403634286)
+  2024: How Porosity Influences the Heterogeneous Ice Nucleation Ability of Secondary Organic Aerosol Partic
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/robert_wagner.bib   (12 fields)
+
+[group 1533] x3 (matched on openalex_id+doi: W4408426251)
+  2025: The Impact of Atmospheric Photochemistry on Marine Aerosols: Ice Nucleation and Droplet Activation
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1572] x3 (matched on openalex_id+doi: W7165900546)
+  2026: Atmospheric Simulation Chambers in the ACTRIS Research Infrastructure
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1575] x3 (matched on openalex_id+doi: W7197016118)
+  2026: Atmospheric Simulation Chambers in the ACTRIS Research Infrastructure
+    KEPT     researchers/harald_saathoff.bib   (10 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (10 fields)
+    DROPPED  researchers/robert_wagner.bib   (10 fields)
+
+[group 1580] x3 (matched on openalex_id+doi+title: W2422997505)
+  2015: Single-Particle Time-of-Flight Mass Spectrometry Utilizing a Femtosecond Desorption and Ionization L
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+    DROPPED  researchers/harald_saathoff.bib   (7 fields)
+
+[group 1582] x3 (matched on openalex_id+doi+title: W2916599199)
+  2019: Comparison of Modeled and Measured Ice Nucleating Particle Composition in a Cirrus Cloud
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1586] x3 (matched on openalex_id+title: W1553340161)
+  2014: A microphysical classification of mixed-phase clouds in the liquid-ice Coexistence and Wegener-Berge
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+
+[group 1591] x3 (matched on openalex_id+title: W234041650)
+  2007: Dynamics of secondary organic aerosol from the ozonolysis of terpenes and isoprene: Results from aer
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1603] x3 (matched on openalex_id+title: W2716562780)
+  2014: Temperature dependence of aerosol formation by ozonolysis of alpha- and beta-Pinene over an extended
+    KEPT     researchers/harald_saathoff.bib   (5 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (5 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (5 fields)
+
+[group 1609] x3 (matched on openalex_id+title: W2773609755)
+  2004: Formation, growth, and habit of ice crystals nucleated on desert dust aerosol [presentation]
+    KEPT     researchers/harald_saathoff.bib   (5 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (5 fields)
+    DROPPED  researchers/robert_wagner.bib   (5 fields)
+
+[group 1610] x3 (matched on openalex_id+title: W2785130521)
+  2004: Cirrus cloud microphysics and its dependency on aerosol type, temperature, and cooling rate
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1612] x3 (matched on openalex_id+title: W2889248444)
+  2018: Resurgence in Ice Nuclei Measurement Research
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1629] x3 (matched on openalex_id+title: W3006191965)
+  2003: Heterogeneous ice nucleation in the AIDA chamber: freezing onset and ice particle characterisation
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1633] x3 (matched on openalex_id+title: W3014510236)
+  2016: Heterogeneous ice nucleation and phase transition of viscous α-pinene secondary organic aerosol
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1635] x3 (matched on openalex_id+title: W3016687242)
+  2010: Heterogeneous nucleation of ice particles on glassy aerosols modifies TTL cirrus
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1636] x3 (matched on openalex_id+title: W3017048247)
+  2014: Aerosol formation by ozonolysis of α- and β-pinene with initial concentrations below 1 ppb
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1645] x3 (matched on openalex_id+title: W3093436648)
+  2009: Glass Formation in Atmospherically Relevant Aqueous Droplets and its Impact on Cloud Formation
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1646] x3 (matched on openalex_id+title: W3112145123)
+  2002: Experiments On The Formation and Chemical Composition of Hno3 Containing Particles At Simulated Stra
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1653] x3 (matched on openalex_id+title: W997409986)
+  2010: Current Homogeneous Freezing Formulations Overestimate Ice Formation Rates
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+
+[group 1207] x2 (matched on openalex_id+doi: W1905504836)
+  2013: Heterogeneous ice nucleation ability of crystalline sodium chloride dihydrate particles
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1208] x2 (matched on openalex_id+doi: W1951974562)
+  2016: Cloud chamber experiments on the origin of ice crystal complexity in cirrus clouds
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1210] x2 (matched on openalex_id+doi: W1971908559)
+  2015: Time-multiplexed open-path TDLAS spectrometer for dynamic, sampling-free, interstitial H2 18O and H2
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1211] x2 (matched on openalex_id+doi: W1972742400)
+  2004: Fasergekoppeltes In-situ-Laserspektrometer für den selektiven Nachweis von Wasserdampfspuren bis in 
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1215] x2 (matched on openalex_id+doi: W1986579752)
+  2014: Laboratory study of microphysical and scattering properties of corona-producing cirrus clouds
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1217] x2 (matched on openalex_id+doi: W1990727775)
+  2003: Transmission electron microscopical and aerosol dynamical characterization of soot aerosols
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+
+[group 1219] x2 (matched on openalex_id+doi: W1992823741)
+  2013: Parameterizations of ice formation derived from AIDA cloud simulation experiments
+    KEPT     researchers/ottmar_mohler.bib   (11 fields)
+    DROPPED  researchers/robert_wagner.bib   (11 fields)
+
+[group 1220] x2 (matched on openalex_id+doi: W1993475462)
+  2006: Optical properties and mineralogical composition of different Saharan mineral dust samples: a labora
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1221] x2 (matched on openalex_id+doi: W1995240300)
+  2004: THE DISTRIBUTION OF RELATIVE HUMIDITY IN CIRRUS CLOUDS AND ITS IMPACT ON THE NITRIC ACID CONTENT OF 
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (12 fields)
+
+[group 1222] x2 (matched on openalex_id+doi: W1998647656)
+  2012: A Particle-Surface-Area-Based Parameterization of Immersion Freezing on Desert Dust Particles
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1224] x2 (matched on openalex_id+doi: W2005695278)
+  2007: Relationship of visibility, aerosol optical thickness and aerosol size distribution in an ageing air
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1227] x2 (matched on openalex_id+doi: W2014229066)
+  2000: Hygroscopic behavior of soot particles coated with oxidation products of α-pinene
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (12 fields)
+
+[group 1228] x2 (matched on openalex_id+doi: W2014920869)
+  1998: Behaviour of H2SO4/H2O droplets under stratospheric conditions dependence on relative humidity and t
+    KEPT     researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+
+[group 1231] x2 (matched on openalex_id+doi: W2022335259)
+  1995: Redistribution of NH4NO3 within a system of (NH4)2SO4- and NH4NO3-particles Part 1: Modelling
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+
+[group 1237] x2 (matched on openalex_id+doi: W2033109159)
+  2007: Technical Note: A numerical test-bed for detailed ice nucleation studies in the AIDA cloud simulatio
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1240] x2 (matched on openalex_id+doi: W2037094483)
+  2010: A novel multi−wavelength photoacoustic spectrometer for the measurement of the UV–vis-NIR spectral a
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1247] x2 (matched on openalex_id+doi: W2050263390)
+  1996: Temperature dependence of the redistribution mechanisms for volatile components of atmospheric aeros
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+
+[group 1248] x2 (matched on openalex_id+doi: W2053898969)
+  2009: Studies of heterogeneous freezing by three different desert dust samples
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1253] x2 (matched on openalex_id+doi: W2084551743)
+  2011: Optical feedback cavity enhanced absorption spectroscopy: effective adjustment of the feedback-phase
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1256] x2 (matched on openalex_id+doi: W2090561822)
+  2014: The AquaVIT-1 intercomparison of atmospheric water vapor measurement techniques
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1258] x2 (matched on openalex_id+doi: W2092323461)
+  2011: Inter-comparison of optical absorption coefficients of atmospheric aerosols determined by a multi-wa
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1259] x2 (matched on openalex_id+doi: W2093449538)
+  2014: Silica nanoparticles are less toxic to human lung cells when deposited at the air–liquid interface c
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1263] x2 (matched on openalex_id+doi: W2097482260)
+  2011: Volatility of secondary organic aerosol during OH radical induced ageing
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+
+[group 1269] x2 (matched on openalex_id+doi: W2104962313)
+  2003: The AIDA soot aerosol characterisation campaign 1999
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1270] x2 (matched on openalex_id+doi: W2105569427)
+  2003: Numerical simulations of homogeneous freezing processes in the aerosol chamber AIDA
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1272] x2 (matched on openalex_id+doi: W2106913504)
+  2012: Hygroscopic growth and droplet activation of soot particles: uncoated, succinic or sulfuric acid coa
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1284] x2 (matched on openalex_id+doi: W2144139801)
+  2012: Complex refractive indices of Saharan dust samples at visible and near UV wavelengths: a laboratory 
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1285] x2 (matched on openalex_id+doi: W2148674484)
+  2003: Absorption of light by soot particles: determination of the absorption coefficient by means of aetha
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (13 fields)
+
+[group 1286] x2 (matched on openalex_id+doi: W2151055004)
+  2015: Two decades of water vapor measurements with the FISH fluorescence hygrometer: a review
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1288] x2 (matched on openalex_id+doi: W2151507747)
+  2012: Formation of 3-methyl-1,2,3-butanetricarboxylic acid via gas phase oxidation of pinonic acid – a mas
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (13 fields)
+
+[group 1290] x2 (matched on openalex_id+doi: W2152858519)
+  2011: First correlated measurements of the shape and light scattering properties of cloud particles using 
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1291] x2 (matched on openalex_id+doi: W2156988094)
+  2015: Characterization of ice‐nucleating bacteria using on‐line electron impact ionization aerosol mass sp
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1294] x2 (matched on openalex_id+doi: W2162509780)
+  2015: A comprehensive laboratory study on the immersion freezing behavior of illite NX particles: a compar
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1295] x2 (matched on openalex_id+doi: W2162909486)
+  2015: A new temperature- and humidity-dependent surface site density approach for deposition ice nucleatio
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1297] x2 (matched on openalex_id+doi: W2163312350)
+  2013: Corrigendum to: "Studies of heterogeneous freezing by three different desert dust samples", Atmos. C
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1300] x2 (matched on openalex_id+doi: W2170164454)
+  1998: Heterogeneous processes involving atmospheric particulate matter
+    KEPT     researchers/karl_heinz_naumann.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (13 fields)
+
+[group 1305] x2 (matched on openalex_id+doi: W2298494146)
+  2016: A novel single-cavity multi-wavelength photoacoustic spectrometer for atmospheric aerosol research
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1306] x2 (matched on openalex_id+doi: W2299328792)
+  2016: PHIPS–HALO: the airborne Particle Habit Imaging and Polar Scattering probe – Part 1: Design and oper
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1312] x2 (matched on openalex_id+doi: W2402991992)
+  2016: The role of low-volatility organic compounds in initial particle growth in the atmosphere
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1313] x2 (matched on openalex_id+doi: W2490674699)
+  2017: Intercomparison study and optical asphericity measurements of small ice particles in the CERN CLOUD 
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1315] x2 (matched on openalex_id+doi: W2553452666)
+  2016: A novel single-cavity three-wavelength photoacoustic spectrometer for atmospheric aerosol research
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1316] x2 (matched on openalex_id+doi: W2561816600)
+  2016: Temperature-dependent formation of NaCl dihydrate in levitated NaCl and sea salt aerosol particles
+    KEPT     researchers/robert_wagner.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1321] x2 (matched on openalex_id+doi: W2737598407)
+  2015: Cloud chamber experiments on the origin of ice crystal complexity in cirrus clouds
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1322] x2 (matched on openalex_id+doi: W2752198305)
+  2018: PHIPS-HALO: the airborne particle habit imaging and polar scattering probe – Part 2: Characterizatio
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1324] x2 (matched on openalex_id+doi: W2761635411)
+  2018: Exploring femtosecond laser ablation in single-particle aerosol mass spectrometry
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1325] x2 (matched on openalex_id+doi: W2767359862)
+  2018: Laser ablation aerosol particle time-of-flight mass spectrometer (LAAPTOF): performance, reference s
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1327] x2 (matched on openalex_id+doi: W2799735526)
+  2018: Additional Global Climate Cooling by Clouds due to Ice Crystal Complexity
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1328] x2 (matched on openalex_id+doi: W2808134670)
+  2018: Additional global climate cooling by clouds due to ice crystal complexity
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1329] x2 (matched on openalex_id+doi: W2865221093)
+  2018: The Fifth International Workshop on Ice Nucleation phase 2 (FIN-02): laboratory intercomparison of i
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1330] x2 (matched on openalex_id+doi: W2890227625)
+  2019: Heterogeneous ice nucleation properties of natural desert dust particles coated with a surrogate of 
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1331] x2 (matched on openalex_id+doi: W2896030581)
+  2019: Understanding atmospheric aerosol particles with improved particle identification and quantification
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1332] x2 (matched on openalex_id+doi: W2911707089)
+  2019: Specifying the light-absorbing properties of aerosol particles in fresh snow samples, collected at t
+    KEPT     researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1334] x2 (matched on openalex_id+doi: W2928548394)
+  2020: No anomalous supersaturation in ultracold cirrus laboratory experiments
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1335] x2 (matched on openalex_id+doi: W2942534048)
+  2019: Seasonal characteristics of organic aerosol chemical composition and volatility in Stuttgart, German
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1337] x2 (matched on openalex_id+doi: W2949249283)
+  2017: Laboratory measurements of HDO/H 2 O isotopic fractionation during ice deposition in simulated cirru
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1338] x2 (matched on openalex_id+doi: W2950519328)
+  2019: Composition and origin of PM 2.5 aerosol particles in the upper Rhine valley in summer
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1340] x2 (matched on openalex_id+doi: W2962932045)
+  2019: Ultrafine Particles - Air Quality and Climate: European Federation of Clean Air and Environmental Pr
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1341] x2 (matched on openalex_id+doi: W2966587117)
+  2019: Ultrafine Particles - Air Quality and Climate: European Federation of Clean Air and Environmental Pr
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1342] x2 (matched on openalex_id+doi: W2978949228)
+  2016: A novel single-cavity three-wavelength photoacoustic spectrometer for atmospheric aerosol research
+    KEPT     researchers/martin_schnaiter.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1343] x2 (matched on openalex_id+doi: W2985318829)
+  2020: Complex plant-derived organic aerosol as ice-nucleating particles – more than the sums of their part
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1344] x2 (matched on openalex_id+doi: W3013456588)
+  2020: Arctic marine ice nucleating aerosol: a laboratory study of microlayer samples and algal cultures
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1346] x2 (matched on openalex_id+doi: W3021144608)
+  2020: The Chicago Water Isotope Spectrometer (ChiWIS-lab): A tunable diode laser spectrometer for chamber-
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1347] x2 (matched on openalex_id+doi: W3039789320)
+  2021: The seasonal cycle of ice-nucleating particles linked to the abundance of biogenic aerosol in boreal
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1349] x2 (matched on openalex_id+doi: W3089147633)
+  2020: The ice-nucleating activity of Arctic sea surface microlayer samples and marine algal cultures
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1350] x2 (matched on openalex_id+doi: W3091671688)
+  2020: The seasonal cycle of biogenic ice-nucleating particles in a boreal forest environment
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1351] x2 (matched on openalex_id+doi: W3092339254)
+  2021: PHIPS-HALO: the airborne Particle Habit Imaging and Polar Scattering probe – Part 3: Single-particle
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1352] x2 (matched on openalex_id+doi: W3101304555)
+  2020: Feedlot is a unique and constant source of atmospheric ice-nucleating particles
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1354] x2 (matched on openalex_id+doi: W3123549524)
+  2001: OPTICAL DETECTION OF PARTICLE GROWTH AND ICE NUCLEATION IN H2SO4/H2O AND H2SO4/H2O/HNO3 AEROSOL IN S
+    KEPT     researchers/aline_nink.bib   (12 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (11 fields)
+
+[group 1362] x2 (matched on openalex_id+doi: W3153890776)
+  2021: Heterogeneous ice nucleation ability of aerosol particles generated from Arctic sea surface microlay
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1363] x2 (matched on openalex_id+doi: W3162684475)
+  2021: Sources and nature of ice-nucleating particles in the free troposphere at Jungfraujoch in winter 201
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1364] x2 (matched on openalex_id+doi: W3166225045)
+  2021: Chemical characteristics and optical properties of brown carbon aerosol in Karlsruhe during winter
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1366] x2 (matched on openalex_id+doi: W3182740235)
+  2021: Chemical composition of nanoparticles from α -pinene nucleation and the influence of isoprene and re
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1367] x2 (matched on openalex_id+doi: W3189318779)
+  2021: Data sets for the research article "Heterogeneous ice nucleation ability of aerosol particles genera
+    KEPT     researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+
+[group 1368] x2 (matched on openalex_id+doi: W3190001650)
+  2021: Investigation of a Saharan dust plume in Western Europe by remote sensing and transport modelling
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1371] x2 (matched on openalex_id+doi: W3204649659)
+  2021: Laboratory and field studies of ice-nucleating particles from open-lot livestock facilities in Texas
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1372] x2 (matched on openalex_id+doi: W3204754403)
+  2021: In-situ Observation of Riming in Mixed-Phase Clouds using the PHIPS probe
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1373] x2 (matched on openalex_id+doi: W3206780741)
+  2021: Supplementary material to "In-situ Observation of Riming in Mixed-Phase Clouds using the PHIPS probe
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1374] x2 (matched on openalex_id+doi: W3212114711)
+  2021: Comment on acp-2021-833
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1375] x2 (matched on openalex_id+doi: W3217083817)
+  2021: LED based solar simulator to study photochemistry over a wide temperature range in the large simulat
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1376] x2 (matched on openalex_id+doi: W4200084650)
+  2021: Swabian MOSES 2021 - Eine Messkampagne zur Untersuchung hydro-meteorologischer Extreme und deren Fol
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1377] x2 (matched on openalex_id+doi: W4200366903)
+  2021: Comment on amt-2021-362
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1378] x2 (matched on openalex_id+doi: W4200430876)
+  2021: Comment on acp-2021-833
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1379] x2 (matched on openalex_id+doi: W4200432886)
+  2021: Supplementary material to "LED based solar simulator to study photochemistry over a wide temperature
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1380] x2 (matched on openalex_id+doi: W4200482411)
+  2021: Comment on amt-2021-362
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1381] x2 (matched on openalex_id+doi: W4205321517)
+  2021: Supplementary material to "Chemical composition of nanoparticles from α-pinene nucleation and the in
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1382] x2 (matched on openalex_id+doi: W4205624101)
+  2022: Comment on amt-2021-362
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1383] x2 (matched on openalex_id+doi: W4206231869)
+  2022: Supplementary material to "Kinetics, SOA yields and chemical composition of secondary organic aeroso
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1384] x2 (matched on openalex_id+doi: W4206617896)
+  2021: Supplementary material to "Investigation of a Saharan dust plume in Western Europe by remote sensing
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1385] x2 (matched on openalex_id+doi: W4206776010)
+  2022: Comment on acp-2021-1067
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1386] x2 (matched on openalex_id+doi: W4206794991)
+  2022: Kinetics, SOA yields and chemical composition of secondary organic aerosol from β-caryophyllene ozon
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1387] x2 (matched on openalex_id+doi: W4210730890)
+  2021: Comment on amt-2021-193
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1388] x2 (matched on openalex_id+doi: W4211108427)
+  2014: A comprehensive laboratory study on the immersion freezing behavior of illite NX particles: a compar
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1389] x2 (matched on openalex_id+doi: W4220690453)
+  2022: Measurements of ice-nucleating particle concentration and size at Storm Peak Laboratory
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1390] x2 (matched on openalex_id+doi: W4220722018)
+  2022: Characteristics of ice-nucleating particles in Beijing during Spring: a comparison study for the sub
+    KEPT     researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1392] x2 (matched on openalex_id+doi: W4220814749)
+  2022: LED-based solar simulator to study photochemistry over a wide temperature range in the large simulat
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1393] x2 (matched on openalex_id+doi: W4220979576)
+  2022: Comparison of Scanning LiDAR with Other Remote Sensing Measurements and Transport Model Predictions 
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1394] x2 (matched on openalex_id+doi: W4221121149)
+  2022: Effect of temperature and gas species on toluene secondary organic aerosol: light absorption, chromo
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1395] x2 (matched on openalex_id+doi: W4225394131)
+  2022: Variations of PM2.5 sources in the context of meteorology and seasonality at an urban street canyon 
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1396] x2 (matched on openalex_id+doi: W4229029329)
+  2022: Kinetics, SOA yields, and chemical composition of secondary organic aerosol from β -caryophyllene oz
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1398] x2 (matched on openalex_id+doi: W4229574684)
+  2011: Formation of 3-methyl-1,2,3-butanetricarboxylic acid via gas phase oxidation of pinonic acid – a mas
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (6 fields)
+
+[group 1401] x2 (matched on openalex_id+doi: W4230526817)
+  2020: The seasonal cycle of ice-nucleating particles linked to the abundance of biogenic aerosol in boreal
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1403] x2 (matched on openalex_id+doi: W4231263258)
+  2017: Supplementary material to "Laser ablation aerosol particle time-of-flight mass spectrometer (LAAPTOF
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1406] x2 (matched on openalex_id+doi: W4232657868)
+  2002: Experimental investigation of homogeneous freezing of sulphuric acid particles in the aerosol chambe
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1410] x2 (matched on openalex_id+doi: W4233238004)
+  2019: Supplementary material to "Composition and origin of PM 2.5 aerosol particles in the upper Rhine val
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1411] x2 (matched on openalex_id+doi: W4233817230)
+  2014: A new temperature and humidity dependent surface site density approach for deposition ice nucleation
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1412] x2 (matched on openalex_id+doi: W4234378004)
+  2019: Specifying light absorbing properties of aerosol particles in fresh snow samples, collected at the E
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1414] x2 (matched on openalex_id+doi: W4234655337)
+  2016: Supplementary material to "Intercomparison study and optical asphericity measurements of small ice p
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1415] x2 (matched on openalex_id+doi: W4234676199)
+  2019: Supplementary material to "Complex plant-derived organic aerosol as ice-nucleating particles – more 
+    KEPT     researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1418] x2 (matched on openalex_id+doi: W4236163291)
+  2019: Seasonal characteristics of organic aerosol chemical composition and volatility in Stuttgart, German
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1421] x2 (matched on openalex_id+doi: W4236822604)
+  2018: Supplementary material to "The Fifth International Workshop on Ice Nucleation phase 2 (FIN-02): Labo
+    KEPT     researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+
+[group 1422] x2 (matched on openalex_id+doi: W4236955212)
+  2014: Supplementary material to "A comprehensive laboratory study on the immersion freezing behavior of il
+    KEPT     researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1423] x2 (matched on openalex_id+doi: W4237343118)
+  2018: Supplementary material to "Understanding of atmospheric aerosol particles with improved particle ide
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1424] x2 (matched on openalex_id+doi: W4237633685)
+  2018: Heterogeneous Ice Nucleation Properties of Natural Desert Dust Particles Coated with a Surrogate of 
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1425] x2 (matched on openalex_id+doi: W4237684755)
+  2021: Heterogeneous ice nucleation ability of aerosol particles generated from Arctic sea surface microlay
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1429] x2 (matched on openalex_id+doi: W4238926024)
+  2009: Studies of heterogeneous freezing by three different desert dust samples
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1430] x2 (matched on openalex_id+doi: W4238937463)
+  2021: Chemical composition of nanoparticles from α-pinene nucleation and the influence of isoprene and rel
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1431] x2 (matched on openalex_id+doi: W4239978588)
+  2021: Supplementary material to "Sources and nature of ice-nucleating particles in the free troposphere at
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1432] x2 (matched on openalex_id+doi: W4240497954)
+  2018: The Fifth International Workshop on Ice Nucleation phase 2 (FIN-02): Laboratory intercomparison of i
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1433] x2 (matched on openalex_id+doi: W4241589824)
+  2018: Understanding of atmospheric aerosol particles with improved particle identification and quantificat
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1434] x2 (matched on openalex_id+doi: W4241886416)
+  2014: The AquaVIT-1 intercomparison of atmospheric water vapor measurement techniques
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1435] x2 (matched on openalex_id+doi: W4241907552)
+  2011: Hygroscopic growth and droplet activation of soot particles: uncoated, succinic or sulfuric acid coa
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1436] x2 (matched on openalex_id+doi: W4242262430)
+  2021: Sources and nature of ice-nucleating particles in the free troposphere at Jungfraujoch in winter 201
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1438] x2 (matched on openalex_id+doi: W4243973438)
+  2015: Two decades of water vapor measurements with the FISH fluorescence hygrometer: a review
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1441] x2 (matched on openalex_id+doi: W4244752892)
+  2017: Laser ablation aerosol particle time-of-flight mass spectrometer (LAAPTOF): Performance, reference s
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1442] x2 (matched on openalex_id+doi: W4244886107)
+  2017: Supplementary material to "Exploring femtosecond laser ablation in single particle aerosol mass spec
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1443] x2 (matched on openalex_id+doi: W4245019273)
+  2011: First correlated measurements of the shape and scattering properties of cloud particles using the ne
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1445] x2 (matched on openalex_id+doi: W4246566026)
+  2019: Supplementary material to "No anomalous supersaturation in ultracold cirrus laboratory experiments"
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1447] x2 (matched on openalex_id+doi: W4246787715)
+  2019: Supplementary material to "Seasonal characteristics of organic aerosol chemical composition and vola
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1448] x2 (matched on openalex_id+doi: W4247187236)
+  2019: No anomalous supersaturation in ultracold cirrus laboratory experiments
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1450] x2 (matched on openalex_id+doi: W4248234382)
+  2020: Supplementary material to "PHIPS-HALO: the airborne particle habit imaging and polar scattering prob
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1452] x2 (matched on openalex_id+doi: W4249459897)
+  2017: Exploring femtosecond laser ablation in single particle aerosol mass spectrometry
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1454] x2 (matched on openalex_id+doi: W4250258039)
+  2017: PHIPS-HALO: the airborne Particle Habit Imaging and Polar Scattering probe – Part 2: Characterizatio
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1456] x2 (matched on openalex_id+doi: W4250952826)
+  2019: Composition and origin of PM 2.5 aerosol particles in the upper Rhine valley in summer
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1457] x2 (matched on openalex_id+doi: W4252061649)
+  2016: PHIPS-HALO: The airborne Particle Habit Imaging and Polar Scattering probe. Part I: Design and Opera
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1458] x2 (matched on openalex_id+doi: W4252112819)
+  2019: Complex plant-derived organic aerosol as ice-nucleating particles – more than a sum of their parts?
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1462] x2 (matched on openalex_id+doi: W4253908812)
+  2021: Comment on amt-2021-193
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1463] x2 (matched on openalex_id+doi: W4254568506)
+  2011: Complex refractive indices of Saharan dust samples at visible and near UV wavelengths: a laboratory 
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+
+[group 1465] x2 (matched on openalex_id+doi: W4255662769)
+  2006: Optical properties and mineralogical composition of different Saharan mineral dust samples: a labora
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1467] x2 (matched on openalex_id+doi: W4255906254)
+  2011: Volatility of secondary organic aerosol during OH radical induced ageing
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (6 fields)
+
+[group 1468] x2 (matched on openalex_id+doi: W4256304915)
+  2020: PHIPS-HALO: the airborne particle habit imaging and polar scattering probe – Part 3: Single Particle
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1469] x2 (matched on openalex_id+doi: W4256396248)
+  2016: Intercomparison study and optical asphericity measurements of small ice particles in the CERN CLOUD 
+    KEPT     researchers/martin_schnaiter.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1470] x2 (matched on openalex_id+doi: W4256514565)
+  2020: Supplementary material to "Feedlot is a unique and constant source of atmospheric ice-nucleating par
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1471] x2 (matched on openalex_id+doi: W4280545664)
+  2022: Synergistic HNO3–H2SO4–NH3 upper tropospheric particle formation
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1472] x2 (matched on openalex_id+doi: W4282033097)
+  2022: In situ observation of riming in mixed-phase clouds using the PHIPS probe
+    KEPT     researchers/martin_schnaiter.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1473] x2 (matched on openalex_id+doi: W4283814936)
+  2022: Chromophores and chemical composition of brown carbon characterized at an urban kerbside by excitati
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1474] x2 (matched on openalex_id+doi: W4283816382)
+  2022: Supplementary material to "Chromophores and chemical composition of brown carbon characterized at an
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1475] x2 (matched on openalex_id+doi: W4288080587)
+  2022: Comment on acp-2022-465
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1477] x2 (matched on openalex_id+doi: W4301029042)
+  2010: Infrared Spectroscopy of Aerosol Particles
+    KEPT     researchers/robert_wagner.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1478] x2 (matched on openalex_id+doi: W4301430742)
+  2022: Swabian MOSES 2021: An interdisciplinary field campaign for investigating convective storms and thei
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+
+[group 1479] x2 (matched on openalex_id+doi: W4308743811)
+  2022: Characteristics of ice-nucleating particles in Beijing during spring: A comparison study of measurem
+    KEPT     researchers/ottmar_mohler.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1480] x2 (matched on openalex_id+doi: W4309697281)
+  2022: Re-evaluating cloud chamber constraints on depositional ice growth in cirrus clouds – Part 1: Model 
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1481] x2 (matched on openalex_id+doi: W4309865592)
+  2022: Chromophores and chemical composition of brown carbon characterized at an urban kerbside by excitati
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1483] x2 (matched on openalex_id+doi: W4318586432)
+  2023: Molecular Understanding of the Enhancement in Organic Aerosol Mass at High Relative Humidity
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1484] x2 (matched on openalex_id+doi: W4322003123)
+  2023: Roles of peroxy radicals and Criegee intermediates in β-pinene ozonolysis at different temperatures
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1485] x2 (matched on openalex_id+doi: W4323566800)
+  2023: Comment on acp-2023-28
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+
+[group 1487] x2 (matched on openalex_id+doi: W4366811043)
+  2023: Preparation of the Experiment: Addition of Particles
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+
+[group 1488] x2 (matched on openalex_id+doi: W4379229342)
+  2023: Re-evaluating cloud chamber constraints on depositional ice growth in cirrus clouds – Part 1: Model 
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1491] x2 (matched on openalex_id+doi: W4385223280)
+  2023: Supplementary material to "Impact of temperature on the role of Criegee intermediates andperoxy radi
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1492] x2 (matched on openalex_id+doi: W4385224832)
+  2023: Impact of temperature on the role of Criegee intermediates andperoxy radicals in dimers formation fr
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1493] x2 (matched on openalex_id+doi: W4386164783)
+  2023: Molecular Analysis of Secondary Organic Aerosol and Brown Carbon from the Oxidation of Indole
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1494] x2 (matched on openalex_id+doi: W4386165525)
+  2023: Supplementary material to "Molecular Analysis of Secondary Organic Aerosol and Brown Carbon from the
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1495] x2 (matched on openalex_id+doi: W4386216271)
+  2023: Comment on egusphere-2023-1425
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1496] x2 (matched on openalex_id+doi: W4386307897)
+  2023: Comment on egusphere-2023-1425
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1497] x2 (matched on openalex_id+doi: W4386533447)
+  2023: Role of sesquiterpenes in biogenic new particle formation
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/robert_wagner.bib   (13 fields)
+
+[group 1498] x2 (matched on openalex_id+doi: W4389142076)
+  2023: Sources of organic gases and aerosol particles and their roles in nighttime particle growth at a rur
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1499] x2 (matched on openalex_id+doi: W4389142082)
+  2023: Supplementary material to "Sources of organic gases and aerosol particles and their roles in nightti
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1500] x2 (matched on openalex_id+doi: W4390228223)
+  2023: Boundary Layer Dynamics, Aerosol Composition, and Air Quality in the Urban Background of Stuttgart i
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/thomas_leisner.bib   (11 fields)
+
+[group 1501] x2 (matched on openalex_id+doi: W4390689381)
+  2024: Impact of temperature on the role of Criegee intermediates and peroxy radicals in dimer formation fr
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1503] x2 (matched on openalex_id+doi: W4391132843)
+  2024: Supplementary material to "Aerosol composition, air quality, and boundary layer dynamics in the urba
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1504] x2 (matched on openalex_id+doi: W4391132867)
+  2024: Aerosol composition, air quality, and boundary layer dynamics in the urban background of Stuttgart i
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1505] x2 (matched on openalex_id+doi: W4391319188)
+  2024: Supplementary material to "Comparison of scanning aerosol LIDAR and in-situ measurements of aerosol 
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1506] x2 (matched on openalex_id+doi: W4391319365)
+  2024: Comparison of scanning aerosol LIDAR and in-situ measurements of aerosol physical properties and bou
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1507] x2 (matched on openalex_id+doi: W4391580874)
+  2024: Brown Carbon Aerosol in Rural Germany: Sources, Chemistry, and Diurnal Variations
+    KEPT     researchers/harald_saathoff.bib   (9 fields)
+    DROPPED  researchers/thomas_leisner.bib   (9 fields)
+
+[group 1508] x2 (matched on openalex_id+doi: W4391836567)
+  2024: Comment on ar-2024-3
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1509] x2 (matched on openalex_id+doi: W4391980858)
+  2024: Comment on ar-2024-3
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1510] x2 (matched on openalex_id+doi: W4392289057)
+  2024: Molecular analysis of secondary organic aerosol and brown carbon from the oxidation of indole
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1511] x2 (matched on openalex_id+doi: W4392355029)
+  2024: Comment on egusphere-2024-90
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1512] x2 (matched on openalex_id+doi: W4393486900)
+  2023: Data for Figure 8 of Publication "Additional global climate cooling by clouds due to ice crystal com
+    KEPT     researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1513] x2 (matched on openalex_id+doi: W4393531939)
+  2022: Synergistic HNO3–H2SO4–NH3 upper tropospheric particle formation: data resources \& code
+    KEPT     researchers/ottmar_mohler.bib   (9 fields)
+    DROPPED  researchers/robert_wagner.bib   (9 fields)
+
+[group 1514] x2 (matched on openalex_id+doi: W4393587290)
+  2023: Data for Figure 8 of Publication "Additional global climate cooling by clouds due to ice crystal com
+    KEPT     researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1515] x2 (matched on openalex_id+doi: W4393591647)
+  2022: Synergistic HNO3–H2SO4–NH3 upper tropospheric particle formation: data resources \& code
+    KEPT     researchers/ottmar_mohler.bib   (9 fields)
+    DROPPED  researchers/robert_wagner.bib   (9 fields)
+
+[group 1516] x2 (matched on openalex_id+doi: W4393992723)
+  2024: Measurement report: The Fifth International Workshop on Ice Nucleation Phase 1 (FIN-01): Intercompar
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1517] x2 (matched on openalex_id+doi: W4393993313)
+  2024: Supplementary material to "Measurement report: The Fifth International Workshop on Ice Nucleation Ph
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1518] x2 (matched on openalex_id+doi: W4399453127)
+  2024: Comparison of scanning aerosol lidar and in situ measurements of aerosol physical properties and bou
+    KEPT     researchers/harald_saathoff.bib   (12 fields)
+    DROPPED  researchers/thomas_leisner.bib   (12 fields)
+
+[group 1519] x2 (matched on openalex_id+doi: W4399498469)
+  2024: Sources of organic gases and aerosol particles and their roles in nighttime particle growth at a rur
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1520] x2 (matched on openalex_id+doi: W4399648152)
+  2024: Comment on egusphere-2024-90
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1521] x2 (matched on openalex_id+doi: W4400052664)
+  2024: Brown carbon aerosol in rural Germany: sources, chemistry, and diurnal variations
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1522] x2 (matched on openalex_id+doi: W4400052670)
+  2024: Supplementary material to "Brown carbon aerosol in rural Germany: sources, chemistry, and diurnal va
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1523] x2 (matched on openalex_id+doi: W4400210727)
+  2024: Characterization of biogenic volatile organic compounds and their oxidation products at a stressed p
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1524] x2 (matched on openalex_id+doi: W4400210842)
+  2024: Supplementary material to "Characterization of biogenic volatile organic compounds and their oxidati
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1525] x2 (matched on openalex_id+doi: W4400399482)
+  2024: Comment on egusphere-2024-1848
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1526] x2 (matched on openalex_id+doi: W4402236938)
+  2024: A novel aerosol filter sampler for measuring the vertical distribution of ice-nucleating particles v
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1527] x2 (matched on openalex_id+doi: W4402748752)
+  2024: Aerosol composition, air quality, and boundary layer dynamics in the urban background of Stuttgart i
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1528] x2 (matched on openalex_id+doi: W4402854503)
+  2024: Measurement report: The Fifth International Workshop on Ice Nucleation phase 1 (FIN-01): intercompar
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1530] x2 (matched on openalex_id+doi: W4404860653)
+  2024: Characterization of biogenic volatile organic compounds and their oxidation products in a stressed s
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1531] x2 (matched on openalex_id+doi: W4407389439)
+  2025: Measurement report: Brown carbon aerosol in rural Germany – sources, chemistry, and diurnal variatio
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1532] x2 (matched on openalex_id+doi: W4408055367)
+  2025: Measurement of the ice-nucleating particle concentration using a mobile filter-based sampler on-boar
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1536] x2 (matched on openalex_id+doi: W4409870367)
+  2025: The AquaVIT-4 intercomparison of atmospheric hygrometers
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1537] x2 (matched on openalex_id+doi: W4409870410)
+  2025: Supplementary material to "The AquaVIT-4 intercomparison of atmospheric hygrometers"
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1538] x2 (matched on openalex_id+doi: W4413220202)
+  2025: Cloud Chamber Studies on the Linear Depolarisation Ratio of Small Cirrus Ice Crystals
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1539] x2 (matched on openalex_id+doi: W4413523085)
+  2025: A novel aerosol filter sampler for measuring the vertical distribution of ice-nucleating particles v
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1540] x2 (matched on openalex_id+doi: W4413744895)
+  2025: From initiation of convective storms to their impact — the Swabian MOSES 2023 campaign in southweste
+    KEPT     researchers/harald_saathoff.bib   (11 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (11 fields)
+
+[group 1541] x2 (matched on openalex_id+doi: W4415208715)
+  2025: The AquaVIT-4 intercomparison of atmospheric hygrometers
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (13 fields)
+
+[group 1543] x2 (matched on openalex_id+doi: W4416054683)
+  2025: Discovering How Ice Crystals Grow Using Neural ODE's and Symbolic Regression
+    KEPT     researchers/harald_saathoff.bib   (9 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (9 fields)
+
+[group 1544] x2 (matched on openalex_id+doi: W4416341282)
+  2025: Measurement of the ice-nucleating particle concentration using a mobile filter-based sampler on-boar
+    KEPT     researchers/ottmar_mohler.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1545] x2 (matched on openalex_id+doi: W4416390912)
+  2026: Sources, concentrations, and seasonal variations of VOC and aerosol particles in downtown Munich in 
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1546] x2 (matched on openalex_id+doi: W4416391605)
+  2025: Supplementary material to "Sources, concentrations, and seasonal variations of VOC and aerosol parti
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1548] x2 (matched on openalex_id+doi: W654867323)
+  2011: Exploring the surface roughness of small ice crystals by measuring high resolution angular scatterin
+    KEPT     researchers/martin_schnaiter.bib   (8 fields)
+    DROPPED  researchers/robert_wagner.bib   (8 fields)
+
+[group 1549] x2 (matched on openalex_id+doi: W7125492253)
+  2026: Influence of Tropospheric Temperature on the Formation and Aging of Secondary Organic Aerosol from B
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1550] x2 (matched on openalex_id+doi: W7125503514)
+  2026: Supplementary material to "Influence of Tropospheric Temperature on the Formation and Aging of Secon
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1551] x2 (matched on openalex_id+doi: W7127285460)
+  2026: Investigation of Saharan dust plumes in Western Europe by remote Sensing, in situ measurements, and 
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1552] x2 (matched on openalex_id+doi: W7127317048)
+  2026: Supplementary material to "Investigation of Saharan dust plumes in Western Europe by remote Sensing,
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1553] x2 (matched on openalex_id+doi: W7128483640)
+  2026: Comment on egusphere-2025-5980
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1554] x2 (matched on openalex_id+doi: W7129040872)
+  2026: Chromophores and chemical compositions of brown carbon aerosol before and after photooxidation of co
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1555] x2 (matched on openalex_id+doi: W7129090453)
+  2026: Supplementary material to "Chromophores and chemical compositions of brown carbon aerosol before and
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1556] x2 (matched on openalex_id+doi: W7130510133)
+  2026: Comment on egusphere-2026-270
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1557] x2 (matched on openalex_id+doi: W7133849164)
+  2026: Comment on egusphere-2026-270
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1558] x2 (matched on openalex_id+doi: W7135058472)
+  2026: Comment on egusphere-2026-559
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1559] x2 (matched on openalex_id+doi: W7135246685)
+  2026: Secondary organic aerosol from oxidation of camphene with ozone and OH radicals – kinetics, yields a
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1560] x2 (matched on openalex_id+doi: W7138940763)
+  2026: Comment on egusphere-2026-559
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1561] x2 (matched on openalex_id+doi: W7140170935)
+  2026: Comment on egusphere-2025-5980
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1562] x2 (matched on openalex_id+doi: W7147622264)
+  2026: Atmospheric Simulation Chambers in the ACTRIS Research Infrastructure
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1563] x2 (matched on openalex_id+doi: W7154991996)
+  2026: Dataset to Sources, concentrations, and seasonal variations of VOC and aerosol particles in downtown
+    KEPT     researchers/harald_saathoff.bib   (9 fields)
+    DROPPED  researchers/thomas_leisner.bib   (9 fields)
+
+[group 1564] x2 (matched on openalex_id+doi: W7155030761)
+  2026: Comment on egusphere-2026-1612
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1565] x2 (matched on openalex_id+doi: W7156590732)
+  2026: Comment on egusphere-2026-1612
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1566] x2 (matched on openalex_id+doi: W7160265286)
+  2026: Comment on egusphere-2026-1612
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1567] x2 (matched on openalex_id+doi: W7161632703)
+  2026: Disentangling Mechanistic Controls on Ultrafine Particle Number and Growth Across Seasons in an Urba
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1568] x2 (matched on openalex_id+doi: W7161637173)
+  2026: Supplementary material to "Disentangling Mechanistic Controls on Ultrafine Particle Number and Growt
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1569] x2 (matched on openalex_id+doi: W7164540529)
+  2026: Dataset on the manuscript: Influence of Tropospheric Temperature on the Formation and Aging of Secon
+    KEPT     researchers/harald_saathoff.bib   (9 fields)
+    DROPPED  researchers/thomas_leisner.bib   (9 fields)
+
+[group 1570] x2 (matched on openalex_id+doi: W7165799606)
+  2026: Influence of tropospheric temperature on the formation and aging of secondary organic aerosol from b
+    KEPT     researchers/harald_saathoff.bib   (13 fields)
+    DROPPED  researchers/thomas_leisner.bib   (13 fields)
+
+[group 1571] x2 (matched on openalex_id+doi: W7165873933)
+  2026: Influence of tropospheric temperature on the formation and aging of secondary organic aerosol from b
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1573] x2 (matched on openalex_id+doi: W7169759379)
+  2026: Influence of tropospheric temperature on the formation and aging of secondary organic aerosol from b
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/thomas_leisner.bib   (8 fields)
+
+[group 1574] x2 (matched on openalex_id+doi: W7172511982)
+  2026: Data for Chromophores and chemical compositions of brown carbon aerosol before and after photooxidat
+    KEPT     researchers/harald_saathoff.bib   (9 fields)
+    DROPPED  researchers/thomas_leisner.bib   (9 fields)
+
+[group 1576] x2 (matched on openalex_id+doi: W769738662)
+  2011: SHAPE DEPENDENCY OF THE EXTINCTION AND ABSORPTION CROSS SECTIONS OF DUST AEROSOLS MODELED AS RANDOML
+    KEPT     researchers/martin_schnaiter.bib   (9 fields)
+    DROPPED  researchers/robert_wagner.bib   (9 fields)
+
+[group 1577] x2 (matched on openalex_id+doi: W85194635)
+  1996: Redistribution mechanisms for volatile and non-volatile components of atmospheric aerosol particles
+    KEPT     researchers/harald_saathoff.bib   (9 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (9 fields)
+
+[group 1584] x2 (matched on openalex_id+title: W1529289)
+  2010: Water to Ice Transition experiments at the AIDA-chamber: results from the novel ice experiment NIXE-
+    KEPT     researchers/martin_schnaiter.bib   (9 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (9 fields)
+
+[group 1585] x2 (matched on openalex_id+title: W1546749388)
+  2004: Particles and Cirrus Clouds (PAZI): Overview of results 2000 - 2003
+    KEPT     researchers/ottmar_mohler.bib   (9 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (9 fields)
+
+[group 1589] x2 (matched on openalex_id+title: W1648802073)
+  2010: The Accommodation Coefficient of Water Molecules on Ice: Results from Cirrus Cloud Experiments at th
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1593] x2 (matched on openalex_id+title: W2531876116)
+  1995: Aerosol chamber and modelling studies on the reaction of soot aerosols with ozone
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/karl_heinz_naumann.bib   (7 fields)
+
+[group 1598] x2 (matched on openalex_id+title: W2617717727)
+  2014: Comparing the ice nucleation efficiencies of ice nucleating substrates to natural mineral dusts
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1600] x2 (matched on openalex_id+title: W2622923077)
+  2015: Quantifying the contribution of soot and dust to ice formation in cirrus clouds - a model study usin
+    KEPT     researchers/ottmar_mohler.bib   (5 fields)
+    DROPPED  researchers/robert_wagner.bib   (5 fields)
+
+[group 1601] x2 (matched on openalex_id+title: W2623666935)
+  2014: Development and model application of a new parameterization framework for the heterogeneous ice nucl
+    KEPT     researchers/ottmar_mohler.bib   (5 fields)
+    DROPPED  researchers/robert_wagner.bib   (5 fields)
+
+[group 1602] x2 (matched on openalex_id+title: W2637562879)
+  2014: Developing a new parameterization framework for the heterogeneous ice nucleation of atmospheric aero
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1606] x2 (matched on openalex_id+title: W2728597541)
+  2013: Investigations into Anomalous Supersaturation in Cold Cirrus at the AIDA Cloud Chamber during the IS
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+
+[group 1607] x2 (matched on openalex_id+title: W2731513246)
+  2014: Laboratory cloud simulation experiments on ice nucleation processes
+    KEPT     researchers/ottmar_mohler.bib   (5 fields)
+    DROPPED  researchers/robert_wagner.bib   (5 fields)
+
+[group 1608] x2 (matched on openalex_id+title: W2740511446)
+  2002: Multiphase processes in the polar stratosphere: In situ measurements and simulations - The AFO2000 j
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1611] x2 (matched on openalex_id+title: W2787382473)
+  2014: Implications of the ISOCLOUD Campaigns at the AIDA Cloud Chamber for Ice Growth in Cold Cirrus
+    KEPT     researchers/harald_saathoff.bib   (8 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (8 fields)
+
+[group 1613] x2 (matched on openalex_id+title: W2897197198)
+  2012: Characterization of Particulate Emissions for a Light Duty EURO-5 Diesel Engine during normal operat
+    KEPT     researchers/harald_saathoff.bib   (5 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (5 fields)
+
+[group 1614] x2 (matched on openalex_id+title: W2901554182)
+  2015: Surface structure, crystallographic and ice-nucleating properties of cellulose
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1615] x2 (matched on openalex_id+title: W293839653)
+  2009: The Particle Habit Imaging and Polar Scattering probe PHIPS: First Stereo-Imaging and Polar Scatteri
+    KEPT     researchers/martin_schnaiter.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1616] x2 (matched on openalex_id+title: W2990249249)
+  2018: Quantification and chemical characterization of highly functionalized organonitrates contributing to
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1618] x2 (matched on openalex_id+title: W2993334346)
+  2013: Evaluation of Meteorological and Aerosol Sensing with small Unmanned Aerial Systems
+    KEPT     researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/thomas_leisner.bib   (6 fields)
+
+[group 1619] x2 (matched on openalex_id+title: W2993568335)
+  2013: Effect of SOA Coatings on the Ice Nucleation Behavior of Desert Dust Particles
+    KEPT     researchers/harald_saathoff.bib   (6 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (6 fields)
+
+[group 1620] x2 (matched on openalex_id+title: W2993823611)
+  2012: Laboratory studies with cloud-derived Bacterial Cells acting as Ice Nuclei in the Immersion and Depo
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1622] x2 (matched on openalex_id+title: W2996332407)
+  2003: Hygroscopic properties of organically coated Diesel and Palas soot particles
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+
+[group 1623] x2 (matched on openalex_id+title: W2996557450)
+  2015: Ice nucleation properties of agricultural soil dusts
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1625] x2 (matched on openalex_id+title: W2997049384)
+  2015: Quantification of organic content and coating on laboratory generated dust particles and their effec
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1627] x2 (matched on openalex_id+title: W2997252876)
+  2011: Influence of Aerosol Chemical Composition on Heterogeneous Ice Formation under Mid-Upper Troposphere
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1630] x2 (matched on openalex_id+title: W3009086193)
+  2011: Isotopic probes of ice microphysics at cold temperatures
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1631] x2 (matched on openalex_id+title: W3012572541)
+  2002: Aerosol Chamber Experiments On Ice Nucleation In Supercooled Droplets
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (7 fields)
+
+[group 1632] x2 (matched on openalex_id+title: W3014040226)
+  2003: Estimation of Thickness of the Coating using a Volatility Tandem DMA for coated Soot Particles durin
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+
+[group 1634] x2 (matched on openalex_id+title: W3015370564)
+  2002: Heterogeneous Ice Nucleation Induced By Soot Particles In The Aerosol Chamber Aida
+    KEPT     researchers/ottmar_mohler.bib   (8 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (8 fields)
+
+[group 1637] x2 (matched on openalex_id+title: W3019204860)
+  2018: Immersion Freezing Activity of Natural Desert Dust and its Relationship to Mineralogical Composition
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1639] x2 (matched on openalex_id+title: W3034072926)
+  2014: Homogeneous Freezing of Water Droplets and its Dependence on Droplet Size
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1640] x2 (matched on openalex_id+title: W3034380467)
+  2017: Sea spray as a source of ice nucleating particles - results from the AIDA Ocean03 campaign
+    KEPT     researchers/ottmar_mohler.bib   (7 fields)
+    DROPPED  researchers/robert_wagner.bib   (7 fields)
+
+[group 1641] x2 (matched on openalex_id+title: W3041773204)
+  2012: Instrumentation needs and capabilities for water isotopologue measurements in cold clouds
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/ottmar_mohler.bib   (7 fields)
+
+[group 1642] x2 (matched on openalex_id+title: W3081647997)
+  2018: Understanding of Atmospheric Aerosol Particles with Improved Particle Identification and Semi-quanti
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/thomas_leisner.bib   (7 fields)
+
+[group 1644] x2 (matched on openalex_id+title: W3092828485)
+  2012: Simulating Martian water ice clouds in terrestrial laboratories: What can we learn about Mars withou
+    KEPT     researchers/harald_saathoff.bib   (7 fields)
+    DROPPED  researchers/martin_schnaiter.bib   (7 fields)
+
+[group 1647] x2 (matched on openalex_id+title: W3122236297)
+  2016: Ice Nucleation Activity of Various Agricultural Soil Dust Aerosol Particles
+    KEPT     researchers/ottmar_mohler.bib   (6 fields)
+    DROPPED  researchers/robert_wagner.bib   (6 fields)
+
+[group 1654] x2 (matched on title: hoxbudgetsduringhoxcompacasestudyofhoxchemistryundernoxlimitedconditions|2012)
+  2012: HOx budgets during HOxComp: A case study of HOx chemistry under NOx‐limited conditions
+    KEPT     researchers/ulrich_schurath.bib   (12 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (9 fields)
+
+[group 1655] x2 (matched on title: theteamxobservationalcampaign|2026)
+  2026: The TEAMx Observational Campaign
+    KEPT     researchers/harald_saathoff.bib   (9 fields)
+    DROPPED  researchers/harald_saathoff.bib   (8 fields)
+
+[group 1656] x2 (matched on title: vibronicspectraofthematrixisolatedvanderwaalscomplexesnhn2andnhco|1994)
+  1994: Vibronic spectra of the matrix-isolated van der Waals complexes NH·N2 and NH·CO
+    KEPT     researchers/ulrich_schurath.bib   (13 fields)
+    DROPPED  researchers/ulrich_schurath.bib   (12 fields)
+

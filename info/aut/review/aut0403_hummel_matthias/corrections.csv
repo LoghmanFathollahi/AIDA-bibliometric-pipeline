@@ -1,0 +1,3 @@
+author_id,author_key,author_name,doi,paper_key,year,type,journal,title,listed_role,role_correct,correct_role,listed_affiliation,affiliation_correct,correct_affiliation,this_is_me,belongs_to_aida,peer_reviewed,comment
+aut0403,hummel_m,"Hummel, Matthias",10.1063/1.4803405,2013_mohler_acp,2013,Other,AIP conference proceedings,Parameterizations of ice formation derived from AIDA cloud simulation experiments,Co-author,,,Karlsruhe Institute of Technology,,,,,,
+aut0403,hummel_m,"Hummel, Matthias",,2013_mohler_article,2013,Article,,Surface site density versus nucleation rate approaches of formulating ice formation in clouds - a comprehensive analysis based on AIDA cloud simulation experiments,Co-author,,,(not known),,,,,,

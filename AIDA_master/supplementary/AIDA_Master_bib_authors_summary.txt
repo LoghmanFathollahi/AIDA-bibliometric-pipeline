@@ -1,0 +1,21 @@
+AIDA master bibliography: one master per author
+created 2026-10-14 19:32 by 3_a_aida_master_bib.py
+researchers: G:\AIDA\data\AIDA Scientists.txt
+master     : G:\AIDA\AIDA_master\master\AIDA_Master_bib.bib
+folder     : G:\AIDA\AIDA_master\authors
+
+An author is found by surname and first initial, so R. Wagner and S. Wagner
+are told apart; umlauts and their spellings (oe, o) count as one.
+
+   researcher           papers                     file                         note
+   ------------------   ------   ----------------------   --------------------------
+   Ottmar Möhler           152       Ottmar_Moehler.bib   144 confirmed by an author
+   Harald Saathoff         101      Harald_Saathoff.bib    81 confirmed by an author
+   Martin Schnaiter         67     Martin_Schnaiter.bib    56 confirmed by an author
+   Robert Wagner            63        Robert_Wagner.bib    63 confirmed by an author
+   Thomas Leisner           47       Thomas_Leisner.bib    35 confirmed by an author
+   Ulrich Schurath          29      Ulrich_Schurath.bib    25 confirmed by an author
+   Karl-Heinz Naumann       19   Karl_Heinz_Naumann.bib    14 confirmed by an author
+   Stefan Schäfers           4     Stefan_Schaefers.bib     2 confirmed by an author
+   Wolfgang Schöck           2     Wolfgang_Schoeck.bib     1 confirmed by an author
+   Aline Nink                0                                no paper in the master

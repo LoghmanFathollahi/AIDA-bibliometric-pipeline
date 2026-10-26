@@ -1,0 +1,2 @@
+author_id,author_key,author_name,doi,paper_key,year,type,journal,title,listed_role,role_correct,correct_role,listed_affiliation,affiliation_correct,correct_affiliation,this_is_me,belongs_to_aida,peer_reviewed,comment
+aut0083,dyroff_c,"Dyroff, C.",10.5194/amt-7-3177-2014,2014_fahey_amt,2014,Article,ATMOSPHERIC MEASUREMENT TECHNIQUES,The AquaVIT-1 intercomparison of atmospheric water vapor measurement techniques,Co-author,,,Karlsruhe Institute of Technology,,,,,,

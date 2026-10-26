@@ -1,0 +1,2 @@
+author_id,author_key,author_name,doi,paper_key,year,type,journal,title,listed_role,role_correct,correct_role,listed_affiliation,affiliation_correct,correct_affiliation,this_is_me,belongs_to_aida,peer_reviewed,comment
+aut0299,vogel_b,"Vogel, Bernhard",10.1175/jas-d-11-0249.1,2012_niemand_jas,2012,Article,JOURNAL OF THE ATMOSPHERIC SCIENCES,A Particle-Surface-Area-Based Parameterization of Immersion Freezing on Desert Dust Particles,Co-author,,,Karlsruhe Institute of Technology,,,,,,

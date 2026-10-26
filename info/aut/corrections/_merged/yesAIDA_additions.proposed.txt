@@ -1,0 +1,16 @@
+# proposed additions, 2026-09-29
+10.1002/2014jd021741   # from aut0008: Enhanced high-temperature ice nucleation ability of crystallized aerosol particles after preactivation at low temperature, Wagner 2014, JGR Atmos
+10.1002/2015gl063075   # from aut0008: Crystallization and immersion freezing ability of oxalic and succinic acid in multicomponent aqueous organic aerosol particles, Wagner 2015, GRL
+10.1029/2019jd032248   # from aut0008: Solid Ammonium Nitrate Aerosols as Efficient Ice Nucleating Particles at Cirrus Temperatures, Wagner 2020, JGR Atmos
+10.1029/2020jd032808   # from aut0008: Influence of Arctic Microlayers and Algal Cultures on Sea Spray Hygroscopicity, Christiansen 2020, JGR Atmos, uses the APC chamber
+10.1029/2023jd040078   # from aut0008: Influence of the Neutralization Degree on the Ice Nucleation Ability of Ammoniated Sulfate Particles, Bertozzi 2024, JGR Atmos, joint first authors Bertozzi and Wagner
+10.1029/2024jd041576   # from aut0008: How Porosity Influences the Heterogeneous Ice Nucleation Ability of Secondary Organic Aerosol Particles, Wagner 2024, JGR Atmos
+10.1038/ngeo817   # from aut0008: Heterogeneous nucleation of ice particles on glassy aerosols under cirrus conditions, Murray 2010, Nature Geoscience
+10.1038/s41561-019-0385-8   # from aut0008: Ammonium nitrate particles formed in upper troposphere from ground ammonia sources during Asian monsoons, Hoepfner 2019, Nature Geoscience, replaces the MIPAS and GLORIA dataset row
+10.5194/acp-12-2491-2012   # from aut0008: Complex refractive indices of Saharan dust samples at visible and near UV wavelengths, Wagner 2012, ACP, uses the APC chamber
+10.5194/acp-16-2025-2016   # from aut0008: Pre-activation of ice-nucleating particles by the pore condensation and freezing mechanism, Wagner 2016, ACP
+10.5194/acp-20-11089-2020   # from aut0008: The ice-nucleating activity of Arctic sea surface microlayer samples and marine algal cultures, Ickes 2020, ACP
+10.5194/acp-21-10779-2021   # from aut0008: Ice nucleation ability of ammonium sulfate aerosol particles internally mixed with secondary organics, Bertozzi 2021, ACP
+10.5194/acp-23-6789-2023   # from aut0008: Particle shapes and infrared extinction spectra of nitric acid dihydrate (NAD) crystals, optical constants of the beta-NAD modification, Wagner 2023, ACP
+10.5194/amt-14-1977-2021   # from aut0008: High-resolution optical constants of crystalline ammonium nitrate for infrared remote sensing of the Asian Tropopause Aerosol Layer, Wagner 2021, AMT
+10.5194/amt-9-159-2016   # from aut0008: In situ characterization of mixed phase clouds using the Small Ice Detector and the Particle Phase Discriminator, Vochezer 2016, AMT

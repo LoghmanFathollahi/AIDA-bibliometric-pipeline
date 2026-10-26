@@ -1,0 +1,18 @@
+# Missing AIDA papers of Niemand, Monika
+# Packet aut0020, built 2026-09-29
+#
+# Add every AIDA paper of yours that is not in AIDA_niemand_monika.html.
+# One DOI per line is enough, for example
+#
+#   10.5194/acp-16-2025-2016
+#
+# You can also paste whole BibTeX entries exported from your reference
+# manager. Both forms work, and you can mix them.
+#
+# Lines starting with # are ignored.
+# A short note after the DOI is welcome, for example
+#
+#   10.1029/2020JD032808   uses the APC chamber
+#
+# ---------------------------------------------------------------------
+

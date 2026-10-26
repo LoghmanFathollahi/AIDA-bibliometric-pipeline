@@ -1,0 +1,3 @@
+author_id,author_key,author_name,doi,paper_key,year,type,journal,title,listed_role,role_correct,correct_role,listed_affiliation,affiliation_correct,correct_affiliation,this_is_me,belongs_to_aida,peer_reviewed,comment
+aut0052,wagner_u,"Wagner, Uwe",10.5194/amt-5-3077-2012,2012_laborde_amt,2012,Article,ATMOSPHERIC MEASUREMENT TECHNIQUES,Single Particle Soot Photometer intercomparison at the AIDA chamber,Co-author,,,Karlsruhe Institute of Technology,,,,,,
+aut0052,wagner_u,"Wagner, Uwe",10.5194/amtd-5-3519-2012,2012_laborde_misc,2012,Other,,Single Particle Soot Photometer intercomparison at the AIDA chamber,Co-author,,,Karlsruhe Institute of Technology,,,,,,

@@ -1,0 +1,28 @@
+AIDA author corrections, merged 2026-09-29
+
+Packets read              1
+    aut0008    Wagner, Robert
+
+Rows read                 53
+
+Author level, applied directly
+  role corrections        2
+    of those, already right 0
+
+Author level, needs a decision by hand
+  affiliation questions   0
+  identity questions      0
+  author order questions  0
+
+Paper level, shared between the authors
+  answers received        9
+  agreed removals         9
+  conflicts to decide     0
+
+Missing papers
+  named                   16
+  already in the bib      1
+  new, to be added        15
+  without a DOI           0
+
+Applied to the live files: no, proposals only

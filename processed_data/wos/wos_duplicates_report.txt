@@ -1,0 +1,1435 @@
+Stage 2 -- duplicate records in the master list
+======================================================================
+
+197 duplicated publications, 641 copies removed.
+Copy kept = the one with the most populated WoS fields.
+
+[group 58] x9 (matched on ut: WOS:000181074900002)
+  2003 -- Experimental investigation of homogeneous freezing of sulphuric acid particles in the aerosol chambe
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+    DROPPED  researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+    DROPPED  researchers/Schaefers S_.bib   (33 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (33 fields)
+    DROPPED  researchers/Schurath U_.bib   (33 fields)
+
+[group 94] x9 (matched on ut: WOS:000229988800002)
+  2005 -- Effect of sulfuric acid coating on heterogeneous ice nucleation by soot aerosol particles - art. no.
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (35 fields)
+    DROPPED  researchers/Schurath U_.bib   (35 fields)
+    DROPPED  researchers/Wagner R_.bib   (35 fields)
+
+[group 97] x9 (matched on ut: WOS:000231178300013)
+  2005 -- Mid-infrared extinction spectra and optical constants of supercooled water droplets
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+    DROPPED  researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (33 fields)
+    DROPPED  researchers/Schurath U_.bib   (33 fields)
+    DROPPED  researchers/Wagner R_.bib   (33 fields)
+
+[group 98] x9 (matched on ut: WOS:000231809400010)
+  2005 -- Aerosol chamber study of optical constants and N2O5 uptake on supercooled H2SO4/H2O/HNO3 solution dr
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (34 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+    DROPPED  researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Naumann K_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+    DROPPED  researchers/Wagner R_.bib   (34 fields)
+
+[group 188] x9 (matched on ut: WOS:000281432800006)
+  2010 -- High variability of the heterogeneous ice nucleation potential of oxalic acid dihydrate and sodium o
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 205] x9 (matched on ut: WOS:000288368900016)
+  2011 -- New cloud chamber experiments on the heterogeneous ice nucleation ability of oxalic acid in the imme
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 247] x9 (matched on ut: WOS:000309424300019)
+  2012 -- Ice cloud processing of ultra-viscous/glassy aerosol particles leads to enhanced ice nucleation abil
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Leisner T_.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (35 fields)
+    DROPPED  researchers/Wagner R_.bib   (35 fields)
+
+[group 63] x8 (matched on ut: WOS:000184731900001)
+  2003 -- A quantitative test of infrared optical constants for supercooled sulphuric and nitric acid droplet 
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+    DROPPED  researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+    DROPPED  researchers/Wagner R_.bib   (34 fields)
+
+[group 91] x8 (matched on ut: WOS:000227734400023)
+  2005 -- Infrared spectrum of nitric acid dihydrate: Influence of particle shape
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (34 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+    DROPPED  researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+    DROPPED  researchers/Wagner R_.bib   (34 fields)
+
+[group 99] x8 (matched on ut: WOS:000232553600003)
+  2005 -- Absorption amplification of black carbon internally mixed with secondary organic aerosol -: art. no.
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+    DROPPED  researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Naumann K_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+    DROPPED  researchers/Wagner R_.bib   (34 fields)
+
+[group 100] x8 (matched on ut: WOS:000233148300006)
+  2005 -- Ice nucleation on flame soot aerosol of different organic carbon content
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+    DROPPED  researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+    DROPPED  researchers/Wagner R_.bib   (34 fields)
+
+[group 102] x8 (matched on ut: WOS:000233787600023)
+  2005 -- T-dependent rate measurements of homogeneous ice nucleation in cloud droplets using a large atmosphe
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+    DROPPED  researchers/Schurath U_.bib   (35 fields)
+    DROPPED  researchers/Wagner R_.bib   (35 fields)
+
+[group 116] x8 (matched on ut: WOS:000241541800001)
+  2006 -- Probing ice clouds by broadband mid-infrared extinction spectroscopy:: case studies from ice nucleat
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+    DROPPED  researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+    DROPPED  researchers/Schurath U_.bib   (33 fields)
+    DROPPED  researchers/Wagner R_.bib   (33 fields)
+
+[group 133] x8 (matched on ut: WOS:000251615700019)
+  2007 -- Influence of particle aspect ratio on the midinfrared extinction spectra of wavelength-sized ice cry
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+    DROPPED  researchers/Leisner T_.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (33 fields)
+    DROPPED  researchers/Wagner R_.bib   (33 fields)
+
+[group 142] x8 (matched on ut: WOS:000257177300017)
+  2008 -- The effect of organic coating on the heterogeneous ice nucleation efficiency of mineral dust aerosol
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (35 fields)
+    DROPPED  researchers/Wagner R_.bib   (35 fields)
+
+[group 146] x8 (matched on ut: WOS:000260557000002)
+  2008 -- Heterogeneous ice nucleation activity of bacteria: new laboratory experiments at simulated cloud con
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (34 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+    DROPPED  researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (34 fields)
+    DROPPED  researchers/Wagner R_.bib   (34 fields)
+
+[group 175] x8 (matched on ut: WOS:000274410000025)
+  2010 -- An aerosol chamber investigation of the heterogeneous ice nucleating potential of refractory nanopar
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 206] x8 (matched on ut: WOS:000290057600004)
+  2011 -- Particle Habit Imaging Using Incoherent Light: A First Step toward a Novel Instrument for Cloud Micr
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Schurath U_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 260] x8 (matched on ut: WOS:000318428300033)
+  2013 -- The accommodation coefficient of water molecules on ice - cirrus cloud studies at the AIDA simulatio
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 370] x8 (matched on ut: WOS:000394344800004)
+  2017 -- A New Ice Nucleation Active Site Parameterization for Desert Dust and Soot
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 450] x8 (matched on ut: WOS:000474738000006)
+  2019 -- Enhanced ice nucleation activity of coal fly ash aerosol particles initiated by ice-filled pores
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+    DROPPED  researchers/Wagner R_.bib   (37 fields)
+
+[group 521] x8 (matched on ut: WOS:000703046400001)
+  2021 -- High homogeneous freezing onsets of sulfuric acid aerosol at cirrus temperatures
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+    DROPPED  researchers/Wagner R_.bib   (37 fields)
+
+[group 101] x7 (matched on ut: WOS:000233148300007)
+  2005 -- Experimental investigation of ice nucleation by different types of aerosols in the aerosol chamber A
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+    DROPPED  researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+    DROPPED  researchers/Schurath U_.bib   (33 fields)
+    DROPPED  researchers/Wagner R_.bib   (33 fields)
+
+[group 108] x7 (matched on ut: WOS:000239176200001)
+  2006 -- Some ice nucleation characteristics of Asian and Saharan desert dust
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (34 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+    DROPPED  researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (34 fields)
+
+[group 109] x7 (matched on ut: WOS:000239176200002)
+  2006 -- Efficiency of the deposition mode ice nucleation on mineral dust particles
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (32 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (32 fields)
+    DROPPED  keywords/AIDA chamber.bib   (32 fields)
+    DROPPED  researchers/Mohler O_.bib   (32 fields)
+    DROPPED  researchers/Saathoff H_.bib   (32 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (32 fields)
+    DROPPED  researchers/Wagner R_.bib   (32 fields)
+
+[group 147] x7 (matched on ut: WOS:000260926700020)
+  2008 -- Infrared Optical Constants of Highly Diluted Sulfuric Acid Solution Droplets at Cirrus Temperatures
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 162] x7 (matched on ut: WOS:000267082200011)
+  2009 -- A review of optical measurements at the aerosol and cloud chamber AIDA
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Naumann K_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 220] x7 (matched on ut: WOS:000298667600026)
+  2011 -- Ice nucleation properties of fine ash particles from the Eyjafjallajokull eruption in April 2010
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 244] x7 (matched on ut: WOS:000307749000018)
+  2012 -- Infrared Optical Constants of Crystalline Sodium Chloride Dihydrate: Application To Study the Crysta
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (35 fields)
+    DROPPED  researchers/Wagner R_.bib   (35 fields)
+
+[group 252] x7 (matched on ut: WOS:000310954400029)
+  2012 -- Influence of particle size and shape on the backscattering linear depolarisation ratio of small ice 
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (35 fields)
+    DROPPED  researchers/Wagner R_.bib   (35 fields)
+
+[group 261] x7 (matched on ut: WOS:000318941300008)
+  2013 -- Laser filament-induced aerosol formation
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 398] x7 (matched on ut: WOS:000426312200003)
+  2018 -- α-Pinene secondary organic aerosol at low temperature: chemical composition and implications for par
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Naumann K_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+    DROPPED  researchers/Wagner R_.bib   (37 fields)
+
+[group 400] x7 (matched on ut: WOS:000428437100027)
+  2018 -- Heterogeneous Ice Nucleation Ability of NaCl and Sea Salt Aerosol Particles at Cirrus Temperatures
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (38 fields)
+    DROPPED  keywords/AIDA chamber.bib   (38 fields)
+    DROPPED  researchers/Leisner T_.bib   (38 fields)
+    DROPPED  researchers/Mohler O_.bib   (38 fields)
+    DROPPED  researchers/Saathoff H_.bib   (38 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (38 fields)
+    DROPPED  researchers/Wagner R_.bib   (38 fields)
+
+[group 519] x7 (matched on ut: WOS:000694671900028)
+  2021 -- The Influence of Chemical and Mineral Compositions on the Parameterization of Immersion Freezing by 
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (38 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (38 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (38 fields)
+    DROPPED  keywords/AIDA chamber.bib   (38 fields)
+    DROPPED  researchers/Leisner T_.bib   (38 fields)
+    DROPPED  researchers/Mohler O_.bib   (38 fields)
+    DROPPED  researchers/Wagner R_.bib   (38 fields)
+
+[group 57] x6 (matched on ut: WOS:000181074900001)
+  2003 -- Numerical simulations of homogeneous freezing processes in the aerosol chamber AIDA
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+    DROPPED  researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Schaefers S_.bib   (33 fields)
+    DROPPED  researchers/Schurath U_.bib   (33 fields)
+
+[group 65] x6 (matched on ut: WOS:000185856300001)
+  2003 -- The AIDA soot aerosol characterisation campaign 1999
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+    DROPPED  researchers/Schurath U_.bib   (35 fields)
+
+[group 82] x6 (matched on ut: WOS:000223521800004)
+  2004 -- Operation and performance of a differential mobility particle sizer and a TSI 3010 condensation part
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (35 fields)
+    DROPPED  researchers/Schurath U_.bib   (35 fields)
+
+[group 110] x6 (matched on ut: WOS:000239270700001)
+  2006 -- Homogeneous nucleation rates of nitric acid dihydrate (NAD) at simulated stratospheric conditions -:
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+    DROPPED  researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+    DROPPED  researchers/Wagner R_.bib   (33 fields)
+
+[group 118] x6 (matched on ut: WOS:000243747400001)
+  2007 -- Technical note:: A numerical test-bed for detailed ice nucleation studies in the AIDA cloud simulati
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+    DROPPED  researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (33 fields)
+
+[group 154] x6 (matched on ut: WOS:000264132800003)
+  2009 -- Temperature dependence of yields of secondary organic aerosols from the ozonolysis of α-pinene and l
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Naumann K_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schurath U_.bib   (36 fields)
+
+[group 178] x6 (matched on ut: WOS:000276159600011)
+  2010 -- Heterogeneous nucleation of ice particles on glassy aerosols under cirrus conditions
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 214] x6 (matched on ut: WOS:000295368700008)
+  2011 -- Studies of propane flame soot acting as heterogeneous ice nuclei in conjunction with single particle
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 248] x6 (matched on ut: WOS:000309424300020)
+  2012 -- Glassy aerosols with a range of compositions nucleate ice heterogeneously at cirrus temperatures
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 253] x6 (matched on ut: WOS:000312666200008)
+  2012 -- Single Particle Soot Photometer intercomparison at the AIDA chamber
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Naumann K_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 263] x6 (matched on ut: WOS:000321500200029)
+  2013 -- Laser-induced plasma cloud interaction and ice multiplication under cirrus cloud conditions
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (38 fields)
+    DROPPED  keywords/AIDA chamber.bib   (38 fields)
+    DROPPED  researchers/Leisner T_.bib   (38 fields)
+    DROPPED  researchers/Mohler O_.bib   (38 fields)
+    DROPPED  researchers/Saathoff H_.bib   (38 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (38 fields)
+
+[group 270] x6 (matched on ut: WOS:000325272000049)
+  2013 -- Heterogeneous ice nucleation ability of crystalline sodium chloride dihydrate particles
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (38 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (38 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (38 fields)
+    DROPPED  keywords/AIDA chamber.bib   (38 fields)
+    DROPPED  researchers/Mohler O_.bib   (38 fields)
+    DROPPED  researchers/Wagner R_.bib   (38 fields)
+
+[group 288] x6 (matched on ut: WOS:000340408000027)
+  2014 -- Enhanced high-temperature ice nucleation ability of crystallized aerosol particles after preactivati
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+    DROPPED  researchers/Wagner R_.bib   (37 fields)
+
+[group 291] x6 (matched on ut: WOS:000343119600026)
+  2014 -- The AquaVIT-1 intercomparison of atmospheric water vapor measurement techniques
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 297] x6 (matched on ut: WOS:000346140100032)
+  2014 -- A comprehensive parameterization of heterogeneous ice nucleation of dust surrogate: laboratory study
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 345] x6 (matched on ut: WOS:000376937000021)
+  2016 -- Cloud chamber experiments on the origin of ice crystal complexity in cirrus clouds
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 356] x6 (matched on ut: WOS:000383790000002)
+  2016 -- Development and characterization of an ice-selecting pumped counterflow virtual impactor (IS-PCVI) t
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+    DROPPED  researchers/Wagner R_.bib   (37 fields)
+
+[group 366] x6 (matched on ut: WOS:000393127800019)
+  2016 -- Ice nucleation activity of agricultural soil dust aerosols from Mongolia, Argentina, and Germany
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 422] x6 (matched on ut: WOS:000450426300002)
+  2018 -- The Fifth International Workshop on Ice Nucleation phase 2 (FIN-02): laboratory intercomparison of i
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Wagner R_.bib   (37 fields)
+
+[group 452] x6 (matched on ut: WOS:000477864200009)
+  2019 -- Ammonium nitrate particles formed in upper troposphere from ground ammonia sources during Asian mons
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+    DROPPED  researchers/Wagner R_.bib   (37 fields)
+
+[group 493] x6 (matched on ut: WOS:000578982700001)
+  2020 -- Complex plant-derived organic aerosol as ice-nucleating particles - more than the sums of their part
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 538] x6 (matched on ut: WOS:000780309500001)
+  2022 -- LED-based solar simulator to study photochemistry over a wide temperature range in the large simulat
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 660] x6 (matched on ut: WOS:001594483200001)
+  2025 -- The AquaVIT-4 intercomparison of atmospheric hygrometers
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 66] x5 (matched on ut: WOS:000185856300002)
+  2003 -- Coating of soot and (NH4)2SO4 particles by ozonolysis products of α-pinene
+    KEPT     researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Naumann K_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+
+[group 70] x5 (matched on ut: WOS:000185856300006)
+  2003 -- Carbon mass determinations during the AIDA soot aerosol campaign 1999
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  researchers/Naumann K_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+
+[group 71] x5 (matched on ut: WOS:000185856300007)
+  2003 -- UV-VIS-NIR spectral optical properties of soot and soot-containing aerosols
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (32 fields)
+    DROPPED  researchers/Mohler O_.bib   (32 fields)
+    DROPPED  researchers/Naumann K_.bib   (32 fields)
+    DROPPED  researchers/Saathoff H_.bib   (32 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (32 fields)
+
+[group 87] x5 (matched on ut: WOS:000226413000005)
+  2005 -- Fibre-coupled in-situ laser absorption spectrometer for the selective detection of water vapour trac
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+
+[group 159] x5 (matched on ut: WOS:000265743100013)
+  2009 -- Studies of heterogeneous freezing by three different desert dust samples
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+
+[group 172] x5 (matched on ut: WOS:000272900500015)
+  2009 -- Deactivation of ice nuclei due to atmospherically relevant surface coatings
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 217] x5 (matched on ut: WOS:000296594000008)
+  2011 -- First correlated measurements of the shape and light scattering properties of cloud particles using 
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 218] x5 (matched on ut: WOS:000296967900019)
+  2011 -- Volatility of secondary organic aerosol during OH radical induced ageing
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Naumann K_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 223] x5 (matched on ut: WOS:000299130600015)
+  2011 -- RESURGENCE IN ICE NUCLEI MEASUREMENT RESEARCH
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 229] x5 (matched on ut: WOS:000300656500016)
+  2012 -- Formation of 3-methyl-1,2,3-butanetricarboxylic acid via gas phase oxidation of pinonic acid - a mas
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Naumann K_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+
+[group 250] x5 (matched on ut: WOS:000309555200011)
+  2012 -- A Particle-Surface-Area-Based Parameterization of Immersion Freezing on Desert Dust Particles
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 308] x5 (matched on ut: WOS:000352292500019)
+  2015 -- Time-multiplexed open-path TDLAS spectrometer for dynamic, sampling-free, interstitial H2 18O and H2
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 310] x5 (matched on ut: WOS:000352957400005)
+  2015 -- A new temperature- and humidity-dependent surface site density approach for deposition ice nucleatio
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 313] x5 (matched on ut: WOS:000354655000002)
+  2015 -- Characterization of ice-nucleating bacteria using on-line electron impact ionization aerosol mass sp
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 316] x5 (matched on ut: WOS:000356180900029)
+  2015 -- Survival and ice nucleation activity of bacteria as aerosols in a cloud simulation chamber
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 337] x5 (matched on ut: WOS:000374703000012)
+  2016 -- Observation of viscosity transition in α-pinene secondary organic aerosol
+    KEPT     researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Naumann K_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 339] x5 (matched on ut: WOS:000375610500012)
+  2016 -- In situ characterization of mixed phase clouds using the Small Ice Detector and the Particle Phase D
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+    DROPPED  researchers/Wagner R_.bib   (36 fields)
+
+[group 353] x5 (matched on ut: WOS:000381094100010)
+  2016 -- PHIPS-HALO: the airborne Particle Habit Imaging and Polar Scattering probe - Part 1: Design and oper
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 427] x5 (matched on ut: WOS:000452770900003)
+  2018 -- Activation of intact bacteria and bacterial fragments mixed with agar as cloud droplets and ice crys
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 443] x5 (matched on ut: WOS:000464677200001)
+  2019 -- Heterogeneous ice nucleation properties of natural desert dust particles coated with a surrogate of 
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 473] x5 (matched on ut: WOS:000509737200001)
+  2020 -- No anomalous supersaturation in ultracold cirrus laboratory experiments
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 481] x5 (matched on ut: WOS:000530477600001)
+  2020 -- The Chicago Water Isotope Spectrometer (ChiWIS-lab): A tunable diode laser spectrometer for chamber-
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 520] x5 (matched on ut: WOS:000697603300001)
+  2021 -- Heterogeneous ice nucleation ability of aerosol particles generated from Arctic sea surface microlay
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Wagner R_.bib   (37 fields)
+
+[group 523] x5 (matched on ut: WOS:000706169000001)
+  2021 -- Laboratory and field studies of ice-nucleating particles from open-lot livestock facilities in Texas
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 542] x5 (matched on ut: WOS:000791462500001)
+  2022 -- Kinetics, SOA yields, and chemical composition of seconaary organic aerosol from β-caryophyllene ozo
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 558] x5 (matched on ut: WOS:000869105000002)
+  2022 -- Development and validation of a new cloud simulation experiment for lab-based aerosol-cloud studies
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Leisner T_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+
+[group 577] x5 (matched on ut: WOS:001000366600001)
+  2023 -- Re-evaluating cloud chamber constraints on depositional ice growth in cirrus clouds - Part 1: Model 
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 624] x5 (matched on ut: WOS:001319682300001)
+  2024 -- Measurement report: The Fifth International Workshop on Ice Nucleation phase 1 (FIN-01): intercompar
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 23] x4 (matched on ut: WOS:000083249200010)
+  1999 -- The heterogeneous reaction of ozone with soot aerosol
+    KEPT     researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Naumann K_.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+    DROPPED  researchers/Schurath U_.bib   (33 fields)
+
+[group 37] x4 (matched on ut: WOS:000168617900014)
+  2001 -- The loss of NO2, HNO3, NO3/N2O5, and HO2/HOONO2 on soot aerosol:: A chamber and modeling study
+    KEPT     researchers/Mohler O_.bib   (32 fields)
+    DROPPED  researchers/Naumann K_.bib   (32 fields)
+    DROPPED  researchers/Saathoff H_.bib   (32 fields)
+    DROPPED  researchers/Schurath U_.bib   (32 fields)
+
+[group 84] x4 (matched on ut: WOS:000224087800004)
+  2004 -- Gasification of a soot aerosol by O3 and NO2: Temperature dependence of the reaction probability
+    KEPT     researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Naumann K_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+
+[group 111] x4 (matched on ut: WOS:000239270700002)
+  2006 -- Homogeneous nucleation rates of nitric acid dihydrate (NAD) at simulated stratospheric conditions -:
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (32 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (32 fields)
+    DROPPED  keywords/AIDA chamber.bib   (32 fields)
+    DROPPED  researchers/Mohler O_.bib   (32 fields)
+
+[group 115] x4 (matched on ut: WOS:000240655700044)
+  2006 -- Solid ammonium sulfate aerosols as ice nuclei:: A pathway for cirrus cloud formation
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Mohler O_.bib   (35 fields)
+
+[group 126] x4 (matched on ut: WOS:000249745300004)
+  2007 -- Volatility of secondary organic aerosols from the ozone initiated oxidation of α-pinene and limonene
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+
+[group 165] x4 (matched on ut: WOS:000269960300003)
+  2008 -- Single Particle Laser Mass Spectrometry Applied to Differential Ice Nucleation Experiments at the AI
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/_AIDA_ AND Karlsruhe.bib   (34 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+
+[group 200] x4 (matched on ut: WOS:000286180200003)
+  2011 -- Results from the University of Toronto continuous flow diffusion chamber at ICIS 2007: instrument in
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 245] x4 (matched on ut: WOS:000308085200020)
+  2012 -- Aging of biogenic secondary organic aerosol via gas-phase OH radical reactions
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Naumann K_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 273] x4 (matched on ut: WOS:000325628300015)
+  2013 -- Ice nucleation by surrogates of Martian mineral dust: What can we learn about Mars without leaving E
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (38 fields)
+    DROPPED  keywords/AIDA chamber.bib   (38 fields)
+    DROPPED  researchers/Saathoff H_.bib   (38 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (38 fields)
+
+[group 285] x4 (matched on ut: WOS:000334104200007)
+  2014 -- Influence of surface morphology on the immersion mode ice nucleation efficiency of hematite particle
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 294] x4 (matched on ut: WOS:000343919400063)
+  2014 -- Laboratory study of microphysical and scattering properties of corona-producing cirrus clouds
+    KEPT     keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 301] x4 (matched on ut: WOS:000347958200023)
+  2015 -- Integrating laboratory and field data to quantify the immersion freezing ice nucleation activity of 
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 504] x4 (matched on ut: WOS:000619668400002)
+  2021 -- The Portable Ice Nucleation Experiment (PINE): a new online instrument for laboratory studies and au
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 533] x4 (matched on ut: WOS:000739110200001)
+  2022 -- New investigations on homogeneous ice nucleation: the effects of water activity and water saturation
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (37 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 675] x4 (matched on ut: WOS:001670326200001)
+  2026 -- Cloud Chamber Studies on the Linear Depolarisation Ratio of Small Cirrus Ice Crystals
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+    DROPPED  researchers/Wagner R_.bib   (37 fields)
+
+[group 689] x4 (matched on ut: WOS:001805975600001)
+  2026 -- Ice nucleation activity of mineral dust from Morocco and Iceland in immersion freezing mode and its 
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (38 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (38 fields)
+    DROPPED  keywords/AIDA chamber.bib   (38 fields)
+    DROPPED  researchers/Mohler O_.bib   (38 fields)
+
+[group 54] x3 (matched on ut: WOS:000178964000009)
+  2002 -- Cryo-chamber simulation of stratospheric H2SO4/H2O particles: Composition analysis and model compari
+    KEPT     researchers/Mohler O_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+    DROPPED  researchers/Schurath U_.bib   (35 fields)
+
+[group 88] x3 (matched on ut: WOS:000227375000001)
+  2005 -- The role of organic aerosols in homogeneous ice formation
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+
+[group 89] x3 (matched on ut: WOS:000227615700003)
+  2005 -- Ice supersaturations exceeding 100\% at the cold tropical tropopause: implications for cirrus format
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+
+[group 93] x3 (matched on ut: WOS:000229035900007)
+  2005 -- Measurement of wavelength-resolved light absorption by aerosols utilizing a UV-VIS extinction cell
+    KEPT     researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+
+[group 124] x3 (matched on ut: WOS:000248789901744)
+  2007 -- Monitoring of atmospheric particulate matter around Raipur Central India
+    KEPT     researchers/Leisner T_.bib   (29 fields)
+    DROPPED  researchers/Saathoff H_.bib   (29 fields)
+    DROPPED  researchers/Schurath U_.bib   (29 fields)
+
+[group 140] x3 (matched on ut: WOS:000256811500003)
+  2008 -- Parameterization of cirrus cloud formation in large-scale models: Homogeneous nucleation
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (34 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (34 fields)
+    DROPPED  keywords/AIDA chamber.bib   (34 fields)
+
+[group 145] x3 (matched on ut: WOS:000259569300010)
+  2008 -- MAID:: a model to simulate UT/LS aerosols and ice clouds
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+
+[group 155] x3 (matched on ut: WOS:000264374700022)
+  2009 -- Temperature dependence of the rate coefficient for the α-pinene reaction with ozone in the range bet
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+
+[group 158] x3 (matched on ut: WOS:000264681300010)
+  2009 -- How Well Does Water Activity Determine Homogeneous Ice Nucleation Temperature in Aqueous Sulfuric Ac
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (33 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (33 fields)
+    DROPPED  keywords/AIDA chamber.bib   (33 fields)
+
+[group 174] x3 (matched on ut: WOS:000273954200001)
+  2010 -- Single ice crystal measurements during nucleation experiments with the depolarization detector IODE
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 196] x3 (matched on ut: WOS:000285312900012)
+  2010 -- A large-eddy model for cirrus clouds with explicit aerosol and ice microphysics and Lagrangian ice p
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (38 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (38 fields)
+    DROPPED  keywords/AIDA chamber.bib   (38 fields)
+
+[group 198] x3 (matched on ut: WOS:000285334900040)
+  2010 -- Laboratory investigations of the impact of mineral dust aerosol on cold cloud formation
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 201] x3 (matched on ut: WOS:000286180200005)
+  2011 -- Manchester Ice Nucleus Counter (MINC) measurements from the 2007 International workshop on Comparing
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 215] x3 (matched on ut: WOS:000296159800008)
+  2011 -- Temperature dependence of the kinetic isotope effect in β-pinene ozonolysis
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (35 fields)
+    DROPPED  keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+
+[group 238] x3 (matched on ut: WOS:000304672000011)
+  2012 -- Hygroscopic growth and droplet activation of soot particles: uncoated, succinic or sulfuric acid coa
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 267] x3 (matched on ut: WOS:000324354500010)
+  2013 -- Modelling and measurement of particle deposition for cell exposure at the air-liquid interface
+    KEPT     researchers/Leisner T_.bib   (35 fields)
+    DROPPED  researchers/Naumann K_.bib   (35 fields)
+    DROPPED  researchers/Saathoff H_.bib   (35 fields)
+
+[group 278] x3 (matched on ut: WOS:000328122900009)
+  2013 -- A Novel Adiabatic-Expansion-Type Cloud Simulation Chamber
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+
+[group 287] x3 (matched on ut: WOS:000339727000017)
+  2014 -- Integrative fitting of absorption line profiles with high accuracy, robustness, and speed
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+
+[group 311] x3 (matched on ut: WOS:000353988700050)
+  2015 -- Crystallization and immersion freezing ability of oxalic and succinic acid in multicomponent aqueous
+    KEPT     researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 319] x3 (matched on ut: WOS:000358799000042)
+  2015 -- Two decades of water vapor measurements with the FISH fluorescence hygrometer: a review
+    KEPT     keywords/AIDA chamber.bib   (34 fields)
+    DROPPED  researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+
+[group 334] x3 (matched on ut: WOS:000372971500015)
+  2016 -- Analysis of isothermal and cooling-rate-dependent immersion freezing by a unifying stochastic ice nu
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/aerosol and cloud chamber AIDA.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+
+[group 336] x3 (matched on ut: WOS:000374702000052)
+  2016 -- Phase transition observations and discrimination of small cloud particles by light polarization in e
+    KEPT     researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 341] x3 (matched on ut: WOS:000375888800020)
+  2016 -- Influence of biodiesel fuel composition on the morphology and microstructure of particles emitted fr
+    KEPT     researchers/Leisner T_.bib   (34 fields)
+    DROPPED  researchers/Naumann K_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+
+[group 343] x3 (matched on ut: WOS:000376705900019)
+  2016 -- Laboratory investigations of mineral dust near-backscattering depolarization ratios
+    KEPT     researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 346] x3 (matched on ut: WOS:000378354100028)
+  2016 -- Heterogeneous ice nucleation of viscous secondary organic aerosol produced from ozonolysis of α-pine
+    KEPT     researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (36 fields)
+
+[group 358] x3 (matched on ut: WOS:000384679900007)
+  2016 -- Quasi-Spherical Ice in Convective Clouds
+    KEPT     keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 378] x3 (matched on ut: WOS:000402296700040)
+  2017 -- Laboratory measurements of HDO/H2O isotopic fractionation during ice deposition in simulated cirrus 
+    KEPT     keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 435] x3 (matched on ut: WOS:000459317500002)
+  2019 -- Mineralogy and mixing state of north African mineral dust by online single-particle mass spectrometr
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 441] x3 (matched on ut: WOS:000464035300002)
+  2019 -- A comprehensive characterization of ice nucleation by three different types of cellulose particles i
+    KEPT     keywords/aerosol and cloud chamber AIDA.bib   (37 fields)
+    DROPPED  keywords/AIDA chamber.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 480] x3 (matched on ut: WOS:000530005500001)
+  2020 -- Solid Ammonium Nitrate Aerosols as Efficient Ice Nucleating Particles at Cirrus Temperatures
+    KEPT     researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 507] x3 (matched on ut: WOS:000629036900001)
+  2021 -- High-resolution optical constants of crystalline ammonium nitrate for infrared remote sensing of the
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 516] x3 (matched on ut: WOS:000674782200001)
+  2021 -- Ice nucleation ability of ammonium sulfate aerosol particles internally mixed with secondary organic
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 578] x3 (matched on ut: WOS:001009557400001)
+  2023 -- Volatility of Secondary Organic Aerosol from β-Caryophyllene Ozonolysis over a Wide Tropospheric Tem
+    KEPT     researchers/Leisner T_.bib   (39 fields)
+    DROPPED  researchers/Mohler O_.bib   (39 fields)
+    DROPPED  researchers/Saathoff H_.bib   (39 fields)
+
+[group 580] x3 (matched on ut: WOS:001015089200001)
+  2023 -- Particle shapes and infrared extinction spectra of nitric acid dihydrate (NAD)crystals: optical cons
+    KEPT     researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 590] x3 (matched on ut: WOS:001139383500001)
+  2024 -- Influence of the Neutralization Degree on the Ice Nucleation Ability of Ammoniated Sulfate Particles
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 9] x2 (matched on ut: WOS:000076607300006)
+  1998 -- Heterogeneous processes involving atmospheric particulate matter
+    KEPT     researchers/Naumann K_.bib   (34 fields)
+    DROPPED  researchers/Schurath U_.bib   (34 fields)
+
+[group 44] x2 (matched on ut: WOS:000172760600025)
+  2001 -- Evaluation of a photoacoustic detector for water vapor measurements under simulated tropospheric/low
+    KEPT     researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Schurath U_.bib   (33 fields)
+
+[group 68] x2 (matched on ut: WOS:000185856300004)
+  2003 -- Transmission electron microscopical and aerosol dynamical characterization of soot aerosols
+    KEPT     researchers/Naumann K_.bib   (34 fields)
+    DROPPED  researchers/Saathoff H_.bib   (34 fields)
+
+[group 72] x2 (matched on ut: WOS:000185856300008)
+  2003 -- Absorption of light by soot particles: determination of the absorption coefficient by means of aetha
+    KEPT     researchers/Saathoff H_.bib   (33 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (33 fields)
+
+[group 112] x2 (matched on ut: WOS:000239667400002)
+  2006 -- Optical properties and mineralogical composition of different Saharan mineral dust samples:: a labor
+    KEPT     researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (33 fields)
+
+[group 137] x2 (matched on ut: WOS:000253851500015)
+  2008 -- Relationship of visibility, aerosol optical thickness and aerosol size distribution in an ageing air
+    KEPT     researchers/Mohler O_.bib   (34 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (34 fields)
+
+[group 168] x2 (matched on ut: WOS:000271373900025)
+  2009 -- Ice crystal habits from cloud chamber studies obtained by in-line holographic microscopy related to 
+    KEPT     keywords/AIDA chamber.bib   (35 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (35 fields)
+
+[group 171] x2 (matched on ut: WOS:000272443800001)
+  2009 -- Validation of the Harvard Lyman-α in situ water vapor instrument: Implications for the mechanisms th
+    KEPT     keywords/_AIDA_ AND Karlsruhe.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+
+[group 193] x2 (matched on ut: WOS:000283901800005)
+  2010 -- A novel multi-wavelength photoacoustic spectrometer for the measurement of the UV-vis-NIR spectral a
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 216] x2 (matched on ut: WOS:000296165100003)
+  2011 -- Inter-comparison of optical absorption coefficients of atmospheric aerosols determined by a multi-wa
+    KEPT     researchers/Leisner T_.bib   (38 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (38 fields)
+
+[group 224] x2 (matched on ut: WOS:000299378302506)
+  2011 -- Glassy aerosol particles and their impact on ice clouds
+    KEPT     researchers/Saathoff H_.bib   (29 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (29 fields)
+
+[group 226] x2 (matched on ut: WOS:000299749700034)
+  2012 -- Optical feedback cavity enhanced absorption spectroscopy: effective adjustment of the feedback-phase
+    KEPT     researchers/Leisner T_.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+
+[group 274] x2 (matched on ut: WOS:000325654900024)
+  2013 -- Studies of heterogeneous freezing by three different desert dust samples (vol 9, pg 2805, 2009)
+    KEPT     researchers/Mohler O_.bib   (33 fields)
+    DROPPED  researchers/Saathoff H_.bib   (33 fields)
+
+[group 295] x2 (matched on ut: WOS:000344109000001)
+  2014 -- Silica nanoparticles are less toxic to human lung cells when deposited at the air-liquid interface c
+    KEPT     researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 305] x2 (matched on ut: WOS:000350559700016)
+  2015 -- A comprehensive laboratory study on the immersion freezing behavior of illite NX particles: a compar
+    KEPT     researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Mohler O_.bib   (36 fields)
+
+[group 330] x2 (matched on ut: WOS:000366871500039)
+  2015 -- Single-Particle Time-of-Flight Mass Spectrometry Utilizing a Femtosecond Desorption and Ionization L
+    KEPT     researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 331] x2 (matched on ut: WOS:000371284100030)
+  2016 -- Aqueous phase oxidation of sulphur dioxide by ozone in cloud droplets
+    KEPT     researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 333] x2 (matched on ut: WOS:000372971500012)
+  2016 -- Pre-activation of ice-nucleating particles by the pore condensation and freezing mechanism
+    KEPT     researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 359] x2 (matched on ut: WOS:000387116400002)
+  2016 -- A novel single-cavity three-wavelength photoacoustic spectrometer for atmospheric aerosol research
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 377] x2 (matched on ut: WOS:000402039000010)
+  2017 -- Heterogeneous ice nucleation of -pinene SOA particles before and after ice cloud processing
+    KEPT     researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 384] x2 (matched on ut: WOS:000409123500002)
+  2017 -- Intercomparison study and optical asphericity measurements of small ice particles in the CERN CLOUD 
+    KEPT     researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 394] x2 (matched on ut: WOS:000422807600001)
+  2018 -- PHIPS-HALO: the airborne particle habit imaging and polar scattering probe - Part 2: Characterizatio
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 402] x2 (matched on ut: WOS:000430799500002)
+  2018 -- Laser ablation aerosol particle time-of-flight mass spectrometer (LAAPTOF): performance, reference s
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 404] x2 (matched on ut: WOS:000432475703161)
+  2015 -- Single particle time of flight mass spectrometry utilizing a femtosecond desorption and ionization l
+    KEPT     researchers/Leisner T_.bib   (27 fields)
+    DROPPED  researchers/Saathoff H_.bib   (27 fields)
+
+[group 410] x2 (matched on ut: WOS:000439425200002)
+  2018 -- Exploring femtosecond laser ablation in single-particle aerosol mass spectrometry
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 421] x2 (matched on ut: WOS:000449342400003)
+  2018 -- Additional global climate cooling by clouds due to ice crystal complexity
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 434] x2 (matched on ut: WOS:000458220600013)
+  2019 -- Chemical Characterization of Highly Functionalized Organonitrates Contributing to Night-Time Organic
+    KEPT     researchers/Leisner T_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 439] x2 (matched on ut: WOS:000462356700003)
+  2019 -- Comparison of Modeled and Measured Ice Nucleating Particle Composition in a Cirrus Cloud
+    KEPT     researchers/Leisner T_.bib   (38 fields)
+    DROPPED  researchers/Mohler O_.bib   (38 fields)
+
+[group 442] x2 (matched on ut: WOS:000464035600004)
+  2019 -- Understanding atmospheric aerosol particles with improved particle identification and quantification
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 454] x2 (matched on ut: WOS:000483068400001)
+  2019 -- Specifying the light-absorbing properties of aerosol particles in fresh snow samples, collected at t
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 457] x2 (matched on ut: WOS:000486705200002)
+  2019 -- Seasonal characteristics of organic aerosol chemical composition and volatility in Stuttgart, German
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 461] x2 (matched on ut: WOS:000492836400001)
+  2019 -- Composition and origin of PM2.5 aerosol particles in the upper Rhine valley in summer
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 506] x2 (matched on ut: WOS:000621729200001)
+  2021 -- Fabrication of superhydrophillic and graded index antireflective double layer coating for solar phot
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (36 fields)
+    DROPPED  keywords/AIDA chamber.bib   (36 fields)
+
+[group 508] x2 (matched on ut: WOS:000630204400001)
+  2021 -- The seasonal cycle of ice-nucleating particles linked to the abundance of biogenic aerosol in boreal
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 509] x2 (matched on ut: WOS:000645417400001)
+  2021 -- PHIPS-HALO: the airborne Particle Habit Imaging and Polar Scattering probe - Part 3: Single-particle
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (37 fields)
+
+[group 527] x2 (matched on ut: WOS:000722456700001)
+  2021 -- Sources and nature of ice-nucleating particles in the free troposphere at Jungfraujoch in winter 201
+    KEPT     researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 528] x2 (matched on ut: WOS:000723034400001)
+  2021 -- Chemical composition of nanoparticles from α-pinene nucleation and the influence of isoprene and rel
+    KEPT     researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 539] x2 (matched on ut: WOS:000781536000001)
+  2022 -- Comparison of Scanning LiDAR with Other Remote Sensing Measurements and Transport Model Predictions 
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 544] x2 (matched on ut: WOS:000804666100001)
+  2022 -- In situ observation of riming in mixed-phase clouds using the PHIPS probe
+    KEPT     researchers/Leisner T_.bib   (35 fields)
+    DROPPED  researchers/Schnaiter M_.bib   (35 fields)
+
+[group 546] x2 (matched on ut: WOS:000805963200005)
+  2022 -- Variations of PM2.5 sources in the context of meteorology and seasonality at an urban street canyon 
+    KEPT     researchers/Leisner T_.bib   (38 fields)
+    DROPPED  researchers/Saathoff H_.bib   (38 fields)
+
+[group 559] x2 (matched on ut: WOS:000875602400001)
+  2022 -- Swabian MOSES 2021: An interdisciplinary field campaign for investigating convective storms and thei
+    KEPT     researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 562] x2 (matched on ut: WOS:000890189300001)
+  2022 -- Chromophores and chemical composition of brown carbon characterized at anurban kerbside by excitatio
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 563] x2 (matched on ut: WOS:000900043000003)
+  2023 -- Characteristics of ice-nucleating particles in Beijing during spring: A comparison study of measurem
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 567] x2 (matched on ut: WOS:000929145300001)
+  2023 -- Molecular Understanding of the Enhancement in Organic Aerosol Mass at High Relative Humidity
+    KEPT     researchers/Mohler O_.bib   (39 fields)
+    DROPPED  researchers/Saathoff H_.bib   (39 fields)
+
+[group 569] x2 (matched on ut: WOS:000954387300001)
+  2023 -- Indoor air aerosol modeling and evaluation based on simulation chamber experiments
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (38 fields)
+    DROPPED  keywords/AIDA chamber.bib   (38 fields)
+
+[group 596] x2 (matched on ut: WOS:001173370000001)
+  2024 -- Impact of temperature on the role of Criegee intermediates and peroxy radicals in dimer formation fr
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 602] x2 (matched on ut: WOS:001190492200001)
+  2024 -- Molecular analysis of secondary organic aerosol and brown carbon from the oxidation of indole
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 608] x2 (matched on ut: WOS:001241837400001)
+  2024 -- Sources of organic gases and aerosol particles and their roles in nighttime particle growth at a rur
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 623] x2 (matched on ut: WOS:001317810700001)
+  2024 -- Aerosol composition, air quality, and boundary layer dynamics in the urban background of Stuttgart i
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 625] x2 (matched on ut: WOS:001337804600001)
+  2024 -- How Porosity Influences the Heterogeneous Ice Nucleation Ability of Secondary Organic Aerosol Partic
+    KEPT     researchers/Mohler O_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 629] x2 (matched on ut: WOS:001366385200001)
+  2024 -- Characterization of biogenic volatile organic compounds and their oxidation products in a stressed s
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 635] x2 (matched on ut: WOS:001418300500001)
+  2025 -- Measurement report: Brown carbon aerosol in rural Germany - sources, chemistry, and diurnal variatio
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 655] x2 (matched on ut: WOS:001555668100001)
+  2025 -- A novel aerosol filter sampler for measuring the vertical distribution of ice-nucleating particles v
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 656] x2 (matched on ut: WOS:001569122100001)
+  2025 -- From initiation of convective storms to their impact - the Swabian MOSES 2023 campaign in southweste
+    KEPT     researchers/Mohler O_.bib   (36 fields)
+    DROPPED  researchers/Saathoff H_.bib   (36 fields)
+
+[group 667] x2 (matched on ut: WOS:001617495100001)
+  2025 -- Measurement of the ice-nucleating particle concentration using a mobile filter-based sampler on-boar
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Mohler O_.bib   (37 fields)
+
+[group 683] x2 (matched on ut: WOS:001752180400001)
+  2026 -- Sources, concentrations, and seasonal variations of VOC and aerosol particles in downtown Munich in 
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 687] x2 (matched on ut: WOS:001800737000001)
+  2026 -- Influence of tropospheric temperature on the formation and aging of secondary organic aerosol from b
+    KEPT     researchers/Leisner T_.bib   (37 fields)
+    DROPPED  researchers/Saathoff H_.bib   (37 fields)
+
+[group 688] x2 (matched on ut: WOS:001803418400001)
+  2026 -- Atmospheric Simulation Chambers in the ACTRIS Research Infrastructure
+    KEPT     researchers/Mohler O_.bib   (38 fields)
+    DROPPED  researchers/Saathoff H_.bib   (38 fields)
+
+[group 690] x2 (matched on ut: WOS:001820725700001)
+  2026 -- Exploring autoxidation pathways in α-pinene oxidation through particulate measurements
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (31 fields)
+    DROPPED  keywords/AIDA chamber.bib   (31 fields)
+
+[group 934] x2 (matched on ut: WOS:A1991HN11800068)
+  1991 -- PHYSICAL AND CHEMICAL BEHAVIOR OF POLYDISPERSE DROPLET SYSTEMS
+    KEPT     keywords/_AIDA_ AND aerosol_.bib   (31 fields)
+    DROPPED  researchers/Naumann K_.bib   (31 fields)
+

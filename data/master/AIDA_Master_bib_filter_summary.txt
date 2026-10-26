@@ -1,0 +1,72 @@
+AIDA master bibliography: filter summary
+created 2026-09-16 11:55 by aida_master_bib.py
+input : /home/lf/AIDA/data/master/AIDA_Master_bib_NoDuplicate.bib
+output: /home/lf/AIDA/data/master/AIDA_Master_bib.bib
+
+FILTER SETTINGS
+   filter                      : Filter 1
+   rule                        : AIDA term in title/abstract/keywords, no affiliation check
+   AIDA terms (exact case)     : AIDA
+   AIDA terms (any case)       : Aerosol Interaction and Dynamics in the Atmosphere
+   KIT affiliation check       : off
+   KIT terms (any case)        : Karlsruhe Institute of Technology, Karlsruhe Inst Technol, Karlsruher Institut fur Technologie, Forschungszentrum Karlsruhe, Research Center Karlsruhe, Research Centre Karlsruhe, Res Ctr Karlsruhe, University of Karlsruhe, Univ Karlsruhe, Universitat Karlsruhe
+   KIT terms (exact case)      : KIT, FZK
+   keep if affiliation missing : False
+   title fields                : title
+   abstract fields             : abstract
+   keyword fields              : keywords, author-keywords, keywords-plus
+   affiliation fields          : affiliation, affiliations
+
+FIELD AVAILABILITY (all entries)
+   field         entries with field
+   -----------   ------------------
+   title              2201 (100.0%)
+   abstract             727 (33.0%)
+   keywords            1879 (85.3%)
+   affiliation         1668 (75.7%)
+
+WHERE THE TERMS WERE FOUND
+   found in                      AIDA terms, all entries   AIDA terms, kept entries
+   ---------------------------   -----------------------   ------------------------
+   title only                                  37 (1.7%)                 37 (23.4%)
+   abstract only                               93 (4.2%)                 93 (58.9%)
+   keywords only                                8 (0.4%)                   8 (5.1%)
+   title + abstract                            12 (0.5%)                  12 (7.6%)
+   title + keywords                             0 (0.0%)                   0 (0.0%)
+   abstract + keywords                          7 (0.3%)                   7 (4.4%)
+   title + abstract + keywords                  1 (0.0%)                   1 (0.6%)
+   none                                     2044 (92.8%)                   0 (0.0%)
+                                                                                   
+   in one field                               138 (6.3%)                138 (87.3%)
+   in two fields                               19 (0.9%)                 19 (12.0%)
+   in all three fields                          1 (0.0%)                   1 (0.6%)
+   not found                                2044 (92.8%)                   0 (0.0%)
+
+AIDA TERMS FOUND (entries per term)
+   term                                                 entries
+   --------------------------------------------------   -------
+   AIDA                                                     156
+   Aerosol Interaction and Dynamics in the Atmosphere        30
+
+KIT AFFILIATION (all entries)
+   status                            entries
+   ---------------------------   -----------
+   KIT affiliation found         790 (35.9%)
+   affiliation present, no KIT   878 (39.9%)
+   affiliation field missing     534 (24.3%)
+
+TERM MATCH VERSUS KIT AFFILIATION (all entries)
+                   KIT pass   KIT fail
+   -------------   --------   --------
+   term match           158          0
+   no term match       2044          0
+
+RESULT
+   entries in       : 2202
+   entries kept     : 158 (7.2%)
+   entries removed  : 2044 (92.8%)
+
+   removal reasons
+   reason         entries
+   ------------   -------
+   no AIDA term      2044

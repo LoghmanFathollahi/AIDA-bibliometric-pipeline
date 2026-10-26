@@ -1,0 +1,12 @@
+year,title_match,doi_match,doi_exclude,title_exclude,listed_role_match,role_correct,correct_role,affiliation_correct,correct_affiliation,this_is_me,belongs_to_aida,peer_reviewed,comment
+2018,,,,,"Corresponding author, not first",no,Co-author,,,,,,"Robert 2026-09-28: wrong, I am certainly only co-author"
+2021,,,,,"Corresponding author, not first",no,Co-author,,,,,,"Robert 2026-09-28: wrong, I am certainly only co-author"
+2025,AIDA Arctic transport experiment,ar-2025-,supplement,,,,,,,,no,,"Robert 2026-09-28: discussion page, the actual paper is the row above"
+2025,supplement,,,,,,,,,,no,,"Robert 2026-09-28: supplementary material of the 2025 Zanatta paper, not a separate paper"
+2019,Datasets from MIPAS,,,,,,,,,,no,,"Robert 2026-09-28: dataset record, the actual paper is 10.1038/s41561-019-0385-8"
+2017,Sea spray as a source,,,,,,,,,,no,,"Robert 2026-09-28: conference proceedings, the paper on this is 10.5194/acp-20-11089-2020"
+2015,Dust in AIDA cloud chamber immersion freezing,,,,,,,,,,,no,"Robert 2026-09-28: not a peer reviewed article, the real article is from 2017"
+2012,accommodation coefficient of water molecules on ice,,,,,,,,,,no,,"Robert 2026-09-28: discussion page, the actual paper from 2013 is in the list"
+2006,Probing ice clouds by broadband mid-infrared extinction,acpd-,,,,,,,,,no,,"Robert 2026-09-28: peer review page, the actual paper is in the list"
+2003,Ice water content,,,,,,,,,,no,,"Robert 2026-09-28: the other Mangold entry, the real paper from 2005 is in the list"
+2003,Optical properties,,,,,,,,,,,no,"Robert 2026-09-28: not a peer reviewed article, the real article from 2005 is in the list"

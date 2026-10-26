@@ -1,0 +1,21 @@
+# ================================================== #
+# AIDA PUBLICATION PIPELINE, PYTHON PACKAGES
+# ================================================== #
+
+# Python 3.9 or newer, on Linux, macOS and Windows
+# install with:  python -m pip install -r requirements.txt
+
+# --- needed by 1_d_aida_imkaaf_bib.py
+# all other scripts use the Python standard library only
+requests>=2.28
+urllib3>=1.26          # Retry(allowed_methods=...) needs 1.26 or newer
+beautifulsoup4>=4.11
+
+# --- optional, faster HTML parsing in 1_d_aida_imkaaf_bib.py
+# without it the built in html.parser is used
+lxml>=4.9
+
+# --- optional, only for the measurement archive (config.db_url)
+# not used by the publication scripts yet, remove the # when needed
+# sqlalchemy>=2.0
+# pymysql>=1.1

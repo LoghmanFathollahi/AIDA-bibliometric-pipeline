@@ -1,0 +1,44 @@
+Open questions from Robert Wagner, e-mail of 2026-09-28
+========================================================
+
+Not entered into corrections.csv, because they are questions rather than
+answers, and they concern papers that other people share.
+
+1. Proceedings reports
+
+   "In 2013, there are also two proceedings report, should they really be
+    included? Another one is in 2010. I would stick to real peer-reviewed
+    articles, but Ottmar probably has a different opinion."
+
+   This is a policy question for the whole list, not one paper. Decide it once
+   with Ottmar, then apply it to every entry at the same time.
+
+   To see the full picture first:
+
+       python aida_bib_find.py --suspect --csv suspect_entries.csv
+
+   That lists every entry in the master bib that is not a peer reviewed
+   article: proceedings, discussion pages, preprints, supplements, RADAR4KIT
+   datasets and KITopen records. Robert found nine by hand in his own 53
+   papers. There will be more across the whole list.
+
+2. Joint first authors
+
+   "Influence of the Neutralization Degree on the Ice Nucleation Ability of
+    Ammoniated Sulfate Particles, Bertozzi 2024
+    (this has two joint first authors: Bertozzi and Wagner)"
+
+   The pipeline counts exactly one first author per paper, the first name in
+   the author list. There is no field for a shared first authorship, so Wagner
+   will be counted as co-author on this paper once it enters the bib.
+
+   If joint first authorship should be visible, it needs a new role and a
+   place to record it. Worth asking Ottmar whether it matters for the
+   statistics he wants.
+
+3. Rows that Robert wants removed but is not an author of
+
+   Every row he commented on is in his own list of 53 papers, so all of them
+   are covered by corrections.csv. Nothing extra is needed here.
+   This note is only a reminder to check the same for the next colleague:
+   a person can only vote on papers they are listed on.
